@@ -30,7 +30,7 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover:not(.active) {
-    background-color: #d64933;
+    background-color: #050517;
 }
 
 ul.topnav li a.active {
