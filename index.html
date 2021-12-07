@@ -20,14 +20,16 @@
 
     <title>Frida</title>
 </head>
-
-<body class="container d-flex flex-column min-vh-100">
+<body>
     <ul class="topnav">
         <li><a href="https://caifangwen.github.io">主页</a></li>
         <li><a href="https://caifangwen.github.io/blog/">随笔</a></li>
         <li><a href="https://caifangwen.github.io/民法">民法</a></li>
         <li class="mimijidi"><a href="https://frida.yuque.com">F</a></li>
     </ul>
+</body>
+<body class="container d-flex flex-column min-vh-100">
+   
 
     <div class="row w-100">
         <div class="col w-100">
@@ -82,14 +84,8 @@
                         <a class="main_color" rel="me" href='https://facebook.com/YOUR_NAME' target="_blank">
                             <i data-feather="facebook"></i>
                         </a>
-                        <a class="main_color" rel="me" href='https://linkedin.com/in/YOUR_NAME' target="_blank">
-                            <i data-feather="linkedin"></i>
-                        </a>
                         <a class="main_color" rel="me" href='https://twitch.com/YOUR_NAME' target="_blank">
-                            <i data-feather="twitch"></i>
-                        </a>
-                        <a class="main_color" href='cv.pdf' target="_blank">
-                            <i class="ai ai-2x ai-cv academic_icons_customize"></i>
+                            <i data-feather="mail"></i>
                         </a>
                         <a id="blog_logo" class="main_color" href='/blog' target="_blank">
                             <i class="ai ai-2x ai-blog academic_icons_customize">Blog</i>
@@ -446,7 +442,7 @@
         </div>
     </div>
 
-    <div class="row w-100" id="waline"></div>
+    <div id="waline"></div>
     <script>
         Waline({
             el: '#waline',
