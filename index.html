@@ -15,7 +15,7 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Serif+JP&family=Cormorant+Garamond&family=Libre+Baskerville&family=Source+Serif+Pro&family=Crimson+Text&family=Inter&family=Crimson+Pro&family=Literata&family=Ubuntu+Mono&family=Inter&family=Roboto">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-
+    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>//评论
     
     
 
@@ -56,7 +56,7 @@
 
 
 <div class=" row w-100 justify-content-center main_color" id="full_name">
-    YOUR_NAME
+    蔡方闻
 </div>
 
 
@@ -73,12 +73,12 @@
             </span>
         </div>
         <div class="row w-100 justify-content-center text-muted" id="email">
-            email@cs.stanford.edu
+            frida_cai@outlook.com
         </div>
 
 
         
-        <div class="row w-100 justify-content-center" id="title-name">
+<!--    <div class="row w-100 justify-content-center" id="title-name">
             <span class="main_color" id="title">
                 CEO &amp; Co-Founder,
             </span>
@@ -88,7 +88,7 @@
         </div>
         <div class="row w-100 justify-content-center text-muted" id="email">
             email@mycoolstartup.ai
-        </div>
+        </div> -->
 
 
         
@@ -884,9 +884,16 @@
 </div>
 
 
-
-
-
+<body>
+  <div id="waline"></div>
+  <script>
+    Waline({
+      	el: '#waline',
+      	serverURL: 'https://blog-api-eta-one.vercel.app',
+	avatar: 'mp',
+    });
+  </script>
+</body>
 
 
 <footer class="mt-auto d-flex justify-content-center text-muted small secondary_font">
@@ -904,21 +911,5 @@
 </script></body>
 
 </html>
-=======
-<head>
-  Frida Blog
-  <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
-  ...
-</head>
-<body>
-  ...
-  <div id="waline"></div>
-  <script>
-    Waline({
-      	el: '#waline',
-      	serverURL: 'https://blog-api-eta-one.vercel.app',
-	avatar: 'mp',
-    });
-  </script>
-</body>
+
 >>>>>>> 6f05acb6a20bef0e2469baee8548ab8abc003dfb
