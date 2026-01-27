@@ -1,6 +1,6 @@
 baseURL = "/"
-title = "Mainroad"
-languageCode = "en-us"
+title = "Frida Cai"
+languageCode = "zh-cn"
 theme = "hugo-narrow"
 
 [markup]
