@@ -1,4 +1,4 @@
-baseURL = "https://caifangwen.github.io/"
+baseURL = "/"
 title = "Mainroad"
 languageCode = "en-us"
 theme = "hugo-narrow"
