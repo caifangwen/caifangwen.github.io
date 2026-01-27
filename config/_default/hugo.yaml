@@ -1,8 +1,8 @@
-baseURL: https://hugo-narrow.vercel.app/
-languageCode: en-US
-defaultContentLanguage: en
+baseURL: https://fridacai.vercel.app/
+languageCode: zh-cn
+defaultContentLanguage: zh
 defaultContentLanguageInSubdir: false
-title: Hugo Narrow
+title: Frida
 theme: "hugo-narrow"
 
 hasCJKLanguage: true
