@@ -2,7 +2,7 @@ name: 部署 Hugo 网站到 Pages
 
 on:
   push:
-    branches: [ main ]  # 只要你往 main 分支推代码，就触发自动部署
+    branches: [ master ]  # 只要你往 main 分支推代码，就触发自动部署
 
 permissions:
   contents: read
