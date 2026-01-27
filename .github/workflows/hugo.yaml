@@ -1,0 +1,45 @@
+name: 部署 Hugo 网站到 Pages
+
+on:
+  push:
+    branches: [ main ]  # 只要你往 main 分支推代码，就触发自动部署
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive  # 如果你的主题是子模块，这行很重要
+          fetch-depth: 0
+
+      - name: 安装 Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest' # 自动用最新版，适配你的 0.154.5
+          extended: true         # 必须开启 Extended，否则样式会乱
+
+      - name: 编译静态网页
+        run: hugo --minify
+
+      - name: 上传构建产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
