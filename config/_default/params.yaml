@@ -1,8 +1,8 @@
 # Basic site info with SEO
-description: "A modern, clean, and minimal Hugo theme built with Tailwind CSS 4.0. Support custom themes, dark mode, and responsive design."
-keywords: ["Hugo", "Blog", "Theme", "Technology", "Programming"]
-defaultAuthor: "Hugo Narrow"
-language: "en-US"
+description: "基于 Tailwind CSS 4.0 构建的现代、简洁、极简的 Hugo 主题。支持自定义主题、深色模式和响应式设计。"
+keywords: ["Hugo", "博客", "主题", "技术", "编程"]
+defaultAuthor: "Frida"
+language: "zh-CN"
 shortName: "Hugo Narrow"  # PWA
 images:
   - "/images/og-default.avif"
@@ -13,9 +13,9 @@ favicon:
 
 # Author info
 author:
-  name: "Hugo Narrow"
-  title: "A Clean and Minimal Hugo Theme"
-  description: "Focused on content and user experience."
+  name: "Frida"
+  title: "简洁的 Hugo 主题"
+  description: "专注于内容和用户体验。"
   avatar: "/images/avatar.svg"
   social:
     - name: "GitHub"

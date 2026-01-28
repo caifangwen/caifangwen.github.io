@@ -1,10 +1,12 @@
 ---
-title: "测试"
-date: 2025-12-26
+title: "短代码测试"
+date: 2025-12-26T12:00:00+08:00
 draft: false
-description: "Hugo Narrow 主题可用的短代码"
-tags: ["shortcode"]
-categories: ["shortcode"]
+description: "Hugo Narrow 主题中所有可用的短代码示例和使用说明"
+keywords: ["Hugo", "短代码", "shortcode", "教程"]
+author: "Frida"
+tags: ["shortcode", "Hugo", "教程"]
+categories: ["shortcode", "文档"]
 ---
 
 本页面展示了 Hugo Narrow 主题中所有可用的短代码。

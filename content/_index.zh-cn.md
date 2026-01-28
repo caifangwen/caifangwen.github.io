@@ -1,8 +1,10 @@
 ---
 title: "首页"
 date: 2025-12-31
+description: "基于 Tailwind CSS 4.0 构建的现代、简洁、极简的 Hugo 主题"
+keywords: ["Hugo", "博客", "主题", "技术", "编程"]
 author:
-  name: "Hugo Narrow"
+  name: "Frida"
   title: "简洁的 Hugo 主题"
   description: "专注于内容和用户体验。"
   avatar: "/images/avatar.svg"

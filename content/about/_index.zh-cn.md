@@ -1,7 +1,9 @@
 ---
 title: "关于"
 layout: "about"
+description: "了解 Hugo Narrow 主题及其技术栈"
 summary: "了解 Hugo Narrow 主题及其技术栈"
+keywords: ["Hugo", "博客", "主题", "技术"]
 date: 2024-01-01T00:00:00+08:00
 links:
   - name: "Hugo 文档"

@@ -1,41 +1,37 @@
 ---
-title: About
-date: 2022-01-25T14:00:00.000Z
+title: "关于"
+date: 2022-01-25T14:00:00+08:00
+draft: false
+description: "关于本站和 Hugo Narrow 主题的介绍"
+keywords: ["Hugo", "关于", "博客", "Hugo Narrow"]
+author: "Frida"
 authorbox: false
 sidebar: false
 menu: main
 ---
 
-Our website builds with [Hugo](https://gohugo.io/) static site generator and
-[Mainroad](https://github.com/vimux/mainroad) theme. This demo allows you to see what Mainroad based website looks like
-before deciding to go with it. Just keep in mind that the current demo shows the basics, a small part of what the
-combination of Hugo and Mainroad can do.
+我们的网站使用 [Hugo](https://gohugo.io/) 静态站点生成器和 [Hugo Narrow](https://github.com/tom2almighty/hugo-narrow) 主题构建。
 
-## About Mainroad
+## 关于 Hugo Narrow
 
-Mainroad is a responsive, simple, clean and content-focused Hugo theme based on the MH Magazine lite WordPress theme.
+Hugo Narrow 是一个现代、简洁、极简的 Hugo 主题，基于 Tailwind CSS 4.0 构建。
 
-Main features:
+主要特性：
 
-* Responsive design
-* Main & secondary menus
-* Widgetized sidebar
-* Translations. Over 15 languages and counting
-* Configurable theme settings (sidebar position, author box, post navigation, highlight color) via config.toml
-* Hugo internal templates (Open Graph, Schema, Twitter Cards, Disqus, Google Analytics)
-* Wide cross-browser compatibility
-  * Desktop: IE11+, Chrome, Firefox, Safari
-  * Mobile: Android browser (on Android 4.4+), Safari (on iOS 7+), Google Chrome, Opera mini
-* Custom Google Fonts support, MathJax, Table of Contents, SVG icons and much more…
+* 响应式设计
+* 支持多语言
+* 可自定义主题色彩
+* 深色模式支持
+* 内容目录和系列导航
+* 代码高亮和多种短代码支持
+* KaTeX 数学公式和 Mermaid 图表支持
+* 多种评论系统集成
+* SEO 优化
 
-Learn more on [GitHub](https://github.com/vimux/mainroad). Mainroad theme is released under the
-[GPLv2 license](https://github.com/vimux/mainroad/blob/master/LICENSE.md).
+了解更多请访问 [GitHub](https://github.com/tom2almighty/hugo-narrow)。
 
-## About Hugo
+## 关于 Hugo
 
-Hugo is a static HTML and CSS website generator written in Go. It is optimized for speed, ease of use, and
-configurability. Hugo takes a directory with content and templates and renders them into a full HTML website. With its
-amazing speed and flexibility, Hugo makes building websites fun again.
+Hugo 是一个用 Go 编写的静态 HTML 和 CSS 网站生成器。它为速度、易用性和可配置性而优化。Hugo 能够将内容和模板目录转换为完整的 HTML 网站。凭借其惊人的速度和灵活性，Hugo 让构建网站再次变得有趣。
 
-Learn more on [GitHub](https://github.com/gohugoio/hugo). Complete documentation is available at
-[Hugo Documentation](https://gohugo.io/getting-started/).
+了解更多请访问 [GitHub](https://github.com/gohugoio/hugo)。完整文档可在 [Hugo 文档](https://gohugo.io/getting-started/)查看。

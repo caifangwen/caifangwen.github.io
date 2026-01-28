@@ -1,6 +1,6 @@
 ---
 title: "Hugo 配置表详解与优化建议"
-date: 1/27/2026
+date: 1-27-2026
 draft: false
 description: "gemini：Hugo 配置表详解与优化建议"
 tags: ["narrow"]

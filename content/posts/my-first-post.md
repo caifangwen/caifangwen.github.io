@@ -2,6 +2,11 @@
 title: "我的第一篇博客"
 date: 2026-01-26T20:00:00+08:00
 draft: false
+description: "欢迎来到我的新博客，这是我使用 Hugo 搭建的第一个站点"
+keywords: ["Hugo", "博客", "第一篇文章", "Markdown"]
+author: "Frida"
+tags: ["Hugo", "博客"]
+categories: ["教程"]
 ---
 
 ## 欢迎来到我的新博客

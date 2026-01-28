@@ -1,7 +1,9 @@
 ---
 title: "About"
 layout: "about"
+description: "Learn about Hugo Narrow theme and its technology stack"
 summary: "Learn about Hugo Narrow theme and its technology stack"
+keywords: ["Hugo", "Blog", "Theme", "Technology"]
 date: 2024-01-01T00:00:00+08:00
 links:
   - name: "Hugo Docs"

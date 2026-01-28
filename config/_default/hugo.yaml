@@ -1,6 +1,6 @@
 baseURL: https://fridacai.vercel.app/
-languageCode: zh
-defaultContentLanguage: zh
+languageCode: zh-CN
+defaultContentLanguage: zh-cn
 defaultContentLanguageInSubdir: false
 title: Frida
 theme: "hugo-narrow"
