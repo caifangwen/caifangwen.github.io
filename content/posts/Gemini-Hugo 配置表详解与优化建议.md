@@ -1,6 +1,6 @@
 ---
 title: "Hugo 配置表详解与优化建议"
-date: 2026-01-27T12:00:00+08:00
+date: 2026-01-26T20:00:00+08:00
 draft: false
 description: "Gemini 提供的 Hugo 配置表详解与优化建议"
 keywords: ["Hugo", "配置", "narrow", "教程"]
