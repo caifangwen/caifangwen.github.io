@@ -1,3 +1,17 @@
+---
+title: Hugo完整使用指南
+date: 2026-01-29T01:22:43+08:00
+draft: true
+description: ""
+summary: ""
+tags:
+  - 
+categories:
+  - 网站
+cover: ""
+author: Frida
+---
+
 # Hugo Narrow 主题完整使用指南
 
 ## 🔧 已修复问题

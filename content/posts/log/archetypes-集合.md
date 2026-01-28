@@ -1,3 +1,17 @@
+---
+title: archetypes-集合
+date: 2026-01-29T01:22:32+08:00
+draft: true
+description: ""
+summary: ""
+tags:
+  - 
+categories:
+  - 网站
+cover: ""
+author: Frida
+---
+
 # Hugo Archetypes 模板集合
 
 ## 说明

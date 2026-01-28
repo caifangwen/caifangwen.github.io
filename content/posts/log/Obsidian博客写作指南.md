@@ -1,3 +1,17 @@
+---
+title: Obsidian博客写作指南
+date: 2026-01-29T01:23:23+08:00
+draft: true
+description: ""
+summary: ""
+tags:
+  - 
+categories:
+  - 网站
+cover: ""
+author: Frida
+---
+
 # Obsidian 写 Hugo 博客完整指南
 
 ## 一、Obsidian Vault 设置

@@ -1,3 +1,17 @@
+---
+title: 语言设置和Meta优化说明
+date: 2026-01-29T01:22:24+08:00
+draft: true
+description: ""
+summary: ""
+tags:
+  - 
+categories:
+  - 网站
+cover: ""
+author: Frida
+---
+
 # Hugo 项目语言设置和 Meta 信息优化说明
 
 ## 执行日期
