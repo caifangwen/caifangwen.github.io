@@ -10,7 +10,7 @@ authorbox: false
 sidebar: false
 pager: false
 weight: 1
-menu: main
+# menu: main  # 已禁用 - 不在主导航显示
 ---
 
 Welcome to the Mainroad theme documentation. This quick start guide covers Mainroad theme installation and minimal

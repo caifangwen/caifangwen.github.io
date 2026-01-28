@@ -13,7 +13,7 @@ authorbox: false
 sidebar: false
 pager: false
 weight: 2
-menu: main
+# menu: main  # 已禁用 - 不在主导航显示
 ---
 
 Customization page describes common Mainroad configuration parameters which can be specified via configuration file or

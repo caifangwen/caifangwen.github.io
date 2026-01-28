@@ -248,3 +248,5 @@ readingProgress:
   hideOnComplete: false
 
 
+customCSS:
+  - "css/custom.css"

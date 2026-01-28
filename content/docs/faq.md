@@ -7,9 +7,9 @@ authorbox: false
 sidebar: false
 pager: false
 weight: 3
-menu:
-  main:
-    name: FAQ
+# menu:  # 已禁用 - 不在主导航显示
+#   main:
+#     name: FAQ
 ---
 
 Browse this FAQ page to find answers to frequently asked questions that have not been covered elsewhere
