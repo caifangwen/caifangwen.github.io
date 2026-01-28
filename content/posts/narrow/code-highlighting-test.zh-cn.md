@@ -1,10 +1,14 @@
 ---
-title: "代码高亮测试"
+title: 代码高亮测试
 date: 2024-01-16T10:00:00+08:00
-draft: false
-description: "测试代码高亮功能"
-tags: ["测试", "代码", "语法高亮"]
-categories: ["代码高亮"]
+draft: true
+description: 测试代码高亮功能
+tags:
+  - 测试
+  - 代码
+  - 语法高亮
+categories:
+  - 代码高亮
 slug: code-highlighting-test
 ---
 

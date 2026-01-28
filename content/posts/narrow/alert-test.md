@@ -1,11 +1,15 @@
 ---
-title: "GitHub Style Alert Test"
+title: GitHub Style Alert Test
 date: 2025-06-01T10:00:00+08:00
 slug: test-alert
-draft: false
-description: "Testing GitHub-style Alert and folding features"
-tags: ["test", "alert", "markdown"]
-categories: ["Github"]
+draft: true
+description: Testing GitHub-style Alert and folding features
+tags:
+  - test
+  - alert
+  - markdown
+categories:
+  - Github
 ---
 
 # GitHub Style Alert Testing

@@ -1,7 +1,7 @@
 ---
 title: archetypes-集合
 date: 2026-01-29T01:22:32+08:00
-draft: true
+draft: false
 description: ""
 summary: ""
 tags:

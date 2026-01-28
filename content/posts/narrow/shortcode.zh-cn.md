@@ -1,10 +1,12 @@
 ---
-title: "短代码示例"
+title: 短代码示例
 date: 2025-12-26
-draft: false
-description: "Hugo Narrow 主题可用的短代码"
-tags: ["shortcode"]
-categories: ["shortcode"]
+draft: true
+description: Hugo Narrow 主题可用的短代码
+tags:
+  - shortcode
+categories:
+  - shortcode
 ---
 
 本页面展示了 Hugo Narrow 主题中所有可用的短代码。

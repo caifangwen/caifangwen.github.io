@@ -1,11 +1,13 @@
 ---
-title: "KaTeX and Mermaid Test"
+title: KaTeX and Mermaid Test
 date: 2024-01-16T23:30:00+08:00
-draft: false
-description: "Testing KaTeX and Mermaid features"
+draft: true
+description: Testing KaTeX and Mermaid features
 katex: true
 mermaid: true
-tags: ['Math', 'Mermaid']
+tags:
+  - Math
+  - Mermaid
 ---
 
 # KaTeX and Mermaid Test

@@ -1,10 +1,12 @@
 ---
-title: "Shortcode Examples"
+title: Shortcode Examples
 date: 2025-12-26
-draft: false
-description: "A complete guide to all available shortcodes for the Hugo Narrow theme"
-tags: ["shortcode"]
-categories: ["shortcode"]
+draft: true
+description: A complete guide to all available shortcodes for the Hugo Narrow theme
+tags:
+  - shortcode
+categories:
+  - shortcode
 ---
 
 This page demonstrates all available shortcodes in the Hugo Narrow theme.

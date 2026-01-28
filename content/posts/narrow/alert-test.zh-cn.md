@@ -1,11 +1,15 @@
 ---
-title: "GitHub 风格提示框测试"
+title: GitHub 风格提示框测试
 date: 2025-06-01T10:00:00+08:00
 slug: test-alert
-draft: false
-description: "测试 GitHub 风格提示框和折叠功能"
-tags: ["测试", "提示框", "markdown"]
-categories: ["Github"]
+draft: true
+description: 测试 GitHub 风格提示框和折叠功能
+tags:
+  - 测试
+  - 提示框
+  - markdown
+categories:
+  - Github
 ---
 
 # GitHub 风格提示框测试

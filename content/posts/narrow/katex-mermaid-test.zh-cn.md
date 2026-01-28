@@ -1,10 +1,16 @@
 ---
-title: "KaTeX 和 Mermaid 测试"
+title: KaTeX 和 Mermaid 测试
 date: 2024-01-17T10:00:00+08:00
-draft: false
-description: "测试 KaTeX 数学公式和 Mermaid 图表渲染功能"
-tags: ["测试", "katex", "mermaid", "数学", "图表"]
-categories: ["数学图表"]
+draft: true
+description: 测试 KaTeX 数学公式和 Mermaid 图表渲染功能
+tags:
+  - 测试
+  - katex
+  - mermaid
+  - 数学
+  - 图表
+categories:
+  - 数学图表
 slug: katex-mermaid-test
 katex: true
 mermaid: true

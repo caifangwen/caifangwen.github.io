@@ -1,10 +1,14 @@
 ---
-title: "Image Rendering Test"
+title: Image Rendering Test
 date: 2024-01-16T22:30:00+08:00
-draft: false
-description: "Testing the simple image rendering features"
-tags: ["test", "image", "rendering"]
-categories: ["image-rendering"]
+draft: true
+description: Testing the simple image rendering features
+tags:
+  - test
+  - image
+  - rendering
+categories:
+  - image-rendering
 lightbox:
   enabled: true
 justified_gallery:
