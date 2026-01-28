@@ -17,51 +17,13 @@
   
   /* 2. 让整个文章列表容器更窄 - 可以调整百分比 */
   body.home .post-list {
-    max-width: 90%;  /* 可改为 85% 或 80% 使其更窄 */
+    max-height: 70%;  /* 可改为 85% 或 80% 使其更窄 */
     margin-left: auto;
     margin-right: auto;
   }
   
-  /* 3. 减少卡片内边距，让内容更紧凑 */
-  body.home .post-list article > a > div {
-    padding: 1rem !important;
-  }
+ 
   
-  /* 4. 减少标题字体大小 */
-  body.home .post-list article h3 {
-    font-size: 1rem !important;
-    margin-bottom: 0.75rem !important;
-    line-height: 1.4 !important;
-  }
-  
-  /* 5. 减少摘要字体大小 */
-  body.home .post-list article p {
-    font-size: 0.875rem !important;
-    line-height: 1.5 !important;
-    margin-bottom: 0.75rem !important;
-  }
-  
-  /* 6. 减少元信息（日期、阅读时间）字体大小 */
-  body.home .post-list article .text-sm {
-    font-size: 0.75rem !important;
-  }
-  
-  /* 7. 减少卡片之间的间距 */
-  body.home .post-list .space-y-4 > * + * {
-    margin-top: 0.75rem !important;
-  }
-  
-  /* 8. 优化标签显示 */
-  body.home .post-list article .bg-muted\/50 {
-    font-size: 0.7rem !important;
-    padding: 0.25rem 0.5rem !important;
-  }
-  
-  /* 9. 优化图标大小 */
-  body.home .post-list article svg {
-    width: 14px !important;
-    height: 14px !important;
-  }
 }
 
 /* 
