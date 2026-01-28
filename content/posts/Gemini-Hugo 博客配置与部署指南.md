@@ -1,7 +1,12 @@
 ---
-title: "我的第一篇博客"
+title: "Hugo 博客配置与部署指南"
 date: 2026-01-26T20:00:00+08:00
 draft: false
+description: "Gemini 提供的详细 Hugo 博客配置、主题设置和部署流程指南"
+keywords: ["Hugo", "博客", "部署", "配置", "教程"]
+author: "Frida"
+tags: ["Hugo", "博客", "教程"]
+categories: ["website", "教程"]
 ---
 
 # Hugo 博客配置与部署指南
