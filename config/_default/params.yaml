@@ -129,21 +129,21 @@ post:
 
 # Comments
 comments:
-  enabled: false
+  enabled: true
   # giscus, disqus, utterances, waline, artalk, twikoo
   system: "giscus"
   giscus:
-    repo: "tom2almighty/hugo-narrow-giscus"
-    repoId: "R_kgDOO2gwLg"
-    category: "General"
-    categoryId: "DIC_kwDOO2gwLs4CrEaf"
+    repo: "caifangwen/blog-comments"  # 改为你的 GitHub 用户名/仓库名
+    repoId: "R_kgDORDZb2g"  # 需要从 giscus.app 获取
+    category: "Announcements"  # 推荐使用 Announcements
+    categoryId: "DIC_kwDORDZb2s4C1i_z"  # 需要从 giscus.app 获取
     mapping: "pathname"
     strict: "0"
     reactionsEnabled: "1"
     emitMetadata: "0"
     inputPosition: "bottom"
     theme: "preferred_color_scheme"
-    lang: "en"
+    lang: "zh-CN"  # 改为中文
   disqus:
     shortname: ""
   utterances:
