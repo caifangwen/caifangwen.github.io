@@ -1,0 +1,97 @@
+/* 文章导航 - 移动端优化 */
+@media (max-width: 768px) {
+  /* 导航卡片 - 移动端更高 */
+  .post-navigation .nav-item a,
+  .post-navigation .nav-item > div {
+    min-height: 140px !important;
+    padding: 1.5rem !important; /* p-6 */
+  }
+  
+  .post-navigation .nav-item .mb-3 {
+    margin-bottom: 0.75rem !important; /* mb-3 */
+  }
+  
+  .post-navigation .nav-item .gap-3 {
+    gap: 0.75rem !important; /* gap-3 */
+  }
+  
+  .post-navigation .nav-item h3 {
+    font-size: 1.125rem !important; /* text-lg */
+  }
+  
+  .post-navigation .nav-item span {
+    font-size: 0.875rem !important; /* text-sm */
+  }
+}
+
+/* 桌面端 - 更紧凑 */
+@media (min-width: 768px) {
+  .post-navigation .nav-item a,
+  .post-navigation .nav-item > div {
+    min-height: 120px !important;
+    padding: 1.25rem !important; /* p-5 */
+  }
+  
+  .post-navigation .nav-item .mb-3 {
+    margin-bottom: 0.5rem !important; /* mb-2 */
+  }
+  
+  .post-navigation .nav-item .gap-3 {
+    gap: 0.5rem !important; /* gap-2 */
+  }
+  
+  .post-navigation .nav-item h3 {
+    font-size: 1rem !important; /* text-base */
+  }
+  
+  .post-navigation .nav-item span {
+    font-size: 0.75rem !important; /* text-xs */
+  }
+}
+
+/* 相关文章 - 移动端优化 */
+@media (max-width: 768px) {
+  .related-posts .mb-6 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .related-posts .gap-3 {
+    gap: 0.75rem !important;
+  }
+  
+  .related-posts h2 {
+    font-size: 1.5rem !important; /* text-2xl */
+  }
+  
+  .related-posts h3 {
+    font-size: 1.125rem !important; /* text-lg */
+  }
+  
+  .related-posts article > a > div {
+    min-height: 120px !important;
+    padding: 1.25rem !important; /* p-5 */
+  }
+}
+
+@media (min-width: 768px) {
+  .related-posts .mb-6 {
+    margin-bottom: 1rem !important;
+  }
+  
+  .related-posts .gap-3 {
+    gap: 0.5rem !important;
+  }
+  
+  .related-posts h2 {
+    font-size: 1.25rem !important; /* text-xl */
+  }
+  
+  .related-posts h3 {
+    font-size: 1rem !important; /* text-base */
+  }
+  
+  .related-posts article > a > div {
+    min-height: 90px !important;
+    padding: 1rem !important; /* p-4 */
+  }
+}

@@ -25,7 +25,7 @@ author:
       url: "https://twitter.com/username"
       icon: "twitter"
     - name: "Email"
-      url: "mailto:hello@example.com"
+      url: "frida_cai@qq.com"
       icon: "email"
 
 # Header configuration (modularized)
@@ -250,3 +250,4 @@ readingProgress:
 
 customCSS:
   - "css/custom.css"
+  - "css/mobile-optimizations.css"
