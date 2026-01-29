@@ -8,9 +8,10 @@ theme: "hugo-narrow"
 hasCJKLanguage: true
 enableEmoji: true
 
+# SEO优化的URL结构
 permalinks:
-  posts: /posts/:slug/
-  projects: /projects/:slug/
+  posts: /blog/:year/:month/:slug/
+  projects: /project/:slug/
   pages: /:slug/
 
 # pagination
@@ -18,12 +19,13 @@ pagination:
   pagerSize: 6
   path: "page"
 
-# 分类法配置
+# 分类法配置 - SEO友好的URL
 taxonomies:
   category: categories
   tag: tags
   series: series
 
+# SEO增强配置
 markup:
   tableOfContents:
     startLevel: 2
@@ -49,13 +51,15 @@ markup:
     codeFences: true
     guessSyntax: false
     lineNos: false
-    lineNumbersInTable: false # Set to false
+    lineNumbersInTable: false
     noClasses: false
-    style: github # No need to change
+    style: github
     tabWidth: 2
 
 outputs:
   home: ["HTML", "RSS", "JSON", "WebAppManifest"]
+  page: ["HTML"]
+  section: ["HTML", "RSS"]
 
 # 自定义输出格式
 outputFormats:
@@ -64,8 +68,27 @@ outputFormats:
     baseName: "site"
     isPlainText: true
 
+# SEO相关设置
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+
+# 启用robots.txt
+enableRobotsTXT: true
+
+# URL相关设置
+canonifyURLs: false
+relativeURLs: false
+uglyURLs: false
+
+# 图片处理
+imaging:
+  resampleFilter: lanczos
+  quality: 85
+  anchor: smart
+
 module:
   hugoVersion:
     extended: true
     min: 0.146.0
-
