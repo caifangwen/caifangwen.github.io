@@ -1,0 +1,42 @@
+main:
+  - identifier: home
+    name: nav.home
+    url: /
+    weight: 1
+    params:
+      icon: home
+
+  - identifier: posts
+    name: nav.posts
+    url: /posts/
+    weight: 2
+    params:
+      icon: posts
+
+  - identifier: discussions
+    name: 讨论
+    url: /discussions/
+    weight: 3
+    params:
+      icon: message-circle
+
+  - identifier: projects
+    name: nav.projects
+    url: /projects/
+    weight: 4
+    params:
+      icon: projects
+
+  - identifier: archives
+    name: nav.archives
+    url: /archives/
+    weight: 5
+    params:
+      icon: archive
+
+  - identifier: about
+    name: nav.about
+    url: /about/
+    weight: 6
+    params:
+      icon: about

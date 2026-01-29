@@ -1,0 +1,47 @@
+{{/* 简化版文章许可证信息组件 */}}
+
+{{ $license := dict }}
+
+{{ $defaults := dict
+  "show" true
+  "author" (.Site.Params.author.name | default "")
+  "name" "CC BY-NC-SA 4.0"
+  "url" "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  "displayName" "CC BY-NC-SA 4.0"
+}}
+
+{{ $license = $defaults }}
+{{ with .Site.Params.post.license }}
+  {{ $license = merge $license . }}
+{{ end }}
+{{ with .Params.license }}
+  {{ $license = merge $license . }}
+{{ end }}
+
+{{ if $license.show }}
+  <div class="post-license bg-muted/20 border-border mb-8 rounded-lg border p-4">
+    <div class="flex items-center gap-3">
+      <!-- 许可证图标 -->
+      <div class="bg-primary/10 flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg">
+        {{ partial "features/icon.html" (dict "name" "license" "size" "md" "ariaLabel" "许可证") }}
+      </div>
+
+      <!-- 许可证信息 -->
+      <div class="flex-1 min-w-0 text-sm">
+        <div class="text-muted-foreground">
+          {{ with $license.author }}
+          <span class="font-medium text-foreground">{{ . }}</span> · 
+          {{ end }}
+          {{ with $license.url }}
+            <a href="{{ . }}" target="_blank" rel="noopener noreferrer" 
+               class="text-primary hover:text-primary/80 transition-colors duration-200">
+              {{ $license.displayName }}
+            </a>
+          {{ else }}
+            <span>{{ $license.displayName }}</span>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

@@ -1,29 +1,46 @@
 main:
-  - name: nav.posts
-    pageRef: /posts
-    weight: 20
+  - identifier: home
+    name: nav.home
+    url: /
+    weight: 1
+    params:
+      icon: home
+
+  - identifier: posts
+    name: nav.posts
+    url: /posts/
+    weight: 2
     params:
       icon: posts
-  - name: nav.projects
-    pageRef: /projects
-    weight: 25
+
+  - identifier: discussions
+    name: 讨论
+    url: /discussions/
+    weight: 3
+    params:
+      icon: message-circle
+
+  - identifier: projects
+    name: nav.projects
+    url: /projects/
+    weight: 4
     params:
       icon: projects
-  - name: nav.categories
-    pageRef: /categories
-    weight: 30
-    params:
-      icon: categories
-  - name: nav.tags
-    pageRef: /tags
-    weight: 40
-    params:
-      icon: tags
-  - name: nav.archives
-    pageRef: /archives
-    weight: 50
+
+  - identifier: archives
+    name: nav.archives
+    url: /archives/
+    weight: 5
     params:
       icon: archive
+
+  - identifier: about
+    name: nav.about
+    url: /about/
+    weight: 6
+    params:
+      icon: about
+
 
 # footer menu
 footer:

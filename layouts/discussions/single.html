@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <!-- 面包屑导航 -->
+  {{ partial "navigation/breadcrumb.html" . }}
+
+  <!-- 文章头部信息 -->
+  <header class="mb-8">
+    {{ partial "content/post-meta.html" . }}
+  </header>
+
+  <!-- 文章内容 -->
+  <article class="prose prose-neutral dark:prose-invert mb-12 max-w-none">
+    {{ .Content }}
+  </article>
+
+  <!-- 评论组件 -->
+  {{ partial "features/comments.html" . }}
+
+{{ end }}

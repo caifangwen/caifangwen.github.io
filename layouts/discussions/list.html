@@ -1,0 +1,36 @@
+{{ define "main" }}
+  <!-- 面包屑导航 -->
+  {{ partial "navigation/breadcrumb.html" . }}
+
+  <!-- 标题和介绍 -->
+  <div class="mb-8">
+    <h1 class="text-foreground mb-4 text-3xl font-bold md:text-4xl">{{ .Title }}</h1>
+    {{ if .Content }}
+      <div class="prose prose-neutral dark:prose-invert max-w-none">
+        {{ .Content }}
+      </div>
+    {{ end }}
+  </div>
+
+  <!-- 讨论列表 -->
+  {{ $posts := .Pages }}
+  {{ if $posts }}
+    <div class="space-y-4">
+      {{ range $posts }}
+        {{ partial "content/card-base.html" (dict "page" .) }}
+      {{ end }}
+    </div>
+
+    <!-- 分页 -->
+    {{ partial "navigation/pagination.html" . }}
+  {{ else }}
+    <!-- 空状态 -->
+    <div class="py-12 text-center">
+      <div class="bg-muted/50 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full">
+        {{ partial "features/icon.html" (dict "name" "message-circle" "size" "lg" "ariaLabel" "") }}
+      </div>
+      <h3 class="text-foreground mb-2 text-lg font-medium">暂无讨论</h3>
+      <p class="text-muted-foreground">还没有发布任何讨论，请稍后再来查看。</p>
+    </div>
+  {{ end }}
+{{ end }}

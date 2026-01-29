@@ -1,0 +1,72 @@
+/* 移动端导航栏优化 */
+@media (max-width: 768px) {
+  /* 导航栏更窄 */
+  header {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
+  
+  header > div {
+    padding: 0.75rem 1rem !important;
+  }
+  
+  /* 文章起始位置更高 */
+  main {
+    padding-top: 1rem !important;
+  }
+  
+  /* 移动端文章列表卡片优化 */
+  .post-list article .block.md\:hidden {
+    display: none !important; /* 隐藏移动端顶部封面 */
+  }
+  
+  /* 卡片高度更扁 */
+  .post-list article > a > div {
+    min-height: auto !important;
+  }
+  
+  .post-list article .p-6 {
+    padding: 1rem !important;
+  }
+  
+  /* 标题字体稍小 */
+  .post-list article h3 {
+    font-size: 1rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 0.5rem !important;
+  }
+  
+  /* 摘要字体更小 */
+  .post-list article .mb-4.text-sm {
+    font-size: 0.8125rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 0.5rem !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  /* 元信息更紧凑 */
+  .post-list article .mt-auto {
+    margin-top: 0.5rem !important;
+  }
+  
+  /* 卡片间距缩小 */
+  .post-list .space-y-4 {
+    gap: 0.75rem !important;
+  }
+}
+
+/* 版权声明链接换行优化 */
+.post-license a {
+  word-break: break-word;
+  overflow-wrap: break-word;
+}
+
+/* 桌面端版权声明也稍微紧凑一些 */
+@media (min-width: 769px) {
+  .post-license {
+    padding: 1.25rem !important;
+  }
+}
