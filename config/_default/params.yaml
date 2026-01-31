@@ -104,13 +104,14 @@ home:
   recentPostsCount: 5  # Number of recent posts to show on the home page
 
   # Content order configuration - customize the order of home page sections
-  # Available sections: author-section, recent-posts, featured-projects, page-content
+  # Available sections: author-section, recent-posts, featured-projects, page-content, featured-discussions
   # You can add your custom content by creating files in `layouts/_partials/home/` folder, then add it to the list
   contentOrder:
     - author-section
     - github-heatmap
     - page-content
     - featured-projects
+    - featured-discussions
     - recent-posts
 
 

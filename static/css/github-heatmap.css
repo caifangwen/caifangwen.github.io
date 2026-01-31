@@ -19,6 +19,28 @@
   width: max-content;
 }
 
+/* 移动端只显示最近13周(约3个月) */
+@media (max-width: 768px) {
+  .gh-heatmap-grid {
+    --gh-cell: 9px;
+    --gh-gap: 1.5px;
+  }
+  
+  .gh-heatmap-grid > .gh-day:nth-child(n+92) {
+    display: none;
+  }
+  
+  .gh-heatmap-months {
+    height: 10px !important;
+    margin-bottom: 4px !important;
+  }
+  
+  .gh-month {
+    font-size: 9px !important;
+    line-height: 10px !important;
+  }
+}
+
 .gh-heatmap-months {
   position: relative;
   height: 12px;
@@ -173,4 +195,3 @@
     line-height: 14px;
   }
 }
-

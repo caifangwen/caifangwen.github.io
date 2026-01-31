@@ -16,9 +16,38 @@
     padding: 0.5rem 0.75rem !important;
   }
   
+  /* 移动端菜单按钮图标更大,和其他图标一样 */
+  #mobile-menu-toggle {
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+  }
+  
+  #mobile-menu-toggle svg {
+    width: 1.25rem !important;
+    height: 1.25rem !important;
+  }
+  
   /* 主内容区域 - 更紧凑（类似 arthals.ink/blog 的密度） */
   main {
     padding: 0.75rem 0.9rem !important;
+  }
+  
+  /* ==================== 文章详情页Meta和标题对齐 ==================== */
+  /* 确保meta信息和标题在移动端也左对齐 */
+  .post-meta {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  .post-meta h1 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  /* 文章内容与meta对齐 */
+  article.prose {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
   
   /* ==================== 首页文章列表优化 ==================== */
@@ -239,6 +268,41 @@
   }
 }
 
+/* ==================== 桌面端优化 ==================== */
+@media (min-width: 769px) {
+  /* 文章详情页上一篇/下一篇同一排显示,防止文字超出 */
+  .post-navigation {
+    margin-bottom: 2rem !important;
+  }
+  
+  .post-navigation .grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 1rem !important;
+  }
+  
+  .post-navigation h3 {
+    font-size: 0.95rem !important;
+    line-height: 1.35 !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+  }
+  
+  .post-navigation a,
+  .post-navigation > div > div > div {
+    min-height: 100px !important;
+    max-height: 140px !important;
+    padding: 1rem !important;
+  }
+  
+  /* 版权声明稍紧凑 */
+  .post-license {
+    padding: 1.125rem 1.25rem !important;
+  }
+}
+
 /* ==================== 通用优化 ==================== */
 
 /* 版权声明链接换行 */
@@ -263,13 +327,5 @@
   /* 移除右侧padding */
   .post-list article .md\:pr-84 {
     padding-right: 0.9rem !important;
-  }
-}
-
-/* 桌面端保持原样 */
-@media (min-width: 769px) {
-  /* 版权声明稍紧凑 */
-  .post-license {
-    padding: 1.125rem 1.25rem !important;
   }
 }
