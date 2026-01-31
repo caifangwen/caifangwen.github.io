@@ -4,7 +4,7 @@
 {{ $featuredDiscussions := first 6 $discussionPages }}
 
 {{ if $featuredDiscussions }}
-  <section class="featured-discussions mb-12">
+  <section class="featured-discussions">
       <div class="mb-4 flex items-center justify-between md:mb-6">
       <h2 class="text-foreground text-2xl font-bold">
         {{ i18n "nav.discussions" | default "讨论" }}
