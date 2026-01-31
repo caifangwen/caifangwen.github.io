@@ -1,0 +1,119 @@
+{{/* 文章详细列表卡片组件 - arthals.ink/blog 风格
+  @context {page} .page 文章页面对象
+*/}}
+
+{{ $page := .page }}
+
+{{/* 使用通用图片处理器 */}}
+{{- if $page.Params.cover -}}
+  {{- partial "content/image-processor.html" (dict
+    "context" $page
+    "src" $page.Params.cover
+    "enablePlaceholder" true
+    "outputType" "data"
+  ) -}}
+{{- else -}}
+  {{/* 没有封面图时，仍需要生成占位图数据 */}}
+  {{- partial "content/image-processor.html" (dict
+    "context" $page
+    "src" ""
+    "enablePlaceholder" true
+    "outputType" "data"
+  ) -}}
+{{- end -}}
+
+{{- $coverImage := $page.Scratch.Get "imageUrl" -}}
+{{- $placeholderData := $page.Scratch.Get "placeholderData" | default dict -}}
+{{- $randomImage := $placeholderData.randomImage | default "" -}}
+{{- $useRandomImage := $placeholderData.useRandomImage | default false -}}
+{{- $gradients := $placeholderData.gradients | default (slice "from-blue-500/20 to-purple-500/10") -}}
+{{- $colorIndex := $placeholderData.colorIndex | default 0 -}}
+
+{{- $summaryContent := "" -}}
+{{- if $page.Params.summary -}}
+  {{- $summaryContent = $page.Params.summary -}}
+{{- else if $page.Params.description -}}
+  {{- $summaryContent = $page.Params.description -}}
+{{- else if $page.Summary -}}
+  {{- $summaryContent = $page.Summary | plainify | truncate 200 -}}
+{{- end -}}
+
+{{/* 文章详细卡片 */}}
+<article class="group">
+  <a href="{{ $page.RelPermalink }}" class="block">
+    <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.01] hover:shadow-lg focus:ring-2 focus:outline-none">
+      
+      <!-- 封面图区域 -->
+      <div class="relative h-48 w-full overflow-hidden md:h-56">
+        {{ partial "content/card-image.html" (dict "page" $page "type" "archive" "coverImage" $coverImage "randomImage" $randomImage "useRandomImage" $useRandomImage "gradients" $gradients "colorIndex" $colorIndex) }}
+        
+        <!-- 渐变遮罩 -->
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+        
+        <!-- 分类标签(如果有) -->
+        {{ if $page.Params.categories }}
+          <div class="absolute top-3 left-3 flex flex-wrap gap-2">
+            {{ range first 2 $page.Params.categories }}
+              <span class="bg-primary/90 text-primary-foreground backdrop-blur-sm px-3 py-1 text-xs font-medium rounded-full">
+                {{ . }}
+              </span>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+
+      <!-- 文章内容区域 -->
+      <div class="p-5 md:p-6">
+        <!-- 文章标题 -->
+        <h3 class="text-foreground group-hover:text-primary mb-3 text-xl font-bold leading-tight transition-colors duration-200 md:text-2xl">
+          {{ $page.Title }}
+        </h3>
+
+        <!-- 文章摘要 -->
+        {{ if $summaryContent }}
+          <p class="text-muted-foreground mb-4 text-sm leading-relaxed line-clamp-3 md:text-base">
+            {{ $summaryContent }}
+          </p>
+        {{ end }}
+
+        <!-- 元信息区域 -->
+        <div class="border-border flex flex-wrap items-center gap-4 border-t pt-4 text-sm text-muted-foreground">
+          <!-- 发布日期 -->
+          <div class="flex items-center gap-1.5">
+            {{ partial "features/icon.html" (dict "name" "calendar" "size" "sm" "ariaLabel" (i18n "post.published_on")) }}
+            <time datetime="{{ $page.Date.Format "2006-01-02" }}" class="font-medium">
+              {{ $page.Date.Format (i18n "time.date_format" | default "2006年01月02日") }}
+            </time>
+          </div>
+
+          <!-- 阅读时间 -->
+          {{ if $page.ReadingTime }}
+            <div class="flex items-center gap-1.5">
+              {{ partial "features/icon.html" (dict "name" "clock" "size" "sm" "ariaLabel" (i18n "post.reading_time")) }}
+              <span>{{ $page.ReadingTime }} {{ i18n "time.minute" | default "分钟" }}</span>
+            </div>
+          {{ end }}
+
+          <!-- 字数 -->
+          {{ if $page.WordCount }}
+            <div class="flex items-center gap-1.5">
+              {{ partial "features/icon.html" (dict "name" "text" "size" "sm" "ariaLabel" (i18n "post.words_count")) }}
+              <span>{{ $page.WordCount }} {{ i18n "post.words" | default "字" }}</span>
+            </div>
+          {{ end }}
+        </div>
+
+        <!-- 标签区域 -->
+        {{ if $page.Params.tags }}
+          <div class="mt-4 flex flex-wrap gap-2">
+            {{ range first 5 $page.Params.tags }}
+              <span class="bg-muted/50 text-muted-foreground hover:bg-primary/10 hover:text-primary inline-flex items-center rounded-md px-2.5 py-1 text-xs font-medium transition-colors">
+                #{{ . }}
+              </span>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </a>
+</article>
