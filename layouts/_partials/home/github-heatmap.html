@@ -1,0 +1,129 @@
+{{- $cfg := .Site.Params.githubHeatmap | default dict -}}
+{{- $enabled := $cfg.enabled | default true -}}
+{{- if not $enabled -}}
+  {{- /* disabled */ -}}
+{{- else -}}
+  {{- $username := $cfg.username | default "" -}}
+  {{- if not $username -}}
+    {{- /* fallback: try to infer from author social */ -}}
+    {{- $social := .Site.Params.author.social | default (slice) -}}
+    {{- range $social -}}
+      {{- if and (eq (lower (.name | default "")) "github") (not $username) -}}
+        {{- $u := .url | default "" -}}
+        {{- if $u -}}
+          {{- $u = strings.TrimSuffix "/" $u -}}
+          {{- $parts := split $u "/" -}}
+          {{- $username = index $parts (sub (len $parts) 1) -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $year := $cfg.year | default (int (now.Format "2006")) -}}
+  {{- $title := $cfg.title | default "GitHub 热力图" -}}
+  {{- $profileURL := printf "https://github.com/%s" $username -}}
+  {{- $apiURL := printf "https://github-contributions-api.jogruber.de/v4/%s?y=%d" $username $year -}}
+
+  <section class="gh-heatmap-card bg-card border-border rounded-xl border p-6 shadow-sm mb-6">
+    <div class="flex items-start justify-between gap-4 mb-4">
+      <div class="min-w-0">
+        <h2 class="text-foreground text-xl font-semibold leading-tight">
+          {{ $title }}
+        </h2>
+        <div class="text-muted-foreground text-sm mt-1">
+          {{- if $username -}}
+            {{- $username -}} · {{ $year }}
+          {{- else -}}
+            {{ $year }}
+          {{- end -}}
+        </div>
+      </div>
+
+      {{- if $username -}}
+        <a class="text-sm text-primary hover:text-primary/80 transition-colors whitespace-nowrap"
+           href="{{ $profileURL }}" target="_blank" rel="noopener noreferrer">
+          查看 GitHub →
+        </a>
+      {{- end -}}
+    </div>
+
+    {{- if not $username -}}
+      <div class="text-muted-foreground text-sm">
+        未配置 GitHub 用户名。请在 `config/_default/params.yaml` 里设置 `githubHeatmap.username`。
+      </div>
+    {{- else -}}
+      {{- with resources.GetRemote $apiURL -}}
+        {{- if .Err -}}
+          <div class="text-muted-foreground text-sm">
+            暂时无法加载热力图数据（{{ .Err }}）。你仍可访问
+            <a class="text-primary hover:text-primary/80 transition-colors" href="{{ $profileURL }}" target="_blank" rel="noopener noreferrer">
+              {{ $profileURL }}
+            </a>。
+          </div>
+        {{- else -}}
+          {{- $data := . | transform.Unmarshal -}}
+          {{- $contribs := $data.contributions | default (slice) -}}
+
+          {{- $yearKey := printf "%d" $year -}}
+          {{- $total := 0 -}}
+          {{- with $data.total -}}
+            {{- $total = (index . $yearKey) | default 0 -}}
+          {{- end -}}
+
+          {{- /* pad cells so Jan 1 lands on correct weekday row (Sun=0) */ -}}
+          {{- $start := time (printf "%d-01-01" $year) -}}
+          {{- $weekdayMap := dict "Sun" 0 "Mon" 1 "Tue" 2 "Wed" 3 "Thu" 4 "Fri" 5 "Sat" 6 -}}
+          {{- $pad := (index $weekdayMap (dateFormat "Mon" $start)) | default 0 -}}
+
+          {{- $cells := slice -}}
+          {{- range seq $pad -}}
+            {{- $cells = $cells | append (dict "empty" true) -}}
+          {{- end -}}
+          {{- range $contribs -}}
+            {{- $cells = $cells | append . -}}
+          {{- end -}}
+          {{- $rem := mod (len $cells) 7 -}}
+          {{- if ne $rem 0 -}}
+            {{- range seq (sub 7 $rem) -}}
+              {{- $cells = $cells | append (dict "empty" true) -}}
+            {{- end -}}
+          {{- end -}}
+
+          {{- $weeks := div (len $cells) 7 -}}
+
+          <div class="gh-heatmap-meta text-muted-foreground text-sm mb-3">
+            <strong class="text-foreground font-semibold">{{ $total }}</strong> 次贡献（{{ $year }}）
+          </div>
+
+          <div class="gh-heatmap-scroll" role="region" aria-label="GitHub contributions heatmap">
+            <div class="gh-heatmap-grid" style="--gh-weeks: {{ $weeks }};">
+              {{- range $cells -}}
+                {{- if .empty -}}
+                  <span class="gh-day gh-empty" aria-hidden="true"></span>
+                {{- else -}}
+                  {{- $lvl := .level | default 0 -}}
+                  {{- $count := .count | default 0 -}}
+                  {{- $date := .date | default "" -}}
+                  <span
+                    class="gh-day gh-level-{{ $lvl }}"
+                    title="{{ $date }}：{{ $count }} 次贡献"
+                    aria-label="{{ $date }}：{{ $count }} 次贡献"></span>
+                {{- end -}}
+              {{- end -}}
+            </div>
+          </div>
+
+          <div class="gh-heatmap-legend text-muted-foreground text-xs mt-3 flex items-center justify-end gap-2">
+            <span>少</span>
+            <span class="gh-day gh-level-0" aria-hidden="true"></span>
+            <span class="gh-day gh-level-1" aria-hidden="true"></span>
+            <span class="gh-day gh-level-2" aria-hidden="true"></span>
+            <span class="gh-day gh-level-3" aria-hidden="true"></span>
+            <span class="gh-day gh-level-4" aria-hidden="true"></span>
+            <span>多</span>
+          </div>
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+  </section>
+{{- end -}}

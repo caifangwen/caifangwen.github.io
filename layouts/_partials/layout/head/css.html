@@ -1,0 +1,74 @@
+{{/* main css */}}
+{{ with resources.Get "css/compiled.css" }}
+  {{ if hugo.IsDevelopment }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" />
+  {{ else }}
+    {{ with . | minify | fingerprint }}
+      <link
+        rel="stylesheet"
+        href="{{ .RelPermalink }}"
+        integrity="{{ .Data.Integrity }}"
+        crossorigin="anonymous" />
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* chroma styles */}}
+{{ with resources.Get "css/chroma.css" }}
+  {{ if hugo.IsDevelopment }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" />
+  {{ else }}
+    {{ with . | minify | fingerprint }}
+      <link
+        rel="stylesheet"
+        href="{{ .RelPermalink }}"
+        integrity="{{ .Data.Integrity }}"
+        crossorigin="anonymous" />
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* theme custom styles (assets/css/custom/*.css) */}}
+{{ range (resources.Match "css/custom/*.css") }}
+  {{ if hugo.IsDevelopment }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" />
+  {{ else }}
+    {{ with . | minify | fingerprint }}
+      <link
+        rel="stylesheet"
+        href="{{ .RelPermalink }}"
+        integrity="{{ .Data.Integrity }}"
+        crossorigin="anonymous" />
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{/* site custom CSS (from config params: customCSS) */}}
+{{- $customCssList := .Site.Params.customCSS | default (slice) -}}
+{{- range $customCssList -}}
+  {{- $p := . -}}
+  {{- with resources.Get $p -}}
+    {{- if hugo.IsDevelopment -}}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" />
+    {{- else -}}
+      {{- with . | minify | fingerprint -}}
+        <link
+          rel="stylesheet"
+          href="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous" />
+      {{- end -}}
+    {{- end -}}
+  {{- else -}}
+    <link rel="stylesheet" href="{{ $p | relURL }}" />
+  {{- end -}}
+{{- end -}}
+
+{{/* gallery CSS - conditionally loaded (static) */}}
+{{ if .Scratch.Get "justifiedEnabled" }}
+  <link rel="stylesheet" href="/css/fjGallery.css">
+{{ end }}
+
+{{ if .Scratch.Get "lightboxEnabled" }}
+  <link rel="stylesheet" href="/css/glightbox.min.css">
+{{ end }}

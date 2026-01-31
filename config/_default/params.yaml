@@ -108,8 +108,9 @@ home:
   # You can add your custom content by creating files in `layouts/_partials/home/` folder, then add it to the list
   contentOrder:
     - author-section
+    - github-heatmap
     - page-content
-    - featured-projects.html
+    - featured-projects
     - recent-posts
 
 
@@ -251,3 +252,11 @@ readingProgress:
 customCSS:
   - "css/custom.css"
   - "css/mobile-optimizations.css"
+  - "css/github-heatmap.css"
+
+# GitHub-style contributions heatmap (home page)
+githubHeatmap:
+  enabled: true
+  username: "caifangwen"
+  year: 2026
+  title: "GitHub 热力图"
