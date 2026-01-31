@@ -254,9 +254,8 @@ customCSS:
   - "css/mobile-optimizations.css"
   - "css/github-heatmap.css"
 
-# GitHub-style contributions heatmap (home page)
-githubHeatmap:
+# Blog publishing heatmap (GitHub-style look)
+blogHeatmap:
   enabled: true
-  username: "caifangwen"
   year: 2026
-  title: "GitHub 热力图"
+  title: "发布热力图"
