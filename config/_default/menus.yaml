@@ -13,12 +13,16 @@ main:
     params:
       icon: posts
 
-  - identifier: discussions
-    name: 讨论
-    url: /discussions/
-    weight: 3
+  - name: nav.categories
+    pageRef: /categories
+    weight: 30
     params:
-      icon: message-circle
+      icon: categories
+  - name: nav.tags
+    pageRef: /tags
+    weight: 40
+    params:
+      icon: tags
 
   - identifier: projects
     name: nav.projects
@@ -34,12 +38,6 @@ main:
     params:
       icon: archive
 
-  - identifier: about
-    name: nav.about
-    url: /about/
-    weight: 6
-    params:
-      icon: about
 
 
 # footer menu

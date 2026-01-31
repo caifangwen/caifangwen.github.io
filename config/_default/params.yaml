@@ -108,11 +108,10 @@ home:
   # You can add your custom content by creating files in `layouts/_partials/home/` folder, then add it to the list
   contentOrder:
     - author-section
-    - github-heatmap
     - page-content
     - featured-projects
-    - featured-discussions
     - recent-posts
+    - featured-discussions
 
 
 
