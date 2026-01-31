@@ -62,11 +62,6 @@
     display: none !important;
   }
 
-  /* 首页热力图卡片也更紧凑 */
-  .gh-heatmap-card {
-    padding: 0.9rem !important;
-    margin-bottom: 0.75rem !important;
-  }
   
   /* 列表标题更紧凑 */
   .post-list > div.mb-6 {
@@ -252,6 +247,7 @@
   nav[aria-label*="Breadcrumb"] {
     margin-bottom: 0.75rem !important;
     font-size: 0.8125rem !important;
+    padding: 0.75rem 0.9rem !important;
   }
   
   /* ==================== 文章头部信息 ==================== */

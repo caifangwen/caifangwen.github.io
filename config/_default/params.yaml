@@ -14,8 +14,8 @@ favicon:
 # Author info
 author:
   name: "某方"
-  title: "简洁的 Hugo 主题"
-  description: "专注于内容和用户体验。"
+  title: "自信云过天将晴"
+  description: "暂时用来发发文章"
   avatar: "/images/avatar.svg"
   social:
     - name: "GitHub"
@@ -256,7 +256,7 @@ customCSS:
   - "css/github-heatmap.css"
 
 # Blog publishing heatmap (GitHub-style look)
-blogHeatmap:
-  enabled: true
-  year: 2026
-  title: "发布热力图"
+# blogHeatmap:
+#   enabled: true
+#   year: 2026
+#   title: "发布热力图"
