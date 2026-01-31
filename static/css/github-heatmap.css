@@ -7,8 +7,9 @@
 }
 
 .gh-heatmap-grid {
-  --gh-cell: 11px;
-  --gh-gap: 3px;
+  --gh-cell: 10px;
+  --gh-gap: 2px;
+  --gh-step: calc(var(--gh-cell) + var(--gh-gap));
   display: grid;
   grid-auto-flow: column;
   grid-template-rows: repeat(7, var(--gh-cell));
@@ -18,11 +19,40 @@
   width: max-content;
 }
 
+.gh-heatmap-months {
+  position: relative;
+  height: 12px;
+  margin-bottom: 6px;
+  width: max-content;
+}
+
+.gh-month {
+  position: absolute;
+  top: 0;
+  font-size: 10px;
+  line-height: 12px;
+  white-space: nowrap;
+  color: rgba(110, 110, 110, 0.95);
+}
+
+.dark .gh-month {
+  color: rgba(160, 160, 160, 0.95);
+}
+
 .gh-day {
   width: var(--gh-cell);
   height: var(--gh-cell);
   border-radius: 2px;
   background: var(--gh-l0);
+}
+
+.gh-day[data-date] {
+  cursor: pointer;
+}
+
+.gh-day.is-selected {
+  outline: 2px solid rgba(9, 105, 218, 0.6);
+  outline-offset: 1px;
 }
 
 /* Light mode (GitHub-like) */
@@ -63,11 +93,84 @@
   background: transparent;
 }
 
+.gh-heatmap-daypanel {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid rgba(140, 140, 140, 0.25);
+  border-radius: 10px;
+  background: rgba(127, 127, 127, 0.06);
+}
+
+.dark .gh-heatmap-daypanel {
+  border-color: rgba(160, 160, 160, 0.22);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.gh-heatmap-daypanel.hidden {
+  display: none;
+}
+
+.gh-heatmap-daypanel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.gh-heatmap-daypanel-title {
+  font-size: 13px;
+  line-height: 1.2;
+  color: rgba(90, 90, 90, 0.95);
+}
+
+.dark .gh-heatmap-daypanel-title {
+  color: rgba(200, 200, 200, 0.95);
+}
+
+.gh-heatmap-daypanel-close {
+  border: 0;
+  background: transparent;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0 2px;
+  cursor: pointer;
+  color: rgba(120, 120, 120, 0.9);
+}
+
+.dark .gh-heatmap-daypanel-close {
+  color: rgba(180, 180, 180, 0.9);
+}
+
+.gh-heatmap-daypanel-list {
+  margin: 0;
+  padding: 0 0 0 16px;
+  font-size: 13px;
+  line-height: 1.35;
+}
+
+.gh-heatmap-daypanel-list a {
+  text-decoration: none;
+}
+
+.gh-heatmap-daypanel-list a:hover {
+  text-decoration: underline;
+}
+
 /* Slightly bigger on desktop */
 @media (min-width: 768px) {
   .gh-heatmap-grid {
-    --gh-cell: 12px;
-    --gh-gap: 3px;
+    --gh-cell: 11px;
+    --gh-gap: 2px;
+  }
+
+  .gh-heatmap-months {
+    height: 14px;
+  }
+
+  .gh-month {
+    font-size: 11px;
+    line-height: 14px;
   }
 }
 

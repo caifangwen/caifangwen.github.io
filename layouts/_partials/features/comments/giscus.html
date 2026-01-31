@@ -1,0 +1,90 @@
+{{/* Giscus 评论系统组件（小改：默认关闭 reactions，布局紧凑） */}}
+
+{{ $id := .id | default "giscus-comments" }}
+{{ $config := .Site.Params.comments.giscus }}
+
+{{ if $config.repo }}
+  <div id="{{ $id }}" class="giscus-container">
+    <script
+      src="https://giscus.app/client.js"
+      data-repo="{{ $config.repo }}"
+      data-repo-id="{{ $config.repoId }}"
+      data-category="{{ $config.category | default "General" }}"
+      data-category-id="{{ $config.categoryId }}"
+      data-mapping="{{ $config.mapping | default "pathname" }}"
+      data-strict="{{ $config.strict | default "0" }}"
+      data-reactions-enabled="{{ $config.reactionsEnabled | default "0" }}"
+      data-emit-metadata="{{ $config.emitMetadata | default "0" }}"
+      data-input-position="{{ $config.inputPosition | default "bottom" }}"
+      data-theme="{{ $config.theme | default "preferred_color_scheme" }}"
+      data-lang="{{ $config.lang | default .Site.Language.LanguageCode | default "zh-CN" }}"
+      data-loading="lazy"
+      crossorigin="anonymous"
+      async></script>
+  </div>
+
+  <script>
+    (function() {
+      'use strict';
+
+      function getCurrentTheme() {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) return savedTheme;
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) return 'dark';
+        if (document.documentElement.classList.contains('dark')) return 'dark';
+        return 'light';
+      }
+
+      function updateGiscusTheme() {
+        const iframe = document.querySelector('#{{ $id }} iframe.giscus-frame');
+        if (!iframe) return;
+        const theme = getCurrentTheme();
+        iframe.contentWindow.postMessage({
+          giscus: { setConfig: { theme } }
+        }, 'https://giscus.app');
+      }
+
+      function initializeGiscusTheme() {
+        const checkIframe = setInterval(() => {
+          const iframe = document.querySelector('#{{ $id }} iframe.giscus-frame');
+          if (iframe) {
+            clearInterval(checkIframe);
+            iframe.addEventListener('load', updateGiscusTheme);
+            if (iframe.contentWindow && iframe.contentWindow.postMessage) updateGiscusTheme();
+          }
+        }, 100);
+        setTimeout(() => clearInterval(checkIframe), 5000);
+      }
+
+      document.addEventListener('themeChanged', updateGiscusTheme);
+      window.addEventListener('storage', (e) => { if (e.key === 'theme') updateGiscusTheme(); });
+      if (window.matchMedia) window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateGiscusTheme);
+
+      const observer = new MutationObserver((mutations) => {
+        for (const m of mutations) {
+          if (m.type === 'attributes' && m.attributeName === 'class') updateGiscusTheme();
+        }
+      });
+      observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeGiscusTheme);
+      } else {
+        initializeGiscusTheme();
+      }
+    })();
+  </script>
+{{ else }}
+  <div id="{{ $id }}" class="py-8 text-center">
+    <div class="bg-muted/50 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full">
+      {{ partial "features/icon.html" (dict "name" "github" "size" "lg" "ariaLabel" "") }}
+    </div>
+    <h3 class="text-foreground mb-2 text-lg font-medium">
+      {{ i18n "comments.giscus_not_configured" | default "Giscus 未配置" }}
+    </h3>
+    <p class="text-muted-foreground text-sm">
+      {{ i18n "comments.giscus_config_desc" | default "请在站点配置中设置 GitHub 仓库信息" }}
+    </p>
+  </div>
+{{ end }}
+

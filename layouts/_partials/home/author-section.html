@@ -1,0 +1,60 @@
+{{/* 作者信息区域（紧凑、去边框） */}}
+{{ $author := .Params.author | default site.Params.author }}
+
+{{ if $author }}
+  <section class="author-section mb-6 md:mb-12">
+    <div class="bg-card p-4 md:p-8">
+      <div class="flex flex-col items-center gap-4 text-center md:flex-row md:items-start md:text-left md:gap-6">
+        <div class="shrink-0">
+          {{ if $author.avatar }}
+            <img
+              src="{{ $author.avatar }}"
+              alt="{{ $author.name | default site.Title }}"
+              class="h-20 w-20 rounded-full object-cover md:h-24 md:w-24" />
+          {{ else }}
+            <div class="bg-primary text-primary-foreground flex h-20 w-20 items-center justify-center rounded-full text-2xl font-bold md:h-24 md:w-24">
+              {{ substr ($author.name | default site.Title) 0 1 | upper }}
+            </div>
+          {{ end }}
+        </div>
+
+        <div class="min-w-0 flex-1">
+          <h1 class="text-foreground mb-1 text-2xl font-bold md:mb-2 md:text-3xl">
+            {{ $author.name | default site.Title }}
+          </h1>
+
+          {{ if $author.title }}
+            <p class="text-muted-foreground mb-2 text-base md:mb-3 md:text-lg">
+              {{ $author.title }}
+            </p>
+          {{ end }}
+
+          {{ if $author.description }}
+            <p class="text-foreground mb-3 leading-relaxed md:mb-4">
+              {{ $author.description }}
+            </p>
+          {{ end }}
+
+          {{ if $author.social }}
+            <div class="flex flex-wrap justify-center gap-2 md:justify-start md:gap-3">
+              {{ range $author.social }}
+                <a
+                  href="{{ .url }}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="bg-muted text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 inline-flex items-center gap-2 rounded-md px-2.5 py-1.5 text-sm transition-colors duration-200 focus:ring-2 focus:outline-none"
+                  title="{{ .name }}">
+                  {{ if .icon }}
+                    {{ partial "features/icon.html" (dict "name" .icon "size" "xs" "ariaLabel" .name) }}
+                  {{ end }}
+                  <span class="text-sm font-medium">{{ .name }}</span>
+                </a>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
+

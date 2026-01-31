@@ -1,0 +1,88 @@
+<footer class="mx-auto max-w-4xl px-3 py-5 md:px-4 md:py-8">
+  <div class="px-0 md:px-6 md:py-6">
+    {{ if site.Menus.footer }}
+      <nav class="mb-3 md:mb-6">
+        <div class="flex flex-wrap items-center justify-center gap-1.5 md:gap-2">
+          {{ range site.Menus.footer }}
+            {{ $menuURL := .URL }}
+            {{ if .PageRef }}
+              {{ with site.GetPage .PageRef }}
+                {{ $menuURL = .RelPermalink }}
+              {{ else }}
+                {{ $menuURL = .URL | relLangURL }}
+              {{ end }}
+            {{ end }}
+            <a
+              href="{{ $menuURL }}"
+              {{ if strings.HasPrefix $menuURL "http" }}
+                target="_blank" rel="noopener noreferrer"
+              {{ end }}
+              class="nav-link text-muted-foreground hover:text-primary hover:bg-primary/10 flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-xs font-medium transition-colors duration-200">
+              {{ if .Params.icon }}
+                {{ partial "features/icon.html" (dict "name" .Params.icon "size" "sm" "ariaLabel" .Name) }}
+              {{ end }}
+              <span>
+                {{ if hasPrefix .Name "footer." }}
+                  {{ i18n .Name }}
+                {{ else if hasPrefix .Name "nav." }}
+                  {{ i18n .Name }}
+                {{ else }}
+                  {{ .Name }}
+                {{ end }}
+              </span>
+            </a>
+          {{ end }}
+        </div>
+      </nav>
+    {{ end }}
+
+    {{ if and site.Menus.footer site.Menus.social }}
+      <div class="border-border mb-3 border-t md:mb-6"></div>
+    {{ end }}
+
+    <div class="flex flex-col items-center justify-between gap-3 md:flex-row md:gap-4">
+      <div class="text-muted-foreground text-xs text-center md:text-left">
+        <p class="mb-1">
+          &copy; {{ now.Year }} {{ site.Title }}. {{ i18n "footer.all_rights_reserved" }}.
+        </p>
+        <p class="flex flex-wrap items-center justify-center gap-1 md:justify-start">
+          <span>Powered by</span>
+          <a
+            href="https://gohugo.io/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-primary hover:text-primary/80 font-medium transition-colors duration-200 hover:underline">
+            Hugo
+          </a>
+          <span>&</span>
+          <a
+            href="https://github.com/tom2almighty/hugo-narrow"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-primary hover:text-primary/80 font-medium transition-colors duration-200 hover:underline">
+            Narrow
+          </a>
+        </p>
+      </div>
+
+      {{ if site.Menus.social }}
+        <div class="flex items-center gap-2">
+          {{ range site.Menus.social }}
+            <a
+              href="{{ .URL }}"
+              {{ if strings.HasPrefix .URL "http" }}
+                target="_blank" rel="noopener noreferrer"
+              {{ end }}
+              class="text-muted-foreground hover:text-primary focus:ring-primary/20 rounded-md p-1 transition-transform duration-200 hover:scale-110 focus:ring-2 focus:outline-none"
+              title="{{ .Name }}"
+              aria-label="{{ .Name }}">
+              {{ if .Params.icon }}
+                {{ partial "features/icon.html" (dict "name" .Params.icon "size" "md" "ariaLabel" .Name) }}
+              {{ end }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</footer>

@@ -5,21 +5,21 @@
 
 {{ if or $prev $next }}
   <nav class="post-navigation mb-12" aria-label="{{ i18n "nav.post_navigation" | default "文章导航" }}">
-    <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
+    <div class="grid grid-cols-2 gap-3 md:gap-4">
       <!-- 上一篇文章 -->
       <div class="nav-item">
         {{ if $prev }}
           <a href="{{ $prev.RelPermalink }}"
-            class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[140px] md:min-h-[120px] flex-col justify-between rounded-xl border p-6 md:p-5 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+            class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[110px] md:min-h-[120px] flex-col justify-between rounded-xl border p-3 md:p-5 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
             <div>
-              <div class="mb-3 md:mb-2 flex items-center gap-3 md:gap-2">
-                {{ partial "features/icon.html" (dict "name" "chevron-left" "size" "sm" "ariaLabel" "") }}
-                <span class="text-muted-foreground text-sm md:text-xs font-medium">
+              <div class="mb-2 flex items-center gap-2">
+                {{ partial "features/icon.html" (dict "name" "chevron-left" "size" "xs" "ariaLabel" "") }}
+                <span class="text-muted-foreground text-xs font-medium">
                   {{ i18n "post.previous" | default "上一篇" }}
                 </span>
               </div>
 
-              <h3 class="text-foreground group-hover:text-primary mb-3 md:mb-2 line-clamp-2 text-lg md:text-base leading-tight font-semibold transition-colors duration-200">
+              <h3 class="text-foreground group-hover:text-primary mb-2 line-clamp-2 text-sm md:text-base leading-tight font-semibold transition-colors duration-200">
                 {{ $prev.Title }}
               </h3>
             </div>
@@ -50,16 +50,16 @@
       <div class="nav-item">
         {{ if $next }}
           <a href="{{ $next.RelPermalink }}"
-            class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[140px] md:min-h-[120px] flex-col justify-between rounded-xl border p-6 md:p-5 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+            class="group bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 flex min-h-[110px] md:min-h-[120px] flex-col justify-between rounded-xl border p-3 md:p-5 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
             <div>
-              <div class="mb-3 md:mb-2 flex items-center justify-end gap-3 md:gap-2">
-                <span class="text-muted-foreground text-sm md:text-xs font-medium">
+              <div class="mb-2 flex items-center justify-end gap-2">
+                <span class="text-muted-foreground text-xs font-medium">
                   {{ i18n "post.next" | default "下一篇" }}
                 </span>
-                {{ partial "features/icon.html" (dict "name" "chevron-right" "size" "sm" "ariaLabel" "") }}
+                {{ partial "features/icon.html" (dict "name" "chevron-right" "size" "xs" "ariaLabel" "") }}
               </div>
 
-              <h3 class="text-foreground group-hover:text-primary mb-3 md:mb-2 line-clamp-2 text-right text-lg md:text-base leading-tight font-semibold transition-colors duration-200">
+              <h3 class="text-foreground group-hover:text-primary mb-2 line-clamp-2 text-right text-sm md:text-base leading-tight font-semibold transition-colors duration-200">
                 {{ $next.Title }}
               </h3>
             </div>

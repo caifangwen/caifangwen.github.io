@@ -1,0 +1,83 @@
+{{/* 文章元信息组件（更像 arthals 风格：更紧凑、meta 在上） */}}
+
+<div class="post-meta">
+  <div class="text-muted-foreground flex flex-wrap items-center gap-x-3 gap-y-1 text-sm">
+    <div class="flex items-center gap-1.5">
+      {{ partial "features/icon.html" (dict "name" "calendar" "size" "sm" "ariaLabel" (i18n "post.published_on")) }}
+      <time datetime="{{ .Date.Format "2006-01-02" }}" class="font-medium">
+        {{ .Date.Format (i18n "time.date_format" | default "2006年01月02日") }}
+      </time>
+    </div>
+
+    {{ if ne .Date .Lastmod }}
+      <div class="flex items-center gap-1.5">
+        {{ partial "features/icon.html" (dict "name" "edit" "size" "sm" "ariaLabel" (i18n "post.updated_on")) }}
+        <time datetime="{{ .Lastmod.Format "2006-01-02" }}">
+          {{ i18n "post.updated_on" | default "更新于" }}
+          {{ .Lastmod.Format (i18n "time.date_format" | default "2006年01月02日") }}
+        </time>
+      </div>
+    {{ end }}
+
+    {{ if .ReadingTime }}
+      <div class="flex items-center gap-1.5">
+        {{ partial "features/icon.html" (dict "name" "clock" "size" "sm" "ariaLabel" (i18n "post.reading_time")) }}
+        <span>{{ .ReadingTime }} {{ i18n "time.minute" | default "分钟" }}</span>
+      </div>
+    {{ end }}
+
+    {{ if .WordCount }}
+      <div class="flex items-center gap-1.5">
+        {{ partial "features/icon.html" (dict "name" "text" "size" "sm" "ariaLabel" (i18n "post.words_count")) }}
+        <span>{{ .WordCount }} {{ i18n "post.words" | default "字" }}</span>
+      </div>
+    {{ end }}
+  </div>
+
+  <h1 class="text-foreground mt-3 mb-3 text-2xl leading-tight font-bold md:mt-4 md:mb-6 md:text-4xl">
+    {{ .Title }}
+  </h1>
+
+  {{ if .Params.summary }}
+    <div class="text-muted-foreground mb-4 text-base leading-relaxed md:mb-6">
+      {{ .Params.summary | plainify }}
+    </div>
+  {{ end }}
+
+  {{ if or (.GetTerms "series") .Params.categories .Params.tags }}
+    <div class="flex flex-wrap items-center gap-2">
+      {{ $currentSeries := .GetTerms "series" }}
+      {{ if $currentSeries }}
+        {{ range $currentSeries }}
+          <a
+            href="{{ .RelPermalink }}"
+            class="bg-accent/80 text-accent-foreground hover:bg-accent focus:ring-accent/20 inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-sm font-medium transition-colors duration-200 focus:ring-2 focus:outline-none">
+            {{ partial "features/icon.html" (dict "name" "library" "size" "xs" "ariaLabel" "") }}
+            {{ .LinkTitle }}
+          </a>
+        {{ end }}
+      {{ end }}
+
+      {{ if .Params.categories }}
+        {{ range .Params.categories }}
+          <a
+            href="{{ "/categories/" | relLangURL }}{{ . | urlize }}/"
+            class="bg-primary/10 text-primary hover:bg-primary/20 focus:ring-primary/20 inline-flex items-center rounded-full px-3 py-1 text-sm font-medium transition-colors duration-200 focus:ring-2 focus:outline-none">
+            {{ . }}
+          </a>
+        {{ end }}
+      {{ end }}
+
+      {{ if .Params.tags }}
+        {{ range .Params.tags }}
+          <a
+            href="{{ "/tags/" | relLangURL }}{{ . | urlize }}/"
+            class="bg-muted/50 text-muted-foreground hover:bg-primary/10 hover:text-primary focus:ring-primary/20 inline-flex items-center rounded px-2 py-1 text-sm transition-colors duration-200 focus:ring-2 focus:outline-none">
+            #{{ . }}
+          </a>
+        {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+</div>
+

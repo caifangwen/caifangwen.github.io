@@ -1,0 +1,56 @@
+{{/* 文章列表组件（紧凑版覆盖主题）
+
+  显示文章卡片列表
+
+  @context {slice} .posts 文章列表
+  @context {string} .title 列表标题 (可选)
+  @context {bool} .showTitle 是否显示标题 (默认: false)
+  @context {bool} .showViewAll 是否显示"查看所有"按钮 (默认: false)
+  @context {string} .viewAllUrl "查看所有"按钮的链接 (默认: /posts/)
+*/}}
+
+{{ $posts := .posts }}
+{{ $title := .title | default "" }}
+{{ $showTitle := .showTitle | default false }}
+{{ $showViewAll := .showViewAll | default false }}
+{{ $viewAllUrl := .viewAllUrl | default ("/posts/" | relLangURL) }}
+
+{{ if $posts }}
+  <section class="post-list">
+    {{ if and $showTitle $title }}
+      <div class="mb-4 flex items-center justify-between md:mb-6">
+        <h2 class="text-foreground text-xl font-bold md:text-2xl">{{ $title }}</h2>
+      </div>
+    {{ end }}
+
+    <div class="space-y-4">
+      {{ range $posts }}
+        {{ partial "content/card-base.html" (dict "page" .) }}
+      {{ end }}
+    </div>
+
+    {{ if $showViewAll }}
+      <div class="mt-5 mb-2 text-center md:mt-8 md:mb-6">
+        <a
+          href="{{ $viewAllUrl }}"
+          class="bg-primary text-primary-foreground hover:bg-primary/90 focus:ring-primary/20 inline-flex items-center gap-2 rounded-lg px-4 py-2 text-sm font-medium shadow-sm transition-colors duration-200 focus:ring-2 focus:outline-none active:scale-[0.99]">
+          {{ partial "features/icon.html" (dict "name" "posts" "size" "sm" "ariaLabel" (i18n "nav.posts")) }}
+          <span>{{ i18n "home.view_all_posts" | default "查看所有文章" }}</span>
+          {{ partial "features/icon.html" (dict "name" "arrow-right" "size" "sm" "ariaLabel" "") }}
+        </a>
+      </div>
+    {{ end }}
+  </section>
+{{ else }}
+  <div class="py-12 text-center">
+    <div class="bg-muted/50 mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-full">
+      {{ partial "features/icon.html" (dict "name" "folder" "size" "lg" "ariaLabel" "") }}
+    </div>
+    <h3 class="text-foreground mb-2 text-lg font-medium">
+      {{ i18n "post.no_posts" | default "暂无文章" }}
+    </h3>
+    <p class="text-muted-foreground">
+      {{ i18n "post.no_posts_desc" | default "还没有发布任何文章，请稍后再来查看。" }}
+    </p>
+  </div>
+{{ end }}

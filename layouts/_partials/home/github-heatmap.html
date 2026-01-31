@@ -67,6 +67,38 @@
 
   {{- $weeks := div (len $cells) 7 -}}
 
+  {{- /* month labels */ -}}
+  {{- $monthLabels := slice -}}
+  {{- range seq 12 -}}
+    {{- $m := . -}}
+    {{- $mStart := time (printf "%d-%02d-01" $year $m) -}}
+    {{- $dayIdx := div (sub $mStart.Unix $start.Unix) 86400 -}}
+    {{- if and (ge $dayIdx 0) (lt $dayIdx $daysInYear) -}}
+      {{- $weekIdx := div (add $pad $dayIdx) 7 -}}
+      {{- $monthLabels = $monthLabels | append (dict "label" (printf "%d月" $m) "week" $weekIdx) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* collect posts per date for click */ -}}
+  {{- $byDate := newScratch -}}
+  {{- range $posts -}}
+    {{- if eq (dateFormat "2006" .Date) $yearStr -}}
+      {{- $k := dateFormat "2006-01-02" .Date -}}
+      {{- $list := $byDate.Get $k | default (slice) -}}
+      {{- $byDate.Set $k ($list | append (dict "title" .Title "url" .RelPermalink)) -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- $daysWithPosts := slice -}}
+  {{- range seq $daysInYear -}}
+    {{- $d := $start.AddDate 0 0 (sub . 1) -}}
+    {{- $date := dateFormat "2006-01-02" $d -}}
+    {{- $plist := $byDate.Get $date | default (slice) -}}
+    {{- if gt (len $plist) 0 -}}
+      {{- $daysWithPosts = $daysWithPosts | append (dict "date" $date "posts" $plist) -}}
+    {{- end -}}
+  {{- end -}}
+
   <section class="gh-heatmap-card bg-card border-border rounded-xl border p-6 shadow-sm mb-6">
     <div class="flex items-start justify-between gap-4 mb-4">
       <div class="min-w-0">
@@ -89,6 +121,11 @@
     </div>
 
     <div class="gh-heatmap-scroll" role="region" aria-label="Blog publishing heatmap">
+      <div class="gh-heatmap-months" aria-hidden="true">
+        {{- range $monthLabels -}}
+          <span class="gh-month" style="left: calc(var(--gh-step) * {{ .week }});">{{ .label }}</span>
+        {{- end -}}
+      </div>
       <div class="gh-heatmap-grid" style="--gh-weeks: {{ $weeks }};">
         {{- range $cells -}}
           {{- if .empty -}}
@@ -99,11 +136,24 @@
             {{- $date := .date | default "" -}}
             <span
               class="gh-day gh-level-{{ $lvl }}"
+              data-date="{{ $date }}"
+              data-count="{{ $count }}"
               title="{{ $date }}：发布 {{ $count }} 篇"
               aria-label="{{ $date }}：发布 {{ $count }} 篇"></span>
           {{- end -}}
         {{- end -}}
       </div>
+    </div>
+
+    <div class="gh-heatmap-daypanel hidden" aria-live="polite">
+      <div class="gh-heatmap-daypanel-header">
+        <div class="gh-heatmap-daypanel-title">
+          <span class="gh-heatmap-daypanel-date"></span>
+          <span class="gh-heatmap-daypanel-count"></span>
+        </div>
+        <button type="button" class="gh-heatmap-daypanel-close" aria-label="关闭">×</button>
+      </div>
+      <ul class="gh-heatmap-daypanel-list"></ul>
     </div>
 
     <div class="gh-heatmap-legend text-muted-foreground text-xs mt-3 flex items-center justify-end gap-2">
@@ -115,5 +165,76 @@
       <span class="gh-day gh-level-4" aria-hidden="true"></span>
       <span>多</span>
     </div>
+
+    <script type="application/json" class="gh-heatmap-data">
+      {{- $daysWithPosts | jsonify -}}
+    </script>
+    <script>
+      (function () {
+        const card = document.currentScript.closest(".gh-heatmap-card");
+        if (!card) return;
+
+        const grid = card.querySelector(".gh-heatmap-grid");
+        const panel = card.querySelector(".gh-heatmap-daypanel");
+        const closeBtn = card.querySelector(".gh-heatmap-daypanel-close");
+        const dateEl = card.querySelector(".gh-heatmap-daypanel-date");
+        const countEl = card.querySelector(".gh-heatmap-daypanel-count");
+        const listEl = card.querySelector(".gh-heatmap-daypanel-list");
+        const dataEl = card.querySelector("script.gh-heatmap-data");
+
+        if (!grid || !panel || !closeBtn || !dateEl || !countEl || !listEl || !dataEl) return;
+
+        let map = null;
+        try {
+          const arr = JSON.parse(dataEl.textContent || "[]");
+          map = new Map(arr.map((x) => [x.date, x.posts || []]));
+        } catch (e) {
+          map = new Map();
+        }
+
+        function hidePanel() {
+          panel.classList.add("hidden");
+          grid.querySelectorAll(".gh-day.is-selected").forEach((el) => el.classList.remove("is-selected"));
+        }
+
+        function showFor(date, count) {
+          dateEl.textContent = date;
+          countEl.textContent = count > 0 ? `· 发布 ${count} 篇` : `· 当天未发布`;
+
+          listEl.innerHTML = "";
+          const posts = map.get(date) || [];
+          if (posts.length) {
+            for (const p of posts) {
+              const li = document.createElement("li");
+              const a = document.createElement("a");
+              a.href = p.url;
+              a.textContent = p.title;
+              li.appendChild(a);
+              listEl.appendChild(li);
+            }
+          }
+
+          panel.classList.remove("hidden");
+        }
+
+        grid.addEventListener("click", (e) => {
+          const cell = e.target && e.target.closest && e.target.closest(".gh-day[data-date]");
+          if (!cell) return;
+
+          const date = cell.getAttribute("data-date") || "";
+          const count = Number(cell.getAttribute("data-count") || "0");
+          if (!date) return;
+
+          grid.querySelectorAll(".gh-day.is-selected").forEach((el) => el.classList.remove("is-selected"));
+          cell.classList.add("is-selected");
+          showFor(date, count);
+        });
+
+        closeBtn.addEventListener("click", hidePanel);
+        card.addEventListener("keydown", (e) => {
+          if (e.key === "Escape") hidePanel();
+        });
+      })();
+    </script>
   </section>
 {{- end -}}
