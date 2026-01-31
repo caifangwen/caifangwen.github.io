@@ -52,16 +52,16 @@
         未配置 GitHub 用户名。请在 `config/_default/params.yaml` 里设置 `githubHeatmap.username`。
       </div>
     {{- else -}}
-      {{- with resources.GetRemote $apiURL -}}
-        {{- if .Err -}}
-          <div class="text-muted-foreground text-sm">
-            暂时无法加载热力图数据（{{ .Err }}）。你仍可访问
-            <a class="text-primary hover:text-primary/80 transition-colors" href="{{ $profileURL }}" target="_blank" rel="noopener noreferrer">
-              {{ $profileURL }}
-            </a>。
-          </div>
-        {{- else -}}
-          {{- $data := . | transform.Unmarshal -}}
+      {{- $remote := try (resources.GetRemote $apiURL) -}}
+      {{- if $remote.Err -}}
+        <div class="text-muted-foreground text-sm">
+          暂时无法加载热力图数据（{{ $remote.Err }}）。你仍可访问
+          <a class="text-primary hover:text-primary/80 transition-colors" href="{{ $profileURL }}" target="_blank" rel="noopener noreferrer">
+            {{ $profileURL }}
+          </a>。
+        </div>
+      {{- else -}}
+        {{- $data := $remote.Value | transform.Unmarshal -}}
           {{- $contribs := $data.contributions | default (slice) -}}
 
           {{- $yearKey := printf "%d" $year -}}
@@ -122,7 +122,6 @@
             <span class="gh-day gh-level-4" aria-hidden="true"></span>
             <span>多</span>
           </div>
-        {{- end -}}
       {{- end -}}
     {{- end -}}
   </section>
