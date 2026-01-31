@@ -32,7 +32,7 @@ author:
 header:
   sticky: true  # Enable sticky navigation bar
   logo:
-    image: "/images/logo.svg"  # Logo path relative to static folder, leave empty to use site title first letter
+    image: "/images/logo.png"  # Logo path relative to static folder, leave empty to use site title first letter
     link: "/"  # Click to home page
   # UI Components Control (header controls)
   showThemeSwitch: true      # Set to false to hide theme style switcher (palette icon)
