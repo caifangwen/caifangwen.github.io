@@ -13,16 +13,12 @@ main:
     params:
       icon: posts
 
-  - name: nav.categories
-    pageRef: /categories
-    weight: 30
+  - identifier: discussions
+    name: 讨论
+    url: /discussions/
+    weight: 3
     params:
-      icon: categories
-  - name: nav.tags
-    pageRef: /tags
-    weight: 40
-    params:
-      icon: tags
+      icon: message-circle
 
   - identifier: projects
     name: nav.projects
@@ -31,10 +27,22 @@ main:
     params:
       icon: projects
 
+  - name: nav.categories
+    pageRef: /categories
+    weight: 30
+    params:
+      icon: categories
+      
+  - name: nav.tags
+    pageRef: /tags
+    weight: 40
+    params:
+      icon: tags
+
   - identifier: archives
     name: nav.archives
     url: /archives/
-    weight: 5
+    weight: 50
     params:
       icon: archive
 
