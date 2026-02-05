@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temp/blog.md",
+                "file": "posts/2026 手机终端神器推荐.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "blog"
+              "title": "2026 手机终端神器推荐"
             }
           }
         ],
@@ -155,7 +155,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "temp/blog.md",
+            "file": "posts/2026 手机终端神器推荐.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "temp/blog.md",
+            "file": "posts/2026 手机终端神器推荐.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -188,7 +188,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "temp/blog.md",
+            "file": "posts/2026 手机终端神器推荐.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -212,14 +212,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fe4a77ae462e58ec",
+  "active": "fff22ea92b03b909",
   "lastOpenFiles": [
-    "posts/2026 手机终端神器推荐.md",
     "temp/blog.md",
+    "posts/2026 手机终端神器推荐.md",
     "temp",
     "posts/关键词布局完整方案.md",
     "posts/如何用手机 Obsidian + Termux 维护 GitHub 博客.md",
-    "temp/blog.md",
     "posts/Gemini-Temporary Chat.md",
     "temp",
     "posts/26-01-22-19-28-28.md",
