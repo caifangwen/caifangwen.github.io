@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "df00e8766c05207d",
+    "type": "split",
+    "children": [
+      {
+        "id": "70703f6490a0ce82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebae0c878efeca3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/Gemini-Temporary Chat.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Gemini-Temporary Chat"
+            }
+          },
+          {
+            "id": "d4cf4e0aa0274047",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/关键词布局完整方案.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "关键词布局完整方案"
+            }
+          },
+          {
+            "id": "259315b6fc19ec0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/2026 手机终端神器推荐.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026 手机终端神器推荐"
+            }
+          },
+          {
+            "id": "fff22ea92b03b909",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "temp/blog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "blog"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "693d100f7e3ddcbb",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "fe4a77ae462e58ec",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "文件列表"
+        }
+      },
+      {
+        "id": "3439f3a6eb1bf4d4",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜索"
+        }
+      },
+      {
+        "id": "677ecf1063e34d8d",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "标签"
+        }
+      },
+      {
+        "id": "b7fdd97b83e06132",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "添加笔记属性"
+        }
+      },
+      {
+        "id": "08dcdeaab0a9df8e",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "书签"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "6ef03f94f2408711",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "dc2a487b713c6f1f",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "temp/blog.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向链接"
+        }
+      },
+      {
+        "id": "6689550ab3c3abde",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "temp/blog.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "出链"
+        }
+      },
+      {
+        "id": "f825c4858de75529",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "temp/blog.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "大纲"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "fe4a77ae462e58ec",
+  "lastOpenFiles": [
+    "posts/2026 手机终端神器推荐.md",
+    "temp/blog.md",
+    "temp",
+    "posts/关键词布局完整方案.md",
+    "posts/如何用手机 Obsidian + Termux 维护 GitHub 博客.md",
+    "temp/blog.md",
+    "posts/Gemini-Temporary Chat.md",
+    "temp",
+    "posts/26-01-22-19-28-28.md",
+    "posts/Gemini-Hugo 博客配置与部署指南.md",
+    "posts/Gemini-Hugo 配置表详解与优化建议.md"
+  ]
+}

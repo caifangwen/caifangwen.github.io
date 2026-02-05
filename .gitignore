@@ -1,13 +1,1 @@
-# 忽略二进制程序
-/bin/
-
-# 忽略自动生成的静态网站目录
-/public/
-
-# 忽略临时资源和缓存
-/resources/
-hugo_stats.json
-.hugo_build.lock
-content/temp.md
-content/.obsidian/
-content/templates/content/temp/
+content/temp/
