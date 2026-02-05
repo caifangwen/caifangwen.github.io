@@ -1,3 +1,4 @@
 {
-  "folder": "temp/"
+  "folder": "temp/",
+  "timeFormat": "HH:mm:ss"
 }
