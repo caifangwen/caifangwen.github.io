@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "70703f6490a0ce82",
+        "id": "dc79d4b8c352af8c",
         "type": "tabs",
         "children": [
           {
-            "id": "ebae0c878efeca3e",
+            "id": "0053cd70fa52d517",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/Gemini-Temporary Chat.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Gemini-Temporary Chat"
-            }
-          },
-          {
-            "id": "d4cf4e0aa0274047",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/关键词布局完整方案.md",
+                "file": "posts/2026-02-06 alist.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "关键词布局完整方案"
-            }
-          },
-          {
-            "id": "259315b6fc19ec0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/2026 手机终端神器推荐.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026 手机终端神器推荐"
-            }
-          },
-          {
-            "id": "fff22ea92b03b909",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/2026 手机终端神器推荐.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026 手机终端神器推荐"
+              "title": "2026-02-06 alist"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -155,7 +112,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/2026 手机终端神器推荐.md",
+            "file": "posts/2026-02-06 alist.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -174,7 +131,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "posts/2026 手机终端神器推荐.md",
+            "file": "posts/2026-02-06 alist.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           },
@@ -188,7 +145,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "posts/2026 手机终端神器推荐.md",
+            "file": "posts/2026-02-06 alist.md",
             "followCursor": false,
             "showSearch": false,
             "searchQuery": ""
@@ -213,16 +170,21 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fff22ea92b03b909",
+  "active": "0053cd70fa52d517",
   "lastOpenFiles": [
-    "temp/blog.md",
+    "posts/2026-02-06 alist.md",
+    "2026-02-06.md",
     "posts/2026 手机终端神器推荐.md",
+    "posts/26-01-22-19-28-28.md",
+    "discussions/阅读.md",
+    "posts/pixelHQ.md",
+    "posts/手机端的obsidian.md",
+    "temp/blog.md",
     "temp",
     "posts/关键词布局完整方案.md",
     "posts/如何用手机 Obsidian + Termux 维护 GitHub 博客.md",
     "posts/Gemini-Temporary Chat.md",
     "temp",
-    "posts/26-01-22-19-28-28.md",
     "posts/Gemini-Hugo 博客配置与部署指南.md",
     "posts/Gemini-Hugo 配置表详解与优化建议.md"
   ]
