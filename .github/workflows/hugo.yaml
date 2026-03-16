@@ -20,7 +20,7 @@ jobs:
           fetch-depth: 0
 
       - name: 安装 Hugo
-        uses: peaceiris/actions-hugo@v3.1.0
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest' # 自动用最新版，适配你的 0.154.5
           extended: true         # 必须开启 Extended，否则样式会乱
