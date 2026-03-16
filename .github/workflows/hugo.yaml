@@ -9,22 +9,18 @@ permissions:
   pages: write
   id-token: write
 
-# 强制使用 Node.js 24（解决 Node.js 20 弃用警告）
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           submodules: recursive  # 如果你的主题是子模块，这行很重要
           fetch-depth: 0
 
       - name: 安装 Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v3.1.0
         with:
           hugo-version: 'latest' # 自动用最新版，适配你的 0.154.5
           extended: true         # 必须开启 Extended，否则样式会乱
