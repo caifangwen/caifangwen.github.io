@@ -9,6 +9,10 @@ permissions:
   pages: write
   id-token: write
 
+# 强制 JavaScript Actions 使用 Node.js 24
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -16,14 +20,14 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v5
         with:
-          submodules: recursive  # 如果你的主题是子模块，这行很重要
+          submodules: recursive
           fetch-depth: 0
 
       - name: 安装 Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest' # 自动用最新版，适配你的 0.154.5
-          extended: true         # 必须开启 Extended，否则样式会乱
+          hugo-version: 'latest'
+          extended: true
 
       - name: 编译静态网页
         run: hugo --minify
