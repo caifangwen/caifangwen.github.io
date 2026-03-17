@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术趋势 on Frida</title>
+    <link>https://fridacai.vercel.app/tags/%E6%8A%80%E6%9C%AF%E8%B6%8B%E5%8A%BF/</link>
+    <description>Recent content in 技术趋势 on Frida</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 18 Mar 2026 01:50:51 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/tags/%E6%8A%80%E6%9C%AF%E8%B6%8B%E5%8A%BF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>T型人才：AI时代技术人的核心竞争力重构</title>
+      <link>https://fridacai.vercel.app/blog/2026/03/t%E5%9E%8B%E4%BA%BA%E6%89%8Dai%E6%97%B6%E4%BB%A3%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AB%9E%E4%BA%89%E5%8A%9B%E9%87%8D%E6%9E%84/</link>
+      <pubDate>Wed, 18 Mar 2026 01:50:51 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/03/t%E5%9E%8B%E4%BA%BA%E6%89%8Dai%E6%97%B6%E4%BB%A3%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AB%9E%E4%BA%89%E5%8A%9B%E9%87%8D%E6%9E%84/</guid>
+      <description>计算机行业正从「通用信息化」向「智能工业化」跃迁，T型人才——横向宽度×纵向深度的复合型技术人——将成为这场变革中最稀缺的资产。</description>
+    </item>
+    <item>
+      <title>AI 对前后端开发的冲击：重塑还是颠覆？</title>
+      <link>https://fridacai.vercel.app/blog/2026/03/ai-%E5%AF%B9%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E7%9A%84%E5%86%B2%E5%87%BB%E9%87%8D%E5%A1%91%E8%BF%98%E6%98%AF%E9%A2%A0%E8%A6%86/</link>
+      <pubDate>Wed, 18 Mar 2026 01:39:31 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/03/ai-%E5%AF%B9%E5%89%8D%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E7%9A%84%E5%86%B2%E5%87%BB%E9%87%8D%E5%A1%91%E8%BF%98%E6%98%AF%E9%A2%A0%E8%A6%86/</guid>
+      <description>&lt;h1 id=&#34;ai-对前后端开发的冲击重塑还是颠覆&#34;&gt;AI 对前后端开发的冲击：重塑还是颠覆？&lt;/h1&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;2026 年，AI 编程助手已不再是新鲜事物，而是每个开发者桌面上不可缺少的&amp;quot;同事&amp;quot;。但这场变革远比我们最初想象的更为深刻。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2026年计算机技术格局深度分析：从算力革命到智能产业化</title>
+      <link>https://fridacai.vercel.app/blog/2026/03/2026%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E6%A0%BC%E5%B1%80%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90%E4%BB%8E%E7%AE%97%E5%8A%9B%E9%9D%A9%E5%91%BD%E5%88%B0%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A%E5%8C%96/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/03/2026%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E6%A0%BC%E5%B1%80%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90%E4%BB%8E%E7%AE%97%E5%8A%9B%E9%9D%A9%E5%91%BD%E5%88%B0%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A%E5%8C%96/</guid>
+      <description>&lt;h2 id=&#34;前言技术迭代的奇点时刻&#34;&gt;前言：技术迭代的奇点时刻&lt;/h2&gt;&#xA;&lt;p&gt;2026年，我们正站在一个罕见的技术奇点之上。&lt;/p&gt;&#xA;&lt;p&gt;计算机技术的演进速度，已经远超大多数人的直觉预期。这一年，AI不再只是实验室里的概念验证——它正以工业化的节奏嵌入每一个行业；量子计算机首次在特定任务上超越经典计算机；算力基础设施的能耗已触动了核能供电的想象边界。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

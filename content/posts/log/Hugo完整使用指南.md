@@ -460,7 +460,7 @@ Hugo 提供了很多实用的短代码。
 **示例**：
 ```markdown
 {{< youtube id="视频ID" >}}
-{{< tweet user="用户名" id="推文ID" >}}
+{{< x user="用户名" id="推文ID" >}}
 ```
 
 ### 3. 图片优化

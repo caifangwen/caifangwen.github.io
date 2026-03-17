@@ -57,9 +57,8 @@
 
   <!-- 分类法术语列表 -->
   {{ $terms := .Data.Terms.ByCount }}
+  {{ $taxonomySingular := .Data.Singular }}
   {{ if $terms }}
-    {{ $taxonomySingular := .Data.Singular }}
-    
     <!-- 分类页面使用列表样式，标签页面使用标签云样式 -->
     {{ if eq $taxonomySingular "category" }}
       <!-- 分类列表样式 -->

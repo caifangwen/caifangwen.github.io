@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>博客 on Frida</title>
+    <link>https://fridacai.vercel.app/tags/%E5%8D%9A%E5%AE%A2/</link>
+    <description>Recent content in 博客 on Frida</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 26 Jan 2026 20:00:00 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 博客配置与部署指南</title>
+      <link>https://fridacai.vercel.app/blog/2026/01/hugo-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Mon, 26 Jan 2026 20:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/01/hugo-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;h1 id=&#34;hugo-博客配置与部署指南&#34;&gt;Hugo 博客配置与部署指南&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Exported:&lt;/strong&gt; 1/26/2026 20:07:55&lt;br&gt;&#xA;&lt;strong&gt;Link:&lt;/strong&gt; &lt;a href=&#34;https://gemini.google.com/app/3e95504292851398?is_sa=1&amp;amp;is_sa=1&amp;amp;android-min-version=301356232&amp;amp;ios-min-version=322.0&amp;amp;campaign_id=bkws&amp;amp;utm_source=sem&amp;amp;utm_medium=paid-media&amp;amp;utm_campaign=bkws&amp;amp;pt=9008&amp;amp;mt=8&amp;amp;ct=p-growth-sem-bkws&amp;amp;gclsrc=aw.ds&amp;amp;gad_source=1&amp;amp;gad_campaignid=20108148196&amp;amp;gbraid=0AAAAApk5BhkGRfyK_DWXNSNRu47zAbVmJ&amp;amp;gclid=Cj0KCQiAvtzLBhCPARIsALwhxdqxQ_0cj6CBmhadov5xN_gDH8GKfxNlxlEL_cdHtmW48Iq-ubMq0QcaArMVEALw_wcB&amp;amp;google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D85c558222e7ec9b1:TM%3D1769482745:C%3D%3E:IP%3D140.82.22.152-:S%3DTQgRSfbi6QvypeTQh9oPIQ;%20path%3D%2F;%20domain%3Dgoogle.com;%20expires%3DTue,%2027-Jan-2026%2005:59:05%20GMT&#34;target=&#34;_blank&#34;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xA;&gt;https://gemini.google.com/app/3e95504292851398?is_sa=1&amp;amp;is_sa=1&amp;amp;android-min-version=301356232&amp;amp;ios-min-version=322.0&amp;amp;campaign_id=bkws&amp;amp;utm_source=sem&amp;amp;utm_medium=paid-media&amp;amp;utm_campaign=bkws&amp;amp;pt=9008&amp;amp;mt=8&amp;amp;ct=p-growth-sem-bkws&amp;amp;gclsrc=aw.ds&amp;amp;gad_source=1&amp;amp;gad_campaignid=20108148196&amp;amp;gbraid=0AAAAApk5BhkGRfyK_DWXNSNRu47zAbVmJ&amp;amp;gclid=Cj0KCQiAvtzLBhCPARIsALwhxdqxQ_0cj6CBmhadov5xN_gDH8GKfxNlxlEL_cdHtmW48Iq-ubMq0QcaArMVEALw_wcB&amp;amp;google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D85c558222e7ec9b1:TM%3D1769482745:C%3D%3E:IP%3D140.82.22.152-:S%3DTQgRSfbi6QvypeTQh9oPIQ;%20path%3D%2F;%20domain%3Dgoogle.com;%20expires%3DTue,%2027-Jan-2026%2005:59:05%20GMT&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt&#34;&gt;Prompt:&lt;/h2&gt;&#xA;&lt;p&gt;hugo配置详细流程&lt;/p&gt;&#xA;&lt;h2 id=&#34;response&#34;&gt;Response:&lt;/h2&gt;&#xA;&lt;p&gt;搭建 Hugo 博客是一个非常高效的选择，因为它编译速度极快（号称“世界上最快的静态网站生成器”）。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我的第一篇博客</title>
+      <link>https://fridacai.vercel.app/blog/2026/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Mon, 26 Jan 2026 20:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/01/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>&lt;h2 id=&#34;欢迎来到我的新博客&#34;&gt;欢迎来到我的新博客&lt;/h2&gt;&#xA;&lt;p&gt;这是我使用 &lt;strong&gt;Hugo&lt;/strong&gt; 搭建的第一个站点！&lt;/p&gt;&#xA;&lt;h3 id=&#34;为什么选择-hugo&#34;&gt;为什么选择 Hugo？&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;编译速度极快&lt;/li&gt;&#xA;&lt;li&gt;纯 Markdown 写作&lt;/li&gt;&#xA;&lt;li&gt;没有任何数据库负担&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;这张图是测试用的：&lt;/strong&gt;&#xA;&#xA;&lt;figure class=&#34;image-figure not-prose my-8&#34; &#xA;        data-lightbox-enabled=&#34;false&#34;&#xA;        data-gallery-type=&#34;auto&#34;&gt;&#xA;  &lt;div class=&#34;image-container&#34;&gt;&#xA;    &lt;img&#xA;    src=&#34;https://gohugo.io/images/hugo-logo.png&#34;&#xA;    alt=&#34;测试图片&#34;&#xA;    &#xA;    &#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    data-gallery-src=&#34;https://gohugo.io/images/hugo-logo.png&#34;&#xA;    data-gallery-alt=&#34;测试图片&#34;&#xA;    data-gallery-title=&#34;&#34; /&gt;&lt;/div&gt;&#xA;&#xA;  &lt;/figure&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

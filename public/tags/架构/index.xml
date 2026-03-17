@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>架构 on Frida</title>
+    <link>https://fridacai.vercel.app/tags/%E6%9E%B6%E6%9E%84/</link>
+    <description>Recent content in 架构 on Frida</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 18 Mar 2026 02:00:28 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/tags/%E6%9E%B6%E6%9E%84/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CLI 与 MCP 深度分析：AI 工具链的架构演进</title>
+      <link>https://fridacai.vercel.app/blog/2026/03/cli-%E4%B8%8E-mcp-%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90ai-%E5%B7%A5%E5%85%B7%E9%93%BE%E7%9A%84%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B/</link>
+      <pubDate>Wed, 18 Mar 2026 02:00:28 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/03/cli-%E4%B8%8E-mcp-%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90ai-%E5%B7%A5%E5%85%B7%E9%93%BE%E7%9A%84%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在 AI 原生时代，开发者与 AI 系统交互的方式正在经历深刻变革。传统的 &lt;strong&gt;CLI（Command Line Interface，命令行界面）&lt;/strong&gt; 已经陪伴工程师数十年，而 &lt;strong&gt;MCP（Model Context Protocol，模型上下文协议）&lt;/strong&gt; 作为新生代协议，正在重塑 AI 与外部世界的连接方式。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

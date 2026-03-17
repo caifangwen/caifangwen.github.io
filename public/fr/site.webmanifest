@@ -1,0 +1,25 @@
+{
+  "background_color": "#ffffff",
+  "categories": [
+    "blog",
+    "technology",
+    "education"
+  ],
+  "description": "基于 Tailwind CSS 4.0 构建的现代、简洁、极简的 Hugo 主题。支持自定义主题、深色模式和响应式设计。",
+  "dir": "ltr",
+  "display": "standalone",
+  "icons": [
+    {
+      "sizes": "any",
+      "src": "/favicon.svg",
+      "type": "image/svg+xml"
+    }
+  ],
+  "lang": "zh-CN",
+  "name": "Frida",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "short_name": "Hugo Narrow",
+  "start_url": "/",
+  "theme_color": "#09090b"
+}
