@@ -1,9 +1,10 @@
 ---
-title: "文学写作能力的本质"
+title: 文学写作能力的本质
 date: 2026-03-16T20:14:30+08:00
-draft: false
-description: "文学写作能力是复杂的综合性能力"
-tags: [写作，文学，创作]
+draft: true
+description: 文学写作能力是复杂的综合性能力
+tags:
+  - 写作，文学，创作
 categories:
   - 思考
   - 写作
