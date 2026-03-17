@@ -16,7 +16,7 @@
 {{ $viewAllUrl := .viewAllUrl | default ("/posts/" | relLangURL) }}
 
 {{ if $posts }}
-  <section class="post-list">
+  <section class="post-list mb-8">
     {{ if and $showTitle $title }}
       <div class="mb-4 flex items-center justify-between md:mb-6">
         <h2 class="text-foreground text-2xl font-bold">{{ $title }}</h2>
