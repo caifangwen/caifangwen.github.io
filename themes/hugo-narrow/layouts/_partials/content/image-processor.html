@@ -1,9 +1,13 @@
-{{/* 
+{{/*
   图片处理器
 */}}
 
 {{- $context := .context -}}
-{{- $src := .src | string -}}
+{{- $src := .src -}}
+{{- if reflect.IsMap $src -}}
+  {{- $src = $src.image | default "" -}}
+{{- end -}}
+{{- $src = $src | string -}}
 {{- $alt := .alt | default "" -}}
 {{- $caption := .caption | default "" -}}
 {{- $enablePlaceholder := .enablePlaceholder | default true -}}
