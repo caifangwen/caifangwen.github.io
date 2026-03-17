@@ -517,12 +517,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/claude-code-skill-prompt-collection.md",
+                "file": "posts/wordpress-tob-seo-sop.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "claude-code-skill-prompt-collection"
+              "title": "wordpress-tob-seo-sop"
             }
           }
         ],
@@ -617,7 +617,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/claude-code-skill-prompt-collection.md",
+            "file": "posts/seo-skill-project-setup.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -675,10 +675,13 @@
   },
   "active": "a0dc903facbde06a",
   "lastOpenFiles": [
+    "posts/seo-skill-project-setup.md",
+    "未命名.md",
+    "posts/seo-skill-collection.md",
+    "posts/claude-code-skill-prompt-collection.md",
     "posts/how-to-build-skill-system.md",
     "posts/cli-mcp-deep-analysis.md",
     "posts/t-shaped-talent.md",
-    "posts/claude-code-skill-prompt-collection.md",
     "posts/2026-computer-tech-landscape.md",
     "posts/ai-impact-on-frontend-backend.md",
     "posts/ai-chronicle-2021-2026.md",
@@ -699,9 +702,6 @@
     "posts/literary-writing-ability.md",
     "prompt-engineering-evolution.md",
     "posts/dream-mansion-characters.md",
-    "posts/wordpress-subpage-cards.md",
-    "posts/social-media-landscape-2026.md",
-    "posts/fiction-evening-rental.md",
     "未命名",
     "temp",
     "temp"
