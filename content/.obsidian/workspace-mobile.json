@@ -517,12 +517,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/termux-claude-code.md",
-                "mode": "preview",
+                "file": "posts/ai-pixel-art-game.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "termux-claude-code"
+              "title": "ai-pixel-art-game"
             }
           }
         ],
@@ -617,7 +617,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/termux-claude-code.md",
+            "file": "posts/ai-pixel-art-game.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -675,8 +675,10 @@
   },
   "active": "a0dc903facbde06a",
   "lastOpenFiles": [
-    "temp/blog.md",
     "posts/termux-claude-code.md",
+    "posts/ai-pixel-art-game.md",
+    "posts/godot-tilemap-deep-dive.md",
+    "temp/blog.md",
     "posts/claude_code_prompts_v2.md",
     "posts/独立站发展历史.md",
     "posts/红楼梦_人物关系设计文档.md",
@@ -700,8 +702,6 @@
     "posts/tailscale-guide.md",
     "posts/digital-product-naming-fri.md",
     "posts/ai-agent-decision-making.md",
-    "posts/ai-era-competitiveness.md",
-    "posts/obsidian-cli-guide.md",
     "未命名",
     "temp",
     "temp"
