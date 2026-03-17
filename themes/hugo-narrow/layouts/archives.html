@@ -34,110 +34,71 @@
           >{{ i18n "archives.total_posts" (dict "count" (len $allPosts)) | default (printf "共 %d 篇文章" (len $allPosts)) }}</span
         >
       </div>
-      <div class="flex items-center gap-1">
-        {{ partial "features/icon.html" (dict "name" "calendar" "size" "sm" "ariaLabel" "") }}
-        <span>{{ i18n "archives.timeline" | default "时间轴视图" }}</span>
-      </div>
     </div>
   </header>
 
-  <!-- 时间轴归档 -->
+  <!-- 列表格式归档 -->
   {{ if $allPosts }}
-    <div class="relative">
-      <!-- 时间轴线 -->
-      <div class="bg-border absolute top-0 bottom-0 left-4 w-0.5"></div>
+    <div class="space-y-4">
+      {{ range $allPosts }}
+        <article class="group">
+          <a href="{{ .RelPermalink }}" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                <!-- 文章标题 -->
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    {{ .LinkTitle }}
+                  </h2>
+                  
+                  <!-- 文章摘要 -->
+                  {{ $summaryContent := "" }}
+                  {{ if .Params.summary }}
+                    {{ $summaryContent = .Params.summary }}
+                  {{ else if .Params.description }}
+                    {{ $summaryContent = .Params.description }}
+                  {{ else if .Summary }}
+                    {{ $summaryContent = .Summary | plainify | truncate 120 }}
+                  {{ end }}
+                  {{ if $summaryContent }}
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      {{ $summaryContent }}
+                    </p>
+                  {{ end }}
+                </div>
 
-      <!-- 按年份分组 -->
-      {{ range $allPosts.GroupByDate "2006" }}
-        <div class="mb-12">
-          <!-- 年份标题 -->
-          <div class="relative mb-8 flex items-center">
-            <div
-              class="bg-primary absolute left-0 z-10 flex h-8 w-8 items-center justify-center rounded-full">
-              {{ partial "features/icon.html" (dict "name" "calendar" "size" "sm" "ariaLabel" "" "class" "text-primary-foreground") }}
-            </div>
-            <div class="ml-12">
-              <h2 class="text-foreground text-2xl font-bold">{{ .Key }}</h2>
-              <p class="text-muted-foreground text-sm">
-                {{ len .Pages }}
-                {{ i18n "archives.posts_count" | default "篇文章" }}
-              </p>
-            </div>
-          </div>
-
-          <!-- 按月份分组 -->
-          {{ range .Pages.GroupByDate "2006-01" }}
-            <div class="relative mb-8">
-              <!-- 月份标题 -->
-              <div class="relative mb-4 flex items-center">
-                <div
-                  class="bg-accent border-background absolute left-2 z-10 h-4 w-4 rounded-full border-2"></div>
-                <div class="ml-12">
-                  {{ $date := time (printf "%s-01" .Key) }}
-                  <h3 class="text-foreground text-lg font-semibold">
-                    {{ $date.Format (i18n "time.month_format" | default "2006年01月") }}
-                  </h3>
-                  <p class="text-muted-foreground text-xs">
-                    {{ len .Pages }}
-                    {{ i18n "archives.posts_count" | default "篇文章" }}
-                  </p>
+                <!-- 右侧元信息 -->
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  <!-- 日期 -->
+                  <div class="flex items-center gap-1.5">
+                    {{ partial "features/icon.html" (dict "name" "calendar" "size" "xs" "ariaLabel" "") }}
+                    <time datetime="{{ .Date.Format "2006-01-02" }}" class="font-medium whitespace-nowrap">
+                      {{ .Date.Format (i18n "time.date_format" | default "2006 年 01 月 02 日") }}
+                    </time>
+                  </div>
+                  
+                  <!-- 阅读时间 -->
+                  {{ if .ReadingTime }}
+                    <div class="flex items-center gap-1.5">
+                      {{ partial "features/icon.html" (dict "name" "clock" "size" "xs" "ariaLabel" "") }}
+                      <span class="font-medium whitespace-nowrap">{{ .ReadingTime }} {{ i18n "time.minute" | default "min" }}</span>
+                    </div>
+                  {{ end }}
+                  
+                  <!-- 分类 -->
+                  {{ if .Params.categories }}
+                    {{ range first 1 .Params.categories }}
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        {{ partial "features/icon.html" (dict "name" "folder" "size" "xs" "ariaLabel" "") }}
+                        <span>{{ . }}</span>
+                      </span>
+                    {{ end }}
+                  {{ end }}
                 </div>
               </div>
-
-              <!-- 文章列表 -->
-              <div class="ml-12 space-y-4">
-                {{ range .Pages }}
-                  <!-- 移动端：显示详细卡片 -->
-                  <div class="block md:hidden">
-                    {{ partial "content/card-detailed.html" (dict "page" .) }}
-                  </div>
-                  <!-- 桌面端：保持简洁列表 -->
-                  <article
-                    class="group bg-card border-border hover:bg-accent/50 hidden md:block rounded-lg border p-4 transition-all duration-300">
-                    <div class="flex items-center justify-between gap-4">
-                      <div class="min-w-0 flex-1">
-                        <h4
-                          class="text-foreground group-hover:text-primary mb-3 font-medium transition-colors duration-200">
-                          <a href="{{ .RelPermalink }}" class="block">
-                            {{ .LinkTitle }}
-                          </a>
-                        </h4>
-
-                        <!-- 文章元信息 -->
-                        <div
-                          class="text-muted-foreground flex items-center gap-4 text-xs">
-                          <div class="flex items-center gap-1">
-                            {{ partial "features/icon.html" (dict "name" "calendar" "size" "xs" "ariaLabel" "") }}
-                            <time datetime="{{ .Date.Format "2006-01-02" }}">
-                              {{ .Date.Format "01-02" }}
-                            </time>
-                          </div>
-
-                          {{ if .Params.categories }}
-                            <div class="flex items-center gap-1">
-                              {{ partial "features/icon.html" (dict "name" "folder" "size" "xs" "ariaLabel" "") }}
-                              <span>{{ delimit .Params.categories ", " }}</span>
-                            </div>
-                          {{ end }}
-
-                          {{ if .ReadingTime }}
-                            <div class="flex items-center gap-1">
-                              {{ partial "features/icon.html" (dict "name" "clock" "size" "xs" "ariaLabel" "") }}
-                              <span
-                                >{{ .ReadingTime }}
-                                {{ i18n "post.reading_time_unit" | default "分钟" }}</span
-                              >
-                            </div>
-                          {{ end }}
-                        </div>
-                      </div>
-                    </div>
-                  </article>
-                {{ end }}
-              </div>
             </div>
-          {{ end }}
-        </div>
+          </a>
+        </article>
       {{ end }}
     </div>
   {{ else }}
