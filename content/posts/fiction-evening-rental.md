@@ -1,7 +1,7 @@
 ---
 title: "傍晚六点的出租屋"
 date: 2026-03-16T20:14:30+08:00
-draft: false
+draft: true
 description: "深刻者与恣意者的对话故事"
 tags: [小说，故事，对话]
 categories:
