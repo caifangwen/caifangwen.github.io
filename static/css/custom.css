@@ -3,6 +3,15 @@
   margin-bottom: 3rem !important; /* mb-12 */
 }
 
+/* 讨论和文章板块间距加大 */
+.featured-discussions {
+  margin-bottom: 5rem !important;
+}
+
+.author-section {
+  margin-bottom: 5rem !important;
+}
+
 /* 文章导航 - 移动端优化 */
 @media (max-width: 768px) {
   /* 导航卡片 - 移动端更高 */
