@@ -4,9 +4,10 @@
 
   @context {slice} .posts 文章列表
   @context {string} .title 列表标题 (可选)
-  @context {bool} .showTitle 是否显示标题 (默认: false)
-  @context {bool} .showViewAll 是否显示"查看所有"按钮 (默认: false)
-  @context {string} .viewAllUrl "查看所有"按钮的链接 (默认: /posts/)
+  @context {bool} .showTitle 是否显示标题 (默认：false)
+  @context {bool} .showViewAll 是否显示"查看所有"按钮 (默认：false)
+  @context {string} .viewAllUrl "查看所有"按钮的链接 (默认：/posts/)
+  @context {bool} .isHome 是否为首页 (默认：false)
 */}}
 
 {{ $posts := .posts }}
@@ -14,9 +15,10 @@
 {{ $showTitle := .showTitle | default false }}
 {{ $showViewAll := .showViewAll | default false }}
 {{ $viewAllUrl := .viewAllUrl | default ("/posts/" | relLangURL) }}
+{{ $isHome := .isHome | default false }}
 
 {{ if $posts }}
-  <section class="post-list mb-8">
+  <section class="post-list mb-8{{ if $isHome }} home-list{{ end }}">
     {{ if and $showTitle $title }}
       <div class="mb-4 flex items-center justify-between md:mb-6">
         <h2 class="text-foreground text-2xl font-bold">{{ $title }}</h2>
@@ -31,7 +33,7 @@
 
     <div class="space-y-4">
       {{ range $posts }}
-        {{ partial "content/card-base.html" (dict "page" .) }}
+        {{ partial "content/card-base.html" (dict "page" . "isHome" $isHome) }}
       {{ end }}
     </div>
 

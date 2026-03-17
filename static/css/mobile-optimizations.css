@@ -325,3 +325,29 @@
     padding-right: 0.9rem !important;
   }
 }
+
+/* ==================== 首页 vs 存档页卡片样式区分 ==================== */
+/* 首页文章卡片 - 保持简洁列表样式，隐藏封面图和标签 */
+@media (max-width: 768px) {
+  .home-list .home-card .block.md\:hidden {
+    display: none !important;
+  }
+  
+  /* 首页：隐藏分类和标签区域 */
+  .home-list .home-card .mt-2 > .flex.flex-wrap {
+    display: none !important;
+  }
+  
+  /* 存档页文章卡片 - 显示详细信息 */
+  /* 存档页：显示封面图 */
+  .archives-page article.group .block.md\:hidden,
+  .post-list:not(.home-list) article.group .block.md\:hidden {
+    display: block !important;
+  }
+  
+  /* 存档页：显示分类和标签 */
+  .archives-page article.group .mt-2 > .flex.flex-wrap,
+  .post-list:not(.home-list) article.group .mt-2 > .flex.flex-wrap {
+    display: flex !important;
+  }
+}
