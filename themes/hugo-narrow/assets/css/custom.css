@@ -1,0 +1,17 @@
+/* Archive page mobile card optimizations */
+@media (max-width: 768px) {
+  /* Adjust archive timeline indentation for mobile cards */
+  .archives-page .ml-12 {
+    margin-left: 0.75rem;
+  }
+
+  /* Ensure detailed cards display properly in archive timeline */
+  .archives-page article.group {
+    width: 100%;
+  }
+
+  /* Optimize card image height on archive page for mobile */
+  .archives-page .group .relative.h-48 {
+    height: 12rem;
+  }
+}
