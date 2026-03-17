@@ -517,12 +517,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temp/blog.md",
-                "mode": "source",
-                "source": false
+                "file": "posts/termux-claude-code.md",
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "blog"
+              "title": "termux-claude-code"
             }
           }
         ],
@@ -617,7 +617,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "temp/blog.md",
+            "file": "posts/termux-claude-code.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -675,6 +675,8 @@
   },
   "active": "a0dc903facbde06a",
   "lastOpenFiles": [
+    "temp/blog.md",
+    "posts/termux-claude-code.md",
     "posts/claude_code_prompts_v2.md",
     "posts/独立站发展历史.md",
     "posts/红楼梦_人物关系设计文档.md",
@@ -700,8 +702,6 @@
     "posts/ai-agent-decision-making.md",
     "posts/ai-era-competitiveness.md",
     "posts/obsidian-cli-guide.md",
-    "posts/nextjs-structure-guide.md",
-    "posts/cursor-task-scheduling.md",
     "未命名",
     "temp",
     "temp"
