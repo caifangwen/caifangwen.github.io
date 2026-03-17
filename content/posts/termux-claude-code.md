@@ -1,11 +1,18 @@
 ---
-title: "Termux 完全玩法指南：与 Claude Code 深度联动"
-date: 2025-03-18
+title: Termux 完全玩法指南：与 Claude Code 深度联动
+date: 2026-03-18
 draft: false
-tags: ["termux", "claude-code", "android", "terminal", "ai", "开发工具"]
-categories: ["工具教程"]
-description: "在 Android 设备上用 Termux 搭建完整开发环境，结合 Claude Code 实现随时随地 AI 辅助编程，手机变身移动工作站。"
-author: "Claude"
+tags:
+  - termux
+  - claude-code
+  - android
+  - terminal
+  - ai
+  - 开发工具
+categories:
+  - 工具教程
+description: 在 Android 设备上用 Termux 搭建完整开发环境，结合 Claude Code 实现随时随地 AI 辅助编程，手机变身移动工作站。
+author: Claude
 toc: true
 ---
 
