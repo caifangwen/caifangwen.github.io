@@ -7,6 +7,8 @@ summary: ""
 tags:
   - 
 categories:
+  - 生活随笔
+  - 技术实践
   - 
 cover: ""
 author: Frida

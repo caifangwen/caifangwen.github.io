@@ -10,6 +10,9 @@ tags:
   - 数学
   - 图表
 categories:
+  - 测试归档
+  - 测试归档
+  - 测试归档
   - 数学图表
 slug: katex-mermaid-test
 katex: true

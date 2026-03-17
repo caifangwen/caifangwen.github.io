@@ -5,6 +5,12 @@ draft: false
 description: "Obsidian 官方 CLI 的详细介绍"
 tags: [Obsidian, CLI, 命令行]
 categories:
+  - 心理学
+  - 心理学
+  - 生活随笔
+  - 心理学
+  - 工具使用
+  - 技术观察
   - 技术
   - 工具
 author: Frida

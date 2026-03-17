@@ -6,7 +6,7 @@ description: "欢迎来到我的新博客，这是我使用 Hugo 搭建的第一
 keywords: ["Hugo", "博客", "第一篇文章", "Markdown"]
 author: "Frida"
 tags: ["Hugo", "博客"]
-categories: ["教程"]
+categories: ["技术教程"]
 ---
 
 ## 欢迎来到我的新博客

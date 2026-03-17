@@ -3,7 +3,7 @@ title: "利用 AI 制作像素风游戏画面：从零到像素的完整指南"
 date: 2026-03-18T01:34:38+08:00
 draft: false
 tags: ["AI", "像素画", "游戏开发", "Pixel Art", "Stable Diffusion", "Midjourney"]
-categories: ["游戏开发", "AI工具"]
+categories: ["技术实践"]
 description: "深入探索如何借助 AI 工具高效生成像素风游戏画面，涵盖主流工具选择、提示词技巧、工作流搭建与实战案例。"
 cover:
   image: ""

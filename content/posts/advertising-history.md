@@ -5,6 +5,11 @@ draft: false
 description: "广告投放从传统媒体到智能化的演变"
 tags: [广告，营销，历史]
 categories:
+  - 生活随笔
+  - 生活随笔
+  - 生活随笔
+  - 工具使用
+  - 技术观察
   - 商业
   - 营销
 author: Frida

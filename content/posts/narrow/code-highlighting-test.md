@@ -8,6 +8,9 @@ tags:
   - code
   - syntax-highlighting
 categories:
+  - 测试归档
+  - 测试归档
+  - 测试归档
   - code-highlighting
 slug: code-highlighting-test
 ---

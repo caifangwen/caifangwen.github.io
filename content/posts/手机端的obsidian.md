@@ -6,6 +6,9 @@ description: 在这里输入简短的描述，用于 SEO 和列表页预览
 summary: 文章摘要
 tags:
 categories:
+  - 技术实践
+  - 技术实践
+  - 技术实践
   - Blog
 cover: ""
 author: Frida

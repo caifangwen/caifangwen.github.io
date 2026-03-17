@@ -6,6 +6,9 @@ description: A complete guide to all available shortcodes for the Hugo Narrow th
 tags:
   - shortcode
 categories:
+  - 测试归档
+  - 测试归档
+  - 测试归档
   - shortcode
 ---
 

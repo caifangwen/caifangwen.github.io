@@ -5,6 +5,9 @@ draft: false
 description: "B2B 外贸独立站的整体页面架构规划"
 tags: [B2B, 独立站，网站结构]
 categories:
+  - 技术实践
+  - 技术实践
+  - 技术实践
   - 商业
   - 网站
 author: Frida

@@ -5,6 +5,12 @@ draft: false
 description: "经过实践验证的 AI 使用技巧"
 tags: [AI, 提示词，技巧]
 categories:
+  - 游戏开发
+  - 游戏开发
+  - 生活随笔
+  - 工具使用
+  - 游戏开发
+  - 技术观察
   - 技术
   - AI
 author: Frida

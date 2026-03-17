@@ -6,7 +6,7 @@ description: "Gemini 提供的 Hugo 配置表详解与优化建议"
 keywords: ["Hugo", "配置", "narrow", "教程"]
 author: "Frida"
 tags: ["narrow", "Hugo", "配置"]
-categories: ["website", "教程"]
+categories: ["生活随笔"]
 ---
 
 

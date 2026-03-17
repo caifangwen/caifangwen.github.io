@@ -6,6 +6,11 @@ description: 文学写作能力是复杂的综合性能力
 tags:
   - 写作，文学，创作
 categories:
+  - 心理学
+  - 心理学
+  - 生活随笔
+  - 心理学
+  - 技术观察
   - 思考
   - 写作
 author: Frida

@@ -5,6 +5,10 @@ draft: false
 description: "卖虚拟数字产品带 Fri 或 Fr 发音的命名方案"
 tags: [命名，品牌，数字产品]
 categories:
+  - 游戏开发
+  - 游戏开发
+  - 工具使用
+  - 游戏开发
   - 商业
   - 品牌
 author: Frida

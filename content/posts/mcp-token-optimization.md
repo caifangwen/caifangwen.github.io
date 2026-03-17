@@ -5,6 +5,10 @@ draft: false
 description: "利用 MCP 协议实现 Token 的高效节约"
 tags: [MCP, Token, 优化]
 categories:
+  - 工具使用
+  - 工具使用
+  - 工具使用
+  - 技术观察
   - 技术
   - AI
 author: Frida

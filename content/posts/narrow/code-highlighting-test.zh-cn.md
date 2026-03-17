@@ -8,6 +8,9 @@ tags:
   - 代码
   - 语法高亮
 categories:
+  - 测试归档
+  - 测试归档
+  - 测试归档
   - 代码高亮
 slug: code-highlighting-test
 ---

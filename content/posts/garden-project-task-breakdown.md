@@ -5,6 +5,11 @@ draft: false
 description: "大观园项目的独立可验证小闭环任务拆解"
 tags: [项目管理，任务拆解，游戏]
 categories:
+  - 技术实践
+  - 技术实践
+  - 游戏开发
+  - 技术观察
+  - 技术实践
   - 项目
   - 游戏
 author: Frida

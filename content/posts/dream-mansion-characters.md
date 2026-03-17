@@ -5,6 +5,14 @@ draft: false
 description: "红楼梦贾府核心人物关系大全"
 tags: [红楼梦，人物，文学]
 categories:
+  - 技术实践
+  - 技术实践
+  - 生活随笔
+  - 心理学
+  - 工具使用
+  - 游戏开发
+  - 技术观察
+  - 技术实践
   - 文学
   - 知识
 author: Frida

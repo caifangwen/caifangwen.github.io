@@ -7,6 +7,9 @@ summary: ""
 tags:
   - 
 categories:
+  - 技术教程
+  - 技术教程
+  - 技术教程
   - 网站
 cover: ""
 author: Frida
@@ -55,7 +58,7 @@ author: Frida
    - 添加 keywords: ["Hugo", "博客", "第一篇文章", "Markdown"]
    - 添加 author: "Frida"
    - 添加 tags: ["Hugo", "博客"]
-   - 添加 categories: ["教程"]
+   - 添加 categories: ["技术教程"]
 
 3. **content\posts\test.md**
    - 修改 title: "测试" → "短代码测试"
@@ -64,7 +67,7 @@ author: Frida
    - 添加 author: "Frida"
    - 规范化日期格式: `2025-12-26T12:00:00+08:00`
    - 扩展 tags: ["shortcode", "Hugo", "教程"]
-   - 扩展 categories: ["shortcode", "文档"]
+   - 扩展 categories: ["技术教程"]
 
 4. **content\about.md**
    - 修改 title: "About" → "关于"
@@ -89,7 +92,7 @@ description: "文章简短描述"         # 推荐,用于 SEO
 keywords: ["关键词1", "关键词2"]   # 推荐,用于 SEO
 author: "作者名"                    # 推荐
 tags: ["标签1", "标签2"]           # 可选
-categories: ["分类1"]               # 可选
+categories: ["技术教程"]
 thumbnail: ""                       # 可选,文章缩略图
 ---
 ```

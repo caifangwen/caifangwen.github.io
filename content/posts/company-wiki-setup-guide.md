@@ -5,6 +5,9 @@ draft: false
 description: "从选工具到建架构再到促维护的 Wiki 搭建过程"
 tags: [Wiki, 知识库，团队协作]
 categories:
+  - 工具使用
+  - 工具使用
+  - 工具使用
   - 技术
   - 协作
 author: Frida

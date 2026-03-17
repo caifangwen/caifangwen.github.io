@@ -8,6 +8,9 @@ tags:
   - image
   - rendering
 categories:
+  - 测试归档
+  - 测试归档
+  - 测试归档
   - image-rendering
 lightbox:
   enabled: true

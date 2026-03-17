@@ -7,6 +7,11 @@ summary: ""
 tags:
   - 
 categories:
+  - 生活随笔
+  - 技术实践
+  - 生活随笔
+  - 工具使用
+  - 技术实践
   - 网站
 cover: ""
 author: Frida
@@ -60,7 +65,12 @@ description: ""
 summary: ""
 tags: 
   - 
-categories: 
+categories:
+  - 生活随笔
+  - 技术实践
+  - 生活随笔
+  - 工具使用
+  - 技术实践
   - 
 cover: ""
 author: "Frida"
@@ -124,7 +134,12 @@ summary: "首页显示的摘要"
 tags: 
   - 标签1
   - 标签2
-categories: 
+categories:
+  - 生活随笔
+  - 技术实践
+  - 生活随笔
+  - 工具使用
+  - 技术实践
   - 分类
 cover: "images/cover.jpg"
 author: "Frida"
@@ -143,7 +158,12 @@ tags:
   - 技术
   - 编程
   - Python
-categories: 
+categories:
+  - 生活随笔
+  - 技术实践
+  - 生活随笔
+  - 工具使用
+  - 技术实践
   - 技术博客
 cover: ""
 author: "Frida"
@@ -164,7 +184,12 @@ summary: ""
 tags: 
   - Python
   - 教程
-categories: 
+categories:
+  - 生活随笔
+  - 技术实践
+  - 生活随笔
+  - 工具使用
+  - 技术实践
   - 教程
 series: 
   - Python 入门教程
@@ -184,7 +209,12 @@ cover: "cover.jpg"
 tags: 
   - React
   - TypeScript
-categories: 
+categories:
+  - 生活随笔
+  - 技术实践
+  - 生活随笔
+  - 工具使用
+  - 技术实践
   - 项目
 demo: "https://demo.example.com"
 source: "https://github.com/username/project"
@@ -286,7 +316,7 @@ draft: false
 description: "SEO 描述"
 summary: "首页摘要"
 tags: [标签1, 标签2]
-categories: [分类]
+categories: ["生活随笔"]
 ```
 
 ### 可选字段
@@ -385,7 +415,12 @@ draft: true
 description: ""
 summary: ""
 tags: 
-categories: 
+categories:
+  - 生活随笔
+  - 技术实践
+  - 生活随笔
+  - 工具使用
+  - 技术实践
 cover: ""
 author: "Frida"
 ---
@@ -403,7 +438,12 @@ description: ""
 summary: ""
 tags: 
   - 技术
-categories: 
+categories:
+  - 生活随笔
+  - 技术实践
+  - 生活随笔
+  - 工具使用
+  - 技术实践
   - 技术博客
 toc: true
 ---
@@ -425,7 +465,12 @@ date: <% tp.date.now("YYYY-MM-DDTHH:mm:ss+08:00") %>
 draft: true
 tags: 
   - 日记
-categories: 
+categories:
+  - 生活随笔
+  - 技术实践
+  - 生活随笔
+  - 工具使用
+  - 技术实践
   - 生活
 ---
 

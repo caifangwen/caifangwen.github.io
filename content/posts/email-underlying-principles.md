@@ -5,6 +5,10 @@ draft: false
 description: "深入邮件的底层世界了解邮件的构成"
 tags: [邮件，协议，技术原理]
 categories:
+  - 游戏开发
+  - 游戏开发
+  - 游戏开发
+  - 技术观察
   - 技术
   - 教程
 author: Frida

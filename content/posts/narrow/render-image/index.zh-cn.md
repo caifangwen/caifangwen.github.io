@@ -8,6 +8,9 @@ tags:
   - 图片
   - 渲染
 categories:
+  - 测试归档
+  - 测试归档
+  - 测试归档
   - 图片渲染
 lightbox:
   enabled: true

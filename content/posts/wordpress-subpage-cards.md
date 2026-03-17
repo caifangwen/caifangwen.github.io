@@ -5,6 +5,12 @@ draft: false
 description: "在 WordPress 中展示子页面列表的多种方法"
 tags: [WordPress, 子页面，卡片]
 categories:
+  - 技术实践
+  - 技术实践
+  - 生活随笔
+  - 工具使用
+  - 技术观察
+  - 技术实践
   - 技术
   - WordPress
 author: Frida

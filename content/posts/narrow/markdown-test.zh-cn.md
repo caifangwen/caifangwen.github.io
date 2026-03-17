@@ -4,6 +4,9 @@ date: 2024-01-15T10:00:00+08:00
 draft: true
 summary: 这是一个包含各种 Markdown 语法的测试文档，用于验证文档样式的完整性。
 categories:
+  - 测试归档
+  - 测试归档
+  - 测试归档
   - 测试
 tags:
   - markdown

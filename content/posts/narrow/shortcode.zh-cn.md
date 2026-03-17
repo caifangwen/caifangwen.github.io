@@ -6,6 +6,9 @@ description: Hugo Narrow 主题可用的短代码
 tags:
   - shortcode
 categories:
+  - 测试归档
+  - 测试归档
+  - 测试归档
   - shortcode
 ---
 

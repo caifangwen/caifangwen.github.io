@@ -5,6 +5,10 @@ draft: false
 description: "2021 年到 2026 年 AI 发展的完整历程"
 tags: [AI, 历史，编年史]
 categories:
+  - 工具使用
+  - 工具使用
+  - 工具使用
+  - 技术观察
   - 技术
   - AI
 author: Frida

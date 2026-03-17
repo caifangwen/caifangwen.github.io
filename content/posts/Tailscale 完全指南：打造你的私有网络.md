@@ -6,6 +6,8 @@ description: 在这里输入简短的描述
 summary: 文章摘要
 tags:
 categories:
+  - 游戏开发
+  - 游戏开发
   - Blog
 cover: ""
 author: Frida

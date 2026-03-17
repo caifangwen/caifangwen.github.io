@@ -5,6 +5,8 @@ draft: true
 description: "深刻者与恣意者的对话故事"
 tags: [小说，故事，对话]
 categories:
+  - 技术教程
+  - 技术教程
   - 创作
   - 小说
 author: Frida

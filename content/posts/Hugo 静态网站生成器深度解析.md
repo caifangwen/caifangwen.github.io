@@ -6,6 +6,8 @@ description: 在这里输入简短的描述，用于 SEO 和列表页预览
 summary: 文章摘要
 tags:
 categories:
+  - 心理学
+  - 技术实践
   - Blog
 cover: ""
 author: Frida
@@ -83,7 +85,7 @@ title: "我的第一篇文章"
 date: 2024-01-15
 draft: false
 tags: ["hugo", "教程"]
-categories: ["技术"]
+categories: ["心理学"]
 ---
 
 这里是文章正文内容...

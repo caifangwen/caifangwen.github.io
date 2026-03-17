@@ -7,6 +7,9 @@ summary: ""
 tags:
   - 
 categories:
+  - 技术教程
+  - 技术教程
+  - 技术教程
   - 网站
 cover: ""
 author: Frida
@@ -140,7 +143,7 @@ draft: false
 description: "这是一篇关于..."
 summary: "文章摘要"
 tags: ["技术", "Hugo"]
-categories: ["博客"]
+categories: ["技术教程"]
 cover: "images/cover.jpg"
 ---
 ```
@@ -337,7 +340,7 @@ graph TD
 - **Tags**（标签）：具体的关键词，如"Python"、"React"、"旅行"
 
 ```yaml
-categories: ["技术"]
+categories: ["技术教程"]
 tags: ["Python", "数据分析", "Pandas"]
 ```
 
@@ -439,7 +442,7 @@ draft: true
 description: ""
 summary: ""
 tags: []
-categories: []
+categories: ["技术教程"]
 cover: ""
 author: "Frida"
 ---

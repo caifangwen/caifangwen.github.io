@@ -7,6 +7,9 @@ summary: ""
 tags:
   - 
 categories:
+  - 技术教程
+  - 技术教程
+  - 技术教程
   - 网站
 cover: ""
 author: Frida
@@ -29,7 +32,7 @@ draft: true
 description: ""
 summary: ""
 tags: []
-categories: []
+categories: ["技术教程"]
 cover: ""
 author: "Frida"
 ---
@@ -51,7 +54,7 @@ draft: true
 description: ""
 summary: ""
 tags: ["技术"]
-categories: ["技术博客"]
+categories: ["技术教程"]
 cover: ""
 author: "Frida"
 series: []
@@ -108,7 +111,7 @@ draft: true
 description: ""
 summary: ""
 tags: ["教程"]
-categories: ["教程"]
+categories: ["技术教程"]
 cover: ""
 author: "Frida"
 series: []
@@ -170,7 +173,7 @@ draft: true
 description: ""
 summary: ""
 tags: ["生活", "随笔"]
-categories: ["日记"]
+categories: ["技术教程"]
 cover: ""
 author: "Frida"
 ---
@@ -193,7 +196,7 @@ description: ""
 summary: ""
 cover: ""
 tags: []
-categories: ["项目"]
+categories: ["技术教程"]
 
 # 项目特定字段
 demo: ""           # 在线演示地址
@@ -250,7 +253,7 @@ draft: true
 description: ""
 summary: ""
 tags: ["读书笔记"]
-categories: ["阅读"]
+categories: ["技术教程"]
 cover: ""
 author: "Frida"
 
