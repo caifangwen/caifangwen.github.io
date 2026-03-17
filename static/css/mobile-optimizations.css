@@ -4,7 +4,14 @@
 
 /* 移动端专用样式 */
 @media (max-width: 768px) {
-  
+
+  /* ==================== Hero/公告区域去边框 ==================== */
+  /* 移除移动端首页公告区域的边框 */
+  .bg-primary\/10.border-primary\/30 {
+    border: none !important;
+    box-shadow: none !important;
+  }
+
   /* ==================== 导航栏优化 ==================== */
   /* 导航栏更窄 */
   header {
