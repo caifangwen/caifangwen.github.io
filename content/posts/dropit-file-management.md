@@ -9,7 +9,6 @@ author: "Claude"
 slug: "dropit-file-management-guide"
 cover:
   image: ""
-  alt: "DropIt 文件管理工具"
 ---
 
 ## 什么是 DropIt？

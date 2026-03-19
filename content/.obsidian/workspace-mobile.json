@@ -517,12 +517,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/wordpress-tob-seo-sop.md",
+                "file": "posts/dropit-workflow-guide.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "wordpress-tob-seo-sop"
+              "title": "dropit-workflow-guide"
             }
           }
         ],
@@ -541,7 +541,7 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "byCreatedTime",
+            "sortOrder": "byCreatedTimeReverse",
             "autoReveal": false
           },
           "icon": "lucide-folder-closed",
@@ -673,8 +673,11 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a0dc903facbde06a",
+  "active": "fe4a77ae462e58ec",
   "lastOpenFiles": [
+    "posts/dropit-workflow-guide.md",
+    "posts/dropit-file-management.md",
+    "posts/wordpress-tob-seo-sop.md",
     "posts/seo-skill-project-setup.md",
     "未命名.md",
     "posts/seo-skill-collection.md",
@@ -699,9 +702,6 @@
     "posts/REFACTOR_PLAN.md",
     "posts/大观园_游戏设计文档.md",
     "未命名.canvas",
-    "posts/literary-writing-ability.md",
-    "prompt-engineering-evolution.md",
-    "posts/dream-mansion-characters.md",
     "未命名",
     "temp",
     "temp"

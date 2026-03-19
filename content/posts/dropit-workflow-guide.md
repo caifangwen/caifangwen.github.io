@@ -12,8 +12,6 @@ showToc: true
 TocOpen: true
 cover:
   image: ""
-  alt: "DropIt 文件整理工作流"
-  caption: "用 DropIt 构建全自动文件整理体系"
 ---
 
 ## 为什么需要一套文件整理工作流？
