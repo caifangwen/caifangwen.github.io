@@ -517,12 +517,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/termux-init.md",
+                "file": "posts/deploy-skill-to-github-pages.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "termux-init"
+              "title": "deploy-skill-to-github-pages"
             }
           }
         ],
@@ -675,8 +675,10 @@
   },
   "active": "a0dc903facbde06a",
   "lastOpenFiles": [
-    "posts/database-refactoring-prompts.md",
+    "posts/termux-git-push-tutorial.md",
     "posts/termux-init.md",
+    "posts/deploy-skill-to-github-pages.md",
+    "posts/database-refactoring-prompts.md",
     "posts/dropit-workflow-guide.md",
     "posts/dropit-file-management.md",
     "posts/wordpress-tob-seo-sop.md",
@@ -699,8 +701,6 @@
     "posts/claude_code_prompts_v2.md",
     "posts/独立站发展历史.md",
     "posts/红楼梦_人物关系设计文档.md",
-    "posts/claude_code_prompts.md",
-    "posts/prompt-engineering-evolution.md",
     "未命名.canvas",
     "未命名",
     "temp",
