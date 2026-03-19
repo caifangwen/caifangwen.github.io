@@ -133,7 +133,13 @@ qwen code "用 Python 写一个简单的 HTTP 服务器"
 qwen explain script.sh
 ```
 
+```bash
+# It is recommended to use npm
+npm install -g @qwen-code/qwen-code@latest
+
+```
 ---
+
 
 ## 四、终端美化
 

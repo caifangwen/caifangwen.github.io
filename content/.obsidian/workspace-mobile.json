@@ -517,12 +517,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/database-refactoring-prompts.md",
+                "file": "posts/termux-init.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "database-refactoring-prompts"
+              "title": "termux-init"
             }
           }
         ],
@@ -676,6 +676,7 @@
   "active": "a0dc903facbde06a",
   "lastOpenFiles": [
     "posts/database-refactoring-prompts.md",
+    "posts/termux-init.md",
     "posts/dropit-workflow-guide.md",
     "posts/dropit-file-management.md",
     "posts/wordpress-tob-seo-sop.md",
@@ -700,7 +701,6 @@
     "posts/红楼梦_人物关系设计文档.md",
     "posts/claude_code_prompts.md",
     "posts/prompt-engineering-evolution.md",
-    "posts/REFACTOR_PLAN.md",
     "未命名.canvas",
     "未命名",
     "temp",
