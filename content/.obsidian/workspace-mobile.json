@@ -517,12 +517,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/dropit-workflow-guide.md",
+                "file": "posts/database-refactoring-prompts.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "dropit-workflow-guide"
+              "title": "database-refactoring-prompts"
             }
           }
         ],
@@ -541,7 +541,7 @@
         "state": {
           "type": "file-explorer",
           "state": {
-            "sortOrder": "byCreatedTimeReverse",
+            "sortOrder": "byCreatedTime",
             "autoReveal": false
           },
           "icon": "lucide-folder-closed",
@@ -673,8 +673,9 @@
       "bases:新建数据库": false
     }
   },
-  "active": "fe4a77ae462e58ec",
+  "active": "a0dc903facbde06a",
   "lastOpenFiles": [
+    "posts/database-refactoring-prompts.md",
     "posts/dropit-workflow-guide.md",
     "posts/dropit-file-management.md",
     "posts/wordpress-tob-seo-sop.md",
@@ -700,7 +701,6 @@
     "posts/claude_code_prompts.md",
     "posts/prompt-engineering-evolution.md",
     "posts/REFACTOR_PLAN.md",
-    "posts/大观园_游戏设计文档.md",
     "未命名.canvas",
     "未命名",
     "temp",
