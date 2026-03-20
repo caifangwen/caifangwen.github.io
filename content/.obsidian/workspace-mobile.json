@@ -675,9 +675,9 @@
   },
   "active": "a0dc903facbde06a",
   "lastOpenFiles": [
-    "posts/termux-git-push-tutorial.md",
     "posts/termux-init.md",
     "posts/deploy-skill-to-github-pages.md",
+    "posts/termux-git-push-tutorial.md",
     "posts/database-refactoring-prompts.md",
     "posts/dropit-workflow-guide.md",
     "posts/dropit-file-management.md",

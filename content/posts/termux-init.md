@@ -48,6 +48,11 @@ pkg install -y \
   tmux
 ```
 
+### 1.4 多窗口
+```shell
+mkdir -p ~/.termux && echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN','DRAWER']]" > ~/.termux/termux.properties
+```
+
 ---
 
 ## 二、开发语言环境
