@@ -5,15 +5,7 @@ draft: false
 description: "从八维功能探讨 INTP 的心理成长过程"
 tags: [INTP, 荣格八维，人格类型]
 categories:
-  - 游戏开发
-  - 游戏开发
-  - 生活随笔
   - 心理学
-  - 工具使用
-  - 游戏开发
-  - 技术观察
-  - 心理学
-  - 知识
 author: Frida
 ---
 

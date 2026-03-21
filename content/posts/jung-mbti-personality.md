@@ -5,15 +5,7 @@ draft: false
 description: "荣格八维理论及其演变为 MBTI"
 tags: [荣格，MBTI, 心理学]
 categories:
-  - 技术实践
-  - 技术实践
-  - 生活随笔
   - 心理学
-  - 工具使用
-  - 技术观察
-  - 技术实践
-  - 心理学
-  - 知识
 author: Frida
 ---
 

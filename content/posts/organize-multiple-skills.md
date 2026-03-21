@@ -11,8 +11,7 @@ tags:
   - 工程实践
   - LLM
 categories:
-  - AI开发
-  - 系统设计
+  - skill
 author: "Claude"
 slug: "organize-multiple-claude-skills"
 toc: true

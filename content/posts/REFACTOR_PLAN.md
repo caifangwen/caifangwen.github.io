@@ -7,11 +7,6 @@ summary: 文章摘要
 tags:
 categories:
   - 游戏开发
-  - 游戏开发
-  - 工具使用
-  - 游戏开发
-  - 技术观察
-  - 游戏
 cover: ""
 author: Frida
 ---

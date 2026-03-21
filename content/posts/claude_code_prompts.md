@@ -6,11 +6,7 @@ description: 在这里输入简短的描述
 summary: 文章摘要
 tags:
 categories:
-  - 技术实践
-  - 技术实践
   - 游戏开发
-  - 技术实践
-  - 游戏
 cover: ""
 author: Frida
 ---

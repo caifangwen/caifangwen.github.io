@@ -3,7 +3,7 @@ title: "Termux 初始化环境配置指南"
 date: 2026-03-20T03:34:39+08:00
 draft: false
 tags: ["termux", "android", "cli", "nodejs", "npm", "开发环境"]
-categories: ["工具配置"]
+categories: ["工具"]
 description: "从零开始配置 Termux 开发环境，包含镜像源、Node.js、Python、Qwen Code CLI 等常用工具的安装与配置。"
 author: "dev"
 ---

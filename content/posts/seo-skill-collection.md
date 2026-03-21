@@ -4,7 +4,7 @@ date: 2026-03-18T03:04:58+08:00
 lastmod: 2026-03-18T03:04:58+08:00
 draft: false
 tags: ["SEO", "Skill", "Claude Code", "AI Agent", "内容优化", "技术SEO", "提示词工程"]
-categories: ["技术实践"]
+categories: ["skill"]
 description: "基于 AI Skill 体系设计理念，构建一套覆盖技术SEO、内容优化、关键词研究、外链分析的完整 SEO 自动化 Skill 合集，并提供可直接用于 Claude Code 的 Prompt 模板。"
 author: "Claude"
 toc: true

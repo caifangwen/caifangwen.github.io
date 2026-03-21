@@ -6,10 +6,7 @@ description: 在这里输入简短的描述
 summary: 文章摘要
 tags:
 categories:
-  - 工具使用
-  - 工具使用
-  - 工具使用
-  - Blog
+  - 技术博客
 cover: ""
 author: Frida
 ---

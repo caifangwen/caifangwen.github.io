@@ -5,10 +5,6 @@ draft: false
 description: "给 Cursor 的任务调度框架提示词"
 tags: [Cursor, 任务管理，效率]
 categories:
-  - 工具使用
-  - 工具使用
-  - 工具使用
-  - 技术
   - 效率
 author: Frida
 ---

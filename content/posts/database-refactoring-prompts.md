@@ -6,7 +6,7 @@ lastmod: 2026-03-19
 weight: 1
 draft: false
 author: "DBA Team"
-categories: ["database"]
+categories: ["游戏开发"]
 tags: ["refactoring", "migration", "schema", "prompt"]
 toc: true
 ---

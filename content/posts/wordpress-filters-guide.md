@@ -5,13 +5,7 @@ draft: false
 description: "WordPress 筛选器的概念和使用方法"
 tags: [WordPress, Filters, Hooks]
 categories:
-  - 生活随笔
-  - 生活随笔
-  - 生活随笔
-  - 工具使用
-  - 技术观察
-  - 技术
-  - WordPress
+  - 技术博客
 author: Frida
 ---
 

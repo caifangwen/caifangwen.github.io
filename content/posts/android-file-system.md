@@ -5,12 +5,7 @@ draft: false
 description: "Android 文件系统结构详解"
 tags: [Android, Linux, 文件系统]
 categories:
-  - 工具使用
-  - 工具使用
-  - 工具使用
-  - 技术观察
-  - 技术
-  - 教程
+  - 技术博客
 author: Frida
 ---
 

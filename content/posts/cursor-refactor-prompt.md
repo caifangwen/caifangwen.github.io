@@ -6,10 +6,6 @@ description: "专门给 Cursor 的重构提示词"
 tags: [Cursor, 重构，提示词]
 categories:
   - 游戏开发
-  - 游戏开发
-  - 游戏开发
-  - 技术
-  - 效率
 author: Frida
 ---
 

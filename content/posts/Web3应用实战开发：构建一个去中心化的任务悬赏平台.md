@@ -6,9 +6,7 @@ description: 在这里输入简短的描述
 summary: 文章摘要
 tags:
 categories:
-  - 技术教程
-  - 技术教程
-  - Blog
+  - Web3
 cover: ""
 author: Frida
 ---

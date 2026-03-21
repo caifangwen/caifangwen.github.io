@@ -1,15 +1,12 @@
 ---
 title: 手机端的obsidian
 date: 2026-02-06T01:56:26+08:00
-draft: false
+draft: true
 description: 在这里输入简短的描述，用于 SEO 和列表页预览
 summary: 文章摘要
 tags:
 categories:
-  - 技术实践
-  - 技术实践
-  - 技术实践
-  - Blog
+  - note
 cover: ""
 author: Frida
 ---

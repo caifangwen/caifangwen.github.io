@@ -5,12 +5,7 @@ draft: false
 description: "通过自定义短代码实现子页面卡片列表"
 tags: [WordPress, Shortcode, PHP]
 categories:
-  - 技术实践
-  - 技术实践
-  - 技术观察
-  - 技术实践
-  - 技术
-  - WordPress
+  - 技术博客
 author: Frida
 ---
 

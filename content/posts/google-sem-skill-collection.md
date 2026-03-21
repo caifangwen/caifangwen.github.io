@@ -4,7 +4,7 @@ date: 2026-03-18T03:34:44+08:00
 lastmod: 2026-03-18T03:34:44+08:00
 draft: false
 tags: ["Google SEM", "SEM", "Google Ads", "Skill", "Claude Code", "提示词工程", "PPC", "付费搜索"]
-categories: ["AI Skill 工程"]
+categories: ["skill"]
 description: "基于 Skill 体系方法论，构建覆盖 Google SEM 全链路的项目级 Skill 合集：从关键词研究、广告文案创作、出价策略、质量得分优化，到数据分析报告，形成完整可复用的 AI 驱动 SEM 工作流。"
 author: "Claude"
 toc: true

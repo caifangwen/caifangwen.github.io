@@ -8,13 +8,7 @@ tags:
   - 外贸
   - 获客
 categories:
-  - 生活随笔
-  - 技术实践
-  - 生活随笔
-  - 工具使用
-  - 技术观察
-  - 技术实践
-  - linkedin
+  - MKT
 cover: ""
 author: Frida
 ---

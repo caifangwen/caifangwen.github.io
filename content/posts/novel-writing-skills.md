@@ -3,7 +3,7 @@ title: "长篇严肃文学写作 Skill 架构"
 date: 2026-03-20
 draft: false
 tags: ["writing", "novel", "skills", "prompt-engineering"]
-categories: ["创作工具"]
+categories: ["skill"]
 description: "一套用于长篇严肃文学创作的 Claude Skill 提示词体系，涵盖文风、情节、人物、叙事结构等核心维度。"
 toc: true
 ---

@@ -6,12 +6,7 @@ description: 在这里输入简短的描述，用于 SEO 和列表页预览
 summary: 文章摘要
 tags:
 categories:
-  - 游戏开发
-  - 技术实践
-  - 工具使用
-  - 游戏开发
-  - 技术实践
-  - AI
+  - 工具
 cover: ""
 author: Frida
 ---

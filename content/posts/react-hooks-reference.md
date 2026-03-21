@@ -5,11 +5,7 @@ draft: false
 description: "React Hooks 的完整 API 参考"
 tags: [React, Hooks, JavaScript]
 categories:
-  - 生活随笔
-  - 生活随笔
-  - 生活随笔
-  - 技术
-  - 教程
+  - 技术博客
 author: Frida
 ---
 

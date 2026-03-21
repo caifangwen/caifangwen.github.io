@@ -5,15 +5,7 @@ draft: false
 description: "当 AI 能完成几小时工作时个人价值在哪里"
 tags: [AI, 竞争力，个人发展]
 categories:
-  - 技术实践
-  - 技术实践
-  - 生活随笔
-  - 心理学
-  - 工具使用
-  - 技术观察
-  - 技术实践
-  - 思考
-  - AI
+  - 趋势
 author: Frida
 ---
 

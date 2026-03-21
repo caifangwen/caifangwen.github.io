@@ -5,10 +5,6 @@ draft: false
 description: "n8n 通过可视化界面实现自动化"
 tags: [n8n, 自动化，工作流]
 categories:
-  - 工具使用
-  - 工具使用
-  - 工具使用
-  - 技术
   - 工具
 author: Frida
 ---

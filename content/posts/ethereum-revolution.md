@@ -5,13 +5,7 @@ draft: false
 description: "2015 年以太坊主网启动带来的区块链革命"
 tags: [以太坊，区块链，加密货币]
 categories:
-  - 游戏开发
-  - 游戏开发
-  - 心理学
-  - 游戏开发
-  - 技术观察
-  - 技术
-  - 区块链
+  - Web3
 author: Frida
 ---
 

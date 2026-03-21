@@ -7,12 +7,7 @@ summary: ""
 tags:
   - 
 categories:
-  - 生活随笔
-  - 技术实践
-  - 生活随笔
-  - 工具使用
-  - 技术实践
-  - 网站
+  - 工具
 cover: ""
 author: Frida
 ---

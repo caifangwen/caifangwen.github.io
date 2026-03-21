@@ -4,7 +4,7 @@ date: 2026-03-18T02:10:39+08:00
 lastmod: 2026-03-18T02:10:39+08:00
 draft: false
 tags: ["Skill", "AI Agent", "Claude", "MCP", "提示词工程", "工程化", "AI架构"]
-categories: ["技术实践"]
+categories: ["skill"]
 description: "深度剖析 AI Skill 体系的设计哲学、架构原理、工程实践与评估体系，从零到一构建可复用、可测量、可迭代的 AI 能力模块化系统。"
 author: "Claude"
 toc: true

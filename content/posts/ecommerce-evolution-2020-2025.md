@@ -5,13 +5,7 @@ draft: false
 description: "2020 到 2025 年独立站的发展演变历程"
 tags: [电商，独立站，历史]
 categories:
-  - 心理学
-  - 心理学
-  - 心理学
-  - 工具使用
-  - 技术观察
-  - 商业
-  - 电商
+  - MKT
 author: Frida
 ---
 

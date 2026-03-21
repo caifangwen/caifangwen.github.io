@@ -7,9 +7,7 @@ summary: 从域名购买到站点上线，再到 B2B 独立站的搭建思路，
 tags:
   - WordPress
 categories:
-  - 工具使用
-  - 技术实践
-  - 网站
+  - 技术博客
 cover: ""
 author: Frida
 ---

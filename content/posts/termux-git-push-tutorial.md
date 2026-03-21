@@ -3,7 +3,7 @@ title: "在 Termux 中使用 Git 推送仓库到 GitHub"
 date: 2026-03-20T03:52:38+08:00
 draft: false
 tags: ["Termux", "Git", "GitHub", "Android", "教程"]
-categories: ["开发工具"]
+categories: ["工具"]
 description: "手把手教你在 Android Termux 环境下，使用 Token 认证将本地项目推送到 GitHub 远程仓库，包含常见报错的解决方案。"
 ---
 

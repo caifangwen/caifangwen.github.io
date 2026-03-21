@@ -5,12 +5,7 @@ draft: false
 description: "AI 热潮与经济下滑的深层原因分析"
 tags: [AI, 经济，分析]
 categories:
-  - 心理学
-  - 心理学
-  - 心理学
-  - 技术观察
-  - 思考
-  - 经济
+  - 趋势
 author: Frida
 ---
 

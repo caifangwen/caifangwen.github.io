@@ -5,13 +5,6 @@ draft: false
 description: "2026 年社交媒体进入功能大乱斗和 AI 原生化阶段"
 tags: [社交媒体，2026, 趋势]
 categories:
-  - 游戏开发
-  - 游戏开发
-  - 生活随笔
-  - 工具使用
-  - 游戏开发
-  - 技术观察
-  - 思考
   - 趋势
 author: Frida
 ---

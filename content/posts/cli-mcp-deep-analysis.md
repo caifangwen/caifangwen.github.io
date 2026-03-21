@@ -4,7 +4,7 @@ date: 2026-03-18T02:00:28+08:00
 lastmod: 2026-03-18T02:00:28+08:00
 draft: false
 tags: ["CLI", "MCP", "AI", "架构", "工具链", "Claude"]
-categories: ["技术实践"]
+categories: ["趋势"]
 description: "深入剖析 CLI（命令行界面）与 MCP（模型上下文协议）的设计哲学、技术架构与应用场景，探讨 AI 时代工具链的演进路径。"
 author: "Claude"
 toc: true

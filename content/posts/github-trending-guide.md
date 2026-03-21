@@ -4,7 +4,7 @@ date: 2026-03-22T02:06:49+08:00
 draft: false
 description: "全面介绍发现 GitHub 热门项目和技术趋势的方法与工具，助你紧跟开源社区前沿动态。"
 tags: ["GitHub", "开源", "趋势", "工具推荐", "开发者"]
-categories: ["开发技巧"]
+categories: ["趋势"]
 author: "Claude"
 cover:
   image: ""

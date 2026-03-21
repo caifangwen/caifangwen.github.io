@@ -5,14 +5,6 @@ draft: false
 description: "Google 的 NotebookLM 对 AI 交互的独特答案"
 tags: [NotebookLM, Google, AI]
 categories:
-  - 心理学
-  - 技术实践
-  - 生活随笔
-  - 心理学
-  - 工具使用
-  - 技术观察
-  - 技术实践
-  - 技术
   - AI
 author: Frida
 ---

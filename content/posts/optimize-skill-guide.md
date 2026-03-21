@@ -10,8 +10,7 @@ tags:
   - 提示工程
   - LLM
 categories:
-  - AI开发
-  - 工程实践
+  - skill
 author: "Claude"
 slug: "optimize-claude-skill"
 toc: true

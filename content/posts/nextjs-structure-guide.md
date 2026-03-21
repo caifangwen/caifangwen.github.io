@@ -5,11 +5,7 @@ draft: false
 description: "Next.js 是基于 React 的全栈框架"
 tags: [Next.js, React, 网站结构]
 categories:
-  - 技术实践
-  - 技术实践
-  - 技术实践
-  - 技术
-  - 教程
+  - 技术博客
 author: Frida
 ---
 

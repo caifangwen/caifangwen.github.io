@@ -5,12 +5,6 @@ draft: false
 description: "提示词工程从 2022 年到 2024 年的变革"
 tags: [提示词工程，AI, LLM]
 categories:
-  - 工具使用
-  - 技术实践
-  - 工具使用
-  - 技术观察
-  - 技术实践
-  - 技术
   - AI
 author: Frida
 ---

@@ -5,10 +5,7 @@ draft: false
 description: "Tailscale 是一个基于 WireGuard 的现代化 VPN 解决方案"
 tags: [VPN, Tailscale, 网络，安全]
 categories:
-  - 技术教程
-  - 技术教程
-  - 技术
-  - 教程
+  - 工具
 author: Frida
 ---
 

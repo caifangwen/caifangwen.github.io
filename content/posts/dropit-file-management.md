@@ -4,7 +4,7 @@ date: 2026-03-20T10:00:00+08:00
 draft: false
 description: "DropIt 是一款强大的 Windows 文件自动化整理工具，本文详细介绍如何利用 DropIt 的规则、配置文件和自动监控功能，实现文件的智能分类与管理。"
 tags: ["DropIt", "文件管理", "自动化", "Windows", "效率工具"]
-categories: ["工具教程"]
+categories: ["工具"]
 author: "Claude"
 slug: "dropit-file-management-guide"
 cover:

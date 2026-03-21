@@ -5,12 +5,6 @@ draft: false
 description: "现代智能体如何自主思考和行动"
 tags: [AI Agent, 智能体，自主决策]
 categories:
-  - 技术实践
-  - 技术实践
-  - 工具使用
-  - 技术观察
-  - 技术实践
-  - 技术
   - AI
 author: Frida
 ---
