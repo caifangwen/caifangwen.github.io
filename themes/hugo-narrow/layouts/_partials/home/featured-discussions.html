@@ -1,6 +1,6 @@
 {{/* 首页精选讨论板块 */}}
 
-{{ $discussionPages := where site.RegularPages "Section" "discussions" }}
+{{ $discussionPages := where .Site.RegularPages "Section" "discussions" }}
 {{ $featuredDiscussions := first 6 $discussionPages }}
 
 {{ if $featuredDiscussions }}

@@ -1,6 +1,7 @@
 {{/* 最近文章区域 */}}
-{{ $recentPostsCount := site.Params.home.recentPostsCount | default 5 }}
-{{ $posts := where site.RegularPages "Section" "posts" | sort "Date" "desc" | first $recentPostsCount }}
+{{ $recentPostsCount := .Site.Params.home.recentPostsCount | default 5 }}
+{{ $allPosts := where .Site.RegularPages "Section" "posts" }}
+{{ $posts := $allPosts | sort "Date" "desc" | first $recentPostsCount }}
 
 {{ partial "content/post-list.html" (dict
   "posts" $posts
