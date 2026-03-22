@@ -8,6 +8,10 @@ theme: "hugo-narrow"
 hasCJKLanguage: true
 enableEmoji: true
 
+# Ignore specific log warnings
+ignoreLogs:
+  - 'shortcode-x-getremote'
+
 # SEO优化的URL结构
 permalinks:
   posts: /blog/:year/:month/:slug/

@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SEO on Frida</title>
+    <title>Seo on Frida</title>
     <link>https://fridacai.vercel.app/tags/seo/</link>
-    <description>Recent content in SEO on Frida</description>
+    <description>Recent content in Seo on Frida</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Mar 2026 03:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 10:00:00 +0800</lastBuildDate>
     <atom:link href="https://fridacai.vercel.app/tags/seo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>钢材外贸 SEO Skill 体系：领域覆盖层完整 Prompt 合集</title>
+      <link>https://fridacai.vercel.app/blog/2026/03/%E9%92%A2%E6%9D%90%E5%A4%96%E8%B4%B8-seo-skill-%E4%BD%93%E7%B3%BB%E9%A2%86%E5%9F%9F%E8%A6%86%E7%9B%96%E5%B1%82%E5%AE%8C%E6%95%B4-prompt-%E5%90%88%E9%9B%86/</link>
+      <pubDate>Thu, 19 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/03/%E9%92%A2%E6%9D%90%E5%A4%96%E8%B4%B8-seo-skill-%E4%BD%93%E7%B3%BB%E9%A2%86%E5%9F%9F%E8%A6%86%E7%9B%96%E5%B1%82%E5%AE%8C%E6%95%B4-prompt-%E5%90%88%E9%9B%86/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;本文是《&lt;a href=&#34;../seo-skill-project-setup/&#34;&gt;项目级 SEO Skill 体系构建指南&lt;/a&gt;》的&lt;strong&gt;行业落地版&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;采用&lt;strong&gt;模式 A（领域覆盖层）&lt;/strong&gt;：通用 SEO Skill 保持不动，在 &lt;code&gt;skills/private/steel-trade/&lt;/code&gt; 下建立钢材外贸专用覆盖层。所有 Prompt 可直接复制到对应的 &lt;code&gt;SKILL.md&lt;/code&gt; 文件中使用。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>WordPress ToB 外贸网站 SEO 优化 SOP：SEO Skills 完整使用指南</title>
       <link>https://fridacai.vercel.app/blog/2026/03/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>

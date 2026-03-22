@@ -6,62 +6,48 @@
     <description>Recent content in Categories on Frida</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 18 Mar 2026 03:30:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 22 Mar 2026 02:43:02 +0800</lastBuildDate>
     <atom:link href="https://fridacai.vercel.app/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>技术实践</title>
-      <link>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/</link>
-      <pubDate>Wed, 18 Mar 2026 03:30:00 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E5%AE%9E%E8%B7%B5/</guid>
+      <title>Skill</title>
+      <link>https://fridacai.vercel.app/categories/skill/</link>
+      <pubDate>Sun, 22 Mar 2026 02:43:02 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/categories/skill/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>趋势</title>
+      <link>https://fridacai.vercel.app/categories/%E8%B6%8B%E5%8A%BF/</link>
+      <pubDate>Sun, 22 Mar 2026 02:06:49 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/categories/%E8%B6%8B%E5%8A%BF/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>技术博客</title>
+      <link>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Fri, 20 Mar 2026 15:06:17 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E5%8D%9A%E5%AE%A2/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>工具</title>
+      <link>https://fridacai.vercel.app/categories/%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Fri, 20 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/categories/%E5%B7%A5%E5%85%B7/</guid>
       <description></description>
     </item>
     <item>
       <title>游戏开发</title>
       <link>https://fridacai.vercel.app/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/</link>
-      <pubDate>Wed, 18 Mar 2026 01:21:08 +0800</pubDate>
+      <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
       <guid>https://fridacai.vercel.app/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/</guid>
       <description></description>
     </item>
     <item>
-      <title>工具使用</title>
-      <link>https://fridacai.vercel.app/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</link>
-      <pubDate>Wed, 18 Mar 2026 00:45:43 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>技术观察</title>
-      <link>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E8%A7%82%E5%AF%9F/</link>
-      <pubDate>Wed, 18 Mar 2026 00:45:43 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E8%A7%82%E5%AF%9F/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>心理学</title>
-      <link>https://fridacai.vercel.app/categories/%E5%BF%83%E7%90%86%E5%AD%A6/</link>
-      <pubDate>Wed, 18 Mar 2026 00:45:43 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E5%BF%83%E7%90%86%E5%AD%A6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>游戏</title>
-      <link>https://fridacai.vercel.app/categories/%E6%B8%B8%E6%88%8F/</link>
-      <pubDate>Wed, 18 Mar 2026 00:45:43 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E6%B8%B8%E6%88%8F/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Blog</title>
-      <link>https://fridacai.vercel.app/categories/blog/</link>
+      <title>MKT</title>
+      <link>https://fridacai.vercel.app/categories/mkt/</link>
       <pubDate>Wed, 18 Mar 2026 00:29:28 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/blog/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>技术分析</title>
-      <link>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E5%88%86%E6%9E%90/</guid>
+      <guid>https://fridacai.vercel.app/categories/mkt/</guid>
       <description></description>
     </item>
     <item>
@@ -72,115 +58,24 @@
       <description></description>
     </item>
     <item>
-      <title>WordPress</title>
-      <link>https://fridacai.vercel.app/categories/wordpress/</link>
+      <title>Web3</title>
+      <link>https://fridacai.vercel.app/categories/web3/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/wordpress/</guid>
+      <guid>https://fridacai.vercel.app/categories/web3/</guid>
       <description></description>
     </item>
     <item>
-      <title>电商</title>
-      <link>https://fridacai.vercel.app/categories/%E7%94%B5%E5%95%86/</link>
+      <title>工作流</title>
+      <link>https://fridacai.vercel.app/categories/%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E7%94%B5%E5%95%86/</guid>
+      <guid>https://fridacai.vercel.app/categories/%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
       <description></description>
     </item>
     <item>
-      <title>工具</title>
-      <link>https://fridacai.vercel.app/categories/%E5%B7%A5%E5%85%B7/</link>
+      <title>项目实战</title>
+      <link>https://fridacai.vercel.app/categories/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E5%B7%A5%E5%85%B7/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>技术</title>
-      <link>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>技术教程</title>
-      <link>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>教程</title>
-      <link>https://fridacai.vercel.app/categories/%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E6%95%99%E7%A8%8B/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>经济</title>
-      <link>https://fridacai.vercel.app/categories/%E7%BB%8F%E6%B5%8E/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E7%BB%8F%E6%B5%8E/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>品牌</title>
-      <link>https://fridacai.vercel.app/categories/%E5%93%81%E7%89%8C/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E5%93%81%E7%89%8C/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>区块链</title>
-      <link>https://fridacai.vercel.app/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E5%8C%BA%E5%9D%97%E9%93%BE/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>趋势</title>
-      <link>https://fridacai.vercel.app/categories/%E8%B6%8B%E5%8A%BF/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E8%B6%8B%E5%8A%BF/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>商业</title>
-      <link>https://fridacai.vercel.app/categories/%E5%95%86%E4%B8%9A/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E5%95%86%E4%B8%9A/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>生活随笔</title>
-      <link>https://fridacai.vercel.app/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>思考</title>
-      <link>https://fridacai.vercel.app/categories/%E6%80%9D%E8%80%83/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E6%80%9D%E8%80%83/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>网站</title>
-      <link>https://fridacai.vercel.app/categories/%E7%BD%91%E7%AB%99/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E7%BD%91%E7%AB%99/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>文学</title>
-      <link>https://fridacai.vercel.app/categories/%E6%96%87%E5%AD%A6/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E6%96%87%E5%AD%A6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>项目</title>
-      <link>https://fridacai.vercel.app/categories/%E9%A1%B9%E7%9B%AE/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E9%A1%B9%E7%9B%AE/</guid>
+      <guid>https://fridacai.vercel.app/categories/%E9%A1%B9%E7%9B%AE%E5%AE%9E%E6%88%98/</guid>
       <description></description>
     </item>
     <item>
@@ -191,24 +86,24 @@
       <description></description>
     </item>
     <item>
-      <title>协作</title>
-      <link>https://fridacai.vercel.app/categories/%E5%8D%8F%E4%BD%9C/</link>
+      <title>心理学</title>
+      <link>https://fridacai.vercel.app/categories/%E5%BF%83%E7%90%86%E5%AD%A6/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E5%8D%8F%E4%BD%9C/</guid>
+      <guid>https://fridacai.vercel.app/categories/%E5%BF%83%E7%90%86%E5%AD%A6/</guid>
       <description></description>
     </item>
     <item>
-      <title>营销</title>
-      <link>https://fridacai.vercel.app/categories/%E8%90%A5%E9%94%80/</link>
+      <title>游戏</title>
+      <link>https://fridacai.vercel.app/categories/%E6%B8%B8%E6%88%8F/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E8%90%A5%E9%94%80/</guid>
+      <guid>https://fridacai.vercel.app/categories/%E6%B8%B8%E6%88%8F/</guid>
       <description></description>
     </item>
     <item>
-      <title>知识</title>
-      <link>https://fridacai.vercel.app/categories/%E7%9F%A5%E8%AF%86/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E7%9F%A5%E8%AF%86/</guid>
+      <title>Blog</title>
+      <link>https://fridacai.vercel.app/categories/blog/</link>
+      <pubDate>Fri, 06 Feb 2026 02:15:39 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/categories/blog/</guid>
       <description></description>
     </item>
     <item>
@@ -219,6 +114,13 @@
       <description></description>
     </item>
     <item>
+      <title>生活随笔</title>
+      <link>https://fridacai.vercel.app/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</link>
+      <pubDate>Thu, 29 Jan 2026 01:38:04 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>越剧</title>
       <link>https://fridacai.vercel.app/categories/%E8%B6%8A%E5%89%A7/</link>
       <pubDate>Thu, 29 Jan 2026 01:38:04 +0800</pubDate>
@@ -226,17 +128,17 @@
       <description></description>
     </item>
     <item>
-      <title>MKT</title>
-      <link>https://fridacai.vercel.app/categories/mkt/</link>
-      <pubDate>Wed, 28 Jan 2026 16:57:21 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/mkt/</guid>
+      <title>技术教程</title>
+      <link>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Thu, 29 Jan 2026 01:22:43 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>
-      <title>网络</title>
-      <link>https://fridacai.vercel.app/categories/%E7%BD%91%E7%BB%9C/</link>
-      <pubDate>Wed, 28 Jan 2026 16:47:31 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/%E7%BD%91%E7%BB%9C/</guid>
+      <title>网站</title>
+      <link>https://fridacai.vercel.app/categories/%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Thu, 29 Jan 2026 01:22:43 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/categories/%E7%BD%91%E7%AB%99/</guid>
       <description></description>
     </item>
     <item>
@@ -244,13 +146,6 @@
       <link>https://fridacai.vercel.app/categories/seo/</link>
       <pubDate>Wed, 28 Jan 2026 16:46:42 +0800</pubDate>
       <guid>https://fridacai.vercel.app/categories/seo/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Linkedin</title>
-      <link>https://fridacai.vercel.app/categories/linkedin/</link>
-      <pubDate>Wed, 28 Jan 2026 16:45:19 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/categories/linkedin/</guid>
       <description></description>
     </item>
     <item>

@@ -41,7 +41,10 @@
     </header>
 
     <!-- 文章列表 -->
-    {{ $posts := where .Site.RegularPages "Section" "posts" | sort "Date" "desc" | .Paginator }}
+    {{ $allPosts := where .Site.RegularPages "Section" "posts" }}
+    {{ $sortedPosts := sort $allPosts "Date" "desc" }}
+    {{ $paginator := .Paginate $sortedPosts }}
+    {{ $posts := $paginator.Pages }}
     {{ if $posts }}
       {{ partial "content/post-list.html" (dict "posts" $posts) }}
     {{ else }}

@@ -9,20 +9,6 @@
     <lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate>
     <atom:link href="https://fridacai.vercel.app/categories/ai/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI 发展编年史：2021-2026 年 2 月</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/ai-%E5%8F%91%E5%B1%95%E7%BC%96%E5%B9%B4%E5%8F%B22021-2026-%E5%B9%B4-2-%E6%9C%88/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/ai-%E5%8F%91%E5%B1%95%E7%BC%96%E5%B9%B4%E5%8F%B22021-2026-%E5%B9%B4-2-%E6%9C%88/</guid>
-      <description>&lt;h1 id=&#34;ai发展编年史2021-2026年2月&#34;&gt;AI发展编年史：2021-2026年2月&lt;/h1&gt;&#xA;&lt;h2 id=&#34;2021年基础模型时代的序章&#34;&gt;2021年：基础模型时代的序章&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;2021年1月&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OpenAI发布DALL-E，首次展示文本生成图像的能力，能够根据自然语言描述创建原创图像&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2021年5月&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Google发布LaMDA（Language Model for Dialogue Applications），专注于对话应用的语言模型&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2021年7月&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI 时代的个人竞争力：在信息洪流中保持独特价值</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AB%9E%E4%BA%89%E5%8A%9B%E5%9C%A8%E4%BF%A1%E6%81%AF%E6%B4%AA%E6%B5%81%E4%B8%AD%E4%BF%9D%E6%8C%81%E7%8B%AC%E7%89%B9%E4%BB%B7%E5%80%BC/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AB%9E%E4%BA%89%E5%8A%9B%E5%9C%A8%E4%BF%A1%E6%81%AF%E6%B4%AA%E6%B5%81%E4%B8%AD%E4%BF%9D%E6%8C%81%E7%8B%AC%E7%89%B9%E4%BB%B7%E5%80%BC/</guid>
-      <description>&lt;h1 id=&#34;ai时代的个人竞争力在信息洪流中保持独特价值&#34;&gt;AI时代的个人竞争力：在信息洪流中保持独特价值&lt;/h1&gt;&#xA;&lt;p&gt;当ChatGPT在2022年末横空出世时,我们目睹了一个分水岭。AI不再是科幻电影里的概念,而是真实地坐在每个人的屏幕对面,能写代码、能作诗、能分析数据、能生成图像。紧接着,各类AI工具如雨后春笋般涌现,信息的生产速度呈指数级增长。这让许多人陷入焦虑:当AI几秒钟就能完成我几小时的工作时,我的价值在哪里?个人能力是否正在被这股技术浪潮抹平?&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>AI 使用进阶技巧：那些不为人知的高效方法</title>
       <link>https://fridacai.vercel.app/blog/2026/03/ai-%E4%BD%BF%E7%94%A8%E8%BF%9B%E9%98%B6%E6%8A%80%E5%B7%A7%E9%82%A3%E4%BA%9B%E4%B8%8D%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E9%AB%98%E6%95%88%E6%96%B9%E6%B3%95/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
@@ -58,10 +44,10 @@
       <description>&lt;h1 id=&#34;智能体的自主决策之旅从单一任务到多智能体协作&#34;&gt;智能体的自主决策之旅：从单一任务到多智能体协作&lt;/h1&gt;&#xA;&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;想象这样一个场景：你对AI助手说&amp;quot;帮我规划下周去京都的旅行&amp;quot;，它不仅能理解你的需求，还能自动分解任务、查询天气、搜索景点、预订酒店、规划路线，甚至在遇到问题时调整策略。这就是现代智能体（Agent）的能力——它们不再是被动响应指令的程序，而是能够自主思考、规划和行动的智能系统。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>pixelHQ</title>
-      <link>https://fridacai.vercel.app/blog/2026/02/pixelhq/</link>
-      <pubDate>Fri, 06 Feb 2026 01:54:01 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/02/pixelhq/</guid>
+      <title>大语言模型汇总（LLMs）</title>
+      <link>https://fridacai.vercel.app/blog/2026/02/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E6%B1%87%E6%80%BBllms/</link>
+      <pubDate>Sat, 07 Feb 2026 00:25:29 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/02/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B%E6%B1%87%E6%80%BBllms/</guid>
       <description>文章摘要</description>
     </item>
   </channel>
