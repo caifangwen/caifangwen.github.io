@@ -1,13 +1,14 @@
 ---
 title: Hugo 主题合并提示词指南
-date: 2026-03-25T20:05:08-07:00
+slug: "hugo-prompt"
+date: 2026-03-26T12:00:00+08:00
 draft: false
 tags:
   - Hugo
   - 博客
 categories:
   - 技术博客
-description: “本文档将合并流程拆解为可逐步执行的提示词，每一步对应一个独立操作，粘贴给 AI 即可驱动执行。”
+description: "本文档将合并流程拆解为可逐步执行的提示词，每一步对应一个独立操作，粘贴给 AI 即可驱动执行。"
 ---
 
 ## 合并思路总览

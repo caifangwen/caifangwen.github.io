@@ -1,8 +1,13 @@
 ---
 title: "Hugo Narrow 网站结构详解"
-date: 2026-03-26
+slug: "hugo-narrow-site-structure"
+date: 2026-03-26T12:00:00+08:00
+draft: false
+description: "全面了解 Hugo Narrow 主题的项目结构、页面组成和模板层次结构"
 summary: "全面了解 Hugo Narrow 主题的项目结构、页面组成和模板层次结构"
-categories: ["技术"]
+keywords: ["Hugo", "网站结构", "文档", "narrow"]
+author: "Frida"
+categories: ["技术博客"]
 tags: ["Hugo", "网站结构", "文档"]
 toc:
   enabled: true

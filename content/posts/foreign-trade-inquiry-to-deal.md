@@ -1,6 +1,7 @@
 ---
 title: "外贸询盘到成交：完整操作流程详解"
-date: 2026-03-26
+slug: "foreign-trade-inquiry-to-deal"
+date: 2026-03-26T12:00:00+08:00
 draft: false
 description: "从收到客户询盘到最终成交，外贸业务员必须掌握的每一个关键步骤，助你提升转化率，规避风险。"
 tags: ["外贸", "询盘", "成交", "销售技巧", "跟单"]

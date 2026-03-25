@@ -1,6 +1,7 @@
 ---
 title: "独立站合作：订单归属如何认定，还是找个跟单助手？"
-date: 2025-03-26
+slug: "order-attribution-vs-assistant"
+date: 2026-03-26T12:00:00+08:00
 draft: false
 tags: ["独立站", "外贸", "订单归属", "跟单", "合作管理"]
 categories: ["外贸运营"]
