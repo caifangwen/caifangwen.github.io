@@ -1,13 +1,17 @@
 ---
-title: "数据库重构 Prompt 合集"
-description: "从扫描现有数据库开始，分析问题、设计新架构、执行迁移、验证回滚的完整 Prompt 工作流"
+title: 数据库重构 Prompt 合集
+description: 从扫描现有数据库开始，分析问题、设计新架构、执行迁移、验证回滚的完整 Prompt 工作流
 date: 2026-03-19
 lastmod: 2026-03-19
-weight: 1
 draft: false
-author: "DBA Team"
-categories: ["游戏开发"]
-tags: ["refactoring", "migration", "schema", "prompt"]
+author: DBA Team
+categories:
+  - 游戏开发
+tags:
+  - refactoring
+  - migration
+  - schema
+  - prompt
 toc: true
 ---
 
