@@ -1,9 +1,12 @@
 ---
-title: “Hugo 主题配置与个人项目配置合并指南”
+title: Hugo 主题配置与个人项目配置合并指南
 date: 2026-03-24T20:05:08-07:00
 draft: false
-tags: [“hugo”, “theme”, “config”]
-categories: [“建站”]
+tags:
+  - Hugo
+  - 博客
+categories:
+  - 技术博客
 description: “如何安全地将 Hugo 主题配置合并到个人项目中，最终移除主题依赖并保留所有个性化内容。”
 ---
 
