@@ -524,9 +524,23 @@
               "icon": "lucide-file",
               "title": "从零手搓一个Web3应用：完整技术指南"
             }
+          },
+          {
+            "id": "3ba338632677a8f2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "discussions/碎碎念.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "碎碎念"
+            }
           }
         ],
-        "currentTab": 36
+        "currentTab": 37
       }
     ],
     "direction": "vertical"
@@ -673,8 +687,14 @@
       "bases:新建数据库": false
     }
   },
-  "active": "a0dc903facbde06a",
+  "active": "3ba338632677a8f2",
   "lastOpenFiles": [
+    "discussions/问题.md",
+    "discussions/阅读.md",
+    "discussions/碎碎念.md",
+    "discussions/_index.md",
+    "posts/从零手搓一个Web3应用：完整技术指南.md",
+    "posts/hugo prompt.md",
     "posts/WordPress 文件目录架构深度解析.md.tmp",
     "posts/Web3：从理想主义到现实重塑的技术革命.md.tmp",
     "posts/V2Ray节点配置技术详解：代码深度解析与实践补充.md",
@@ -688,9 +708,6 @@
     "about/_index.zh-cn.md",
     "posts/hugo-layouts-guide.md",
     "archives/_index.md",
-    "discussions/_index.md",
-    "discussions/问题.md",
-    "discussions/阅读.md",
     "docs/getting-started.md",
     "_index.md",
     "_index.zh-cn.md",
@@ -701,8 +718,6 @@
     "posts/organize-multiple-skills.md",
     "posts/ai-technical-breakthroughs-deep-dive.md",
     "posts/hugo-project-structure.md",
-    "posts/大观园_游戏设计文档.md",
-    "posts/2026 手机终端神器推荐.md",
     "未命名.canvas",
     "未命名",
     "temp",
