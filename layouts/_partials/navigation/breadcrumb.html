@@ -1,12 +1,12 @@
 <nav
   class="breadcrumb mx-3 md:mx-4 mb-2 md:mb-3"
   aria-label="{{ i18n "nav.breadcrumb" | default "面包屑导航" }}">
-  <ol class="text-muted-foreground flex items-center space-x-1 md:space-x-1.5 text-xs overflow-x-auto whitespace-nowrap scrollbar-hide">
+  <ol class="text-muted-foreground flex items-center space-x-1 md:space-x-1.5 text-xs overflow-x-auto whitespace-nowrap scrollbar-hide p-0 m-0 list-none">
     <!-- 首页链接 -->
     <li class="flex-shrink-0">
       <a
         href="{{ "/" | relLangURL }}"
-        class="text-muted-foreground hover:text-primary hover:bg-primary/10 flex items-center gap-0.5 rounded px-0 py-0.5 transition-all duration-200 ease-out">
+        class="text-muted-foreground hover:text-primary hover:bg-primary/10 flex items-center -ml-0.5 gap-0.5 rounded px-0 py-0.5 transition-all duration-200 ease-out">
         <span class="truncate">{{ i18n "nav.home" | default "首页" }}</span>
       </a>
     </li>

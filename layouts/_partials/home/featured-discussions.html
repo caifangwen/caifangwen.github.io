@@ -5,7 +5,7 @@
 
 {{ if $featuredDiscussions }}
   <section class="featured-discussions">
-      <div class="mb-4 flex items-center justify-between md:mb-6">
+    <div class="mb-4 flex items-center justify-between md:mb-6">
       <h2 class="text-foreground text-2xl font-bold">
         {{ i18n "nav.discussions" | default "讨论" }}
       </h2>
@@ -17,43 +17,23 @@
       </a>
     </div>
 
-    <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="space-y-4">
       {{ range $featuredDiscussions }}
         <article class="group">
-          <a
-            href="{{ .RelPermalink }}"
-            class="bg-card border-border hover:border-primary/20 hover:bg-primary/5 focus:ring-primary/20 flex h-full flex-col overflow-hidden rounded-xl border transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
-            
-            <!-- 讨论图标区域 -->
-            <div class="bg-gradient-to-br from-primary/10 to-primary/5 flex items-center justify-center p-8">
-              <div class="bg-primary/10 text-primary flex h-16 w-16 items-center justify-center rounded-full">
-                {{ partial "features/icon.html" (dict "name" "message-circle" "size" "lg" "ariaLabel" "") }}
-              </div>
-            </div>
-
-            <!-- 讨论内容 -->
-            <div class="flex flex-1 flex-col p-4">
-              <h3 class="text-foreground group-hover:text-primary mb-2 line-clamp-2 text-base font-semibold leading-tight transition-colors">
+          <a href="{{ .RelPermalink }}" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-lg focus:ring-2 focus:outline-none">
+              <h3 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
                 {{ .Title }}
               </h3>
-
-              {{ if .Params.summary }}
-                <p class="text-muted-foreground mb-3 line-clamp-2 text-sm leading-relaxed">
-                  {{ .Params.summary | plainify }}
-                </p>
-              {{ else if .Summary }}
-                <p class="text-muted-foreground mb-3 line-clamp-2 text-sm leading-relaxed">
-                  {{ .Summary | plainify }}
+              {{ if or .Params.summary .Params.description }}
+                <p class="text-muted-foreground mt-2 text-sm leading-relaxed">
+                  {{ if .Params.summary }}
+                    {{ .Params.summary }}
+                  {{ else }}
+                    {{ .Params.description }}
+                  {{ end }}
                 </p>
               {{ end }}
-
-              <!-- 元信息 -->
-              <div class="text-muted-foreground mt-auto flex items-center gap-2 text-xs">
-                {{ partial "features/icon.html" (dict "name" "calendar" "size" "xs" "ariaLabel" "") }}
-                <time datetime="{{ .Date.Format "2006-01-02" }}">
-                  {{ .Date.Format (i18n "time.date_format" | default "2006年01月02日") }}
-                </time>
-              </div>
             </div>
           </a>
         </article>
