@@ -1,5 +1,6 @@
 ---
 title: Hugo 静态网站生成器深度解析
+slug: "hugo-static-site-generator"
 date: 2026-02-07T23:59:21+08:00
 draft: false
 description: 在这里输入简短的描述，用于 SEO 和列表页预览

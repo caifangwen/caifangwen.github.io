@@ -1,5 +1,6 @@
 ---
 title: Vue 脚手架深度解析
+slug: "vue-cli-deep-dive"
 date: 2026-02-08T00:00:09+08:00
 draft: false
 description: 在这里输入简短的描述

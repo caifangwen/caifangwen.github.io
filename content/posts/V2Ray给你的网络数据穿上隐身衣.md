@@ -1,5 +1,6 @@
 ---
 title: V2Ray给你的网络数据穿上隐身衣
+slug: "v2ray-network-stealth"
 date: 2026-02-08T00:01:18+08:00
 draft: false
 description: 在这里输入简短的描述

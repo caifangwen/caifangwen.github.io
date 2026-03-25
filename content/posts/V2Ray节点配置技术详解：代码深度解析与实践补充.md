@@ -1,5 +1,6 @@
 ---
 title: V2Ray节点配置技术详解：代码深度解析与实践补充
+slug: "v2ray-node-config-technical"
 date: 2026-02-08T00:01:51+08:00
 draft: false
 description: 在这里输入简短的描述

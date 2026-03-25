@@ -1,5 +1,6 @@
 ---
 title: Untitled 15
+slug: "web3-application-ecosystem"
 date: 2026-02-08T00:18:29+08:00
 draft: true
 description: "在这里输入简短的描述"

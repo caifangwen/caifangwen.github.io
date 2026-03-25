@@ -1,5 +1,6 @@
 ---
 title: V2Ray深度解析：原理、功能与完整配置指南
+slug: "v2ray-deep-dive-complete-guide"
 date: 2026-02-08T00:00:49+08:00
 draft: false
 description: 在这里输入简短的描述

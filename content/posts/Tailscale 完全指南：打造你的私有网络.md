@@ -1,5 +1,6 @@
 ---
 title: Tailscale 完全指南：打造你的私有网络
+slug: "tailscale-private-network-guide"
 date: 2026-02-08T00:03:15+08:00
 draft: false
 description: 在这里输入简短的描述

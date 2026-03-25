@@ -1,5 +1,6 @@
 ---
 title: Git：改变世界的版本控制系统
+slug: "git-version-control-system"
 date: 2026-02-08T00:02:52+08:00
 draft: false
 description: 在这里输入简短的描述

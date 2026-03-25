@@ -1,5 +1,6 @@
 ---
 title: WordPress 建站从零到一指南
+slug: "wordpress-website-build-guide"
 date: 2026-02-03T09:55:52+08:00
 draft: false
 description: 从域名购买到站点上线，再到 B2B 独立站的搭建思路，本文带你梳理 WordPress 建站的完整流程，并附带与 Hugo 静态站的方案对比，帮你找到最适合自己的路径。

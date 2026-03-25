@@ -1,5 +1,6 @@
 ---
 title: 深入浅出理解 Web3 区块链：从技术到代码
+slug: "web3-blockchain-technical-guide"
 date: 2026-02-08T00:20:36+08:00
 draft: false
 description: 在这里输入简短的描述

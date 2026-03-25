@@ -1,5 +1,6 @@
 ---
 title: Web3应用实战开发：构建一个去中心化的任务悬赏平台
+slug: "web3-decentralized-bounty-platform"
 date: 2026-02-08T00:03:03+08:00
 draft: false
 description: 在这里输入简短的描述

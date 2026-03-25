@@ -1,5 +1,6 @@
 ---
 title: Web3应用的落地之路：从复杂概念到指尖应用
+slug: "web3-concept-to-application"
 date: 2026-02-08T00:19:30+08:00
 draft: false
 description: 在这里输入简短的描述

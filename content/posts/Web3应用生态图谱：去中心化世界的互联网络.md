@@ -1,5 +1,6 @@
 ---
 title: Web3应用生态图谱：去中心化世界的互联网络
+slug: "web3-ecosystem-interconnected"
 date: 2026-02-08T00:18:49+08:00
 draft: false
 description: 在这里输入简短的描述

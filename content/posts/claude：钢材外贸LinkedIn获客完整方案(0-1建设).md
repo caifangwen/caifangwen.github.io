@@ -1,5 +1,6 @@
 ---
 title: claude：钢材外贸LinkedIn获客完整方案(0-1建设)
+slug: "steel-export-linkedin-acquisition"
 date: 2026-01-28T16:45:19+08:00
 draft: false
 description: ""

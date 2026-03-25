@@ -1,5 +1,6 @@
 ---
 title: WordPress 文件目录架构深度解析
+slug: "wordpress-file-architecture"
 date: 2026-02-07T23:58:44+08:00
 draft: false
 description: 在这里输入简短的描述，用于 SEO 和列表页预览

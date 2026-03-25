@@ -1,5 +1,6 @@
 ---
 title: 从零手搓一个Web3应用：完整技术指南
+slug: "build-web3-app-from-scratch"
 date: 2026-02-08T00:19:00+08:00
 draft: false
 description: 在这里输入简短的描述

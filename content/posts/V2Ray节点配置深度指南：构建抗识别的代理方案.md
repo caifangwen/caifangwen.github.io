@@ -1,5 +1,6 @@
 ---
 title: V2Ray节点配置深度指南：构建抗识别的代理方案
+slug: "v2ray-node-config-anti-detection"
 date: 2026-02-08T00:01:39+08:00
 draft: false
 description: 在这里输入简短的描述

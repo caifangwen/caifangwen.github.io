@@ -1,5 +1,6 @@
 ---
 title: Web3：从理想主义到现实重塑的技术革命
+slug: "web3-idealism-to-reality"
 date: 2026-02-08T00:03:30+08:00
 draft: false
 description: 在这里输入简短的描述

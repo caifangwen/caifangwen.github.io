@@ -1,5 +1,6 @@
 ---
 title: 大语言模型汇总（LLMs）
+slug: "large-language-models-summary"
 date: 2026-02-07T00:25:29+08:00
 draft: false
 description: 在这里输入简短的描述，用于 SEO 和列表页预览

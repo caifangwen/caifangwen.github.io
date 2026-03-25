@@ -1,5 +1,6 @@
 ---
 title: "Hugo 博客配置与部署指南"
+slug: "hugo-blog-setup-deployment-guide"
 date: 2026-01-26T20:00:00+08:00
 draft: false
 description: "Gemini 提供的详细 Hugo 博客配置、主题设置和部署流程指南"
