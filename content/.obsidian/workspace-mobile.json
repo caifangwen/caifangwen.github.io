@@ -531,12 +531,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/hugo-narrow-site-structure.md",
+                "file": "_index.zh-cn.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "hugo-narrow-site-structure"
+              "title": "_index.zh-cn"
             }
           }
         ],
@@ -689,8 +689,9 @@
   },
   "active": "3ba338632677a8f2",
   "lastOpenFiles": [
-    "discussions/碎碎念.md",
+    "_index.md",
     "posts/hugo-narrow-site-structure.md",
+    "discussions/碎碎念.md",
     "discussions/问题.md",
     "discussions/阅读.md",
     "discussions/_index.md",
@@ -710,7 +711,6 @@
     "posts/hugo-layouts-guide.md",
     "archives/_index.md",
     "docs/getting-started.md",
-    "_index.md",
     "_index.zh-cn.md",
     "posts/database-refactoring-prompts.md",
     "posts/git-rebase-guide.md",
