@@ -149,21 +149,14 @@
   position: relative;
 }
 
-.prose blockquote::before {
-  content: '"';
-  font-size: 4rem;
-  color: color-mix(in srgb, var(--color-primary) 20%, transparent);
-  position: absolute;
-  top: -0.5rem;
-  left: 1rem;
-  font-family: serif;
-  line-height: 1;
+.prose blockquote {
+  border-left-color: var(--color-primary);
+  background: color-mix(in srgb, var(--color-primary) 5%, transparent);
 }
 
 .prose blockquote p {
   margin: 0;
-  font-style: italic;
-  font-size: 1.1rem;
+  font-size: 1rem;
   color: var(--tw-prose-quotes);
 }
 

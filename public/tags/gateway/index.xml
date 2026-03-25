@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gateway on Frida</title><link>https://fridacai.vercel.app/tags/gateway/</link><description>Recent content in Gateway on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/tags/gateway/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenClaw Gateway 深度解析：龙虾的心脏是怎么跳动的</title><link>https://fridacai.vercel.app/blog/2026/03/openclaw-gateway-deep-dive/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/openclaw-gateway-deep-dive/</guid><description>&lt;h2 id="一句话定义"&gt;一句话定义&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gateway on Frida</title><link>https://fridacai.vercel.app/tags/gateway/</link><description>Recent content in Gateway on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/tags/gateway/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenClaw Gateway 深度解析：龙虾的心脏是怎么跳动的</title><link>https://fridacai.vercel.app/blog/openclaw-gateway-deep-dive/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/openclaw-gateway-deep-dive/</guid><description>&lt;h2 id="一句话定义"&gt;一句话定义&lt;/h2&gt;
 
  &lt;blockquote
  class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1"&gt;
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 &lt;/script&gt;
 
-&lt;p&gt;如果 OpenClaw 是一家公司，Gateway 就是前台总机：它不做实际业务，但没有它，任何人都联系不上任何人。&lt;/p&gt;</description></item><item><title>单 Gateway 多 Agent：一台机器运行一支 AI 团队</title><link>https://fridacai.vercel.app/blog/2026/03/openclaw-single-gateway-multi-agent/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/openclaw-single-gateway-multi-agent/</guid><description>&lt;h2 id="先讲清楚一件事gateway-和-agent-的关系"&gt;先讲清楚一件事：Gateway 和 Agent 的关系&lt;/h2&gt;
+&lt;p&gt;如果 OpenClaw 是一家公司，Gateway 就是前台总机：它不做实际业务，但没有它，任何人都联系不上任何人。&lt;/p&gt;</description></item><item><title>单 Gateway 多 Agent：一台机器运行一支 AI 团队</title><link>https://fridacai.vercel.app/blog/openclaw-single-gateway-multi-agent/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/openclaw-single-gateway-multi-agent/</guid><description>&lt;h2 id="先讲清楚一件事gateway-和-agent-的关系"&gt;先讲清楚一件事：Gateway 和 Agent 的关系&lt;/h2&gt;
 &lt;p&gt;很多人第一次看到&amp;quot;单 Gateway 多 Agent&amp;quot;这个词会以为它是某种复杂的分布式架构。其实不然。&lt;/p&gt;
 &lt;p&gt;用一个比喻来说：&lt;/p&gt;
 

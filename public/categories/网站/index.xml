@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网站 on Frida</title><link>https://fridacai.vercel.app/categories/%E7%BD%91%E7%AB%99/</link><description>Recent content in 网站 on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 29 Jan 2026 01:22:43 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo完整使用指南</title><link>https://fridacai.vercel.app/blog/2026/01/hugo%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link><pubDate>Thu, 29 Jan 2026 01:22:43 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/01/hugo%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid><description>&lt;h1 id="hugo-narrow-主题完整使用指南"&gt;Hugo Narrow 主题完整使用指南&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>网站 on Frida</title><link>https://fridacai.vercel.app/categories/%E7%BD%91%E7%AB%99/</link><description>Recent content in 网站 on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 29 Jan 2026 01:22:43 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/%E7%BD%91%E7%AB%99/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo完整使用指南</title><link>https://fridacai.vercel.app/blog/hugo%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link><pubDate>Thu, 29 Jan 2026 01:22:43 +0800</pubDate><guid>https://fridacai.vercel.app/blog/hugo%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid><description>&lt;h1 id="hugo-narrow-主题完整使用指南"&gt;Hugo Narrow 主题完整使用指南&lt;/h1&gt;
 &lt;h2 id="-已修复问题"&gt;🔧 已修复问题&lt;/h2&gt;
 &lt;h3 id="-问题1首页菜单栏出现-getting-startedcustomizationfaqbasic-elements"&gt;✅ 问题1：首页菜单栏出现 &amp;ldquo;Getting started、Customization、FAQ、Basic Elements&amp;rdquo;&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;问题原因&lt;/strong&gt;：
-这些是示例文档页面，它们的 front matter 中设置了 &lt;code&gt;menu: main&lt;/code&gt;，导致自动添加到主导航菜单。&lt;/p&gt;</description></item><item><title>archetypes-集合</title><link>https://fridacai.vercel.app/blog/2026/01/archetypes-%E9%9B%86%E5%90%88/</link><pubDate>Thu, 29 Jan 2026 01:22:32 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/01/archetypes-%E9%9B%86%E5%90%88/</guid><description>&lt;h1 id="hugo-archetypes-模板集合"&gt;Hugo Archetypes 模板集合&lt;/h1&gt;
+这些是示例文档页面，它们的 front matter 中设置了 &lt;code&gt;menu: main&lt;/code&gt;，导致自动添加到主导航菜单。&lt;/p&gt;</description></item><item><title>archetypes-集合</title><link>https://fridacai.vercel.app/blog/archetypes-%E9%9B%86%E5%90%88/</link><pubDate>Thu, 29 Jan 2026 01:22:32 +0800</pubDate><guid>https://fridacai.vercel.app/blog/archetypes-%E9%9B%86%E5%90%88/</guid><description>&lt;h1 id="hugo-archetypes-模板集合"&gt;Hugo Archetypes 模板集合&lt;/h1&gt;
 &lt;h2 id="说明"&gt;说明&lt;/h2&gt;
 &lt;p&gt;将这些文件放到 &lt;code&gt;archetypes/&lt;/code&gt; 目录下&lt;/p&gt;
 &lt;hr&gt;
@@ -307,7 +307,7 @@
  }
 })();
 &lt;/script&gt;
-&lt;p&gt;&lt;strong&gt;使用&lt;/strong&gt;: &lt;code&gt;hugo new posts/my-post.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>语言设置和Meta优化说明</title><link>https://fridacai.vercel.app/blog/2026/01/%E8%AF%AD%E8%A8%80%E8%AE%BE%E7%BD%AE%E5%92%8Cmeta%E4%BC%98%E5%8C%96%E8%AF%B4%E6%98%8E/</link><pubDate>Thu, 29 Jan 2026 01:22:24 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/01/%E8%AF%AD%E8%A8%80%E8%AE%BE%E7%BD%AE%E5%92%8Cmeta%E4%BC%98%E5%8C%96%E8%AF%B4%E6%98%8E/</guid><description>&lt;h1 id="hugo-项目语言设置和-meta-信息优化说明"&gt;Hugo 项目语言设置和 Meta 信息优化说明&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;使用&lt;/strong&gt;: &lt;code&gt;hugo new posts/my-post.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>语言设置和Meta优化说明</title><link>https://fridacai.vercel.app/blog/%E8%AF%AD%E8%A8%80%E8%AE%BE%E7%BD%AE%E5%92%8Cmeta%E4%BC%98%E5%8C%96%E8%AF%B4%E6%98%8E/</link><pubDate>Thu, 29 Jan 2026 01:22:24 +0800</pubDate><guid>https://fridacai.vercel.app/blog/%E8%AF%AD%E8%A8%80%E8%AE%BE%E7%BD%AE%E5%92%8Cmeta%E4%BC%98%E5%8C%96%E8%AF%B4%E6%98%8E/</guid><description>&lt;h1 id="hugo-项目语言设置和-meta-信息优化说明"&gt;Hugo 项目语言设置和 Meta 信息优化说明&lt;/h1&gt;
 &lt;h2 id="执行日期"&gt;执行日期&lt;/h2&gt;
 &lt;p&gt;2026-01-28&lt;/p&gt;
 &lt;h2 id="修改内容"&gt;修改内容&lt;/h2&gt;
@@ -325,7 +325,7 @@
 &lt;li&gt;&lt;strong&gt;说明&lt;/strong&gt;: 将中文语言代码从 &lt;code&gt;zh&lt;/code&gt; 改为 &lt;code&gt;zh-cn&lt;/code&gt;,确保与默认语言设置一致&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="2-meta-信息补全"&gt;2. Meta 信息补全&lt;/h3&gt;
-&lt;p&gt;为以下文章添加了完整的 meta 信息,包括:&lt;/p&gt;</description></item><item><title>完整修复报告</title><link>https://fridacai.vercel.app/blog/2026/01/%E5%AE%8C%E6%95%B4%E4%BF%AE%E5%A4%8D%E6%8A%A5%E5%91%8A/</link><pubDate>Thu, 29 Jan 2026 01:22:17 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/01/%E5%AE%8C%E6%95%B4%E4%BF%AE%E5%A4%8D%E6%8A%A5%E5%91%8A/</guid><description>&lt;h1 id="hugo-项目完整修复报告"&gt;Hugo 项目完整修复报告&lt;/h1&gt;
+&lt;p&gt;为以下文章添加了完整的 meta 信息,包括:&lt;/p&gt;</description></item><item><title>完整修复报告</title><link>https://fridacai.vercel.app/blog/%E5%AE%8C%E6%95%B4%E4%BF%AE%E5%A4%8D%E6%8A%A5%E5%91%8A/</link><pubDate>Thu, 29 Jan 2026 01:22:17 +0800</pubDate><guid>https://fridacai.vercel.app/blog/%E5%AE%8C%E6%95%B4%E4%BF%AE%E5%A4%8D%E6%8A%A5%E5%91%8A/</guid><description>&lt;h1 id="hugo-项目完整修复报告"&gt;Hugo 项目完整修复报告&lt;/h1&gt;
 &lt;h2 id="-修复概览"&gt;📋 修复概览&lt;/h2&gt;
 &lt;p&gt;本次修复解决了两个主要问题:&lt;/p&gt;
 &lt;ol&gt;
