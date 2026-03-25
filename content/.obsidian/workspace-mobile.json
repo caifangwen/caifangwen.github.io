@@ -531,12 +531,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "discussions/碎碎念.md",
+                "file": "posts/hugo-narrow-site-structure.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "碎碎念"
+              "title": "hugo-narrow-site-structure"
             }
           }
         ],
@@ -689,9 +689,10 @@
   },
   "active": "3ba338632677a8f2",
   "lastOpenFiles": [
+    "discussions/碎碎念.md",
+    "posts/hugo-narrow-site-structure.md",
     "discussions/问题.md",
     "discussions/阅读.md",
-    "discussions/碎碎念.md",
     "discussions/_index.md",
     "posts/从零手搓一个Web3应用：完整技术指南.md",
     "posts/hugo prompt.md",
@@ -717,7 +718,6 @@
     "posts/wordpress-tob-seo-sop.md",
     "posts/organize-multiple-skills.md",
     "posts/ai-technical-breakthroughs-deep-dive.md",
-    "posts/hugo-project-structure.md",
     "未命名.canvas",
     "未命名",
     "temp",
