@@ -20,7 +20,7 @@ permalinks:
 
 # pagination
 pagination:
-  pagerSize: 6
+  pagerSize: 12
   path: "page"
 
 # 分类法配置 - SEO友好的URL
