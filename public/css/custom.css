@@ -12,6 +12,65 @@
   margin-bottom: 5rem !important;
 }
 
+/* ========================================
+   有序列表计数器重置 - 修复嵌套序号问题
+   ======================================== */
+.prose ol ol {
+  counter-reset: item;
+}
+
+/* ========================================
+   引用块样式优化 - 移除斜体和引号
+   ======================================== */
+.prose blockquote {
+  border-left-color: var(--color-primary);
+  background: color-mix(in srgb, var(--color-primary) 5%, transparent);
+}
+
+.prose blockquote p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--tw-prose-quotes);
+  font-style: normal;
+}
+
+.prose blockquote::before {
+  content: none;
+}
+
+/* ========================================
+   移动端白屏修复 - 防止水平溢出
+   ======================================== */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.prose img, .prose video, .prose iframe {
+  max-width: 100%;
+}
+
+.prose pre, .prose table {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+/* 文章详情页面 */
+.single-page {
+  overflow-x: hidden;
+}
+
+/* 代码块容器 */
+.code-block-container {
+  max-width: 100%;
+}
+
+/* 表格容器 */
+.table-wrapper {
+  overflow-x: auto;
+  max-width: 100%;
+}
+
 /* 文章导航 - 移动端优化 */
 @media (max-width: 768px) {
   /* 导航卡片 - 移动端更高 */
