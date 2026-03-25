@@ -1,7 +1,7 @@
 ---
 title: "独立站运营合作：无底薪学徒制下的分成方案设计"
 slug: "solo-site-partnership"
-date: 2026-03-26T12:00:00+08:00
+date: 2026-03-26T05:00:00+08:00
 draft: false
 tags: ["独立站", "外贸", "合作模式", "分成方案", "业务拓展"]
 categories: ["外贸运营"]

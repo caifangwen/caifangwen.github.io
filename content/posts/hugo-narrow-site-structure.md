@@ -1,7 +1,7 @@
 ---
 title: "Hugo Narrow 网站结构详解"
 slug: "hugo-narrow-site-structure"
-date: 2026-03-26T12:00:00+08:00
+date: 2026-03-26T05:00:00+08:00
 draft: false
 description: "全面了解 Hugo Narrow 主题的项目结构、页面组成和模板层次结构"
 summary: "全面了解 Hugo Narrow 主题的项目结构、页面组成和模板层次结构"

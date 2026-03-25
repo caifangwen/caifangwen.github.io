@@ -1,7 +1,7 @@
 ---
 title: "做外贸的核心能力：从独立站到全流程跑通"
 slug: "foreign-trade-core-skills"
-date: 2026-03-26T12:00:00+08:00
+date: 2026-03-26T05:00:00+08:00
 draft: false
 tags: ["外贸", "独立站", "供应链", "跨境电商"]
 categories: ["外贸实战"]
