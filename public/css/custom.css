@@ -15,6 +15,19 @@
 /* ========================================
    有序列表计数器重置 - 修复嵌套序号问题
    ======================================== */
+.prose ol {
+  counter-reset: item;
+}
+
+.prose ol li {
+  counter-increment: item;
+}
+
+.prose ol li::before {
+  content: counter(item);
+}
+
+/* 嵌套有序列表重置计数器 */
 .prose ol ol {
   counter-reset: item;
 }
@@ -69,6 +82,27 @@ html, body {
 .table-wrapper {
   overflow-x: auto;
   max-width: 100%;
+}
+
+/* ========================================
+   移动端首页优化 - 移除作者区域边框
+   ======================================== */
+@media (max-width: 768px) {
+  .author-section {
+    margin-bottom: 2rem !important;
+  }
+
+  .author-section > div {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 1rem 0 !important;
+    background: transparent !important;
+  }
+
+  .author-section img {
+    border: none !important;
+    box-shadow: none !important;
+  }
 }
 
 /* 文章导航 - 移动端优化 */
