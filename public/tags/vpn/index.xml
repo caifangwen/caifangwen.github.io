@@ -1,26 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Vpn on Frida</title>
-    <link>http://localhost:1313/tags/vpn/</link>
-    <description>Recent content in Vpn on Frida</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Tailscale 完全使用指南</title>
-      <link>http://localhost:1313/blog/2026/03/tailscale-%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/tailscale-%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;h1 id=&#34;tailscale-完全使用指南&#34;&gt;Tailscale 完全使用指南&lt;/h1&gt;&#xA;&lt;p&gt;Tailscale 是一个基于 WireGuard 的现代化虚拟私有网络(VPN)解决方案,它能够让你轻松地将分散在不同网络中的设备连接成一个安全的私有网络。与传统 VPN 不同,Tailscale 采用点对点连接,配置简单,几乎零配置即可使用。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>伪装度提升</title>
-      <link>http://localhost:1313/blog/2026/01/%E4%BC%AA%E8%A3%85%E5%BA%A6%E6%8F%90%E5%8D%87/</link>
-      <pubDate>Wed, 28 Jan 2026 16:47:31 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/01/%E4%BC%AA%E8%A3%85%E5%BA%A6%E6%8F%90%E5%8D%87/</guid>
-      <description>&lt;p&gt;在使用 Whoer.net 或 Pixelscan 等工具检测时，伪装度显示为 90% 主要是因为本地设置与 IP 所在地不一致导致的。这 10% 的差距往往就是导致领英、Facebook 注册即风控的“临门一脚”。&#xA;以下是把伪装度从 90% 提升到 100% 的具体处理步骤：&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vpn on Frida</title><link>https://fridacai.vercel.app/tags/vpn/</link><description>Recent content in Vpn on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/tags/vpn/index.xml" rel="self" type="application/rss+xml"/><item><title>Tailscale 完全使用指南</title><link>https://fridacai.vercel.app/blog/2026/03/tailscale-%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link><pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/tailscale-%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid><description>&lt;h1 id="tailscale-完全使用指南"&gt;Tailscale 完全使用指南&lt;/h1&gt;
+&lt;p&gt;Tailscale 是一个基于 WireGuard 的现代化虚拟私有网络(VPN)解决方案,它能够让你轻松地将分散在不同网络中的设备连接成一个安全的私有网络。与传统 VPN 不同,Tailscale 采用点对点连接,配置简单,几乎零配置即可使用。&lt;/p&gt;</description></item><item><title>伪装度提升</title><link>https://fridacai.vercel.app/blog/2026/01/%E4%BC%AA%E8%A3%85%E5%BA%A6%E6%8F%90%E5%8D%87/</link><pubDate>Wed, 28 Jan 2026 16:47:31 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/01/%E4%BC%AA%E8%A3%85%E5%BA%A6%E6%8F%90%E5%8D%87/</guid><description>&lt;p&gt;在使用 Whoer.net 或 Pixelscan 等工具检测时，伪装度显示为 90% 主要是因为本地设置与 IP 所在地不一致导致的。这 10% 的差距往往就是导致领英、Facebook 注册即风控的“临门一脚”。
+以下是把伪装度从 90% 提升到 100% 的具体处理步骤：&lt;/p&gt;</description></item></channel></rss>

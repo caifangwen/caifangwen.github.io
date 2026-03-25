@@ -1,26 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>博客 on Frida</title>
-    <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</link>
-    <description>Recent content in 博客 on Frida</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Tue, 24 Mar 2026 20:05:08 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo 主题配置与个人项目配置合并指南</title>
-      <link>http://localhost:1313/blog/2026/03/hugo-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%90%88%E5%B9%B6%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Tue, 24 Mar 2026 20:05:08 -0700</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/hugo-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%90%88%E5%B9%B6%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;&#xA;&lt;p&gt;在使用 Hugo 主题一段时间后，你可能希望：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;摆脱对上游主题的依赖&lt;/li&gt;&#xA;&lt;li&gt;保留自己多年积累的个性化定制&lt;/li&gt;&#xA;&lt;li&gt;拥有完全自主可控的站点代码&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;本文提供一套系统化的合并流程，帮助你无冲突地完成迁移。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hugo 博客配置与部署指南</title>
-      <link>http://localhost:1313/blog/2026/01/hugo-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Mon, 26 Jan 2026 20:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/01/hugo-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;h1 id=&#34;hugo-博客配置与部署指南&#34;&gt;Hugo 博客配置与部署指南&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Exported:&lt;/strong&gt; 1/26/2026 20:07:55&lt;br&gt;&#xA;&lt;strong&gt;Link:&lt;/strong&gt; &lt;a href=&#34;https://gemini.google.com/app/3e95504292851398?is_sa=1&amp;amp;is_sa=1&amp;amp;android-min-version=301356232&amp;amp;ios-min-version=322.0&amp;amp;campaign_id=bkws&amp;amp;utm_source=sem&amp;amp;utm_medium=paid-media&amp;amp;utm_campaign=bkws&amp;amp;pt=9008&amp;amp;mt=8&amp;amp;ct=p-growth-sem-bkws&amp;amp;gclsrc=aw.ds&amp;amp;gad_source=1&amp;amp;gad_campaignid=20108148196&amp;amp;gbraid=0AAAAApk5BhkGRfyK_DWXNSNRu47zAbVmJ&amp;amp;gclid=Cj0KCQiAvtzLBhCPARIsALwhxdqxQ_0cj6CBmhadov5xN_gDH8GKfxNlxlEL_cdHtmW48Iq-ubMq0QcaArMVEALw_wcB&amp;amp;google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D85c558222e7ec9b1:TM%3D1769482745:C%3D%3E:IP%3D140.82.22.152-:S%3DTQgRSfbi6QvypeTQh9oPIQ;%20path%3D%2F;%20domain%3Dgoogle.com;%20expires%3DTue,%2027-Jan-2026%2005:59:05%20GMT&#34;target=&#34;_blank&#34;&#xD;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xD;&#xA;&gt;https://gemini.google.com/app/3e95504292851398?is_sa=1&amp;amp;is_sa=1&amp;amp;android-min-version=301356232&amp;amp;ios-min-version=322.0&amp;amp;campaign_id=bkws&amp;amp;utm_source=sem&amp;amp;utm_medium=paid-media&amp;amp;utm_campaign=bkws&amp;amp;pt=9008&amp;amp;mt=8&amp;amp;ct=p-growth-sem-bkws&amp;amp;gclsrc=aw.ds&amp;amp;gad_source=1&amp;amp;gad_campaignid=20108148196&amp;amp;gbraid=0AAAAApk5BhkGRfyK_DWXNSNRu47zAbVmJ&amp;amp;gclid=Cj0KCQiAvtzLBhCPARIsALwhxdqxQ_0cj6CBmhadov5xN_gDH8GKfxNlxlEL_cdHtmW48Iq-ubMq0QcaArMVEALw_wcB&amp;amp;google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D85c558222e7ec9b1:TM%3D1769482745:C%3D%3E:IP%3D140.82.22.152-:S%3DTQgRSfbi6QvypeTQh9oPIQ;%20path%3D%2F;%20domain%3Dgoogle.com;%20expires%3DTue,%2027-Jan-2026%2005:59:05%20GMT&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt&#34;&gt;Prompt:&lt;/h2&gt;&#xA;&lt;p&gt;hugo配置详细流程&lt;/p&gt;&#xA;&lt;h2 id=&#34;response&#34;&gt;Response:&lt;/h2&gt;&#xA;&lt;p&gt;搭建 Hugo 博客是一个非常高效的选择，因为它编译速度极快（号称“世界上最快的静态网站生成器”）。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>博客 on Frida</title><link>https://fridacai.vercel.app/tags/%E5%8D%9A%E5%AE%A2/</link><description>Recent content in 博客 on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Tue, 24 Mar 2026 20:05:08 -0700</lastBuildDate><atom:link href="https://fridacai.vercel.app/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo 主题配置与个人项目配置合并指南</title><link>https://fridacai.vercel.app/blog/2026/03/hugo-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%90%88%E5%B9%B6%E6%8C%87%E5%8D%97/</link><pubDate>Tue, 24 Mar 2026 20:05:08 -0700</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/hugo-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%90%88%E5%B9%B6%E6%8C%87%E5%8D%97/</guid><description>&lt;h2 id="背景"&gt;背景&lt;/h2&gt;
+&lt;p&gt;在使用 Hugo 主题一段时间后，你可能希望：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;摆脱对上游主题的依赖&lt;/li&gt;
+&lt;li&gt;保留自己多年积累的个性化定制&lt;/li&gt;
+&lt;li&gt;拥有完全自主可控的站点代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;本文提供一套系统化的合并流程，帮助你无冲突地完成迁移。&lt;/p&gt;</description></item><item><title>Hugo 博客配置与部署指南</title><link>https://fridacai.vercel.app/blog/2026/01/hugo-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</link><pubDate>Mon, 26 Jan 2026 20:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/01/hugo-%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E9%83%A8%E7%BD%B2%E6%8C%87%E5%8D%97/</guid><description>&lt;h1 id="hugo-博客配置与部署指南"&gt;Hugo 博客配置与部署指南&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Exported:&lt;/strong&gt; 1/26/2026 20:07:55&lt;br&gt;
+&lt;strong&gt;Link:&lt;/strong&gt; &lt;a href="https://gemini.google.com/app/3e95504292851398?is_sa=1&amp;amp;is_sa=1&amp;amp;android-min-version=301356232&amp;amp;ios-min-version=322.0&amp;amp;campaign_id=bkws&amp;amp;utm_source=sem&amp;amp;utm_medium=paid-media&amp;amp;utm_campaign=bkws&amp;amp;pt=9008&amp;amp;mt=8&amp;amp;ct=p-growth-sem-bkws&amp;amp;gclsrc=aw.ds&amp;amp;gad_source=1&amp;amp;gad_campaignid=20108148196&amp;amp;gbraid=0AAAAApk5BhkGRfyK_DWXNSNRu47zAbVmJ&amp;amp;gclid=Cj0KCQiAvtzLBhCPARIsALwhxdqxQ_0cj6CBmhadov5xN_gDH8GKfxNlxlEL_cdHtmW48Iq-ubMq0QcaArMVEALw_wcB&amp;amp;google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D85c558222e7ec9b1:TM%3D1769482745:C%3D%3E:IP%3D140.82.22.152-:S%3DTQgRSfbi6QvypeTQh9oPIQ;%20path%3D%2F;%20domain%3Dgoogle.com;%20expires%3DTue,%2027-Jan-2026%2005:59:05%20GMT"target="_blank"
+ class="inline-flex items-center gap-1"
+&gt;https://gemini.google.com/app/3e95504292851398?is_sa=1&amp;amp;is_sa=1&amp;amp;android-min-version=301356232&amp;amp;ios-min-version=322.0&amp;amp;campaign_id=bkws&amp;amp;utm_source=sem&amp;amp;utm_medium=paid-media&amp;amp;utm_campaign=bkws&amp;amp;pt=9008&amp;amp;mt=8&amp;amp;ct=p-growth-sem-bkws&amp;amp;gclsrc=aw.ds&amp;amp;gad_source=1&amp;amp;gad_campaignid=20108148196&amp;amp;gbraid=0AAAAApk5BhkGRfyK_DWXNSNRu47zAbVmJ&amp;amp;gclid=Cj0KCQiAvtzLBhCPARIsALwhxdqxQ_0cj6CBmhadov5xN_gDH8GKfxNlxlEL_cdHtmW48Iq-ubMq0QcaArMVEALw_wcB&amp;amp;google_abuse=GOOGLE_ABUSE_EXEMPTION%3DID%3D85c558222e7ec9b1:TM%3D1769482745:C%3D%3E:IP%3D140.82.22.152-:S%3DTQgRSfbi6QvypeTQh9oPIQ;%20path%3D%2F;%20domain%3Dgoogle.com;%20expires%3DTue,%2027-Jan-2026%2005:59:05%20GMT&lt;svg class="h-3 w-3 flex-shrink-0" id="external-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/&gt;&lt;/svg&gt;
+&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="prompt"&gt;Prompt:&lt;/h2&gt;
+&lt;p&gt;hugo配置详细流程&lt;/p&gt;
+&lt;h2 id="response"&gt;Response:&lt;/h2&gt;
+&lt;p&gt;搭建 Hugo 博客是一个非常高效的选择，因为它编译速度极快（号称“世界上最快的静态网站生成器”）。&lt;/p&gt;</description></item></channel></rss>

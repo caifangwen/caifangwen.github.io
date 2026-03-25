@@ -1,19 +1,87 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>游戏 on Frida</title>
-    <link>http://localhost:1313/categories/%E6%B8%B8%E6%88%8F/</link>
-    <description>Recent content in 游戏 on Frida</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E6%B8%B8%E6%88%8F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>大观园项目任务闭环拆解清单</title>
-      <link>http://localhost:1313/blog/2026/03/%E5%A4%A7%E8%A7%82%E5%9B%AD%E9%A1%B9%E7%9B%AE%E4%BB%BB%E5%8A%A1%E9%97%AD%E7%8E%AF%E6%8B%86%E8%A7%A3%E6%B8%85%E5%8D%95/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/%E5%A4%A7%E8%A7%82%E5%9B%AD%E9%A1%B9%E7%9B%AE%E4%BB%BB%E5%8A%A1%E9%97%AD%E7%8E%AF%E6%8B%86%E8%A7%A3%E6%B8%85%E5%8D%95/</guid>
-      <description>&lt;p&gt;文档读完了，这是个设计相当完整的异步多人策略游戏。我来把所有任务拆解成&lt;strong&gt;独立可验证的小闭环&lt;/strong&gt;——每个闭环都有明确的输入、实现内容和验收标准。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;大观园--任务闭环拆解清单&#34;&gt;大观园 · 任务闭环拆解清单&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-第零层桌游验证无代码&#34;&gt;🔴 第零层：桌游验证（无代码）&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;#&lt;/th&gt;&#xA;          &lt;th&gt;闭环名称&lt;/th&gt;&#xA;          &lt;th&gt;内容&lt;/th&gt;&#xA;          &lt;th&gt;验收标准&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0-1&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;规则手册&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;整理成1页纸的玩家手册（精力/月例/流言规则）&lt;/td&gt;&#xA;          &lt;td&gt;8人看完能上手&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0-2&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;账本模拟&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;腾讯文档建明账/暗账双表&lt;/td&gt;&#xA;          &lt;td&gt;管家可手动填写，他人可查看明账&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0-3&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;一局跑通&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;招募8人，跑完3-5天&lt;/td&gt;&#xA;          &lt;td&gt;记录3条以上规则漏洞和5个兴奋时刻&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;0-4&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;数值校准&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;根据实测修订精力/月例/亏空阈值&lt;/td&gt;&#xA;          &lt;td&gt;产出&amp;quot;规则修订笔记&amp;quot;&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-第一层脚手架技术基础&#34;&gt;🟠 第一层：脚手架（技术基础）&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;#&lt;/th&gt;&#xA;          &lt;th&gt;闭环名称&lt;/th&gt;&#xA;          &lt;th&gt;内容&lt;/th&gt;&#xA;          &lt;th&gt;验收标准&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1-1&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;项目初始化&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;Godot 4 建项目 + 场景树骨架&lt;/td&gt;&#xA;          &lt;td&gt;7个.tscn文件存在，可切换&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1-2&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;Firebase连通&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;注册项目 + 集成插件&lt;/td&gt;&#xA;          &lt;td&gt;GDScript能读写一个测试字段&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1-3&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;注册/登录&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;邮箱注册、登录、持久化UID&lt;/td&gt;&#xA;          &lt;td&gt;同一账号两台设备登录数据一致&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1-4&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;数据库结构&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;建全所有表，填假数据&lt;/td&gt;&#xA;          &lt;td&gt;Firebase控制台能看到完整节点树&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;1-5&lt;/td&gt;&#xA;          &lt;td&gt;&lt;strong&gt;读写验证&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;点按钮 → 银库-10 → 刷新后仍-10&lt;/td&gt;&#xA;          &lt;td&gt;数据持久，多端同步&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;-第二层管家系统核心循环&#34;&gt;🟡 第二层：管家系统（核心循环）&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;银库子模块&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>游戏 on Frida</title><link>https://fridacai.vercel.app/categories/%E6%B8%B8%E6%88%8F/</link><description>Recent content in 游戏 on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/%E6%B8%B8%E6%88%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>大观园项目任务闭环拆解清单</title><link>https://fridacai.vercel.app/blog/2026/03/%E5%A4%A7%E8%A7%82%E5%9B%AD%E9%A1%B9%E7%9B%AE%E4%BB%BB%E5%8A%A1%E9%97%AD%E7%8E%AF%E6%8B%86%E8%A7%A3%E6%B8%85%E5%8D%95/</link><pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/%E5%A4%A7%E8%A7%82%E5%9B%AD%E9%A1%B9%E7%9B%AE%E4%BB%BB%E5%8A%A1%E9%97%AD%E7%8E%AF%E6%8B%86%E8%A7%A3%E6%B8%85%E5%8D%95/</guid><description>&lt;p&gt;文档读完了，这是个设计相当完整的异步多人策略游戏。我来把所有任务拆解成&lt;strong&gt;独立可验证的小闭环&lt;/strong&gt;——每个闭环都有明确的输入、实现内容和验收标准。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="大观园--任务闭环拆解清单"&gt;大观园 · 任务闭环拆解清单&lt;/h2&gt;
+&lt;h3 id="-第零层桌游验证无代码"&gt;🔴 第零层：桌游验证（无代码）&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;#&lt;/th&gt;
+ &lt;th&gt;闭环名称&lt;/th&gt;
+ &lt;th&gt;内容&lt;/th&gt;
+ &lt;th&gt;验收标准&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;0-1&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;规则手册&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;整理成1页纸的玩家手册（精力/月例/流言规则）&lt;/td&gt;
+ &lt;td&gt;8人看完能上手&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;0-2&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;账本模拟&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;腾讯文档建明账/暗账双表&lt;/td&gt;
+ &lt;td&gt;管家可手动填写，他人可查看明账&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;0-3&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;一局跑通&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;招募8人，跑完3-5天&lt;/td&gt;
+ &lt;td&gt;记录3条以上规则漏洞和5个兴奋时刻&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;0-4&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;数值校准&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;根据实测修订精力/月例/亏空阈值&lt;/td&gt;
+ &lt;td&gt;产出&amp;quot;规则修订笔记&amp;quot;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id="-第一层脚手架技术基础"&gt;🟠 第一层：脚手架（技术基础）&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;#&lt;/th&gt;
+ &lt;th&gt;闭环名称&lt;/th&gt;
+ &lt;th&gt;内容&lt;/th&gt;
+ &lt;th&gt;验收标准&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1-1&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;项目初始化&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Godot 4 建项目 + 场景树骨架&lt;/td&gt;
+ &lt;td&gt;7个.tscn文件存在，可切换&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1-2&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;Firebase连通&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;注册项目 + 集成插件&lt;/td&gt;
+ &lt;td&gt;GDScript能读写一个测试字段&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1-3&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;注册/登录&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;邮箱注册、登录、持久化UID&lt;/td&gt;
+ &lt;td&gt;同一账号两台设备登录数据一致&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1-4&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;数据库结构&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;建全所有表，填假数据&lt;/td&gt;
+ &lt;td&gt;Firebase控制台能看到完整节点树&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;1-5&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;读写验证&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;点按钮 → 银库-10 → 刷新后仍-10&lt;/td&gt;
+ &lt;td&gt;数据持久，多端同步&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h3 id="-第二层管家系统核心循环"&gt;🟡 第二层：管家系统（核心循环）&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;银库子模块&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

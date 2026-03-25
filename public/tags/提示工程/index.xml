@@ -1,19 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>提示工程 on Frida</title>
-    <link>http://localhost:1313/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/</link>
-    <description>Recent content in 提示工程 on Frida</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Mar 2026 02:31:32 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>深度解析：如何系统性地优化一个 Claude Skill</title>
-      <link>http://localhost:1313/blog/2026/03/optimize-claude-skill/</link>
-      <pubDate>Sun, 22 Mar 2026 02:31:32 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/optimize-claude-skill/</guid>
-      <description>&lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;：Skill 是 Claude 的&amp;quot;专业记忆单元&amp;quot;——一段结构化的 Markdown 指令，告诉模型在特定场景下如何工作。但写出一个能稳定触发、输出高质量结果的 Skill，远比想象中复杂。本文系统讲解 Skill 的设计哲学、SKILL.md 的解剖结构、测试与评估方法，以及利用自动化脚本做描述优化的完整流程。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>提示工程 on Frida</title><link>https://fridacai.vercel.app/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/</link><description>Recent content in 提示工程 on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 22 Mar 2026 02:31:32 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/tags/%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>深度解析：如何系统性地优化一个 Claude Skill</title><link>https://fridacai.vercel.app/blog/2026/03/optimize-claude-skill/</link><pubDate>Sun, 22 Mar 2026 02:31:32 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/optimize-claude-skill/</guid><description>&lt;blockquote
+ class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1"&gt;
+ &lt;div class="prose prose-sm max-w-none"&gt;
+ &lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;：Skill 是 Claude 的&amp;quot;专业记忆单元&amp;quot;——一段结构化的 Markdown 指令，告诉模型在特定场景下如何工作。但写出一个能稳定触发、输出高质量结果的 Skill，远比想象中复杂。本文系统讲解 Skill 的设计哲学、SKILL.md 的解剖结构、测试与评估方法，以及利用自动化脚本做描述优化的完整流程。&lt;/p&gt;</description></item></channel></rss>

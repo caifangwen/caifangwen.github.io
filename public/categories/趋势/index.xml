@@ -1,89 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>趋势 on Frida</title>
-    <link>http://localhost:1313/categories/%E8%B6%8B%E5%8A%BF/</link>
-    <description>Recent content in 趋势 on Frida</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Mar 2026 02:06:49 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E8%B6%8B%E5%8A%BF/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>如何找到 GitHub 热门项目与近期趋势</title>
-      <link>http://localhost:1313/blog/2026/03/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0-github-%E7%83%AD%E9%97%A8%E9%A1%B9%E7%9B%AE%E4%B8%8E%E8%BF%91%E6%9C%9F%E8%B6%8B%E5%8A%BF/</link>
-      <pubDate>Sun, 22 Mar 2026 02:06:49 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0-github-%E7%83%AD%E9%97%A8%E9%A1%B9%E7%9B%AE%E4%B8%8E%E8%BF%91%E6%9C%9F%E8%B6%8B%E5%8A%BF/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;GitHub 拥有超过 4.3 亿个代码仓库，每天都有无数新项目涌现。2025 年 Octoverse 报告显示，平台上与 AI 相关的仓库已超过 430 万个，同比增长 178%。如何在这片信息海洋中精准找到值得关注的热门项目和趋势，是每位开发者都需要掌握的技能。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CLI 与 MCP 深度分析：AI 工具链的架构演进</title>
-      <link>http://localhost:1313/blog/2026/03/cli-%E4%B8%8E-mcp-%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90ai-%E5%B7%A5%E5%85%B7%E9%93%BE%E7%9A%84%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B/</link>
-      <pubDate>Wed, 18 Mar 2026 02:00:28 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/cli-%E4%B8%8E-mcp-%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90ai-%E5%B7%A5%E5%85%B7%E9%93%BE%E7%9A%84%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在 AI 原生时代，开发者与 AI 系统交互的方式正在经历深刻变革。传统的 &lt;strong&gt;CLI（Command Line Interface，命令行界面）&lt;/strong&gt; 已经陪伴工程师数十年，而 &lt;strong&gt;MCP（Model Context Protocol，模型上下文协议）&lt;/strong&gt; 作为新生代协议，正在重塑 AI 与外部世界的连接方式。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>T型人才：AI时代技术人的核心竞争力重构</title>
-      <link>http://localhost:1313/blog/2026/03/t%E5%9E%8B%E4%BA%BA%E6%89%8Dai%E6%97%B6%E4%BB%A3%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AB%9E%E4%BA%89%E5%8A%9B%E9%87%8D%E6%9E%84/</link>
-      <pubDate>Wed, 18 Mar 2026 01:50:51 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/t%E5%9E%8B%E4%BA%BA%E6%89%8Dai%E6%97%B6%E4%BB%A3%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AB%9E%E4%BA%89%E5%8A%9B%E9%87%8D%E6%9E%84/</guid>
-      <description>计算机行业正从「通用信息化」向「智能工业化」跃迁，T型人才——横向宽度×纵向深度的复合型技术人——将成为这场变革中最稀缺的资产。</description>
-    </item>
-    <item>
-      <title>2026年计算机技术格局深度分析：从算力革命到智能产业化</title>
-      <link>http://localhost:1313/blog/2026/03/2026%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E6%A0%BC%E5%B1%80%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90%E4%BB%8E%E7%AE%97%E5%8A%9B%E9%9D%A9%E5%91%BD%E5%88%B0%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A%E5%8C%96/</link>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/2026%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E6%A0%BC%E5%B1%80%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90%E4%BB%8E%E7%AE%97%E5%8A%9B%E9%9D%A9%E5%91%BD%E5%88%B0%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A%E5%8C%96/</guid>
-      <description>&lt;h2 id=&#34;前言技术迭代的奇点时刻&#34;&gt;前言：技术迭代的奇点时刻&lt;/h2&gt;&#xA;&lt;p&gt;2026年，我们正站在一个罕见的技术奇点之上。&lt;/p&gt;&#xA;&lt;p&gt;计算机技术的演进速度，已经远超大多数人的直觉预期。这一年，AI不再只是实验室里的概念验证——它正以工业化的节奏嵌入每一个行业；量子计算机首次在特定任务上超越经典计算机；算力基础设施的能耗已触动了核能供电的想象边界。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>2026 年社交媒体格局分析</title>
-      <link>http://localhost:1313/blog/2026/03/2026-%E5%B9%B4%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E6%A0%BC%E5%B1%80%E5%88%86%E6%9E%90/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/2026-%E5%B9%B4%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E6%A0%BC%E5%B1%80%E5%88%86%E6%9E%90/</guid>
-      <description>&lt;p&gt;现在的社交媒体格局已经不再是单纯的“谁人多”的竞争，而是进入了一个**“功能大乱斗”和“AI 原生化”**的新阶段。&#xA;简单来说，2026年的格局可以用三句话总结：短视频依然是黑洞，熟人社交正在回归私密，而 AI 正在接管你的信息流。&#xA;以下是目前各大平台发生的具体变化和新格局：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI 发展编年史：2021-2026 年 2 月</title>
-      <link>http://localhost:1313/blog/2026/03/ai-%E5%8F%91%E5%B1%95%E7%BC%96%E5%B9%B4%E5%8F%B22021-2026-%E5%B9%B4-2-%E6%9C%88/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/ai-%E5%8F%91%E5%B1%95%E7%BC%96%E5%B9%B4%E5%8F%B22021-2026-%E5%B9%B4-2-%E6%9C%88/</guid>
-      <description>&lt;h1 id=&#34;ai发展编年史2021-2026年2月&#34;&gt;AI发展编年史：2021-2026年2月&lt;/h1&gt;&#xA;&lt;h2 id=&#34;2021年基础模型时代的序章&#34;&gt;2021年：基础模型时代的序章&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;2021年1月&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OpenAI发布DALL-E，首次展示文本生成图像的能力，能够根据自然语言描述创建原创图像&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2021年5月&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Google发布LaMDA（Language Model for Dialogue Applications），专注于对话应用的语言模型&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2021年7月&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI 时代的个人竞争力：在信息洪流中保持独特价值</title>
-      <link>http://localhost:1313/blog/2026/03/ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AB%9E%E4%BA%89%E5%8A%9B%E5%9C%A8%E4%BF%A1%E6%81%AF%E6%B4%AA%E6%B5%81%E4%B8%AD%E4%BF%9D%E6%8C%81%E7%8B%AC%E7%89%B9%E4%BB%B7%E5%80%BC/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AB%9E%E4%BA%89%E5%8A%9B%E5%9C%A8%E4%BF%A1%E6%81%AF%E6%B4%AA%E6%B5%81%E4%B8%AD%E4%BF%9D%E6%8C%81%E7%8B%AC%E7%89%B9%E4%BB%B7%E5%80%BC/</guid>
-      <description>&lt;h1 id=&#34;ai时代的个人竞争力在信息洪流中保持独特价值&#34;&gt;AI时代的个人竞争力：在信息洪流中保持独特价值&lt;/h1&gt;&#xA;&lt;p&gt;当ChatGPT在2022年末横空出世时,我们目睹了一个分水岭。AI不再是科幻电影里的概念,而是真实地坐在每个人的屏幕对面,能写代码、能作诗、能分析数据、能生成图像。紧接着,各类AI工具如雨后春笋般涌现,信息的生产速度呈指数级增长。这让许多人陷入焦虑:当AI几秒钟就能完成我几小时的工作时,我的价值在哪里?个人能力是否正在被这股技术浪潮抹平?&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>AI 与经济危机的关系分析</title>
-      <link>http://localhost:1313/blog/2026/03/ai-%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8D%B1%E6%9C%BA%E7%9A%84%E5%85%B3%E7%B3%BB%E5%88%86%E6%9E%90/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/ai-%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8D%B1%E6%9C%BA%E7%9A%84%E5%85%B3%E7%B3%BB%E5%88%86%E6%9E%90/</guid>
-      <description>&lt;p&gt;你把两个线索放在一起看，很有洞察力。但我觉得&lt;strong&gt;不是&amp;quot;AI导致了经济危机&amp;quot;，而是&amp;quot;同一个深层原因同时催生了经济下滑和AI热潮&amp;quot;&lt;/strong&gt;。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>带 Fri 或 Fr 的数字产品命名建议</title>
-      <link>http://localhost:1313/blog/2026/03/%E5%B8%A6-fri-%E6%88%96-fr-%E7%9A%84%E6%95%B0%E5%AD%97%E4%BA%A7%E5%93%81%E5%91%BD%E5%90%8D%E5%BB%BA%E8%AE%AE/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/%E5%B8%A6-fri-%E6%88%96-fr-%E7%9A%84%E6%95%B0%E5%AD%97%E4%BA%A7%E5%93%81%E5%91%BD%E5%90%8D%E5%BB%BA%E8%AE%AE/</guid>
-      <description>&lt;p&gt;卖虚拟数字产品，名字里带 “Fri” 或 “Fr” 是个很棒的选择。这类发音通常带有“Free”（自由）、“Fresh”（新鲜）、“Friend”（友好）或“Frontier”（前沿）的暗示，非常符合数字化、轻资产的调性。&#xA;这里根据不同的业务侧重点，为你提供几个起名方向：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>广告投放领域发展历程：从报纸广告到程序化智能投放</title>
-      <link>http://localhost:1313/blog/2026/03/%E5%B9%BF%E5%91%8A%E6%8A%95%E6%94%BE%E9%A2%86%E5%9F%9F%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B%E4%BB%8E%E6%8A%A5%E7%BA%B8%E5%B9%BF%E5%91%8A%E5%88%B0%E7%A8%8B%E5%BA%8F%E5%8C%96%E6%99%BA%E8%83%BD%E6%8A%95%E6%94%BE/</link>
-      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/%E5%B9%BF%E5%91%8A%E6%8A%95%E6%94%BE%E9%A2%86%E5%9F%9F%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B%E4%BB%8E%E6%8A%A5%E7%BA%B8%E5%B9%BF%E5%91%8A%E5%88%B0%E7%A8%8B%E5%BA%8F%E5%8C%96%E6%99%BA%E8%83%BD%E6%8A%95%E6%94%BE/</guid>
-      <description>&lt;h1 id=&#34;广告投放领域发展历程从报纸广告到程序化智能投放&#34;&gt;广告投放领域发展历程：从报纸广告到程序化智能投放&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;广告投放作为连接商业与消费者的核心桥梁，其发展历程反映了技术进步、媒介变革和商业模式创新的交织演进。本文以时间线为主轴，梳理广告投放领域从传统媒体到数字化、智能化的完整演变过程。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Git：改变世界的版本控制系统</title>
-      <link>http://localhost:1313/blog/2026/02/git%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E7%9A%84%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Sun, 08 Feb 2026 00:02:52 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/02/git%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E7%9A%84%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/</guid>
-      <description>文章摘要</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>趋势 on Frida</title><link>https://fridacai.vercel.app/categories/%E8%B6%8B%E5%8A%BF/</link><description>Recent content in 趋势 on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 22 Mar 2026 02:06:49 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/%E8%B6%8B%E5%8A%BF/index.xml" rel="self" type="application/rss+xml"/><item><title>如何找到 GitHub 热门项目与近期趋势</title><link>https://fridacai.vercel.app/blog/2026/03/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0-github-%E7%83%AD%E9%97%A8%E9%A1%B9%E7%9B%AE%E4%B8%8E%E8%BF%91%E6%9C%9F%E8%B6%8B%E5%8A%BF/</link><pubDate>Sun, 22 Mar 2026 02:06:49 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0-github-%E7%83%AD%E9%97%A8%E9%A1%B9%E7%9B%AE%E4%B8%8E%E8%BF%91%E6%9C%9F%E8%B6%8B%E5%8A%BF/</guid><description>&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+&lt;p&gt;GitHub 拥有超过 4.3 亿个代码仓库，每天都有无数新项目涌现。2025 年 Octoverse 报告显示，平台上与 AI 相关的仓库已超过 430 万个，同比增长 178%。如何在这片信息海洋中精准找到值得关注的热门项目和趋势，是每位开发者都需要掌握的技能。&lt;/p&gt;</description></item><item><title>CLI 与 MCP 深度分析：AI 工具链的架构演进</title><link>https://fridacai.vercel.app/blog/2026/03/cli-%E4%B8%8E-mcp-%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90ai-%E5%B7%A5%E5%85%B7%E9%93%BE%E7%9A%84%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B/</link><pubDate>Wed, 18 Mar 2026 02:00:28 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/cli-%E4%B8%8E-mcp-%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90ai-%E5%B7%A5%E5%85%B7%E9%93%BE%E7%9A%84%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B/</guid><description>&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+&lt;p&gt;在 AI 原生时代，开发者与 AI 系统交互的方式正在经历深刻变革。传统的 &lt;strong&gt;CLI（Command Line Interface，命令行界面）&lt;/strong&gt; 已经陪伴工程师数十年，而 &lt;strong&gt;MCP（Model Context Protocol，模型上下文协议）&lt;/strong&gt; 作为新生代协议，正在重塑 AI 与外部世界的连接方式。&lt;/p&gt;</description></item><item><title>T型人才：AI时代技术人的核心竞争力重构</title><link>https://fridacai.vercel.app/blog/2026/03/t%E5%9E%8B%E4%BA%BA%E6%89%8Dai%E6%97%B6%E4%BB%A3%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AB%9E%E4%BA%89%E5%8A%9B%E9%87%8D%E6%9E%84/</link><pubDate>Wed, 18 Mar 2026 01:50:51 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/t%E5%9E%8B%E4%BA%BA%E6%89%8Dai%E6%97%B6%E4%BB%A3%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AB%9E%E4%BA%89%E5%8A%9B%E9%87%8D%E6%9E%84/</guid><description>计算机行业正从「通用信息化」向「智能工业化」跃迁，T型人才——横向宽度×纵向深度的复合型技术人——将成为这场变革中最稀缺的资产。</description></item><item><title>2026年计算机技术格局深度分析：从算力革命到智能产业化</title><link>https://fridacai.vercel.app/blog/2026/03/2026%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E6%A0%BC%E5%B1%80%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90%E4%BB%8E%E7%AE%97%E5%8A%9B%E9%9D%A9%E5%91%BD%E5%88%B0%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A%E5%8C%96/</link><pubDate>Wed, 18 Mar 2026 00:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/2026%E5%B9%B4%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%8A%80%E6%9C%AF%E6%A0%BC%E5%B1%80%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90%E4%BB%8E%E7%AE%97%E5%8A%9B%E9%9D%A9%E5%91%BD%E5%88%B0%E6%99%BA%E8%83%BD%E4%BA%A7%E4%B8%9A%E5%8C%96/</guid><description>&lt;h2 id="前言技术迭代的奇点时刻"&gt;前言：技术迭代的奇点时刻&lt;/h2&gt;
+&lt;p&gt;2026年，我们正站在一个罕见的技术奇点之上。&lt;/p&gt;
+&lt;p&gt;计算机技术的演进速度，已经远超大多数人的直觉预期。这一年，AI不再只是实验室里的概念验证——它正以工业化的节奏嵌入每一个行业；量子计算机首次在特定任务上超越经典计算机；算力基础设施的能耗已触动了核能供电的想象边界。&lt;/p&gt;</description></item><item><title>2026 年社交媒体格局分析</title><link>https://fridacai.vercel.app/blog/2026/03/2026-%E5%B9%B4%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E6%A0%BC%E5%B1%80%E5%88%86%E6%9E%90/</link><pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/2026-%E5%B9%B4%E7%A4%BE%E4%BA%A4%E5%AA%92%E4%BD%93%E6%A0%BC%E5%B1%80%E5%88%86%E6%9E%90/</guid><description>&lt;p&gt;现在的社交媒体格局已经不再是单纯的“谁人多”的竞争，而是进入了一个**“功能大乱斗”和“AI 原生化”**的新阶段。
+简单来说，2026年的格局可以用三句话总结：短视频依然是黑洞，熟人社交正在回归私密，而 AI 正在接管你的信息流。
+以下是目前各大平台发生的具体变化和新格局：&lt;/p&gt;</description></item><item><title>AI 发展编年史：2021-2026 年 2 月</title><link>https://fridacai.vercel.app/blog/2026/03/ai-%E5%8F%91%E5%B1%95%E7%BC%96%E5%B9%B4%E5%8F%B22021-2026-%E5%B9%B4-2-%E6%9C%88/</link><pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/ai-%E5%8F%91%E5%B1%95%E7%BC%96%E5%B9%B4%E5%8F%B22021-2026-%E5%B9%B4-2-%E6%9C%88/</guid><description>&lt;h1 id="ai发展编年史2021-2026年2月"&gt;AI发展编年史：2021-2026年2月&lt;/h1&gt;
+&lt;h2 id="2021年基础模型时代的序章"&gt;2021年：基础模型时代的序章&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;2021年1月&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;OpenAI发布DALL-E，首次展示文本生成图像的能力，能够根据自然语言描述创建原创图像&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2021年5月&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google发布LaMDA（Language Model for Dialogue Applications），专注于对话应用的语言模型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;2021年7月&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>AI 时代的个人竞争力：在信息洪流中保持独特价值</title><link>https://fridacai.vercel.app/blog/2026/03/ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AB%9E%E4%BA%89%E5%8A%9B%E5%9C%A8%E4%BF%A1%E6%81%AF%E6%B4%AA%E6%B5%81%E4%B8%AD%E4%BF%9D%E6%8C%81%E7%8B%AC%E7%89%B9%E4%BB%B7%E5%80%BC/</link><pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/ai-%E6%97%B6%E4%BB%A3%E7%9A%84%E4%B8%AA%E4%BA%BA%E7%AB%9E%E4%BA%89%E5%8A%9B%E5%9C%A8%E4%BF%A1%E6%81%AF%E6%B4%AA%E6%B5%81%E4%B8%AD%E4%BF%9D%E6%8C%81%E7%8B%AC%E7%89%B9%E4%BB%B7%E5%80%BC/</guid><description>&lt;h1 id="ai时代的个人竞争力在信息洪流中保持独特价值"&gt;AI时代的个人竞争力：在信息洪流中保持独特价值&lt;/h1&gt;
+&lt;p&gt;当ChatGPT在2022年末横空出世时,我们目睹了一个分水岭。AI不再是科幻电影里的概念,而是真实地坐在每个人的屏幕对面,能写代码、能作诗、能分析数据、能生成图像。紧接着,各类AI工具如雨后春笋般涌现,信息的生产速度呈指数级增长。这让许多人陷入焦虑:当AI几秒钟就能完成我几小时的工作时,我的价值在哪里?个人能力是否正在被这股技术浪潮抹平?&lt;/p&gt;</description></item><item><title>AI 与经济危机的关系分析</title><link>https://fridacai.vercel.app/blog/2026/03/ai-%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8D%B1%E6%9C%BA%E7%9A%84%E5%85%B3%E7%B3%BB%E5%88%86%E6%9E%90/</link><pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/ai-%E4%B8%8E%E7%BB%8F%E6%B5%8E%E5%8D%B1%E6%9C%BA%E7%9A%84%E5%85%B3%E7%B3%BB%E5%88%86%E6%9E%90/</guid><description>&lt;p&gt;你把两个线索放在一起看，很有洞察力。但我觉得&lt;strong&gt;不是&amp;quot;AI导致了经济危机&amp;quot;，而是&amp;quot;同一个深层原因同时催生了经济下滑和AI热潮&amp;quot;&lt;/strong&gt;。&lt;/p&gt;</description></item><item><title>带 Fri 或 Fr 的数字产品命名建议</title><link>https://fridacai.vercel.app/blog/2026/03/%E5%B8%A6-fri-%E6%88%96-fr-%E7%9A%84%E6%95%B0%E5%AD%97%E4%BA%A7%E5%93%81%E5%91%BD%E5%90%8D%E5%BB%BA%E8%AE%AE/</link><pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/%E5%B8%A6-fri-%E6%88%96-fr-%E7%9A%84%E6%95%B0%E5%AD%97%E4%BA%A7%E5%93%81%E5%91%BD%E5%90%8D%E5%BB%BA%E8%AE%AE/</guid><description>&lt;p&gt;卖虚拟数字产品，名字里带 “Fri” 或 “Fr” 是个很棒的选择。这类发音通常带有“Free”（自由）、“Fresh”（新鲜）、“Friend”（友好）或“Frontier”（前沿）的暗示，非常符合数字化、轻资产的调性。
+这里根据不同的业务侧重点，为你提供几个起名方向：&lt;/p&gt;</description></item><item><title>广告投放领域发展历程：从报纸广告到程序化智能投放</title><link>https://fridacai.vercel.app/blog/2026/03/%E5%B9%BF%E5%91%8A%E6%8A%95%E6%94%BE%E9%A2%86%E5%9F%9F%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B%E4%BB%8E%E6%8A%A5%E7%BA%B8%E5%B9%BF%E5%91%8A%E5%88%B0%E7%A8%8B%E5%BA%8F%E5%8C%96%E6%99%BA%E8%83%BD%E6%8A%95%E6%94%BE/</link><pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/%E5%B9%BF%E5%91%8A%E6%8A%95%E6%94%BE%E9%A2%86%E5%9F%9F%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B%E4%BB%8E%E6%8A%A5%E7%BA%B8%E5%B9%BF%E5%91%8A%E5%88%B0%E7%A8%8B%E5%BA%8F%E5%8C%96%E6%99%BA%E8%83%BD%E6%8A%95%E6%94%BE/</guid><description>&lt;h1 id="广告投放领域发展历程从报纸广告到程序化智能投放"&gt;广告投放领域发展历程：从报纸广告到程序化智能投放&lt;/h1&gt;
+&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
+&lt;p&gt;广告投放作为连接商业与消费者的核心桥梁，其发展历程反映了技术进步、媒介变革和商业模式创新的交织演进。本文以时间线为主轴，梳理广告投放领域从传统媒体到数字化、智能化的完整演变过程。&lt;/p&gt;</description></item><item><title>Git：改变世界的版本控制系统</title><link>https://fridacai.vercel.app/blog/2026/02/git%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E7%9A%84%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/</link><pubDate>Sun, 08 Feb 2026 00:02:52 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/02/git%E6%94%B9%E5%8F%98%E4%B8%96%E7%95%8C%E7%9A%84%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6%E7%B3%BB%E7%BB%9F/</guid><description>文章摘要</description></item></channel></rss>

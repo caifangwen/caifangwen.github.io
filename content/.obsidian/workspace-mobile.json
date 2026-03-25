@@ -517,12 +517,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/hugo-temp.md",
+                "file": "posts/solo-site-partnership.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "hugo-temp"
+              "title": "solo-site-partnership"
             }
           }
         ],
@@ -675,8 +675,10 @@
   },
   "active": "a0dc903facbde06a",
   "lastOpenFiles": [
-    "posts/hugo-go-template-syntax.md",
+    "posts/order-attribution-vs-assistant.md",
+    "posts/foreign-trade-core-skills.md",
     "posts/hugo-temp.md",
+    "posts/hugo-go-template-syntax.md",
     "about/_index.zh-cn.md",
     "posts/hugo-layouts-guide.md",
     "archives/_index.md",
@@ -699,8 +701,6 @@
     "posts/26-01-22-19-28-28.md",
     "posts/Gemini-Hugo 博客配置与部署指南.md",
     "posts/Gemini-Hugo 配置表详解与优化建议.md",
-    "posts/Gemini-Temporary Chat.md",
-    "posts/Git：改变世界的版本控制系统.md",
     "未命名.canvas",
     "未命名",
     "temp",

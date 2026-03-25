@@ -1,33 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>效率工具 on Frida</title>
-    <link>http://localhost:1313/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/</link>
-    <description>Recent content in 效率工具 on Frida</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Mar 2026 13:17:47 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Claude Cowork：让 AI 真正替你干活的桌面智能体</title>
-      <link>http://localhost:1313/blog/2026/03/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</link>
-      <pubDate>Sun, 22 Mar 2026 13:17:47 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</guid>
-      <description>&lt;h2 id=&#34;什么是-claude-cowork&#34;&gt;什么是 Claude Cowork？&lt;/h2&gt;&#xA;&lt;p&gt;长久以来，AI 助手只能活在对话框里——你问一句，它答一句，文件还得自己上传，格式还得自己整理。&lt;strong&gt;Claude Cowork&lt;/strong&gt; 打破了这个局限。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>DropIt 文件整理工作流详解：从混乱到有序的全自动方案</title>
-      <link>http://localhost:1313/blog/2026/03/dropit-workflow-detailed-guide/</link>
-      <pubDate>Fri, 20 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/dropit-workflow-detailed-guide/</guid>
-      <description>&lt;h2 id=&#34;为什么需要一套文件整理工作流&#34;&gt;为什么需要一套文件整理工作流？&lt;/h2&gt;&#xA;&lt;p&gt;你的桌面是否堆满了随手放置的文件？下载文件夹是否已经成了&amp;quot;黑洞&amp;quot;？每次找文件都要翻找好几分钟？&lt;/p&gt;&#xA;&lt;p&gt;这些问题的根源不是懒惰，而是&lt;strong&gt;缺少一套能自动运转的工作流&lt;/strong&gt;。手动整理文件的问题在于它依赖意志力——你必须在每次下载、保存、接收文件后主动去分类。而工作流的本质是把这套判断逻辑&lt;strong&gt;外包给工具&lt;/strong&gt;，让 DropIt 代替你做决策。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>使用 DropIt 高效管理文件：完整指南</title>
-      <link>http://localhost:1313/blog/2026/03/dropit-file-management-guide/</link>
-      <pubDate>Fri, 20 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>http://localhost:1313/blog/2026/03/dropit-file-management-guide/</guid>
-      <description>&lt;h2 id=&#34;什么是-dropit&#34;&gt;什么是 DropIt？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.dropitproject.com/&#34;target=&#34;_blank&#34;&#xD;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xD;&#xA;&gt;DropIt&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;&lt;/a&gt; 是一款免费、开源的 Windows 文件自动化整理工具。你只需将文件或文件夹&lt;strong&gt;拖放&lt;/strong&gt;到 DropIt 的悬浮图标上，它便会根据你预先设置的规则，自动完成移动、复制、压缩、重命名、删除等操作，极大地减少手动整理文件的时间。&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>效率工具 on Frida</title><link>https://fridacai.vercel.app/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/</link><description>Recent content in 效率工具 on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 22 Mar 2026 13:17:47 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Cowork：让 AI 真正替你干活的桌面智能体</title><link>https://fridacai.vercel.app/blog/2026/03/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</link><pubDate>Sun, 22 Mar 2026 13:17:47 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</guid><description>&lt;h2 id="什么是-claude-cowork"&gt;什么是 Claude Cowork？&lt;/h2&gt;
+&lt;p&gt;长久以来，AI 助手只能活在对话框里——你问一句，它答一句，文件还得自己上传，格式还得自己整理。&lt;strong&gt;Claude Cowork&lt;/strong&gt; 打破了这个局限。&lt;/p&gt;</description></item><item><title>DropIt 文件整理工作流详解：从混乱到有序的全自动方案</title><link>https://fridacai.vercel.app/blog/2026/03/dropit-workflow-detailed-guide/</link><pubDate>Fri, 20 Mar 2026 10:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/dropit-workflow-detailed-guide/</guid><description>&lt;h2 id="为什么需要一套文件整理工作流"&gt;为什么需要一套文件整理工作流？&lt;/h2&gt;
+&lt;p&gt;你的桌面是否堆满了随手放置的文件？下载文件夹是否已经成了&amp;quot;黑洞&amp;quot;？每次找文件都要翻找好几分钟？&lt;/p&gt;
+&lt;p&gt;这些问题的根源不是懒惰，而是&lt;strong&gt;缺少一套能自动运转的工作流&lt;/strong&gt;。手动整理文件的问题在于它依赖意志力——你必须在每次下载、保存、接收文件后主动去分类。而工作流的本质是把这套判断逻辑&lt;strong&gt;外包给工具&lt;/strong&gt;，让 DropIt 代替你做决策。&lt;/p&gt;</description></item><item><title>使用 DropIt 高效管理文件：完整指南</title><link>https://fridacai.vercel.app/blog/2026/03/dropit-file-management-guide/</link><pubDate>Fri, 20 Mar 2026 10:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/2026/03/dropit-file-management-guide/</guid><description>&lt;h2 id="什么是-dropit"&gt;什么是 DropIt？&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://www.dropitproject.com/"target="_blank"
+ class="inline-flex items-center gap-1"
+&gt;DropIt&lt;svg class="h-3 w-3 flex-shrink-0" id="external-link" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/&gt;&lt;/svg&gt;
+&lt;/a&gt; 是一款免费、开源的 Windows 文件自动化整理工具。你只需将文件或文件夹&lt;strong&gt;拖放&lt;/strong&gt;到 DropIt 的悬浮图标上，它便会根据你预先设置的规则，自动完成移动、复制、压缩、重命名、删除等操作，极大地减少手动整理文件的时间。&lt;/p&gt;</description></item></channel></rss>
