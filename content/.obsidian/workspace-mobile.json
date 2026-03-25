@@ -531,12 +531,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_index.zh-cn.md",
+                "file": "posts/hugo-narrow-site-structure.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "_index.zh-cn"
+              "title": "hugo-narrow-site-structure"
             }
           }
         ],
@@ -689,6 +689,8 @@
   },
   "active": "3ba338632677a8f2",
   "lastOpenFiles": [
+    "posts/breadcrumb-navigation-style-refactoring.md",
+    "_index.zh-cn.md",
     "_index.md",
     "posts/hugo-narrow-site-structure.md",
     "discussions/碎碎念.md",
@@ -711,13 +713,11 @@
     "posts/hugo-layouts-guide.md",
     "archives/_index.md",
     "docs/getting-started.md",
-    "_index.zh-cn.md",
     "posts/database-refactoring-prompts.md",
     "posts/git-rebase-guide.md",
     "posts/t-shaped-talent.md",
     "posts/wordpress-tob-seo-sop.md",
     "posts/organize-multiple-skills.md",
-    "posts/ai-technical-breakthroughs-deep-dive.md",
     "未命名.canvas",
     "未命名",
     "temp",
