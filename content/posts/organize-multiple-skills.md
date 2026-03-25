@@ -234,7 +234,7 @@ skills/
    python /mnt/skills/shared-resources/scripts/file_utils.py \
      --input $INPUT_PATH \
      --format docx
-   ```
+   
    （此脚本由团队统一维护，位于 shared-resources/scripts/）
 
 2. 参考团队写作风格指南（仅在需要调整语气时读取）：
