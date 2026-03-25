@@ -2,15 +2,17 @@
   <!-- 面包屑导航 -->
   {{ partial "navigation/breadcrumb.html" . }}
 
-  <!-- 文章头部信息 -->
-  <header class="mb-8">
-    {{ partial "content/post-meta.html" . }}
+  <!-- 讨论标题 -->
+  <header class="mb-4">
+    <h1 class="text-foreground text-2xl font-bold md:text-3xl">
+      {{ .Title }}
+    </h1>
+    {{ if .Params.slug }}
+      <p class="text-muted-foreground text-sm">
+        <span class="font-medium">Slug:</span> {{ .Params.slug }}
+      </p>
+    {{ end }}
   </header>
-
-  <!-- 文章内容 -->
-  <article class="prose prose-neutral dark:prose-invert mb-12 max-w-none">
-    {{ .Content }}
-  </article>
 
   <!-- 评论组件 -->
   {{ partial "features/comments.html" . }}
