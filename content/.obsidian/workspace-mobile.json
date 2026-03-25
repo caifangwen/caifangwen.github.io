@@ -519,7 +519,7 @@
               "state": {
                 "file": "posts/hugo-temp.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "hugo-temp"
@@ -675,8 +675,9 @@
   },
   "active": "a0dc903facbde06a",
   "lastOpenFiles": [
-    "about/_index.zh-cn.md",
+    "posts/hugo-go-template-syntax.md",
     "posts/hugo-temp.md",
+    "about/_index.zh-cn.md",
     "posts/hugo-layouts-guide.md",
     "archives/_index.md",
     "discussions/_index.md",
@@ -692,7 +693,6 @@
     "posts/organize-multiple-skills.md",
     "posts/ai-technical-breakthroughs-deep-dive.md",
     "posts/hugo-project-structure.md",
-    "posts/hugo-go-template-syntax.md",
     "posts/大观园_游戏设计文档.md",
     "posts/2026 手机终端神器推荐.md",
     "posts/2026-computer-tech-landscape.md",
