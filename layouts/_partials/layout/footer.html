@@ -54,32 +54,26 @@
             class="text-primary hover:text-primary/80 font-medium transition-colors duration-200 hover:underline">
             Hugo
           </a>
-          <span>&</span>
-          <a
-            href="https://github.com/tom2almighty/hugo-narrow"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-primary hover:text-primary/80 font-medium transition-colors duration-200 hover:underline">
-            Narrow
-          </a>
         </p>
       </div>
 
       {{ if site.Menus.social }}
         <div class="flex items-center gap-2">
           {{ range site.Menus.social }}
-            <a
-              href="{{ .URL }}"
-              {{ if strings.HasPrefix .URL "http" }}
-                target="_blank" rel="noopener noreferrer"
-              {{ end }}
-              class="text-muted-foreground hover:text-primary focus:ring-primary/20 rounded-md p-1 transition-transform duration-200 hover:scale-110 focus:ring-2 focus:outline-none"
-              title="{{ .Name }}"
-              aria-label="{{ .Name }}">
-              {{ if .Params.icon }}
-                {{ partial "features/icon.html" (dict "name" .Params.icon "size" "md" "ariaLabel" .Name) }}
-              {{ end }}
-            </a>
+            {{ if and (ne .Name "Twitter") (ne .Name "X") }}
+              <a
+                href="{{ .URL }}"
+                {{ if strings.HasPrefix .URL "http" }}
+                  target="_blank" rel="noopener noreferrer"
+                {{ end }}
+                class="text-muted-foreground hover:text-primary focus:ring-primary/20 rounded-md p-1 transition-transform duration-200 hover:scale-110 focus:ring-2 focus:outline-none"
+                title="{{ .Name }}"
+                aria-label="{{ .Name }}">
+                {{ if .Params.icon }}
+                  {{ partial "features/icon.html" (dict "name" .Params.icon "size" "md" "ariaLabel" .Name) }}
+                {{ end }}
+              </a>
+            {{ end }}
           {{ end }}
         </div>
       {{ end }}
