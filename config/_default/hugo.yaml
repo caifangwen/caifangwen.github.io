@@ -3,7 +3,7 @@ languageCode: zh-CN
 defaultContentLanguage: zh-cn
 defaultContentLanguageInSubdir: false
 title: Frida
-theme: "hugo-narrow"
+# theme: "hugo-narrow"  # 主题已合并到项目，不再需要
 
 hasCJKLanguage: true
 enableEmoji: true
@@ -11,6 +11,10 @@ enableEmoji: true
 # Ignore specific log warnings
 ignoreLogs:
   - 'shortcode-x-getremote'
+  - 'remote-.*'
+
+# Disable aliases to avoid ref errors
+disableAliases: true
 
 # SEO优化的URL结构
 permalinks:

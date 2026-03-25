@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术文档 on Frida</title>
+    <link>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/</link>
+    <description>Recent content in 技术文档 on Frida</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 08 Feb 2026 00:00:29 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E6%8A%80%E6%9C%AF%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>路由的本质：连接世界的智能决策系统</title>
+      <link>http://localhost:1313/blog/2026/02/%E8%B7%AF%E7%94%B1%E7%9A%84%E6%9C%AC%E8%B4%A8%E8%BF%9E%E6%8E%A5%E4%B8%96%E7%95%8C%E7%9A%84%E6%99%BA%E8%83%BD%E5%86%B3%E7%AD%96%E7%B3%BB%E7%BB%9F/</link>
+      <pubDate>Sun, 08 Feb 2026 00:00:29 +0800</pubDate>
+      <guid>http://localhost:1313/blog/2026/02/%E8%B7%AF%E7%94%B1%E7%9A%84%E6%9C%AC%E8%B4%A8%E8%BF%9E%E6%8E%A5%E4%B8%96%E7%95%8C%E7%9A%84%E6%99%BA%E8%83%BD%E5%86%B3%E7%AD%96%E7%B3%BB%E7%BB%9F/</guid>
+      <description>文章摘要</description>
+    </item>
+  </channel>
+</rss>

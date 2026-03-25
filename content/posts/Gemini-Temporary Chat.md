@@ -466,7 +466,7 @@ Obsidian怎么推送到hugo 内链也能吗
     [markup.goldmark.renderHooks.link]
       # 开启后可以自定义链接渲染逻辑，将 .md 结尾的链接自动转为网页链接
     ```
-3.  **使用插件转换**： 上述提到的 `Obsidian Hugo Publisher` 插件在导出时，会自动把 `[[Internal Link]]` 替换成 Hugo 的 `{{< ref "post.md" >}}` 语法。这是**最省心**的办法，因为你不需要改变在 Obsidian 里的书写习惯。
+3.  **使用插件转换**： 上述提到的 `Obsidian Hugo Publisher` 插件在导出时，会自动把 `[[Internal Link]]` 替换成 Hugo 的 `\{\{</\* ref "posts/your-post.md" \*/\}\}` 语法。这是**最省心**的办法，因为你不需要改变在 Obsidian 里的书写习惯。
 
 * * *
 

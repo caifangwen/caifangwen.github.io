@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活随笔 on Frida</title>
-    <link>https://fridacai.vercel.app/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</link>
+    <link>http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</link>
     <description>Recent content in 生活随笔 on Frida</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Jan 2026 01:38:04 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Feb 2026 09:58:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gemini-Temporary Chat</title>
+      <link>http://localhost:1313/blog/2026/02/gemini-temporary-chat/</link>
+      <pubDate>Tue, 03 Feb 2026 09:58:00 +0800</pubDate>
+      <guid>http://localhost:1313/blog/2026/02/gemini-temporary-chat/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Exported:&lt;/strong&gt; 2/3/2026 9:52:00&lt;br&gt;&#xA;&lt;strong&gt;Link:&lt;/strong&gt; &lt;a href=&#34;https://gemini.google.com/app/b61c719b8ae5ab45?is_sa=1&amp;amp;is_sa=1&amp;amp;android-min-version=301356232&amp;amp;ios-min-version=322.0&amp;amp;campaign_id=bkws&amp;amp;utm_source=sem&amp;amp;utm_medium=paid-media&amp;amp;utm_campaign=bkws&amp;amp;pt=9008&amp;amp;mt=8&amp;amp;ct=p-growth-sem-bkws&amp;amp;gclsrc=aw.ds&amp;amp;gad_source=1&amp;amp;gad_campaignid=20108148196&amp;amp;gbraid=0AAAAApk5BhnhmCbHiS2zW1hfKjeeEIMXR&amp;amp;gclid=CjwKCAiAs4HMBhBJEiwACrfNZW42ejeN3O4igxRBpSlYUfNrDaYU4ewQMTI0O64IOa_ea-6iDT_YvRoCGaAQAvD_BwE&#34;target=&#34;_blank&#34;&#xD;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xD;&#xA;&gt;https://gemini.google.com/app/b61c719b8ae5ab45?is_sa=1&amp;amp;is_sa=1&amp;amp;android-min-version=301356232&amp;amp;ios-min-version=322.0&amp;amp;campaign_id=bkws&amp;amp;utm_source=sem&amp;amp;utm_medium=paid-media&amp;amp;utm_campaign=bkws&amp;amp;pt=9008&amp;amp;mt=8&amp;amp;ct=p-growth-sem-bkws&amp;amp;gclsrc=aw.ds&amp;amp;gad_source=1&amp;amp;gad_campaignid=20108148196&amp;amp;gbraid=0AAAAApk5BhnhmCbHiS2zW1hfKjeeEIMXR&amp;amp;gclid=CjwKCAiAs4HMBhBJEiwACrfNZW42ejeN3O4igxRBpSlYUfNrDaYU4ewQMTI0O64IOa_ea-6iDT_YvRoCGaAQAvD_BwE&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;prompt&#34;&gt;Prompt:&lt;/h2&gt;&#xA;&lt;p&gt;WordPress建站流程&lt;/p&gt;&#xA;&lt;h2 id=&#34;response&#34;&gt;Response:&lt;/h2&gt;&#xA;&lt;p&gt;搭建一个 WordPress 网站主要分为以下几个核心步骤。无论你是想做个人博客、企业官网还是电商，流程基本一致。🚀&lt;/p&gt;</description>
+    </item>
     <item>
       <title>越剧</title>
-      <link>https://fridacai.vercel.app/blog/2026/01/%E8%B6%8A%E5%89%A7/</link>
+      <link>http://localhost:1313/blog/2026/01/%E8%B6%8A%E5%89%A7/</link>
       <pubDate>Thu, 29 Jan 2026 01:38:04 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/01/%E8%B6%8A%E5%89%A7/</guid>
+      <guid>http://localhost:1313/blog/2026/01/%E8%B6%8A%E5%89%A7/</guid>
       <description>&lt;h2 id=&#34;关于越剧&#34;&gt;关于越剧&lt;/h2&gt;&#xA;&lt;p&gt;没有内容&lt;/p&gt;</description>
     </item>
   </channel>

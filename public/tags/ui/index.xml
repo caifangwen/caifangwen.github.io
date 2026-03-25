@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UI on Frida</title>
+    <link>http://localhost:1313/tags/ui/</link>
+    <description>Recent content in UI on Frida</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Mar 2026 02:42:03 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/ui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Godot 游戏开发：UI 与数值逻辑完成后，如何接入瓦片地图（TileMap）</title>
+      <link>http://localhost:1313/blog/2026/03/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91ui-%E4%B8%8E%E6%95%B0%E5%80%BC%E9%80%BB%E8%BE%91%E5%AE%8C%E6%88%90%E5%90%8E%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BEtilemap/</link>
+      <pubDate>Mon, 23 Mar 2026 02:42:03 +0800</pubDate>
+      <guid>http://localhost:1313/blog/2026/03/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91ui-%E4%B8%8E%E6%95%B0%E5%80%BC%E9%80%BB%E8%BE%91%E5%AE%8C%E6%88%90%E5%90%8E%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BEtilemap/</guid>
+      <description>&lt;h1 id=&#34;godot-游戏开发ui-与数值逻辑完成后如何接入瓦片地图tilemap&#34;&gt;Godot 游戏开发：UI 与数值逻辑完成后，如何接入瓦片地图（TileMap）&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在一个典型的 Godot 项目开发流程中，很多开发者会先把 &lt;strong&gt;UI 界面&lt;/strong&gt;（血条、背包、对话框、HUD）和&lt;strong&gt;数值系统&lt;/strong&gt;（角色属性、战斗公式、状态机）做好，然后再着手搭建游戏世界。这是一个非常合理的顺序——逻辑先行，场景后建。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

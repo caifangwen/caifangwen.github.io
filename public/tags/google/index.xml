@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Google on Frida</title>
-    <link>https://fridacai.vercel.app/tags/google/</link>
+    <link>http://localhost:1313/tags/google/</link>
     <description>Recent content in Google on Frida</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 20 Mar 2026 08:47:00 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google 全家桶 Claude Prompt 完全手册</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/google-%E5%85%A8%E5%AE%B6%E6%A1%B6-claude-prompt-%E5%AE%8C%E5%85%A8%E6%89%8B%E5%86%8C/</link>
+      <link>http://localhost:1313/blog/2026/03/google-%E5%85%A8%E5%AE%B6%E6%A1%B6-claude-prompt-%E5%AE%8C%E5%85%A8%E6%89%8B%E5%86%8C/</link>
       <pubDate>Fri, 20 Mar 2026 08:47:00 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/google-%E5%85%A8%E5%AE%B6%E6%A1%B6-claude-prompt-%E5%AE%8C%E5%85%A8%E6%89%8B%E5%86%8C/</guid>
+      <guid>http://localhost:1313/blog/2026/03/google-%E5%85%A8%E5%AE%B6%E6%A1%B6-claude-prompt-%E5%AE%8C%E5%85%A8%E6%89%8B%E5%86%8C/</guid>
       <description>12 个 Google 服务 × 60+ Prompt，让 Claude 成为你的 Google 全家桶智能管家。</description>
     </item>
     <item>
       <title>NotebookLM：重新定义 AI 工具的交互范式</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/notebooklm%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89-ai-%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BA%A4%E4%BA%92%E8%8C%83%E5%BC%8F/</link>
+      <link>http://localhost:1313/blog/2026/03/notebooklm%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89-ai-%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BA%A4%E4%BA%92%E8%8C%83%E5%BC%8F/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/notebooklm%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89-ai-%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BA%A4%E4%BA%92%E8%8C%83%E5%BC%8F/</guid>
+      <guid>http://localhost:1313/blog/2026/03/notebooklm%E9%87%8D%E6%96%B0%E5%AE%9A%E4%B9%89-ai-%E5%B7%A5%E5%85%B7%E7%9A%84%E4%BA%A4%E4%BA%92%E8%8C%83%E5%BC%8F/</guid>
       <description>&lt;h1 id=&#34;notebooklm重新定义ai工具的交互范式&#34;&gt;NotebookLM：重新定义AI工具的交互范式&lt;/h1&gt;&#xA;&lt;p&gt;在AI工具井喷的时代，我们见证了ChatGPT、Claude、Gemini等通用对话模型的崛起，也看到了Midjourney、Runway等专业创作工具的涌现。但Google在2023年推出的NotebookLM，却以一种截然不同的方式切入了这个拥挤的赛道。它不是更强大的语言模型，也不是更炫酷的生成工具，而是对&amp;quot;AI应该如何工作&amp;quot;这个根本问题给出了一个独特的答案。&lt;/p&gt;</description>
     </item>
   </channel>

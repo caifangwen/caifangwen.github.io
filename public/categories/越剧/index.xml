@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>越剧 on Frida</title>
-    <link>https://fridacai.vercel.app/categories/%E8%B6%8A%E5%89%A7/</link>
+    <link>http://localhost:1313/categories/%E8%B6%8A%E5%89%A7/</link>
     <description>Recent content in 越剧 on Frida</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Thu, 29 Jan 2026 01:38:04 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/categories/%E8%B6%8A%E5%89%A7/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%E8%B6%8A%E5%89%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>越剧</title>
-      <link>https://fridacai.vercel.app/blog/2026/01/%E8%B6%8A%E5%89%A7/</link>
+      <link>http://localhost:1313/blog/2026/01/%E8%B6%8A%E5%89%A7/</link>
       <pubDate>Thu, 29 Jan 2026 01:38:04 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/01/%E8%B6%8A%E5%89%A7/</guid>
+      <guid>http://localhost:1313/blog/2026/01/%E8%B6%8A%E5%89%A7/</guid>
       <description>&lt;h2 id=&#34;关于越剧&#34;&gt;关于越剧&lt;/h2&gt;&#xA;&lt;p&gt;没有内容&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Layouts on Frida</title>
+    <link>http://localhost:1313/tags/layouts/</link>
+    <description>Recent content in Layouts on Frida</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Wed, 25 Mar 2026 09:10:45 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/layouts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Layouts 模板系统深度解析</title>
+      <link>http://localhost:1313/blog/2026/03/hugo-layouts-%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</link>
+      <pubDate>Wed, 25 Mar 2026 09:10:45 +0800</pubDate>
+      <guid>http://localhost:1313/blog/2026/03/hugo-layouts-%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</guid>
+      <description>&lt;h2 id=&#34;什么是-layouts&#34;&gt;什么是 Layouts&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;layouts/&lt;/code&gt; 是 Hugo 的&lt;strong&gt;模板引擎核心&lt;/strong&gt;，使用 Go 内置的 &lt;code&gt;html/template&lt;/code&gt; 语法，负责将 &lt;code&gt;content/&lt;/code&gt; 中的 Markdown 内容渲染为最终的 HTML 页面。&lt;/p&gt;&#xA;&lt;p&gt;Hugo 采用&lt;strong&gt;约定优于配置&lt;/strong&gt;的设计：只要文件放在正确的位置，框架会自动找到并使用对应的模板，无需任何手动注册。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -2,7 +2,7 @@
 <html
   lang="zh-CN"
   data-theme="default">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8" />
 <meta
   name="viewport"
@@ -17,7 +17,7 @@
 <meta name="language" content="zh-CN" />
 
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="https://fridacai.vercel.app/archives/" />
+<link rel="canonical" href="http://localhost:1313/archives/" />
 
 
 
@@ -26,24 +26,24 @@
 
 
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="https://fridacai.vercel.app/archives/">
+<meta property="og:url" content="http://localhost:1313/archives/">
   <meta property="og:site_name" content="Frida">
   <meta property="og:title" content="归档">
   <meta property="og:description" content="按年份和月份组织的所有博客文章">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:type" content="website">
-    <meta property="og:image" content="https://fridacai.vercel.app/images/og-default.avif">
+    <meta property="og:image" content="http://localhost:1313/images/og-default.avif">
 
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://fridacai.vercel.app/images/og-default.avif">
+  <meta name="twitter:image" content="http://localhost:1313/images/og-default.avif">
   <meta name="twitter:title" content="归档">
   <meta name="twitter:description" content="按年份和月份组织的所有博客文章">
 
 
   <meta itemprop="name" content="归档">
   <meta itemprop="description" content="按年份和月份组织的所有博客文章">
-  <meta itemprop="image" content="https://fridacai.vercel.app/images/og-default.avif">
+  <meta itemprop="image" content="http://localhost:1313/images/og-default.avif">
   <meta itemprop="keywords" content="归档,博客,文章">
 
 
@@ -52,7 +52,7 @@
     rel="alternate"
     type="application/rss+xml"
     title="Frida"
-    href="https://fridacai.vercel.app/archives/index.xml" />
+    href="http://localhost:1313/archives/index.xml" />
 
 
 
@@ -177,46 +177,29 @@
 
 
   
-    
-      <link
-        rel="stylesheet"
-        href="/css/compiled.min.4c75aabfa64aafaf81d543dc522dfaae6c91b747f9c053b9198fc487f3a5f629.css"
-        integrity="sha256-THWqv6ZKr6&#43;B1UPcUi36rmyRt0f5wFO5GY/Eh/Ol9ik="
-        crossorigin="anonymous" />
-    
+    <link rel="stylesheet" href="/css/compiled.css" />
   
 
 
 
 
   
-    
-      <link
-        rel="stylesheet"
-        href="/css/chroma.min.491df36221f739b5948a747a0351f100ee7ccaaf466d9f46288bf06de1d59123.css"
-        integrity="sha256-SR3zYiH3ObWUinR6A1HxAO58yq9GbZ9GKIvwbeHVkSM="
-        crossorigin="anonymous" />
-    
+    <link rel="stylesheet" href="/css/chroma.css" />
   
 
 
 
 
 
-<link
-          rel="stylesheet"
-          href="/css/custom.min.8cedbe288a7d302bc9361e97d562f52a83fc48ddfd75a98a73fd9eae82d0a7da.css"
-          integrity="sha256-jO2&#43;KIp9MCvJNh6X1WL1KoP8SN39damKc/2eroLQp9o="
-          crossorigin="anonymous" /><link rel="stylesheet" href="/css/mobile-optimizations.css" /><link rel="stylesheet" href="/css/github-heatmap.css" />
+<link rel="stylesheet" href="/css/custom.css" /><link rel="stylesheet" href="/css/mobile-optimizations.css" /><link rel="stylesheet" href="/css/github-heatmap.css" />
 
 
 
 
 
-        <script
-          src="/js/main.ba969e49a7a874e6938fe689a7dcaa00cb64cb4d429c2cf98d09bde512a16c6d.js"
-          integrity="sha256-upaeSaeodOaTj&#43;aJp9yqAMtky01CnCz5jQm95RKhbG0="
-          crossorigin="anonymous"></script>
+
+
+      <script src="/js/main.js"></script>
 
 
 
@@ -226,19 +209,11 @@
 
 
 
-        <script
-          src="/js/search.de3eba3540834efb8328121784bff4774e06362412ee41eee665f5b4f987f393.js"
-          integrity="sha256-3j66NUCDTvuDKBIXhL/0d04GNiQS7kHu5mX1tPmH85M="
-          crossorigin="anonymous"
-          defer></script>
+      <script src="/js/search.js" defer></script>
 
 
 
-        <script
-          src="/js/dock.76f85f599d04edc14e72ed90ce6faaf072255523bcd82709ade945a8fabaa61c.js"
-          integrity="sha256-dvhfWZ0E7cFOcu2Qzm&#43;q8HIlVSO82CcJrelFqPq6phw="
-          crossorigin="anonymous"
-          defer></script>
+      <script src="/js/dock.js" defer></script>
 
 
 
@@ -969,7 +944,7 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
 </svg>
         <span
-          >共 110 篇文章</span
+          >共 152 篇文章</span
         >
       </div>
     </div>
@@ -978,6 +953,132 @@
   
   
     <div class="space-y-4">
+      
+        <article class="group">
+          <a href="/blog/2026/03/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    RankMath 完整使用教程：每个板块详解
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      RankMath SEO 插件各功能板块详细使用指南，涵盖安装配置、关键词优化、技术SEO、站点地图等核心模块。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">6 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>SEO工具</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/%E4%BB%A3%E7%A0%81%E5%AE%A1%E6%9F%A5%E4%B8%BA%E4%BB%80%E4%B9%88%E7%A6%BB%E4%B8%8D%E5%BC%80-ci/cd%E4%BB%8E%E4%BA%BA%E5%B7%A5%E6%8A%8A%E5%85%B3%E5%88%B0%E8%87%AA%E5%8A%A8%E5%8C%96%E5%AE%88%E9%97%A8%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    代码审查为什么离不开 CI/CD？从人工把关到自动化守门的完整指南
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      深度解析代码审查与 CI/CD 的关系：为什么现代团队必须将自动化流水线嵌入审查流程，以及如何从零搭建一套「机器先审、人工后判」的高效研发体系。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">10 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>DevOps</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
       
         <article class="group">
           <a href="/blog/2026/03/optimize-claude-skill/" class="block">
@@ -1043,13 +1144,13 @@
         </article>
       
         <article class="group">
-          <a href="/blog/2026/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%87%8D%E6%9E%84-prompt-%E5%90%88%E9%9B%86/" class="block">
+          <a href="/blog/2026/03/hugo-layouts-%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/" class="block">
             <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
               <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
                 
                 <div class="min-w-0 flex-1">
                   <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
-                    数据库重构 Prompt 合集
+                    Hugo Layouts 模板系统深度解析
                   </h2>
                   
                   
@@ -1059,7 +1160,7 @@
                   
                   
                     <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
-                      从扫描现有数据库开始，分析问题、设计新架构、执行迁移、验证回滚的完整 Prompt 工作流
+                      全面介绍 Hugo layouts 目录的结构、模板类型、查找机制、Go 模板语法及实战用法
                     </p>
                   
                 </div>
@@ -1072,8 +1173,8 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
 </svg>
 
-                    <time datetime="2026-03-19" class="font-medium whitespace-nowrap">
-                      2026 年 03 月 19 日
+                    <time datetime="2026-03-25" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 25 日
                     </time>
                   </div>
                   
@@ -1084,7 +1185,133 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
 </svg>
 
-                      <span class="font-medium whitespace-nowrap">9 分钟</span>
+                      <span class="font-medium whitespace-nowrap">8 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>技术教程</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    RankMath 常规设置（General Settings）完整配置指南
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      RankMath 常规设置各板块完整说明，包括链接、面包屑、图片、站长工具、robots.txt、llms.txt、Blocks、其他设置、WooCommerce、.htaccess、404监控、重定向、分析及Content AI，附最佳实践建议。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">12 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>SEO工具</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/%E5%A4%A7%E8%A7%82%E5%9B%AD-%E7%AE%A1%E5%AE%B6%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%AE%BE%E8%AE%A1%E5%8D%81%E4%BA%8C%E7%A7%8D%E5%8D%9A%E5%BC%88%E7%8E%A9%E6%B3%95%E5%85%A8%E8%A7%A3%E6%9E%90/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    大观园 · 管家系统深度设计——十二种博弈玩法全解析
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      一座园子，五个管家位，百种腾挪手段。本文在原版GDD管家系统基础上，设计十二个全新玩法模块，让每一位坐上管家位的玩家都面临真实的道德与利益博弈。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">11 分钟</span>
                     </div>
                   
                   
@@ -1096,69 +1323,6 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
 </svg>
                         <span>游戏开发</span>
-                      </span>
-                    
-                  
-                </div>
-              </div>
-            </div>
-          </a>
-        </article>
-      
-        <article class="group">
-          <a href="/blog/2026/03/t%E5%9E%8B%E4%BA%BA%E6%89%8Dai%E6%97%B6%E4%BB%A3%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AB%9E%E4%BA%89%E5%8A%9B%E9%87%8D%E6%9E%84/" class="block">
-            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
-              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
-                
-                <div class="min-w-0 flex-1">
-                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
-                    T型人才：AI时代技术人的核心竞争力重构
-                  </h2>
-                  
-                  
-                  
-                  
-                    
-                  
-                  
-                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
-                      计算机行业正从「通用信息化」向「智能工业化」跃迁，T型人才——横向宽度×纵向深度的复合型技术人——将成为这场变革中最稀缺的资产。
-                    </p>
-                  
-                </div>
-
-                
-                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
-                  
-                  <div class="flex items-center gap-1.5">
-                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-</svg>
-
-                    <time datetime="2026-03-18" class="font-medium whitespace-nowrap">
-                      2026 年 03 月 18 日
-                    </time>
-                  </div>
-                  
-                  
-                  
-                    <div class="flex items-center gap-1.5">
-                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-</svg>
-
-                      <span class="font-medium whitespace-nowrap">7 分钟</span>
-                    </div>
-                  
-                  
-                  
-                  
-                    
-                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
-                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
-</svg>
-                        <span>趋势</span>
                       </span>
                     
                   
@@ -1232,6 +1396,1077 @@
         </article>
       
         <article class="group">
+          <a href="/blog/2026/03/go-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97-hugo-%E6%A8%A1%E6%9D%BF%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Go 模板语法完全指南 —— Hugo 模板开发手册
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      系统、深入地介绍 Hugo 使用的 Go html/template 语法，涵盖变量、控制流、函数、管道、作用域等所有核心特性
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-25" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 25 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">14 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>技术教程</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/hugo-%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E4%B8%8E%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE%E9%85%8D%E7%BD%AE%E5%90%88%E5%B9%B6%E6%8C%87%E5%8D%97/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Hugo 主题配置与个人项目配置合并指南
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      “如何安全地将 Hugo 主题配置合并到个人项目中，最终移除主题依赖并保留所有个性化内容。”
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-24" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 24 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">3 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>技术博客</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/hugo-%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AF%A6%E8%A7%A3/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Hugo 项目文件结构详解
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      全面介绍 Hugo 静态网站生成器的项目目录结构与各文件的作用
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-25" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 25 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">6 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>技术教程</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/2023%E5%B9%B4%E5%90%8E-ai-%E7%AA%81%E7%A0%B4%E7%9A%84%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%B4%A8%E4%B8%8D%E6%98%AF%E8%B0%83%E5%8F%82%E6%98%AF%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    2023年后 AI 突破的技术本质：不是调参，是在做什么？
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      从 GRPO、RLVR、MoE、MLA 到知识蒸馏，深入解析 2023 年以来 AI 真正的技术突破在底层做了什么，以及为什么这与调参侠有本质区别。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-25" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 25 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">9 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>AI 技术深潜</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/%E8%A1%8C%E4%B8%BA%E6%A0%91%E7%9A%84%E7%B1%BB%E5%9E%8B%E8%B0%B1%E7%B3%BB%E4%BB%A5%E5%8F%8A%E5%A4%A7%E8%A7%82%E5%9B%AD%E6%B5%AE%E4%B8%96%E5%BD%95%E8%A7%92%E8%89%B2%E5%85%B3%E8%81%94%E6%80%A7%E6%96%AD%E5%B1%82%E7%9A%84%E8%AF%8A%E6%96%AD/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    行为树的类型谱系，以及《大观园浮世录》角色关联性断层的诊断
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      本文梳理行为树的主要类型谱系，并深入分析《大观园浮世录 v4》中角色关联性偏弱的根本原因——当前系统是「独立概率状态机的集合」而非「耦合关系网络」，并提出改进方向。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">9 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>设计文档</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/%E5%A4%A7%E8%A7%82%E5%9B%AD%E6%B5%AE%E4%B8%96%E5%BD%95%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%E6%A6%82%E7%8E%87%E7%8A%B6%E6%80%81%E6%9C%BA%E7%9A%84%E5%8F%99%E4%BA%8B%E6%A8%A1%E6%8B%9F%E5%99%A8%E8%AE%BE%E8%AE%A1%E8%AF%B4%E6%98%8E/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    大观园浮世录：一个基于概率状态机的叙事模拟器设计说明
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      本文记录《大观园浮世录 v4》的完整系统设计，包括概率行为触发机制、状态变量体系、事件系统、结局判定逻辑，以及各角色的决策模型。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">7 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>设计文档</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/%E5%A6%82%E4%BD%95%E8%AE%A9-ai-%E5%81%9A-code-review%E5%B7%A5%E5%85%B7%E9%80%89%E5%9E%8B%E4%B8%8E%E5%AE%9E%E6%88%98%E9%85%8D%E7%BD%AE%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    如何让 AI 做 Code Review：工具选型与实战配置完全指南
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      从工具选型到落地配置，手把手教你把 AI 引入代码审查流程，实现「机器先审、人工后判」的高效研发协作模式。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">7 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>DevOps</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/ci/cd-%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97%E4%BB%8E%E6%A6%82%E5%BF%B5%E5%88%B0%E5%AE%9E%E8%B7%B5/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    CI/CD 入门指南：从概念到实践
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      全面介绍 CI/CD 的核心概念、工作流程及实际使用方法，帮助你快速上手现代化软件交付流水线。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">4 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>DevOps</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/windows-%E4%B8%8B%E7%9A%84-linux-%E5%AD%90%E7%B3%BB%E7%BB%9Fwsl%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Windows 下的 Linux 子系统（WSL）有什么用？
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      WSL（Windows Subsystem for Linux）让你在 Windows 上无缝运行 Linux 环境，本文介绍它的核心用途与实用场景。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">3 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>技术</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90-windows-%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    深入解析 Windows 系统文件结构
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      全面深入地介绍 Windows 操作系统的文件与目录结构，涵盖系统目录、注册表、文件权限及最佳实践。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">10 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>技术</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/linux-filesystem-structure/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Linux 系统文件结构详解
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      深入介绍 Linux 系统的文件目录结构，包括每个核心目录的作用、设计哲学及实用技巧，帮助你真正理解 Linux 文件系统的组织方式。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">12 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>Linux</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA%E4%B8%8E%E5%AE%9E%E6%97%B6%E4%BA%A4%E4%BA%92%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Godot 游戏开发：多人联机与实时交互完整指南
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      从网络模型选型到 RPC 同步、场景复制、延迟补偿，系统讲解在已有 UI 与 TileMap 架构上实现 Godot 4 多人联机的完整方案。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">8 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>游戏开发</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91ui-%E4%B8%8E%E6%95%B0%E5%80%BC%E9%80%BB%E8%BE%91%E5%AE%8C%E6%88%90%E5%90%8E%E5%A6%82%E4%BD%95%E6%8E%A5%E5%85%A5%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BEtilemap/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Godot 游戏开发：UI 与数值逻辑完成后，如何接入瓦片地图（TileMap）
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      在 UI 界面与核心数值逻辑搭建完成之后，如何将瓦片地图系统融入项目，以及二者之间的架构关系详解。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-23" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 23 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">5 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>游戏开发</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/~/.ssh/config-%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97ssh-%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E8%AF%A6%E8%A7%A3/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    ~/.ssh/config 完全指南：SSH 客户端配置文件详解
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      深入解析 SSH 客户端配置文件 ~/.ssh/config 的语法结构、每一条指令的含义，以及真实场景下的配置范例。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-22" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 22 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">8 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>运维</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/ssh-%E5%AF%86%E9%92%A5%E5%AE%9E%E6%88%98github%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95%E4%B8%8E%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    SSH 密钥实战：GitHub、服务器免密登录与端口转发完整指南
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      SSH 密钥对的真实使用场景：配置 GitHub SSH 访问、服务器免密登录、多账号管理、跳板机连接、端口转发隧道等实战案例。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-22" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 22 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">6 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>运维</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/puttyppk-%E4%B8%8E%E5%85%AC%E7%A7%81%E9%92%A5ssh-%E5%AF%86%E9%92%A5%E4%BD%93%E7%B3%BB%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    PuTTY、PPK 与公私钥：SSH 密钥体系完全指南
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      从零理解 SSH 密钥认证体系：公钥、私钥、PPK 格式与 PuTTY 工具族的完整介绍与实操指南。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-22" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 22 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">6 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>运维</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Claude Cowork：让 AI 真正替你干活的桌面智能体
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      Cowork 是 Anthropic 推出的桌面自主代理工具，将 Claude Code 的强大能力带给每一位知识工作者——无需编程，无需命令行，描述任务，离开，回来取成果。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-22" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 22 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">4 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>产品介绍</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
           <a href="/blog/2026/03/%E5%A6%82%E4%BD%95%E6%89%BE%E5%88%B0-github-%E7%83%AD%E9%97%A8%E9%A1%B9%E7%9B%AE%E4%B8%8E%E8%BF%91%E6%9C%9F%E8%B6%8B%E5%8A%BF/" class="block">
             <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
               <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
@@ -1285,6 +2520,258 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
 </svg>
                         <span>趋势</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/openclaw-gateway-deep-dive/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    OpenClaw Gateway 深度解析：龙虾的心脏是怎么跳动的
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      Gateway 是 OpenClaw 唯一常驻的核心进程，本文从它是什么、做什么、如何配置、如何运维四个维度彻底讲清楚。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-22" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 22 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">10 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>AI工具</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/openclaw-token-economics/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    OpenClaw 的 Token 是怎么烧掉的？一文搞懂龙虾的隐性成本
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      OpenClaw 本身免费，但它的 Token 消耗可能远超你的想象。本文系统拆解 Token 计算原理、六大消耗来源及完整的降本方案。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-22" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 22 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">7 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>AI工具</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/openclaw-multi-agent-deployment/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    OpenClaw 多 Agent 架构部署完全指南：组建你的 AI 数字团队
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      从原理到实操，手把手教你部署 OpenClaw 多 Agent 架构——物理级隔离、模型分级、路由绑定、Agent 间协作，附完整配置文件。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-22" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 22 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">10 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>AI工具</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/openclaw-single-gateway-multi-agent/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    单 Gateway 多 Agent：一台机器运行一支 AI 团队
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      单 Gateway 多 Agent 是 OpenClaw 的黄金架构——一个进程、一个端口，同时跑多个完全隔离的 AI，本文彻底讲清楚它是什么、如何工作、怎么配置。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-22" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 22 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">8 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>AI工具</span>
                       </span>
                     
                   
@@ -1673,6 +3160,69 @@
         </article>
       
         <article class="group">
+          <a href="/blog/2026/03/%E9%95%BF%E7%AF%87%E4%B8%A5%E8%82%83%E6%96%87%E5%AD%A6%E5%86%99%E4%BD%9C-skill-%E6%9E%B6%E6%9E%84-v3/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    长篇严肃文学写作 Skill 架构 v3
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      针对文风飘忽、语言质量低的初稿优化版本。跳过结构诊断，专注于文风指纹建立、逐章风格诊断与直接改写输出。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-20" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 20 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">13 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>创作工具</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
           <a href="/blog/2026/03/git-%E6%8E%A8%E9%80%81%E5%A4%B1%E8%B4%A5%E7%94%A8-git-pull--rebase-%E4%BC%98%E9%9B%85%E8%A7%A3%E5%86%B3%E5%86%B2%E7%AA%81/" class="block">
             <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
               <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
@@ -1978,6 +3528,69 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
 </svg>
                         <span>skill</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/%E6%95%B0%E6%8D%AE%E5%BA%93%E9%87%8D%E6%9E%84-prompt-%E5%90%88%E9%9B%86/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    数据库重构 Prompt 合集
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      从扫描现有数据库开始，分析问题、设计新架构、执行迁移、验证回滚的完整 Prompt 工作流
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-19" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 19 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">9 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>游戏开发</span>
                       </span>
                     
                   
@@ -2534,6 +4147,69 @@
 </svg>
 
                       <span class="font-medium whitespace-nowrap">9 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>趋势</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/t%E5%9E%8B%E4%BA%BA%E6%89%8Dai%E6%97%B6%E4%BB%A3%E6%8A%80%E6%9C%AF%E4%BA%BA%E7%9A%84%E6%A0%B8%E5%BF%83%E7%AB%9E%E4%BA%89%E5%8A%9B%E9%87%8D%E6%9E%84/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    T型人才：AI时代技术人的核心竞争力重构
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      计算机行业正从「通用信息化」向「智能工业化」跃迁，T型人才——横向宽度×纵向深度的复合型技术人——将成为这场变革中最稀缺的资产。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-18" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 18 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">7 分钟</span>
                     </div>
                   
                   
@@ -4445,6 +6121,69 @@
         </article>
       
         <article class="group">
+          <a href="/blog/2026/03/%E5%82%8D%E6%99%9A%E5%85%AD%E7%82%B9%E7%9A%84%E5%87%BA%E7%A7%9F%E5%B1%8B/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    傍晚六点的出租屋
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      深刻者与恣意者的对话故事
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-16" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 16 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">8 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>写作</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
           <a href="/blog/2026/03/%E5%A4%A7%E8%A7%82%E5%9B%AD%E9%A1%B9%E7%9B%AE%E4%BB%BB%E5%8A%A1%E9%97%AD%E7%8E%AF%E6%8B%86%E8%A7%A3%E6%B8%85%E5%8D%95/" class="block">
             <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
               <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
@@ -5002,6 +6741,69 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
 </svg>
                         <span>AI</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/03/%E6%96%87%E5%AD%A6%E5%86%99%E4%BD%9C%E8%83%BD%E5%8A%9B%E7%9A%84%E6%9C%AC%E8%B4%A8/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    文学写作能力的本质
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      文学写作能力是复杂的综合性能力
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-03-16" class="font-medium whitespace-nowrap">
+                      2026 年 03 月 16 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">6 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>写作</span>
                       </span>
                     
                   
@@ -5621,6 +7423,69 @@
 </svg>
 
                       <span class="font-medium whitespace-nowrap">10 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>Web3</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/02/untitled-15/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Untitled 15
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      文章摘要
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-02-08" class="font-medium whitespace-nowrap">
+                      2026 年 02 月 08 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">1 分钟</span>
                     </div>
                   
                   
@@ -6335,6 +8200,69 @@
         </article>
       
         <article class="group">
+          <a href="/blog/2026/02/%E8%B7%AF%E7%94%B1%E7%9A%84%E6%9C%AC%E8%B4%A8%E8%BF%9E%E6%8E%A5%E4%B8%96%E7%95%8C%E7%9A%84%E6%99%BA%E8%83%BD%E5%86%B3%E7%AD%96%E7%B3%BB%E7%BB%9F/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    路由的本质：连接世界的智能决策系统
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      文章摘要
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-02-08" class="font-medium whitespace-nowrap">
+                      2026 年 02 月 08 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">7 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>技术文档</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
           <a href="/blog/2026/02/vue-%E8%84%9A%E6%89%8B%E6%9E%B6%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/" class="block">
             <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
               <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
@@ -6650,6 +8578,69 @@
         </article>
       
         <article class="group">
+          <a href="/blog/2026/02/%E6%89%8B%E6%9C%BA%E7%AB%AF%E7%9A%84obsidian/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    手机端的obsidian
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      文章摘要
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-02-06" class="font-medium whitespace-nowrap">
+                      2026 年 02 月 06 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">1 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>note</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
           <a href="/blog/2026/02/pixelhq/" class="block">
             <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
               <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
@@ -6766,6 +8757,70 @@
   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
 </svg>
                         <span>工具</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/02/gemini-temporary-chat/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Gemini-Temporary Chat
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      Exported: 2/3/2026 9:52:00
+Link: …
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-02-03" class="font-medium whitespace-nowrap">
+                      2026 年 02 月 03 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">15 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>生活随笔</span>
                       </span>
                     
                   
@@ -6920,7 +8975,7 @@
                   
                     <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
                       Obsidian 写 Hugo 博客完整指南 一、Obsidian Vault 设置 1. 创建 Obsidian Vault 将 Hugo 项目的 content 目录作为 Vault：
-PLAINTEXT 折叠 复制 …
+PLAINTEXT …
                     </p>
                   
                 </div>
@@ -7047,7 +9102,7 @@ PLAINTEXT 折叠 复制 …
                   
                     <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
                       Hugo Archetypes 模板集合 说明 将这些文件放到 archetypes/ 目录下
-1. default.md - 通用文章模板 YAML 折叠 复制 --- title: &#34;{{ replace …
+1. default.md - 通用文章模板 YAML折叠复制--- title: &#34;{{ replace …
                     </p>
                   
                 </div>
@@ -7175,7 +9230,134 @@ PLAINTEXT 折叠 复制 …
                   
                     <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
                       Hugo 项目完整修复报告 📋 修复概览 本次修复解决了两个主要问题:
-✅ 语言默认设置优化 (统一为中文) ✅ 日期格式错误修复 ✅ Meta 信息补全和优化 🔧 问题 1: 日期格式错误 错误信息 PLAINTEXT 折叠 复制 …
+✅ 语言默认设置优化 (统一为中文) ✅ 日期格式错误修复 ✅ Meta 信息补全和优化 🔧 问题 1: 日期格式错误 错误信息 PLAINTEXT …
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-01-29" class="font-medium whitespace-nowrap">
+                      2026 年 01 月 29 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">3 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>技术教程</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/01/%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%B8%85%E5%8D%95/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    完整配置清单
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      Hugo Narrow 主题配置清单 ✅ 必须配置的项目 1. Giscus 评论系统（已启用但需配置） 步骤 1：创建 GitHub 仓库 PLAINTEXT折叠复制仓库名建议: blog-comments设置: 公开仓库点击展 …
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-01-29" class="font-medium whitespace-nowrap">
+                      2026 年 01 月 29 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">4 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>技术教程</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2026/01/%E6%97%A5%E6%9C%9F%E6%A0%BC%E5%BC%8F%E4%BF%AE%E5%A4%8D%E8%AF%B4%E6%98%8E/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    日期格式修复说明
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      日期格式错误修复说明 问题描述 在运行 Hugo 时出现以下错误:
+PLAINTEXT折叠复制ERROR the &#34;date&#34; front matter field is not a parsable date点击展 …
                     </p>
                   
                 </div>
@@ -7238,7 +9420,7 @@ PLAINTEXT 折叠 复制 …
                   
                   
                     <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
-                      一、营销的本质逻辑(底层统一模型) 所有营销岗位都在解决同一个公式: PLAINTEXT 折叠 复制 商业成功 = 流量 × 转化率 × 客单价 × 复购率 - 成本 点击展开查看更多 所有营销岗位,只是在这个公式的不同环节发力:
+                      一、营销的本质逻辑(底层统一模型) 所有营销岗位都在解决同一个公式: PLAINTEXT折叠复制商业成功 = 流量 × 转化率 × 客单价 × 复购率 - 成本点击展开查看更多所有营销岗位,只是在这个公式的不同环节发力:
 
                     </p>
                   
@@ -7286,6 +9468,69 @@ PLAINTEXT 折叠 复制 …
         </article>
       
         <article class="group">
+          <a href="/blog/2026/01/26-01-22-19-28-28/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    26-01-22-19-28-28
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      一、重新评估你的真实竞争力 你以为的你 vs 实际的你 你以为 实际 &ldquo;我是做运营的,技术不够深&rdquo; 你是会编程的营销人(市场上稀缺到爆) &ldquo;我什么都懂点,没壁垒&rdquo; 你有最稀缺的组合:技术+营 …
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2026-01-28" class="font-medium whitespace-nowrap">
+                      2026 年 01 月 28 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">12 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>MKT</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
           <a href="/blog/2026/01/%E4%BC%AA%E8%A3%85%E5%BA%A6%E6%8F%90%E5%8D%87/" class="block">
             <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
               <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
@@ -7302,7 +9547,7 @@ PLAINTEXT 折叠 复制 …
                   
                   
                     <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
-                      在使用 Whoer.net 或 Pixelscan 等工具检测时，伪装度显示为 90% 主要是因为本地设置与 IP 所在地不一致导致的。这 10% 的差距往往就是导致领英、Facebook 注册即风控的“临门一脚”。 以下是把伪装度从 …
+                      在使用 Whoer.net 或 Pixelscan 等工具检测时，伪装度显示为 90% 主要是因为本地设置与 IP 所在地不一致导致的。这 10% 的差距往往就是导致领英、Facebook 注册即风控的“临门一脚”。 …
                     </p>
                   
                 </div>
@@ -7365,7 +9610,7 @@ PLAINTEXT 折叠 复制 …
                   
                   
                     <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
-                      一、网站结构分析与关键词分层策略 典型的管件产品网站结构 PLAINTEXT 折叠 复制 首页 │ ├─ 产品分类页（10-20个） │ ├─ Stainless Steel Pipe Fittings (主分类) │ ├─ Carbon …
+                      一、网站结构分析与关键词分层策略 典型的管件产品网站结构 PLAINTEXT折叠复制首页│├─ 产品分类页（10-20个）│ ├─ Stainless Steel Pipe Fittings (主分类)│ ├─ Carbon …
                     </p>
                   
                 </div>
@@ -7603,6 +9848,384 @@ PLAINTEXT 折叠 复制 …
         </article>
       
         <article class="group">
+          <a href="/blog/2025/12/%E7%9F%AD%E4%BB%A3%E7%A0%81%E7%A4%BA%E4%BE%8B/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    短代码示例
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      Hugo Narrow 主题可用的短代码
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2025-12-26" class="font-medium whitespace-nowrap">
+                      2025 年 12 月 26 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">2 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>测试归档</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2025/06/test-alert/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    GitHub 风格提示框测试
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      测试 GitHub 风格提示框和折叠功能
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2025-06-01" class="font-medium whitespace-nowrap">
+                      2025 年 06 月 01 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">3 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>测试归档</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2024/01/katex-mermaid-test/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    KaTeX 和 Mermaid 测试
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      测试 KaTeX 数学公式和 Mermaid 图表渲染功能
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2024-01-17" class="font-medium whitespace-nowrap">
+                      2024 年 01 月 17 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">2 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>测试归档</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2024/01/%E5%9B%BE%E7%89%87%E6%B8%B2%E6%9F%93%E6%B5%8B%E8%AF%95/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    图片渲染测试
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      测试图片渲染功能
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2024-01-16" class="font-medium whitespace-nowrap">
+                      2024 年 01 月 16 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">1 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>测试归档</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2024/01/code-highlighting-test/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    代码高亮测试
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      测试代码高亮功能
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2024-01-16" class="font-medium whitespace-nowrap">
+                      2024 年 01 月 16 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">2 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>测试归档</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
+          <a href="/blog/2024/01/markdown-%E8%AF%AD%E6%B3%95%E6%B5%8B%E8%AF%95%E6%96%87%E6%A1%A3/" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+              <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                
+                <div class="min-w-0 flex-1">
+                  <h2 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                    Markdown 语法测试文档
+                  </h2>
+                  
+                  
+                  
+                  
+                    
+                  
+                  
+                    <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                      这是一个包含各种 Markdown 语法的测试文档，用于验证文档样式的完整性。
+                    </p>
+                  
+                </div>
+
+                
+                <div class="flex flex-shrink-0 flex-wrap items-center gap-3 text-sm text-muted-foreground">
+                  
+                  <div class="flex items-center gap-1.5">
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>
+
+                    <time datetime="2024-01-15" class="font-medium whitespace-nowrap">
+                      2024 年 01 月 15 日
+                    </time>
+                  </div>
+                  
+                  
+                  
+                    <div class="flex items-center gap-1.5">
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg>
+
+                      <span class="font-medium whitespace-nowrap">3 分钟</span>
+                    </div>
+                  
+                  
+                  
+                  
+                    
+                      <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                        <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+</svg>
+                        <span>测试归档</span>
+                      </span>
+                    
+                  
+                </div>
+              </div>
+            </div>
+          </a>
+        </article>
+      
+        <article class="group">
           <a href="/blog/2022/01/%E5%85%B3%E4%BA%8E/" class="block">
             <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
               <div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
@@ -7736,7 +10359,7 @@ PLAINTEXT 折叠 复制 …
                   
                   
                     <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
-                      Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that …
+                      Hugo uses the excellent Gohtml/templatelibrary for its template engine. It is an extremely lightweight engine that …
                     </p>
                   
                 </div>
@@ -7799,7 +10422,7 @@ PLAINTEXT 折叠 复制 …
                   
                   
                     <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
-                      Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+                      Step 1. Install Hugo Go to Hugo releasesand download the appropriate version for your OS and architecture.
 Save it …
                     </p>
                   
@@ -7864,7 +10487,7 @@ Save it …
                   
                     <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
                       大观园 · 百人异步竞技 游戏设计文档 (GDD) v1.1 核心命题： 一座园子，百人博弈。你永远不知道谁是真心帮你，谁在背地里卖你的情报。
-引擎： Godot 4.x（GDScript） 形态： Web / 移动端 异步多人社交策略游戏 …
+引擎： Godot 4.x（GDScript） 形态： Web / …
                     </p>
                   
                 </div>

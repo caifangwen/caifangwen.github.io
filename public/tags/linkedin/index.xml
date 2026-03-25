@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LinkedIn on Frida</title>
-    <link>https://fridacai.vercel.app/tags/linkedin/</link>
+    <link>http://localhost:1313/tags/linkedin/</link>
     <description>Recent content in LinkedIn on Frida</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 18 Mar 2026 03:39:57 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/linkedin/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/linkedin/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ToB 钢材外贸 LinkedIn 运营 Skill 合集：Claude Code 完整构建指南</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/tob-%E9%92%A2%E6%9D%90%E5%A4%96%E8%B4%B8-linkedin-%E8%BF%90%E8%90%A5-skill-%E5%90%88%E9%9B%86claude-code-%E5%AE%8C%E6%95%B4%E6%9E%84%E5%BB%BA%E6%8C%87%E5%8D%97/</link>
+      <link>http://localhost:1313/blog/2026/03/tob-%E9%92%A2%E6%9D%90%E5%A4%96%E8%B4%B8-linkedin-%E8%BF%90%E8%90%A5-skill-%E5%90%88%E9%9B%86claude-code-%E5%AE%8C%E6%95%B4%E6%9E%84%E5%BB%BA%E6%8C%87%E5%8D%97/</link>
       <pubDate>Wed, 18 Mar 2026 03:39:57 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/tob-%E9%92%A2%E6%9D%90%E5%A4%96%E8%B4%B8-linkedin-%E8%BF%90%E8%90%A5-skill-%E5%90%88%E9%9B%86claude-code-%E5%AE%8C%E6%95%B4%E6%9E%84%E5%BB%BA%E6%8C%87%E5%8D%97/</guid>
+      <guid>http://localhost:1313/blog/2026/03/tob-%E9%92%A2%E6%9D%90%E5%A4%96%E8%B4%B8-linkedin-%E8%BF%90%E8%90%A5-skill-%E5%90%88%E9%9B%86claude-code-%E5%AE%8C%E6%95%B4%E6%9E%84%E5%BB%BA%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h2 id=&#34;项目背景&#34;&gt;项目背景&lt;/h2&gt;&#xA;&lt;p&gt;钢材外贸 ToB 场景在 LinkedIn 运营上面临三大核心痛点：&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;开发信同质化严重&lt;/strong&gt; — 千篇一律的模板被采购商秒删&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;内容产出效率低&lt;/strong&gt; — 技术型销售不擅长写专业英文帖子&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;询盘跟进不及时&lt;/strong&gt; — 人工处理响应延迟，错失成交窗口&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;本 Skill 合集通过 7 个专项 Skill 覆盖从「客户画像」到「成交跟进」的完整 LinkedIn 运营链路，并提供可直接传入 Claude Code 的构建 Prompt。&lt;/p&gt;</description>
     </item>
   </channel>
