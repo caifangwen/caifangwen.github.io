@@ -84,6 +84,28 @@ html, body {
   max-width: 100%;
 }
 
+/* 移动端表格优化 */
+@media (max-width: 768px) {
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .prose table td,
+  .prose table th {
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+
+  .prose pre,
+  .prose pre code {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
 /* ========================================
    移动端首页优化 - 移除作者区域边框
    ======================================== */
