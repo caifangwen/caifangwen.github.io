@@ -1,17 +1,14 @@
 /* ========================================
    移动端全面优化 CSS
    ======================================== */
-
 /* 移动端专用样式 */
 @media (max-width: 768px) {
-
   /* ==================== Hero/公告区域去边框 ==================== */
   /* 移除移动端首页公告区域的边框 */
   .bg-primary\/10.border-primary\/30 {
     border: none !important;
     box-shadow: none !important;
   }
-
   /* ==================== 导航栏优化 ==================== */
   /* 导航栏更窄 */
   header {
@@ -60,36 +57,28 @@
   /* ==================== 首页文章列表优化 ==================== */
   
   /* 方案1: 使用类名选择器 - 隐藏移动端顶部封面 */
-  .post-list article > a > div > div.block.md\:hidden {
+  .home-list article > a > div > div.block.md\:hidden {
     display: none !important;
   }
   
   /* 方案2: 使用更通用的选择器 */
-  .post-list article .md\:hidden {
-    display: none !important;
-  }
-
   
   /* 列表标题更紧凑 */
   .post-list > div.mb-6 {
     margin-bottom: 0.75rem !important;
   }
-
   .post-list > div.mb-6 h2 {
     font-size: 1.125rem !important;
     line-height: 1.25 !important;
   }
-
   /* 卡片：收紧圆角/内边距 */
   .post-list article > a > div {
     border-radius: 0.75rem !important;
   }
-
   /* 卡片内容区（真正的 p-6 在这里） */
   .post-list article > a > div > div.relative.z-10 {
     padding: 0.85rem 0.9rem !important;
   }
-
   /* 右侧 desktop padding 占位（md:pr-84）在移动端直接去掉 */
   .post-list article .md\:pr-84 {
     padding-right: 0.9rem !important;
@@ -103,7 +92,7 @@
   }
   
   /* 摘要：移动端更紧凑（默认隐藏，信息密度更像列表） */
-  .post-list article p.text-muted-foreground {
+  .home-list article p.text-muted-foreground {
     display: none !important;
   }
   
@@ -115,14 +104,12 @@
   .post-list article .text-sm {
     font-size: 0.75rem !important;
   }
-
   /* 元信息行间距更紧 */
   .post-list article .mt-auto .flex.items-center.gap-3 {
     gap: 0.5rem !important;
   }
-
   /* 标签行：移动端隐藏以更紧凑 */
-  .post-list article .mt-auto > .flex.flex-wrap {
+  .home-list article .mt-auto > .flex.flex-wrap {
     display: none !important;
   }
   
@@ -249,7 +236,6 @@
   }
   
   /* ==================== 面包屑导航 ==================== */
-
   nav[aria-label*="面包屑"],
   nav[aria-label*="Breadcrumb"] {
     margin-bottom: 0.5rem !important;
@@ -269,7 +255,6 @@
     margin-top: 1rem !important;
   }
 }
-
 /* ==================== 桌面端优化 ==================== */
 @media (min-width: 769px) {
   /* 文章详情页上一篇/下一篇同一排显示,防止文字超出 */
@@ -304,16 +289,13 @@
     padding: 1.125rem 1.25rem !important;
   }
 }
-
 /* ==================== 通用优化 ==================== */
-
 /* 版权声明链接换行 */
 .post-license a {
   word-break: break-word !important;
   overflow-wrap: break-word !important;
   hyphens: auto !important;
 }
-
 /* 确保移动端图片完全隐藏 */
 @media (max-width: 768px) {
   /* 针对首页 */
@@ -331,7 +313,6 @@
     padding-right: 0.9rem !important;
   }
 }
-
 /* ==================== 首页 vs 存档页卡片样式区分 ==================== */
 /* 首页文章卡片 - 保持简洁列表样式，隐藏封面图和标签 */
 @media (max-width: 768px) {
