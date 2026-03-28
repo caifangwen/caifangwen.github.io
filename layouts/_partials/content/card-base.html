@@ -90,27 +90,25 @@
             {{ end }}
           </div>
 
-          <!-- 分类和标签行（仅在存档页显示） -->
-          {{ if not $isHome }}
-            {{ if or $page.Params.categories $page.Params.tags }}
-              <div class="flex flex-wrap items-center gap-2 mt-2">
-                {{ if $page.Params.categories }}
-                  {{ with index $page.Params.categories 0 }}
-                    <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium">
-                      {{ partial "features/icon.html" (dict "name" "folder" "size" "xs" "ariaLabel" "") }}
-                      <span>{{ . }}</span>
-                    </span>
-                  {{ end }}
+          <!-- 分类和标签行 -->
+          {{ if or $page.Params.categories $page.Params.tags }}
+            <div class="flex flex-wrap items-center gap-2 mt-2">
+              {{ if $page.Params.categories }}
+                {{ with index $page.Params.categories 0 }}
+                  <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium">
+                    {{ partial "features/icon.html" (dict "name" "folder" "size" "xs" "ariaLabel" "") }}
+                    <span>{{ . }}</span>
+                  </span>
                 {{ end }}
-                {{ if $page.Params.tags }}
-                  {{ range first 3 $page.Params.tags }}
-                    <span class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-1 text-xs">
-                      <span>{{ . }}</span>
-                    </span>
-                  {{ end }}
+              {{ end }}
+              {{ if $page.Params.tags }}
+                {{ range first 3 $page.Params.tags }}
+                  <span class="bg-muted/50 border-muted/30 flex items-center gap-1 rounded-md border px-2 py-1 text-xs">
+                    <span>{{ . }}</span>
+                  </span>
                 {{ end }}
-              </div>
-            {{ end }}
+              {{ end }}
+            </div>
           {{ end }}
         </div>
       </div>
