@@ -7,7 +7,7 @@
         {{ if ne site.Params.header.logo.image "" }}
           <a
             href="{{ if site.Params.header.logo.link }}{{ site.Params.header.logo.link | relLangURL }}{{ else }}{{ site.Home.RelPermalink }}{{ end }}"
-            class="flex h-9 w-9 items-center justify-center overflow-hidden rounded-full transition-transform duration-200 hover:scale-105 md:h-10 md:w-10"
+            class="flex h-5 w-5 items-center justify-center overflow-hidden rounded transition-transform duration-200 hover:scale-105 md:h-5 md:w-5"
             aria-label="{{ site.Title }}">
             <img
               src="{{ site.Params.header.logo.image }}"
@@ -17,7 +17,7 @@
         {{ else }}
           <a
             href="{{ site.Home.RelPermalink }}"
-            class="bg-primary text-primary-foreground hover:bg-primary/90 flex h-9 w-9 items-center justify-center rounded-full text-base font-bold transition-transform duration-200 hover:scale-105 md:h-10 md:w-10 md:text-lg"
+            class="bg-primary text-primary-foreground hover:bg-primary/90 flex h-5 w-5 items-center justify-center rounded text-xs font-bold transition-transform duration-200 hover:scale-105 md:h-5 md:w-5 md:text-xs"
             aria-label="{{ site.Title }}">
             {{ substr site.Title 0 1 | upper }}
           </a>
