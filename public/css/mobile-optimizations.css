@@ -91,10 +91,11 @@
     margin-bottom: 0.35rem !important;
   }
   
-  /* 摘要：移动端更紧凑（默认隐藏，信息密度更像列表） */
-  .home-list article p.text-muted-foreground {
+  /* 摘要：移动端显示摘要（存档页和首页都显示） */
+  /* 不再隐藏摘要，让所有文章列表页都显示描述 */
+  /* .home-list article p.text-muted-foreground {
     display: none !important;
-  }
+  } */
   
   /* 元信息区域 */
   .post-list article .mt-auto {
@@ -108,10 +109,10 @@
   .post-list article .mt-auto .flex.items-center.gap-3 {
     gap: 0.5rem !important;
   }
-  /* 标签行：移动端隐藏以更紧凑 */
-  .home-list article .mt-auto > .flex.flex-wrap {
+  /* 标签行：移动端也显示分类和标签（不再隐藏） */
+  /* .home-list article .mt-auto > .flex.flex-wrap {
     display: none !important;
-  }
+  } */
   
   /* 卡片间距缩小 */
   .post-list .space-y-4 {
@@ -314,27 +315,15 @@
   }
 }
 /* ==================== 首页 vs 存档页卡片样式区分 ==================== */
-/* 首页文章卡片 - 保持简洁列表样式，隐藏封面图和标签 */
+/* 移动端所有文章列表页 - 隐藏封面图，但显示分类和标签 */
 @media (max-width: 768px) {
-  .home-list .home-card .block.md\:hidden {
+  /* 所有文章列表页：隐藏移动端顶部封面图 */
+  .post-list article .block.md\:hidden {
     display: none !important;
   }
-  
-  /* 首页：隐藏分类和标签区域 */
-  .home-list .home-card .mt-2 > .flex.flex-wrap {
-    display: none !important;
-  }
-  
-  /* 存档页文章卡片 - 显示详细信息 */
-  /* 存档页：显示封面图 */
-  .archives-page article.group .block.md\:hidden,
-  .post-list:not(.home-list) article.group .block.md\:hidden {
-    display: block !important;
-  }
-  
-  /* 存档页：显示分类和标签 */
-  .archives-page article.group .mt-2 > .flex.flex-wrap,
-  .post-list:not(.home-list) article.group .mt-2 > .flex.flex-wrap {
+
+  /* 所有文章列表页：显示分类和标签区域 */
+  .post-list article .mt-2 > .flex.flex-wrap {
     display: flex !important;
   }
 }
