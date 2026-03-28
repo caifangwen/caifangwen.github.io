@@ -300,18 +300,19 @@
 
 /* ==================== 移动端表格优化 ==================== */
 @media (max-width: 768px) {
-  /* 表格容器滚动 */
-  .prose .table-wrapper,
+  /* 强制表格为块级元素，支持滚动 */
   .prose table {
-    max-width: 100%;
-    overflow-x: auto;
+    display: block !important;
+    overflow-x: auto !important;
     -webkit-overflow-scrolling: touch;
+    max-width: 100% !important;
   }
 
-  /* 表格最小宽度，确保内容完整显示 */
-  .prose table {
-    min-width: 100%;
-    display: block;
+  /* 表格容器 */
+  .prose .table-wrapper {
+    display: block !important;
+    overflow-x: auto !important;
+    max-width: 100% !important;
   }
 
   /* 表格单元格换行 */
@@ -320,23 +321,26 @@
     word-break: break-word !important;
     overflow-wrap: break-word !important;
     white-space: normal !important;
+    max-width: 100% !important;
   }
 
-  /* 防止代码块溢出 */
+  /* 代码块滚动 */
   .prose pre,
   .prose pre code {
-    max-width: 100%;
-    overflow-x: auto;
+    overflow-x: auto !important;
     -webkit-overflow-scrolling: touch;
+    max-width: 100% !important;
   }
 
-  /* 所有可能溢出的元素 */
+  /* 防止任何元素溢出 */
   .prose > *,
   .prose div,
-  .prose section {
-    max-width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+  .prose section,
+  .prose article {
+    max-width: 100% !important;
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    overflow-x: hidden !important;
   }
 }
 /* 确保移动端图片完全隐藏 */
