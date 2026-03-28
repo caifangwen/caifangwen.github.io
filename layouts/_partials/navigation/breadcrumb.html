@@ -31,6 +31,8 @@
               {{ i18n "nav.projects" | default "项目" }}
             {{ else if eq .Section "series" }}
               {{ i18n "nav.series" | default "系列" }}
+            {{ else if eq .Section "discussions" }}
+              {{ i18n "nav.discussions" | default "讨论" }}
             {{ else }}
               {{ .Title }}
             {{ end }}
@@ -120,6 +122,8 @@
                   {{ i18n "nav.archives" | default "归档" }}
                 {{ else if eq .Section "projects" }}
                   {{ i18n "nav.projects" | default "项目" }}
+                {{ else if eq .Section "discussions" }}
+                  {{ i18n "nav.discussions" | default "讨论" }}
                 {{ else }}
                   {{ .Section | title }}
                 {{ end }}
