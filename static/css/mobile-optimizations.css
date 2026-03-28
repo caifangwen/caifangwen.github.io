@@ -110,7 +110,7 @@
     gap: 0.5rem !important;
   }
   /* 标签行：移动端隐藏以更紧凑（仅首页） */
-  .home-list article .mt-auto > .flex.flex-wrap {
+  .home-list article .mt-auto .mt-2 {
     display: none !important;
   }
   
@@ -322,7 +322,7 @@
   }
 
   /* 首页：隐藏分类和标签区域 */
-  .home-list .home-card .mt-2 > .flex.flex-wrap {
+  .home-list .home-card .mt-auto .mt-2 {
     display: none !important;
   }
 
@@ -334,8 +334,8 @@
   }
 
   /* 存档页：显示分类和标签 */
-  .archives-page article.group .mt-2 > .flex.flex-wrap,
-  .post-list:not(.home-list) article.group .mt-2 > .flex.flex-wrap {
+  .archives-page article.group .mt-auto .mt-2,
+  .post-list:not(.home-list) article.group .mt-auto .mt-2 {
     display: flex !important;
   }
 }
