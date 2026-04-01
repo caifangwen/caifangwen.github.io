@@ -1,31 +1,4 @@
 /* ========================================
-   存档页时间线样式 (仅桌面端)
-   ======================================== */
-@media (min-width: 768px) {
-  /* 时间线上的节点 */
-  .timeline-dot {
-    transition: all 0.3s ease-out;
-  }
-
-  .group:hover .timeline-dot {
-    transform: scale(1.2);
-    box-shadow: 0 0 12px color-mix(in srgb, var(--color-primary) 40%, transparent);
-  }
-
-  /* 奇数项 - 卡片在右侧 */
-  .timeline-item:nth-child(odd) .timeline-dot {
-    left: 0;
-    margin-left: -0.375rem;
-  }
-
-  /* 偶数项 - 卡片在左侧 */
-  .timeline-item:nth-child(even) .timeline-dot {
-    left: 100%;
-    margin-left: 0.375rem;
-  }
-}
-
-/* ========================================
    存档页月份标题样式
    ======================================== */
 .month-header {
