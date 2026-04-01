@@ -39,20 +39,12 @@
 
   <!-- 列表格式归档 - 按月份分组 + 桌面端时间线 -->
   {{ if $allPosts }}
-    {{/* 收集所有唯一的月份键 */}}
-    {{ $monthKeys := slice }}
-    {{ range $allPosts }}
-      {{ $monthKey := .Date.Format "2006-01" }}
-      {{ if not (in $monthKeys $monthKey) }}
-        {{ $monthKeys = $monthKeys | append $monthKey }}
-      {{ end }}
-    {{ end }}
+    {{/* 按月份分组 */}}
+    {{ $postsByMonth := $allPosts.GroupByDate "2006-01" }}
 
     <div class="space-y-8">
-      {{ range $monthKeys }}
-        {{ $monthKey := . }}
-        {{/* 筛选当前月份的文章 */}}
-        {{ $posts := where $allPosts "Date.Format" "2006-01" $monthKey }}
+      {{ range $postsByMonth }}
+        {{ $posts := .Pages }}
         {{ $monthName := (index $posts 0).Date.Format "2006 年 01 月" }}
         <div class="month-group">
           <!-- 月份标题 -->
