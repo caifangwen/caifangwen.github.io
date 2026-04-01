@@ -1,4 +1,79 @@
-/* Archive page mobile card optimizations */
+/* ========================================
+   存档页时间线样式
+   ======================================== */
+.timeline-container {
+  padding-left: 1rem;
+}
+
+@media (min-width: 768px) {
+  .timeline-container {
+    padding-left: 0;
+  }
+}
+
+/* 时间线上的节点 */
+.timeline-dot {
+  z-index: 10;
+  transition: all 0.3s ease-out;
+}
+
+.group:hover .timeline-dot {
+  transform: scale(1.2);
+  box-shadow: 0 0 12px color-mix(in srgb, var(--color-primary) 40%, transparent);
+}
+
+/* 移动端时间线优化 - 所有卡片在右侧 */
+@media (max-width: 768px) {
+  .timeline-line {
+    left: 1rem !important;
+  }
+  
+  .timeline-dot {
+    left: 1rem !important;
+    right: auto !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+  
+  .timeline-item > a {
+    padding-left: 2.5rem;
+  }
+}
+
+/* 桌面端交替布局 - 卡片在时间线两侧交替显示 */
+@media (min-width: 768px) {
+  .timeline-item {
+    justify-content: flex-start;
+  }
+  
+  /* 奇数项 - 卡片在右侧 */
+  .timeline-item:nth-child(odd) {
+    justify-content: flex-end;
+  }
+  
+  .timeline-item:nth-child(odd) .timeline-dot {
+    order: -1;
+    margin-right: -0.25rem;
+  }
+  
+  .timeline-item:nth-child(odd) > a {
+    margin-left: auto;
+  }
+  
+  /* 偶数项 - 卡片在左侧 */
+  .timeline-item:nth-child(even) .timeline-dot {
+    order: 1;
+    margin-left: -0.25rem;
+  }
+  
+  .timeline-item:nth-child(even) > a {
+    margin-right: auto;
+  }
+}
+
+/* ========================================
+   存档页移动端卡片优化
+   ======================================== */
 @media (max-width: 768px) {
   /* Adjust archive timeline indentation for mobile cards */
   .archives-page .ml-12 {
