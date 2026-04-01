@@ -27,6 +27,12 @@ main:
     params:
       icon: projects
 
+  - name: nav.categories
+    pageRef: /categories
+    weight: 30
+    params:
+      icon: categories
+
   - identifier: archives
     name: nav.archives
     url: /archives/
