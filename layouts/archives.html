@@ -39,17 +39,28 @@
 
   <!-- 列表格式归档 - 按月份分组 + 桌面端时间线 -->
   {{ if $allPosts }}
-    {{ $postsByMonth := $allPosts | groupByDate "2006-01" }}
+    {{ $months := slice }}
+    {{ $postsByMonth := dict }}
+    {{ range $allPosts }}
+      {{ $monthKey := .Date.Format "2006-01" }}
+      {{ if not (isset $postsByMonth $monthKey) }}
+        {{ $months = $months | append $monthKey }}
+        {{ $postsByMonth = merge $postsByMonth (dict $monthKey slice) }}
+      {{ end }}
+    {{ end }}
 
     <div class="space-y-8">
-      {{ range $postsByMonth }}
+      {{ range $months }}
+        {{ $monthKey := . }}
+        {{ $posts := index $postsByMonth $monthKey }}
+        {{ $monthName := (index $posts 0).Date.Format "2006 年 01 月" }}
         <div class="month-group">
           <!-- 月份标题 -->
           <div class="month-header sticky top-0 z-20 bg-background/80 backdrop-blur-sm py-3 mb-4 border-b border-border">
             <h2 class="text-foreground text-lg font-semibold flex items-center gap-2">
               {{ partial "features/icon.html" (dict "name" "calendar" "size" "sm" "ariaLabel" "") }}
-              {{ .Key }}
-              <span class="text-muted-foreground text-sm font-normal">({{ len .Pages }} 篇)</span>
+              {{ $monthName }}
+              <span class="text-muted-foreground text-sm font-normal">({{ len $posts }} 篇)</span>
             </h2>
           </div>
 
@@ -57,7 +68,7 @@
           <div class="hidden md:block timeline-container relative py-2">
             <div class="timeline-line absolute left-1/2 top-0 bottom-0 w-0.5 bg-border -ml-px"></div>
             <div class="space-y-6">
-              {{ range $index, $post := .Pages }}
+              {{ range $index, $post := $posts }}
                 {{ $isOdd := eq (mod $index 2) 1 }}
                 <article class="group timeline-item relative flex items-center">
                   <div class="timeline-dot absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2 h-3 w-3 rounded-full bg-primary border-2 border-background ring-2 ring-primary/20 z-10 transition-all duration-300 group-hover:scale-125 group-hover:shadow-[0_0_12px_rgba(var(--color-primary),0.4)]"></div>
@@ -125,7 +136,7 @@
 
           <!-- 移动端：普通列表布局 -->
           <div class="md:hidden space-y-3">
-            {{ range .Pages }}
+            {{ range $posts }}
               <article class="group">
                 <a href="{{ .RelPermalink }}" class="block">
                   <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-5 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.01] hover:shadow-md focus:ring-2 focus:outline-none">
