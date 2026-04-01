@@ -56,105 +56,58 @@
             </h2>
           </div>
 
-          <!-- 桌面端：左右交替布局 -->
-          <div class="hidden md:grid md:grid-cols-2 gap-x-8 gap-y-6">
-            {{ range $index, $post := $posts }}
-              {{ $isOdd := eq (mod $index 2) 1 }}
-              <article class="group timeline-item relative">
-                <a href="{{ $post.RelPermalink }}" class="block {{ if $isOdd }}md:col-start-2{{ else }}md:col-start-1{{ end }}">
-                  <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
-                      <div class="flex flex-col gap-3">
-                        <!-- 文章标题 -->
-                        <div class="min-w-0 flex-1">
-                          <h3 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
-                            {{ $post.LinkTitle }}
-                          </h3>
-
-                          <!-- 文章摘要 -->
-                          {{ $summaryContent := "" }}
-                          {{ if $post.Params.summary }}
-                            {{ $summaryContent = $post.Params.summary }}
-                          {{ else if $post.Params.description }}
-                            {{ $summaryContent = $post.Params.description }}
-                          {{ else if $post.Summary }}
-                            {{ $summaryContent = $post.Summary | plainify | truncate 120 }}
-                          {{ end }}
-                          {{ if $summaryContent }}
-                            <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
-                              {{ $summaryContent }}
-                            </p>
-                          {{ end }}
-                        </div>
-
-                        <!-- 元信息 -->
-                        <div class="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
-                          <!-- 日期 -->
-                          <div class="flex items-center gap-1.5">
-                            {{ partial "features/icon.html" (dict "name" "calendar" "size" "xs" "ariaLabel" "") }}
-                            <time datetime="{{ $post.Date.Format "2006-01-02" }}" class="font-medium whitespace-nowrap">
-                              {{ $post.Date.Format (i18n "time.date_format" | default "2006 年 01 月 02 日") }}
-                            </time>
-                          </div>
-
-                          <!-- 阅读时间 -->
-                          {{ if $post.ReadingTime }}
-                            <div class="flex items-center gap-1.5">
-                              {{ partial "features/icon.html" (dict "name" "clock" "size" "xs" "ariaLabel" "") }}
-                              <span class="font-medium whitespace-nowrap">{{ $post.ReadingTime }} {{ i18n "time.minute" | default "min" }}</span>
-                            </div>
-                          {{ end }}
-
-                          <!-- 分类 -->
-                          {{ if $post.Params.categories }}
-                            {{ range first 1 $post.Params.categories }}
-                              <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
-                                {{ partial "features/icon.html" (dict "name" "folder" "size" "xs" "ariaLabel" "") }}
-                                <span>{{ . }}</span>
-                              </span>
-                            {{ end }}
-                          {{ end }}
-                        </div>
-                      </div>
-                    </div>
-                  </a>
-                </article>
-              {{ end }}
-          </div>
-
-          <!-- 移动端：普通列表布局 -->
-          <div class="md:hidden space-y-3">
+          <!-- 文章列表 -->
+          <div class="space-y-4">
             {{ range $posts }}
               <article class="group">
                 <a href="{{ .RelPermalink }}" class="block">
-                  <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-5 transition-all duration-300 ease-out hover:-translate-y-0.5 hover:scale-[1.01] hover:shadow-md focus:ring-2 focus:outline-none">
-                    <div class="flex flex-col gap-2">
+                  <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:scale-[1.02] hover:shadow-lg focus:ring-2 focus:outline-none">
+                    <div class="flex flex-col gap-3">
                       <!-- 文章标题 -->
-                      <h3 class="text-foreground group-hover:text-primary text-base font-semibold leading-tight transition-colors duration-200">
-                        {{ .LinkTitle }}
-                      </h3>
+                      <div class="min-w-0 flex-1">
+                        <h3 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                          {{ .LinkTitle }}
+                        </h3>
+
+                        <!-- 文章摘要 -->
+                        {{ $summaryContent := "" }}
+                        {{ if .Params.summary }}
+                          {{ $summaryContent = .Params.summary }}
+                        {{ else if .Params.description }}
+                          {{ $summaryContent = .Params.description }}
+                        {{ else if .Summary }}
+                          {{ $summaryContent = .Summary | plainify | truncate 120 }}
+                        {{ end }}
+                        {{ if $summaryContent }}
+                          <p class="text-muted-foreground mt-2 text-sm leading-relaxed line-clamp-2">
+                            {{ $summaryContent }}
+                          </p>
+                        {{ end }}
+                      </div>
 
                       <!-- 元信息 -->
-                      <div class="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
+                      <div class="flex flex-wrap items-center gap-3 text-sm text-muted-foreground">
                         <!-- 日期 -->
-                        <div class="flex items-center gap-1">
+                        <div class="flex items-center gap-1.5">
                           {{ partial "features/icon.html" (dict "name" "calendar" "size" "xs" "ariaLabel" "") }}
-                          <time datetime="{{ .Date.Format "2006-01-02" }}" class="font-medium">
+                          <time datetime="{{ .Date.Format "2006-01-02" }}" class="font-medium whitespace-nowrap">
                             {{ .Date.Format (i18n "time.date_format" | default "2006 年 01 月 02 日") }}
                           </time>
                         </div>
 
                         <!-- 阅读时间 -->
                         {{ if .ReadingTime }}
-                          <div class="flex items-center gap-1">
+                          <div class="flex items-center gap-1.5">
                             {{ partial "features/icon.html" (dict "name" "clock" "size" "xs" "ariaLabel" "") }}
-                            <span>{{ .ReadingTime }} {{ i18n "time.minute" | default "min" }}</span>
+                            <span class="font-medium whitespace-nowrap">{{ .ReadingTime }} {{ i18n "time.minute" | default "min" }}</span>
                           </div>
                         {{ end }}
 
                         <!-- 分类 -->
                         {{ if .Params.categories }}
                           {{ range first 1 .Params.categories }}
-                            <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs font-medium">
+                            <span class="bg-primary/10 text-primary border-primary/20 flex items-center gap-1 rounded-md border px-2 py-1 text-xs font-medium whitespace-nowrap">
+                              {{ partial "features/icon.html" (dict "name" "folder" "size" "xs" "ariaLabel" "") }}
                               <span>{{ . }}</span>
                             </span>
                           {{ end }}
