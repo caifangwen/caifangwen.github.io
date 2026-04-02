@@ -531,12 +531,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/hugo-narrow-site-structure.md",
+                "file": "posts/hugo-link-card-section-prompt.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "hugo-narrow-site-structure"
+              "title": "hugo-link-card-section-prompt"
             }
           }
         ],
@@ -689,10 +689,12 @@
   },
   "active": "3ba338632677a8f2",
   "lastOpenFiles": [
+    "posts/n8n-alibaba-scraper-anti-detection.md",
+    "posts/n8n-social-auto-publish-prompts.md",
+    "posts/hugo-narrow-site-structure.md",
     "posts/breadcrumb-navigation-style-refactoring.md",
     "_index.zh-cn.md",
     "_index.md",
-    "posts/hugo-narrow-site-structure.md",
     "discussions/碎碎念.md",
     "discussions/问题.md",
     "discussions/阅读.md",
@@ -716,8 +718,6 @@
     "posts/database-refactoring-prompts.md",
     "posts/git-rebase-guide.md",
     "posts/t-shaped-talent.md",
-    "posts/wordpress-tob-seo-sop.md",
-    "posts/organize-multiple-skills.md",
     "未命名.canvas",
     "未命名",
     "temp",
