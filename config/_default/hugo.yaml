@@ -2,7 +2,7 @@ baseURL: https://fridacai.vercel.app/
 languageCode: zh-CN
 defaultContentLanguage: zh-cn
 defaultContentLanguageInSubdir: false
-title: Frida
+title: Frida Home
 # theme: "hugo-narrow"  # 主题已合并到项目，不再需要
 
 hasCJKLanguage: true

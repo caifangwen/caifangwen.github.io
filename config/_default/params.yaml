@@ -3,7 +3,7 @@ description: "基于 Tailwind CSS 4.0 构建的现代、简洁、极简的 Hugo 
 keywords: ["Hugo", "博客", "主题", "技术", "编程"]
 defaultAuthor: "Frida"
 language: "zh-CN"
-shortName: "Hugo Narrow"  # PWA
+shortName: "Frida Home"  # PWA
 images:
   - "/images/og-default.avif"
 
@@ -104,13 +104,14 @@ home:
   recentPostsCount: 5  # Number of recent posts to show on the home page
 
   # Content order configuration - customize the order of home page sections
-  # Available sections: author-section, recent-posts, featured-projects, page-content, featured-discussions
+  # Available sections: author-section, recent-posts, featured-projects, page-content, featured-discussions, featured-shares
   # You can add your custom content by creating files in `layouts/_partials/home/` folder, then add it to the list
   contentOrder:
     - author-section
     - page-content
     - featured-projects
     - recent-posts
+    - featured-shares
     - featured-discussions
 
 
