@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Anthropic on Frida</title>
+    <title>Anthropic on Frida Home</title>
     <link>https://fridacai.vercel.app/tags/anthropic/</link>
-    <description>Recent content in Anthropic on Frida</description>
+    <description>Recent content in Anthropic on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 22 Mar 2026 13:17:47 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 26 Mar 2026 02:09:23 +0800</lastBuildDate>
     <atom:link href="https://fridacai.vercel.app/tags/anthropic/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Claude 电脑使用功能正式推出：让 AI 替你操控电脑</title>
+      <link>https://fridacai.vercel.app/blog/claude-%E7%94%B5%E8%84%91%E4%BD%BF%E7%94%A8%E5%8A%9F%E8%83%BD%E6%AD%A3%E5%BC%8F%E6%8E%A8%E5%87%BA%E8%AE%A9-ai-%E6%9B%BF%E4%BD%A0%E6%93%8D%E6%8E%A7%E7%94%B5%E8%84%91/</link>
+      <pubDate>Thu, 26 Mar 2026 02:09:23 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/claude-%E7%94%B5%E8%84%91%E4%BD%BF%E7%94%A8%E5%8A%9F%E8%83%BD%E6%AD%A3%E5%BC%8F%E6%8E%A8%E5%87%BA%E8%AE%A9-ai-%E6%9B%BF%E4%BD%A0%E6%93%8D%E6%8E%A7%E7%94%B5%E8%84%91/</guid>
+      <description>&lt;h2 id=&#34;claude-现在可以帮你操控电脑了&#34;&gt;Claude 现在可以帮你操控电脑了&lt;/h2&gt;&#xA;&lt;p&gt;Anthropic 官方账号 &lt;a href=&#34;https://x.com/claudeai&#34;target=&#34;_blank&#34;&#xD;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xD;&#xA;&gt;@claudeai&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;&lt;/a&gt; 近日在 X（原 Twitter）上宣布：&lt;strong&gt;你现在可以允许 Claude 使用你的电脑来完成各种任务。&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Claude Cowork：让 AI 真正替你干活的桌面智能体</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</link>
+      <link>https://fridacai.vercel.app/blog/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</link>
       <pubDate>Sun, 22 Mar 2026 13:17:47 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</guid>
+      <guid>https://fridacai.vercel.app/blog/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</guid>
       <description>&lt;h2 id=&#34;什么是-claude-cowork&#34;&gt;什么是 Claude Cowork？&lt;/h2&gt;&#xA;&lt;p&gt;长久以来，AI 助手只能活在对话框里——你问一句，它答一句，文件还得自己上传，格式还得自己整理。&lt;strong&gt;Claude Cowork&lt;/strong&gt; 打破了这个局限。&lt;/p&gt;</description>
     </item>
   </channel>

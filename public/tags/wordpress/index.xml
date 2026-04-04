@@ -1,60 +1,102 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>WordPress on Frida</title>
+    <title>WordPress on Frida Home</title>
     <link>https://fridacai.vercel.app/tags/wordpress/</link>
-    <description>Recent content in WordPress on Frida</description>
+    <description>Recent content in WordPress on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 23 Mar 2026 20:33:36 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 15:49:48 +0800</lastBuildDate>
     <atom:link href="https://fridacai.vercel.app/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RankMath 完整使用教程：每个板块详解</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</link>
+      <link>https://fridacai.vercel.app/blog/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</link>
       <pubDate>Mon, 23 Mar 2026 20:20:51 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</guid>
+      <guid>https://fridacai.vercel.app/blog/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</guid>
       <description>&lt;h2 id=&#34;一安装与初始设置&#34;&gt;一、安装与初始设置&lt;/h2&gt;&#xA;&lt;h3 id=&#34;安装插件&#34;&gt;安装插件&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;进入 WordPress 后台 → &lt;strong&gt;插件&lt;/strong&gt; → &lt;strong&gt;添加新插件&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;搜索 &lt;code&gt;Rank Math SEO&lt;/code&gt;，点击安装并启用&lt;/li&gt;&#xA;&lt;li&gt;启用后会自动进入&lt;strong&gt;设置向导&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;设置向导setup-wizard&#34;&gt;设置向导（Setup Wizard）&lt;/h3&gt;&#xA;&lt;p&gt;向导分为以下步骤：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;网站类型&lt;/strong&gt;：选择个人博客、企业网站、电商等&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;导入旧数据&lt;/strong&gt;：可从 Yoast SEO / All in One SEO 一键迁移&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;搜索外观&lt;/strong&gt;：设置标题格式（&lt;code&gt;%title% - %sitename%&lt;/code&gt;）、分隔符&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Google Search Console&lt;/strong&gt;：连接 GSC 获取搜索数据&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sitemap&lt;/strong&gt;：开启 XML 站点地图&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;模块开关&lt;/strong&gt;：启用需要的功能模块（建议按需开启，避免臃肿）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xD;&#xA;  &lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：向导完成后，所有设置均可在 &lt;code&gt;RankMath → 常规设置&lt;/code&gt; 中二次修改。&lt;/p&gt;</description>
     </item>
     <item>
       <title>RankMath 常规设置（General Settings）完整配置指南</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</link>
+      <link>https://fridacai.vercel.app/blog/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</link>
       <pubDate>Mon, 23 Mar 2026 20:33:36 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://fridacai.vercel.app/blog/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;路径&lt;/strong&gt;：WordPress 后台 → RankMath SEO → 常规设置（General Settings）&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：部分选项仅在**高级模式（Advanced Mode）**下可见。如果找不到某个设置，请先到 RankMath → 仪表盘右上角切换为高级模式。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>WordPress ToB 电商产品页 SEO 完整改造手册：博客漏斗搭建 × 产品页权重提升</title>
+      <link>https://fridacai.vercel.app/blog/wordpress-tob-ecommerce-product-page-seo-funnel-optimization/</link>
+      <pubDate>Fri, 03 Apr 2026 15:49:48 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/wordpress-tob-ecommerce-product-page-seo-funnel-optimization/</guid>
+      <description>&lt;h2 id=&#34;一背景与问题诊断&#34;&gt;一、背景与问题诊断&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11-典型症状&#34;&gt;1.1 典型症状&lt;/h3&gt;&#xA;&lt;p&gt;大多数依赖博客引流的 ToB WordPress 电商站，流量结构往往呈现以下特征：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;博客页&lt;/strong&gt;承担 80%~95% 的自然搜索流量&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;产品页&lt;/strong&gt;排名差、流量极少，基本只靠直接访问或博客跳转&lt;/li&gt;&#xA;&lt;li&gt;产品页内容只有：产品名称 + 参数表格 + 几张产品图&lt;/li&gt;&#xA;&lt;li&gt;产品页缺少 TDK（Title / Description / Keywords），部分站点甚至用插件默认格式生成，如 &lt;code&gt;产品名 - 站点名&lt;/code&gt;，无任何关键词优化&lt;/li&gt;&#xA;&lt;li&gt;博客与产品页之间没有系统性内链，流量进来了但无处承接&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;12-本质问题拆解&#34;&gt;1.2 本质问题拆解&lt;/h3&gt;&#xA;&lt;p&gt;这个状态在 SEO 层面造成两个结构性缺陷：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress 集成 Google Analytics 分析用户行为完整指南</title>
+      <link>https://fridacai.vercel.app/blog/wordpress-google-analytics-user-behavior/</link>
+      <pubDate>Fri, 03 Apr 2026 15:43:14 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/wordpress-google-analytics-user-behavior/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;Google Analytics 4（GA4）是目前最强大的免费网站分析工具之一。将其集成到 WordPress 网站后，你可以追踪访客来源、页面浏览路径、用户停留时长、转化事件等关键行为数据，从而有针对性地优化内容和用户体验。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress 分类页设计 Skill 创建指南：用「插入HTML」块制作风格一致的分类页</title>
+      <link>https://fridacai.vercel.app/blog/wordpress-%E5%88%86%E7%B1%BB%E9%A1%B5%E8%AE%BE%E8%AE%A1-skill-%E5%88%9B%E5%BB%BA%E6%8C%87%E5%8D%97%E7%94%A8%E6%8F%92%E5%85%A5html%E5%9D%97%E5%88%B6%E4%BD%9C%E9%A3%8E%E6%A0%BC%E4%B8%80%E8%87%B4%E7%9A%84%E5%88%86%E7%B1%BB%E9%A1%B5/</link>
+      <pubDate>Mon, 30 Mar 2026 02:46:26 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/wordpress-%E5%88%86%E7%B1%BB%E9%A1%B5%E8%AE%BE%E8%AE%A1-skill-%E5%88%9B%E5%BB%BA%E6%8C%87%E5%8D%97%E7%94%A8%E6%8F%92%E5%85%A5html%E5%9D%97%E5%88%B6%E4%BD%9C%E9%A3%8E%E6%A0%BC%E4%B8%80%E8%87%B4%E7%9A%84%E5%88%86%E7%B1%BB%E9%A1%B5/</guid>
+      <description>&lt;h2 id=&#34;背景与目标&#34;&gt;背景与目标&lt;/h2&gt;&#xA;&lt;p&gt;WordPress 自带的分类归档页（&lt;code&gt;category.php&lt;/code&gt;）样式受主题控制，灵活度有限。&lt;br&gt;&#xA;本指南的思路是：&lt;strong&gt;绕开主题模板限制&lt;/strong&gt;，在页面/文章编辑器中用「自定义HTML」块直接插入完整的 HTML + 内联 CSS + 原生 JS，实现完全自定义的分类展示页，同时与现有站点保持视觉一致。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress 站点备份与版本管理：像 Git 一样管理你的网站</title>
+      <link>https://fridacai.vercel.app/blog/wordpress-%E7%AB%99%E7%82%B9%E5%A4%87%E4%BB%BD%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%83%8F-git-%E4%B8%80%E6%A0%B7%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Sat, 28 Mar 2026 11:22:44 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/wordpress-%E7%AB%99%E7%82%B9%E5%A4%87%E4%BB%BD%E4%B8%8E%E7%89%88%E6%9C%AC%E7%AE%A1%E7%90%86%E5%83%8F-git-%E4%B8%80%E6%A0%B7%E7%AE%A1%E7%90%86%E4%BD%A0%E7%9A%84%E7%BD%91%E7%AB%99/</guid>
+      <description>&lt;p&gt;WordPress 站点一旦出问题——数据库崩溃、主题误改、插件冲突——如果没有完善的备份和版本管理，损失可能是灾难性的。本文介绍几种主流方案，从简单插件到类 Git 工作流，按需选择。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WP Rocket 完全使用指南：让你的 WordPress 网站飞速运行</title>
+      <link>https://fridacai.vercel.app/blog/wp-rocket-complete-guide/</link>
+      <pubDate>Fri, 27 Mar 2026 23:01:58 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/wp-rocket-complete-guide/</guid>
+      <description>&lt;h2 id=&#34;什么是-wp-rocket&#34;&gt;什么是 WP Rocket？&lt;/h2&gt;&#xA;&lt;p&gt;WP Rocket 是目前最受欢迎的 WordPress 缓存与性能优化插件之一。它无需复杂配置即可显著提升页面加载速度，支持页面缓存、文件压缩、懒加载、数据库优化等功能，适合从新手到专业开发者的各类用户。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>什么是 CLS？如何优化 WordPress 网站的累积布局偏移</title>
+      <link>https://fridacai.vercel.app/blog/%E4%BB%80%E4%B9%88%E6%98%AF-cls%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96-wordpress-%E7%BD%91%E7%AB%99%E7%9A%84%E7%B4%AF%E7%A7%AF%E5%B8%83%E5%B1%80%E5%81%8F%E7%A7%BB/</link>
+      <pubDate>Fri, 27 Mar 2026 22:54:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/%E4%BB%80%E4%B9%88%E6%98%AF-cls%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96-wordpress-%E7%BD%91%E7%AB%99%E7%9A%84%E7%B4%AF%E7%A7%AF%E5%B8%83%E5%B1%80%E5%81%8F%E7%A7%BB/</guid>
+      <description>&lt;h2 id=&#34;什么是-cls&#34;&gt;什么是 CLS？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;CLS（Cumulative Layout Shift，累积布局偏移）&lt;/strong&gt; 是 Google Core Web Vitals 的三大核心指标之一，用于衡量页面在加载过程中&lt;strong&gt;视觉稳定性&lt;/strong&gt;的好坏。&lt;/p&gt;&#xA;&lt;p&gt;简单说：当你正在阅读或点击页面时，元素突然发生位移——这就是布局偏移，会导致极差的用户体验。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>WordPress ToB 外贸网站 SEO 优化 SOP：SEO Skills 完整使用指南</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://fridacai.vercel.app/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
       <pubDate>Wed, 18 Mar 2026 03:30:00 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://fridacai.vercel.app/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;本文档为 WordPress ToB 外贸网站提供完整的 SEO 优化 SOP，明确说明在每个阶段如何使用 SEO Skills 项目中的技能。&lt;/p&gt;&#xA;&lt;h3 id=&#34;适用对象&#34;&gt;适用对象&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WordPress 网站管理员&lt;/li&gt;&#xA;&lt;li&gt;ToB 外贸企业营销人员&lt;/li&gt;&#xA;&lt;li&gt;SEO 初学者&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;预计周期&#34;&gt;预计周期&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;阶段&lt;/th&gt;&#xA;          &lt;th&gt;时间&lt;/th&gt;&#xA;          &lt;th&gt;主要 Skill&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;技术审计&lt;/td&gt;&#xA;          &lt;td&gt;第 1-2 周&lt;/td&gt;&#xA;          &lt;td&gt;technical-audit&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;关键词研究&lt;/td&gt;&#xA;          &lt;td&gt;第 2-3 周&lt;/td&gt;&#xA;          &lt;td&gt;keyword-research&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;页面优化&lt;/td&gt;&#xA;          &lt;td&gt;第 3-6 周&lt;/td&gt;&#xA;          &lt;td&gt;content-optimizer&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;外链建设&lt;/td&gt;&#xA;          &lt;td&gt;第 6 周起&lt;/td&gt;&#xA;          &lt;td&gt;link-building&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;报告监控&lt;/td&gt;&#xA;          &lt;td&gt;持续&lt;/td&gt;&#xA;          &lt;td&gt;report-generator&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;阶段一技术-seo-审计第-1-2-周&#34;&gt;阶段一：技术 SEO 审计（第 1-2 周）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;目标&#34;&gt;目标&lt;/h3&gt;&#xA;&lt;p&gt;完成网站技术健康检查，修复所有 P0/P1 级别问题。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress 页面中插入子页面卡片列表的完整指南</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/wordpress-%E9%A1%B5%E9%9D%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
+      <link>https://fridacai.vercel.app/blog/wordpress-%E9%A1%B5%E9%9D%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/wordpress-%E9%A1%B5%E9%9D%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://fridacai.vercel.app/blog/wordpress-%E9%A1%B5%E9%9D%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h1 id=&#34;wordpress页面中插入子页面卡片列表的完整指南&#34;&gt;WordPress页面中插入子页面卡片列表的完整指南&lt;/h1&gt;&#xA;&lt;p&gt;在WordPress网站建设中，展示子页面列表是一个常见需求。无论你是在构建企业网站的服务页面、博客的分类目录，还是知识库的导航系统，以卡片形式展示子页面都能提供更好的用户体验和视觉效果。本文将详细介绍多种实现方法，从简单的插件方案到自定义代码，帮助你根据自己的技术水平和具体需求选择最合适的方案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress 中的筛选器完全指南</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/wordpress-%E4%B8%AD%E7%9A%84%E7%AD%9B%E9%80%89%E5%99%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://fridacai.vercel.app/blog/wordpress-%E4%B8%AD%E7%9A%84%E7%AD%9B%E9%80%89%E5%99%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/wordpress-%E4%B8%AD%E7%9A%84%E7%AD%9B%E9%80%89%E5%99%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://fridacai.vercel.app/blog/wordpress-%E4%B8%AD%E7%9A%84%E7%AD%9B%E9%80%89%E5%99%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h1 id=&#34;wordpress中的筛选器完全指南&#34;&gt;WordPress中的筛选器完全指南&lt;/h1&gt;&#xA;&lt;p&gt;WordPress作为全球最流行的内容管理系统，其强大的扩展性很大程度上归功于其钩子（Hooks）机制。筛选器（Filters）作为钩子系统的重要组成部分，允许开发者修改WordPress的各种数据和内容，而无需直接修改核心文件。本文将深入探讨WordPress筛选器的概念、使用方法和最佳实践。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress 自定义短代码实现子页面卡片列表</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/wordpress-%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8/</link>
+      <link>https://fridacai.vercel.app/blog/wordpress-%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/wordpress-%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8/</guid>
+      <guid>https://fridacai.vercel.app/blog/wordpress-%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8/</guid>
       <description>&lt;h1 id=&#34;wordpress-自定义短代码实现子页面卡片列表&#34;&gt;WordPress 自定义短代码实现子页面卡片列表&lt;/h1&gt;&#xA;&lt;p&gt;在 WordPress 网站开发中，我们经常需要在父页面中展示其所有子页面的列表。通过自定义短代码（Shortcode）功能，我们可以轻松实现一个美观的子页面卡片列表，让访客能够快速浏览和访问相关内容。本文将详细介绍如何创建这样一个功能，并深入解释每一行代码的作用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress 建站从零到一指南</title>
-      <link>https://fridacai.vercel.app/blog/2026/02/wordpress-%E5%BB%BA%E7%AB%99%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E6%8C%87%E5%8D%97/</link>
+      <link>https://fridacai.vercel.app/blog/wordpress-website-build-guide/</link>
       <pubDate>Tue, 03 Feb 2026 09:55:52 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/02/wordpress-%E5%BB%BA%E7%AB%99%E4%BB%8E%E9%9B%B6%E5%88%B0%E4%B8%80%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://fridacai.vercel.app/blog/wordpress-website-build-guide/</guid>
       <description>从域名购买到站点上线，再到 B2B 独立站的搭建思路，本文带你梳理 WordPress 建站的完整流程，并附带与 Hugo 静态站的方案对比，帮你找到最适合自己的路径。</description>
     </item>
   </channel>

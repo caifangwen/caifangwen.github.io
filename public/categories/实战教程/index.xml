@@ -1,3 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>实战教程 on Frida Home</title><link>https://fridacai.vercel.app/categories/%E5%AE%9E%E6%88%98%E6%95%99%E7%A8%8B/</link><description>Recent content in 实战教程 on Frida Home</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 26 Mar 2026 06:00:00 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/%E5%AE%9E%E6%88%98%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>面包屑导航样式重构：从图标繁复到极简对齐</title><link>https://fridacai.vercel.app/blog/%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA%E6%A0%B7%E5%BC%8F%E9%87%8D%E6%9E%84%E4%BB%8E%E5%9B%BE%E6%A0%87%E7%B9%81%E5%A4%8D%E5%88%B0%E6%9E%81%E7%AE%80%E5%AF%B9%E9%BD%90/</link><pubDate>Thu, 26 Mar 2026 06:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA%E6%A0%B7%E5%BC%8F%E9%87%8D%E6%9E%84%E4%BB%8E%E5%9B%BE%E6%A0%87%E7%B9%81%E5%A4%8D%E5%88%B0%E6%9E%81%E7%AE%80%E5%AF%B9%E9%BD%90/</guid><description>&lt;h2 id="引言">引言&lt;/h2>
-&lt;p>面包屑导航（Breadcrumb Navigation）是网站中重要的辅助导航组件，它帮助用户了解当前页面在网站结构中的位置。然而，过度装饰的面包屑往往会占用宝贵的屏幕空间，尤其是在移动端。&lt;/p></description></item><item><title>OpenClaw 多 Agent 架构部署完全指南：组建你的 AI 数字团队</title><link>https://fridacai.vercel.app/blog/openclaw-multi-agent-deployment/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/openclaw-multi-agent-deployment/</guid><description>&lt;h2 id="为什么单-agent-不够用">为什么单 Agent 不够用？&lt;/h2>
-&lt;p>你可能遇到过这种情况：用了 OpenClaw 一段时间，AI 开始&amp;quot;神经错乱&amp;quot;——明明让它写博客，它却输出代码逻辑；明明让它调研竞品，它却在纠正上周的错别字。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>实战教程 on Frida Home</title>
+    <link>https://fridacai.vercel.app/categories/%E5%AE%9E%E6%88%98%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 实战教程 on Frida Home</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 26 Mar 2026 06:00:00 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/categories/%E5%AE%9E%E6%88%98%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>面包屑导航样式重构：从图标繁复到极简对齐</title>
+      <link>https://fridacai.vercel.app/blog/%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA%E6%A0%B7%E5%BC%8F%E9%87%8D%E6%9E%84%E4%BB%8E%E5%9B%BE%E6%A0%87%E7%B9%81%E5%A4%8D%E5%88%B0%E6%9E%81%E7%AE%80%E5%AF%B9%E9%BD%90/</link>
+      <pubDate>Thu, 26 Mar 2026 06:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/%E9%9D%A2%E5%8C%85%E5%B1%91%E5%AF%BC%E8%88%AA%E6%A0%B7%E5%BC%8F%E9%87%8D%E6%9E%84%E4%BB%8E%E5%9B%BE%E6%A0%87%E7%B9%81%E5%A4%8D%E5%88%B0%E6%9E%81%E7%AE%80%E5%AF%B9%E9%BD%90/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;面包屑导航（Breadcrumb Navigation）是网站中重要的辅助导航组件，它帮助用户了解当前页面在网站结构中的位置。然而，过度装饰的面包屑往往会占用宝贵的屏幕空间，尤其是在移动端。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>OpenClaw 多 Agent 架构部署完全指南：组建你的 AI 数字团队</title>
+      <link>https://fridacai.vercel.app/blog/openclaw-multi-agent-deployment/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/openclaw-multi-agent-deployment/</guid>
+      <description>&lt;h2 id=&#34;为什么单-agent-不够用&#34;&gt;为什么单 Agent 不够用？&lt;/h2&gt;&#xA;&lt;p&gt;你可能遇到过这种情况：用了 OpenClaw 一段时间，AI 开始&amp;quot;神经错乱&amp;quot;——明明让它写博客，它却输出代码逻辑；明明让它调研竞品，它却在纠正上周的错别字。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

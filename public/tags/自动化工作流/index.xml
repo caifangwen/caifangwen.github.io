@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>自动化，工作流 on Frida</title>
+    <title>自动化，工作流 on Frida Home</title>
     <link>https://fridacai.vercel.app/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
-    <description>Recent content in 自动化，工作流 on Frida</description>
+    <description>Recent content in 自动化，工作流 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate>
     <atom:link href="https://fridacai.vercel.app/tags/%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B7%A5%E4%BD%9C%E6%B5%81/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>n8n 开源工作流自动化平台详解</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/n8n-%E5%BC%80%E6%BA%90%E5%B7%A5%E4%BD%9C%E6%B5%81%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B9%B3%E5%8F%B0%E8%AF%A6%E8%A7%A3/</link>
+      <link>https://fridacai.vercel.app/blog/n8n-%E5%BC%80%E6%BA%90%E5%B7%A5%E4%BD%9C%E6%B5%81%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B9%B3%E5%8F%B0%E8%AF%A6%E8%A7%A3/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/n8n-%E5%BC%80%E6%BA%90%E5%B7%A5%E4%BD%9C%E6%B5%81%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B9%B3%E5%8F%B0%E8%AF%A6%E8%A7%A3/</guid>
+      <guid>https://fridacai.vercel.app/blog/n8n-%E5%BC%80%E6%BA%90%E5%B7%A5%E4%BD%9C%E6%B5%81%E8%87%AA%E5%8A%A8%E5%8C%96%E5%B9%B3%E5%8F%B0%E8%AF%A6%E8%A7%A3/</guid>
       <description>&lt;h1 id=&#34;n8n-详细介绍&#34;&gt;n8n 详细介绍&lt;/h1&gt;&#xA;&lt;h2 id=&#34;什么是-n8n&#34;&gt;什么是 n8n？&lt;/h2&gt;&#xA;&lt;p&gt;n8n（读作 &amp;ldquo;n-eight-n&amp;rdquo;）是一个&lt;strong&gt;开源的工作流自动化平台&lt;/strong&gt;，允许用户通过可视化界面连接不同的应用程序、服务和 API，实现业务流程的自动化，无需编写大量代码。&lt;/p&gt;</description>
     </item>
   </channel>

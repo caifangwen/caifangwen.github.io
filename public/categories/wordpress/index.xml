@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>WordPress on Frida Home</title><link>https://fridacai.vercel.app/categories/wordpress/</link><description>Recent content in WordPress on Frida Home</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 27 Mar 2026 23:01:58 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/wordpress/index.xml" rel="self" type="application/rss+xml"/><item><title>WP Rocket 完全使用指南：让你的 WordPress 网站飞速运行</title><link>https://fridacai.vercel.app/blog/wp-rocket-complete-guide/</link><pubDate>Fri, 27 Mar 2026 23:01:58 +0800</pubDate><guid>https://fridacai.vercel.app/blog/wp-rocket-complete-guide/</guid><description>&lt;h2 id="什么是-wp-rocket">什么是 WP Rocket？&lt;/h2>
-&lt;p>WP Rocket 是目前最受欢迎的 WordPress 缓存与性能优化插件之一。它无需复杂配置即可显著提升页面加载速度，支持页面缓存、文件压缩、懒加载、数据库优化等功能，适合从新手到专业开发者的各类用户。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>WordPress on Frida Home</title>
+    <link>https://fridacai.vercel.app/categories/wordpress/</link>
+    <description>Recent content in WordPress on Frida Home</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 27 Mar 2026 23:01:58 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WP Rocket 完全使用指南：让你的 WordPress 网站飞速运行</title>
+      <link>https://fridacai.vercel.app/blog/wp-rocket-complete-guide/</link>
+      <pubDate>Fri, 27 Mar 2026 23:01:58 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/wp-rocket-complete-guide/</guid>
+      <description>&lt;h2 id=&#34;什么是-wp-rocket&#34;&gt;什么是 WP Rocket？&lt;/h2&gt;&#xA;&lt;p&gt;WP Rocket 是目前最受欢迎的 WordPress 缓存与性能优化插件之一。它无需复杂配置即可显著提升页面加载速度，支持页面缓存、文件压缩、懒加载、数据库优化等功能，适合从新手到专业开发者的各类用户。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

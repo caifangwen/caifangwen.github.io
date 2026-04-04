@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>产品介绍 on Frida Home</title><link>https://fridacai.vercel.app/categories/%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/</link><description>Recent content in 产品介绍 on Frida Home</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 22 Mar 2026 13:17:47 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Cowork：让 AI 真正替你干活的桌面智能体</title><link>https://fridacai.vercel.app/blog/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</link><pubDate>Sun, 22 Mar 2026 13:17:47 +0800</pubDate><guid>https://fridacai.vercel.app/blog/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</guid><description>&lt;h2 id="什么是-claude-cowork">什么是 Claude Cowork？&lt;/h2>
-&lt;p>长久以来，AI 助手只能活在对话框里——你问一句，它答一句，文件还得自己上传，格式还得自己整理。&lt;strong>Claude Cowork&lt;/strong> 打破了这个局限。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>产品介绍 on Frida Home</title>
+    <link>https://fridacai.vercel.app/categories/%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/</link>
+    <description>Recent content in 产品介绍 on Frida Home</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 22 Mar 2026 13:17:47 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/categories/%E4%BA%A7%E5%93%81%E4%BB%8B%E7%BB%8D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Cowork：让 AI 真正替你干活的桌面智能体</title>
+      <link>https://fridacai.vercel.app/blog/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</link>
+      <pubDate>Sun, 22 Mar 2026 13:17:47 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/claude-cowork%E8%AE%A9-ai-%E7%9C%9F%E6%AD%A3%E6%9B%BF%E4%BD%A0%E5%B9%B2%E6%B4%BB%E7%9A%84%E6%A1%8C%E9%9D%A2%E6%99%BA%E8%83%BD%E4%BD%93/</guid>
+      <description>&lt;h2 id=&#34;什么是-claude-cowork&#34;&gt;什么是 Claude Cowork？&lt;/h2&gt;&#xA;&lt;p&gt;长久以来，AI 助手只能活在对话框里——你问一句，它答一句，文件还得自己上传，格式还得自己整理。&lt;strong&gt;Claude Cowork&lt;/strong&gt; 打破了这个局限。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

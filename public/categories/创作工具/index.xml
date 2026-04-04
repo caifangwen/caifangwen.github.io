@@ -1,9 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>创作工具 on Frida Home</title><link>https://fridacai.vercel.app/categories/%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7/</link><description>Recent content in 创作工具 on Frida Home</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml"/><item><title>长篇严肃文学写作 Skill 架构 v3</title><link>https://fridacai.vercel.app/blog/%E9%95%BF%E7%AF%87%E4%B8%A5%E8%82%83%E6%96%87%E5%AD%A6%E5%86%99%E4%BD%9C-skill-%E6%9E%B6%E6%9E%84-v3/</link><pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate><guid>https://fridacai.vercel.app/blog/%E9%95%BF%E7%AF%87%E4%B8%A5%E8%82%83%E6%96%87%E5%AD%A6%E5%86%99%E4%BD%9C-skill-%E6%9E%B6%E6%9E%84-v3/</guid><description>&lt;h1 id="长篇严肃文学写作-skill-架构-v3">长篇严肃文学写作 Skill 架构 v3&lt;/h1>
-&lt;h2 id="文风统一--语言改写专项版">文风统一 · 语言改写专项版&lt;/h2>
-
- &lt;blockquote
- class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1">
- &lt;div class="prose prose-sm max-w-none">
- &lt;p>&lt;strong>本版适用场景：&lt;/strong> 原稿章节结构清晰，主要问题是文风飘忽（不同章节/段落
-像不同人写的）和语言质量低。目标是直接输出可用的修改建议或改写草稿，
-而非停留在诊断层面。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>创作工具 on Frida Home</title>
+    <link>https://fridacai.vercel.app/categories/%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 创作工具 on Frida Home</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 20 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/categories/%E5%88%9B%E4%BD%9C%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>长篇严肃文学写作 Skill 架构 v3</title>
+      <link>https://fridacai.vercel.app/blog/%E9%95%BF%E7%AF%87%E4%B8%A5%E8%82%83%E6%96%87%E5%AD%A6%E5%86%99%E4%BD%9C-skill-%E6%9E%B6%E6%9E%84-v3/</link>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://fridacai.vercel.app/blog/%E9%95%BF%E7%AF%87%E4%B8%A5%E8%82%83%E6%96%87%E5%AD%A6%E5%86%99%E4%BD%9C-skill-%E6%9E%B6%E6%9E%84-v3/</guid>
+      <description>&lt;h1 id=&#34;长篇严肃文学写作-skill-架构-v3&#34;&gt;长篇严肃文学写作 Skill 架构 v3&lt;/h1&gt;&#xA;&lt;h2 id=&#34;文风统一--语言改写专项版&#34;&gt;文风统一 · 语言改写专项版&lt;/h2&gt;&#xA;&#xD;&#xA;  &lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;本版适用场景：&lt;/strong&gt; 原稿章节结构清晰，主要问题是文风飘忽（不同章节/段落&#xA;像不同人写的）和语言质量低。目标是直接输出可用的修改建议或改写草稿，&#xA;而非停留在诊断层面。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

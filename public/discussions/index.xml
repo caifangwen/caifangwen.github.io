@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>讨论 on Frida</title>
+    <title>讨论 on Frida Home</title>
     <link>https://fridacai.vercel.app/discussions/</link>
-    <description>Recent content in 讨论 on Frida</description>
+    <description>Recent content in 讨论 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 31 Jan 2026 16:24:43 +0800</lastBuildDate>
@@ -20,6 +20,13 @@
       <link>https://fridacai.vercel.app/discussions/%E9%98%85%E8%AF%BB/</link>
       <pubDate>Wed, 28 Jan 2026 20:25:48 +0800</pubDate>
       <guid>https://fridacai.vercel.app/discussions/%E9%98%85%E8%AF%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>碎碎念</title>
+      <link>https://fridacai.vercel.app/discussions/fromo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://fridacai.vercel.app/discussions/fromo/</guid>
       <description></description>
     </item>
   </channel>

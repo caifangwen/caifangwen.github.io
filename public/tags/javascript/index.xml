@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JavaScript on Frida</title>
+    <title>JavaScript on Frida Home</title>
     <link>https://fridacai.vercel.app/tags/javascript/</link>
-    <description>Recent content in JavaScript on Frida</description>
+    <description>Recent content in JavaScript on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 27 Mar 2026 08:33:53 +0800</lastBuildDate>
     <atom:link href="https://fridacai.vercel.app/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>前端开发：难点、框架体系与工程师核心能力</title>
+      <link>https://fridacai.vercel.app/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E9%9A%BE%E7%82%B9%E6%A1%86%E6%9E%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/</link>
+      <pubDate>Fri, 27 Mar 2026 08:33:53 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E9%9A%BE%E7%82%B9%E6%A1%86%E6%9E%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;前端开发从最初的静态页面切图，发展到如今的工程化、组件化、全栈化，已经经历了翻天覆地的变化。本文将从三个维度系统梳理：&lt;strong&gt;前端的核心难点&lt;/strong&gt;、&lt;strong&gt;整体技术框架体系&lt;/strong&gt;，以及&lt;strong&gt;一名优秀前端工程师应具备的能力模型&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>React Hooks 完整参考</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/react-hooks-%E5%AE%8C%E6%95%B4%E5%8F%82%E8%80%83/</link>
+      <link>https://fridacai.vercel.app/blog/react-hooks-%E5%AE%8C%E6%95%B4%E5%8F%82%E8%80%83/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/react-hooks-%E5%AE%8C%E6%95%B4%E5%8F%82%E8%80%83/</guid>
+      <guid>https://fridacai.vercel.app/blog/react-hooks-%E5%AE%8C%E6%95%B4%E5%8F%82%E8%80%83/</guid>
       <description>&lt;p&gt;import {&#xA;useState, useReducer, useEffect, useLayoutEffect,&#xA;useRef, useCallback, useMemo, useContext,&#xA;createContext, useTransition, useDeferredValue, useId,&#xA;useDebugValue&#xA;} from &amp;ldquo;react&amp;rdquo;;&lt;/p&gt;&#xA;&lt;p&gt;// ============================================================&#xA;// useContext + createContext — 全局主题管理&#xA;// ============================================================&#xA;const ThemeContext = createContext();&lt;/p&gt;&#xA;&lt;p&gt;// ============================================================&#xA;// useReducer — 复杂状态管理（任务的增删改查）&#xA;// ============================================================&#xA;const initialTasks = [&#xA;{ id: 1, text: &amp;ldquo;学习 React Hooks&amp;rdquo;, done: true, priority: &amp;ldquo;high&amp;rdquo; },&#xA;{ id: 2, text: &amp;ldquo;构建任务管理应用&amp;rdquo;, done: false, priority: &amp;ldquo;high&amp;rdquo; },&#xA;{ id: 3, text: &amp;ldquo;阅读官方文档&amp;rdquo;, done: false, priority: &amp;ldquo;medium&amp;rdquo; },&#xA;{ id: 4, text: &amp;ldquo;写单元测试&amp;rdquo;, done: false, priority: &amp;ldquo;low&amp;rdquo; },&#xA;];&lt;/p&gt;</description>
     </item>
   </channel>

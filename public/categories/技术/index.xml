@@ -1,5 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>技术 on Frida Home</title><link>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF/</link><description>Recent content in 技术 on Frida Home</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 03 Apr 2026 01:39:11 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>前端开发：难点、框架体系与工程师核心能力</title><link>https://fridacai.vercel.app/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E9%9A%BE%E7%82%B9%E6%A1%86%E6%9E%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/</link><pubDate>Fri, 27 Mar 2026 08:33:53 +0800</pubDate><guid>https://fridacai.vercel.app/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E9%9A%BE%E7%82%B9%E6%A1%86%E6%9E%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>前端开发从最初的静态页面切图，发展到如今的工程化、组件化、全栈化，已经经历了翻天覆地的变化。本文将从三个维度系统梳理：&lt;strong>前端的核心难点&lt;/strong>、&lt;strong>整体技术框架体系&lt;/strong>，以及&lt;strong>一名优秀前端工程师应具备的能力模型&lt;/strong>。&lt;/p></description></item><item><title>n8n 阿里巴巴商品爬虫的反爬盲区与突破方案</title><link>https://fridacai.vercel.app/blog/n8n-alibaba-scraper-anti-detection-bypass/</link><pubDate>Fri, 03 Apr 2026 01:39:11 +0800</pubDate><guid>https://fridacai.vercel.app/blog/n8n-alibaba-scraper-anti-detection-bypass/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>用 n8n 搭建阿里巴巴商品爬虫，思路简洁优雅：HTTP Request 节点拉取页面，HTML 节点解析数据，Set 节点清洗字段，最后写入 Google Sheets 或数据库。这套流程跑演示没问题，但一旦进入生产环境长期运行，往往在几小时到几天内就会被阿里巴巴的反爬系统识别并封锁。&lt;/p></description></item><item><title>Windows 下的 Linux 子系统（WSL）有什么用？</title><link>https://fridacai.vercel.app/blog/windows-%E4%B8%8B%E7%9A%84-linux-%E5%AD%90%E7%B3%BB%E7%BB%9Fwsl%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8/</link><pubDate>Mon, 23 Mar 2026 03:14:40 +0800</pubDate><guid>https://fridacai.vercel.app/blog/windows-%E4%B8%8B%E7%9A%84-linux-%E5%AD%90%E7%B3%BB%E7%BB%9Fwsl%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8/</guid><description>&lt;h2 id="什么是-wsl">什么是 WSL？&lt;/h2>
-&lt;p>WSL（Windows Subsystem for Linux）是微软官方内置于 Windows 10/11 的功能，允许用户在不安装虚拟机的情况下，直接在 Windows 上运行完整的 Linux 环境。目前最新版本为 &lt;strong>WSL 2&lt;/strong>，底层采用真实的 Linux 内核，性能大幅优于初代 WSL。&lt;/p></description></item><item><title>深入解析 Windows 系统文件结构</title><link>https://fridacai.vercel.app/blog/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90-windows-%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/</link><pubDate>Mon, 23 Mar 2026 03:04:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90-windows-%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/</guid><description>&lt;h2 id="前言">前言&lt;/h2>
-&lt;p>Windows 操作系统自 1985 年诞生以来，经历了从 MS-DOS 时代的简单目录体系，到如今 Windows 11 高度复杂、层次分明的文件系统架构的巨大演变。理解 Windows 的文件结构，不仅是系统管理员、开发者的必备知识，也是每一位深度用户优化系统、排查故障的基础。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术 on Frida Home</title>
+    <link>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF/</link>
+    <description>Recent content in 技术 on Frida Home</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 03 Apr 2026 01:39:11 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>前端开发：难点、框架体系与工程师核心能力</title>
+      <link>https://fridacai.vercel.app/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E9%9A%BE%E7%82%B9%E6%A1%86%E6%9E%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/</link>
+      <pubDate>Fri, 27 Mar 2026 08:33:53 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E9%9A%BE%E7%82%B9%E6%A1%86%E6%9E%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;前端开发从最初的静态页面切图，发展到如今的工程化、组件化、全栈化，已经经历了翻天覆地的变化。本文将从三个维度系统梳理：&lt;strong&gt;前端的核心难点&lt;/strong&gt;、&lt;strong&gt;整体技术框架体系&lt;/strong&gt;，以及&lt;strong&gt;一名优秀前端工程师应具备的能力模型&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>n8n 阿里巴巴商品爬虫的反爬盲区与突破方案</title>
+      <link>https://fridacai.vercel.app/blog/n8n-alibaba-scraper-anti-detection-bypass/</link>
+      <pubDate>Fri, 03 Apr 2026 01:39:11 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/n8n-alibaba-scraper-anti-detection-bypass/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;用 n8n 搭建阿里巴巴商品爬虫，思路简洁优雅：HTTP Request 节点拉取页面，HTML 节点解析数据，Set 节点清洗字段，最后写入 Google Sheets 或数据库。这套流程跑演示没问题，但一旦进入生产环境长期运行，往往在几小时到几天内就会被阿里巴巴的反爬系统识别并封锁。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Windows 下的 Linux 子系统（WSL）有什么用？</title>
+      <link>https://fridacai.vercel.app/blog/windows-%E4%B8%8B%E7%9A%84-linux-%E5%AD%90%E7%B3%BB%E7%BB%9Fwsl%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8/</link>
+      <pubDate>Mon, 23 Mar 2026 03:14:40 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/windows-%E4%B8%8B%E7%9A%84-linux-%E5%AD%90%E7%B3%BB%E7%BB%9Fwsl%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8/</guid>
+      <description>&lt;h2 id=&#34;什么是-wsl&#34;&gt;什么是 WSL？&lt;/h2&gt;&#xA;&lt;p&gt;WSL（Windows Subsystem for Linux）是微软官方内置于 Windows 10/11 的功能，允许用户在不安装虚拟机的情况下，直接在 Windows 上运行完整的 Linux 环境。目前最新版本为 &lt;strong&gt;WSL 2&lt;/strong&gt;，底层采用真实的 Linux 内核，性能大幅优于初代 WSL。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>深入解析 Windows 系统文件结构</title>
+      <link>https://fridacai.vercel.app/blog/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90-windows-%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/</link>
+      <pubDate>Mon, 23 Mar 2026 03:04:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90-windows-%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;Windows 操作系统自 1985 年诞生以来，经历了从 MS-DOS 时代的简单目录体系，到如今 Windows 11 高度复杂、层次分明的文件系统架构的巨大演变。理解 Windows 的文件结构，不仅是系统管理员、开发者的必备知识，也是每一位深度用户优化系统、排查故障的基础。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

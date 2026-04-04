@@ -1,3 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>独立站 on Frida</title><link>https://fridacai.vercel.app/tags/%E7%8B%AC%E7%AB%8B%E7%AB%99/</link><description>Recent content in 独立站 on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://fridacai.vercel.app/tags/%E7%8B%AC%E7%AB%8B%E7%AB%99/index.xml" rel="self" type="application/rss+xml"/><item><title>独立站合作：订单归属如何认定，还是找个跟单助手？</title><link>https://fridacai.vercel.app/blog/%E7%8B%AC%E7%AB%8B%E7%AB%99%E5%90%88%E4%BD%9C%E8%AE%A2%E5%8D%95%E5%BD%92%E5%B1%9E%E5%A6%82%E4%BD%95%E8%AE%A4%E5%AE%9A%E8%BF%98%E6%98%AF%E6%89%BE%E4%B8%AA%E8%B7%9F%E5%8D%95%E5%8A%A9%E6%89%8B/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>https://fridacai.vercel.app/blog/%E7%8B%AC%E7%AB%8B%E7%AB%99%E5%90%88%E4%BD%9C%E8%AE%A2%E5%8D%95%E5%BD%92%E5%B1%9E%E5%A6%82%E4%BD%95%E8%AE%A4%E5%AE%9A%E8%BF%98%E6%98%AF%E6%89%BE%E4%B8%AA%E8%B7%9F%E5%8D%95%E5%8A%A9%E6%89%8B/</guid><description>&lt;h2 id="为什么订单归属是核心矛盾"&gt;为什么订单归属是核心矛盾&lt;/h2&gt;
-&lt;p&gt;在「无底薪 + 分成」的合作模式里，&lt;strong&gt;订单归属是整个利益分配的前提&lt;/strong&gt;。&lt;/p&gt;
-&lt;p&gt;一旦说不清楚「这个客户是谁带来的」，分成就会变成口水战。公司可能会说「这个客户我们早就认识」，你可能说「是我跟进了三个月才成交的」——没有记录，谁都说服不了谁。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>独立站 on Frida Home</title>
+    <link>https://fridacai.vercel.app/tags/%E7%8B%AC%E7%AB%8B%E7%AB%99/</link>
+    <description>Recent content in 独立站 on Frida Home</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 05 Apr 2026 02:47:07 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/tags/%E7%8B%AC%E7%AB%8B%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>国际站后台投放数据如何为独立站运营提供参考</title>
+      <link>https://fridacai.vercel.app/blog/alibaba-intl-ads-data-reference-for-independent-site/</link>
+      <pubDate>Sun, 05 Apr 2026 02:47:07 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/alibaba-intl-ads-data-reference-for-independent-site/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在跨境电商多渠道布局时代，阿里巴巴国际站（Alibaba.com）与独立站往往并行运营。许多卖家忽视了一个关键点：&lt;strong&gt;国际站后台沉淀的大量投放数据，对独立站的冷启动和精细化运营具有极高的参考价值&lt;/strong&gt;。两个平台的底层买家画像高度重叠，数据迁移应用可以显著降低独立站的试错成本。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>阿里巴巴国际站产品迁移到 WooCommerce（Woodmart）完整指南</title>
+      <link>https://fridacai.vercel.app/blog/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E5%9B%BD%E9%99%85%E7%AB%99%E4%BA%A7%E5%93%81%E8%BF%81%E7%A7%BB%E5%88%B0-woocommercewoodmart%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Thu, 02 Apr 2026 03:04:05 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/%E9%98%BF%E9%87%8C%E5%B7%B4%E5%B7%B4%E5%9B%BD%E9%99%85%E7%AB%99%E4%BA%A7%E5%93%81%E8%BF%81%E7%A7%BB%E5%88%B0-woocommercewoodmart%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;h2 id=&#34;一能否直接同步&#34;&gt;一、能否直接同步？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;直接答案：可以，但不能&amp;quot;一键直连&amp;quot;，必须经过中转或处理。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;阿里巴巴国际站（Alibaba.com）是一个封闭平台，没有官方按钮可以直接将数据同步到 WooCommerce（Woodmart）。要实现这个过程，通常有以下三种路径（按效率从高到低）：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用 AI 批量生成 TDK &#43; 快速拉起 WooCommerce 独立站完整指南</title>
+      <link>https://fridacai.vercel.app/blog/%E7%94%A8-ai-%E6%89%B9%E9%87%8F%E7%94%9F%E6%88%90-tdk--%E5%BF%AB%E9%80%9F%E6%8B%89%E8%B5%B7-woocommerce-%E7%8B%AC%E7%AB%8B%E7%AB%99%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Thu, 02 Apr 2026 03:04:05 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/%E7%94%A8-ai-%E6%89%B9%E9%87%8F%E7%94%9F%E6%88%90-tdk--%E5%BF%AB%E9%80%9F%E6%8B%89%E8%B5%B7-woocommerce-%E7%8B%AC%E7%AB%8B%E7%AB%99%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;h2 id=&#34;一为什么要用-ai-批量处理-tdk&#34;&gt;一、为什么要用 AI 批量处理 TDK？&lt;/h2&gt;&#xA;&lt;p&gt;利用 AI 批量处理 TDK（Title 标题、Description 描述、Keywords 关键词）是解决独立站与国际站&amp;quot;内容重复&amp;quot;问题最高效的手段。目前主要有两种实现路径：&lt;strong&gt;插件派&lt;/strong&gt;（简单快速）和&lt;strong&gt;表格 + API 派&lt;/strong&gt;（高度可控）。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>独立站合作：订单归属如何认定，还是找个跟单助手？</title>
+      <link>https://fridacai.vercel.app/blog/order-attribution-vs-assistant/</link>
+      <pubDate>Thu, 26 Mar 2026 05:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/order-attribution-vs-assistant/</guid>
+      <description>&lt;h2 id=&#34;为什么订单归属是核心矛盾&#34;&gt;为什么订单归属是核心矛盾&lt;/h2&gt;&#xA;&lt;p&gt;在「无底薪 + 分成」的合作模式里，&lt;strong&gt;订单归属是整个利益分配的前提&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;一旦说不清楚「这个客户是谁带来的」，分成就会变成口水战。公司可能会说「这个客户我们早就认识」，你可能说「是我跟进了三个月才成交的」——没有记录，谁都说服不了谁。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>独立站运营合作：无底薪学徒制下的分成方案设计</title>
+      <link>https://fridacai.vercel.app/blog/solo-site-partnership/</link>
+      <pubDate>Thu, 26 Mar 2026 05:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/solo-site-partnership/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;当你没有足够资金垫底，却想切入一家公司的独立站运营业务，「无底薪 + 技能学习 + 订单分成」是一种低摩擦的入场方式。这篇文章梳理了这种合作模式的逻辑、分成结构建议，以及谈判时需要明确的关键条款。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>做外贸的核心能力：从独立站到全流程跑通</title>
+      <link>https://fridacai.vercel.app/blog/foreign-trade-core-skills/</link>
+      <pubDate>Thu, 26 Mar 2026 05:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/foreign-trade-core-skills/</guid>
+      <description>&lt;h2 id=&#34;外贸的本质是什么&#34;&gt;外贸的本质是什么&lt;/h2&gt;&#xA;&lt;p&gt;外贸的核心是&lt;strong&gt;信息差套利 + 供应链整合&lt;/strong&gt;：你站在海外买家和中国工厂之间，用语言能力、选品眼光和履约能力赚取中间的价值。&lt;/p&gt;&#xA;&lt;p&gt;独立站让你掌握了&amp;quot;卖&amp;quot;的能力——流量、转化、用户体验。但要真正跑通全流程，还需要补上&amp;quot;买&amp;quot;的能力，也就是&lt;strong&gt;供应商对接和供应链管理&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

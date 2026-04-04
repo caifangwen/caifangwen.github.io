@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>教程 on Frida Home</title><link>https://fridacai.vercel.app/categories/%E6%95%99%E7%A8%8B/</link><description>Recent content in 教程 on Frida Home</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 02 Apr 2026 16:09:44 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml"/><item><title>用 n8n 搭建自动化爬虫：从零开始的完整教程</title><link>https://fridacai.vercel.app/blog/n8n-web-scraping-tutorial/</link><pubDate>Thu, 02 Apr 2026 16:09:44 +0800</pubDate><guid>https://fridacai.vercel.app/blog/n8n-web-scraping-tutorial/</guid><description>&lt;h2 id="什么是-n8n">什么是 n8n？&lt;/h2>
-&lt;p>n8n（发音 &amp;ldquo;n-eight-n&amp;rdquo;）是一款基于节点的开源工作流自动化平台，由德国开发者 Jan Oberhauser 于 2019 年创立，名称来源于 &amp;ldquo;nodemation&amp;rdquo;（节点自动化）。它的核心理念是：&lt;strong>把每一个动作封装成节点，用连线把节点串成流程&lt;/strong>。&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教程 on Frida Home</title>
+    <link>https://fridacai.vercel.app/categories/%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 教程 on Frida Home</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 02 Apr 2026 16:09:44 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>用 n8n 搭建自动化爬虫：从零开始的完整教程</title>
+      <link>https://fridacai.vercel.app/blog/n8n-web-scraping-tutorial/</link>
+      <pubDate>Thu, 02 Apr 2026 16:09:44 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/n8n-web-scraping-tutorial/</guid>
+      <description>&lt;h2 id=&#34;什么是-n8n&#34;&gt;什么是 n8n？&lt;/h2&gt;&#xA;&lt;p&gt;n8n（发音 &amp;ldquo;n-eight-n&amp;rdquo;）是一款基于节点的开源工作流自动化平台，由德国开发者 Jan Oberhauser 于 2019 年创立，名称来源于 &amp;ldquo;nodemation&amp;rdquo;（节点自动化）。它的核心理念是：&lt;strong&gt;把每一个动作封装成节点，用连线把节点串成流程&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

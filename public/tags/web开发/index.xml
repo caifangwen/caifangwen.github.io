@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web开发 on Frida</title>
+    <title>Web开发 on Frida Home</title>
     <link>https://fridacai.vercel.app/tags/web%E5%BC%80%E5%8F%91/</link>
-    <description>Recent content in Web开发 on Frida</description>
+    <description>Recent content in Web开发 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 25 Mar 2026 09:52:35 +0800</lastBuildDate>
     <atom:link href="https://fridacai.vercel.app/tags/web%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Go 模板语法完全指南 —— Hugo 模板开发手册</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/go-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97-hugo-%E6%A8%A1%E6%9D%BF%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/</link>
+      <link>https://fridacai.vercel.app/blog/go-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97-hugo-%E6%A8%A1%E6%9D%BF%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/</link>
       <pubDate>Wed, 25 Mar 2026 09:52:35 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/go-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97-hugo-%E6%A8%A1%E6%9D%BF%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/</guid>
+      <guid>https://fridacai.vercel.app/blog/go-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97-hugo-%E6%A8%A1%E6%9D%BF%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;Hugo 使用 Go 标准库中的 &lt;code&gt;html/template&lt;/code&gt; 与 &lt;code&gt;text/template&lt;/code&gt; 作为模板引擎，并在此基础上扩展了大量内置函数。掌握 Go 模板语法是深度定制 Hugo 主题的必备技能。&lt;/p&gt;&#xA;&lt;p&gt;本文系统梳理所有语法特性，每个知识点配有可直接使用的代码示例。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo 项目文件结构详解</title>
-      <link>https://fridacai.vercel.app/blog/2026/03/hugo-%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AF%A6%E8%A7%A3/</link>
+      <link>https://fridacai.vercel.app/blog/hugo-%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AF%A6%E8%A7%A3/</link>
       <pubDate>Wed, 25 Mar 2026 08:41:49 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/03/hugo-%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AF%A6%E8%A7%A3/</guid>
+      <guid>https://fridacai.vercel.app/blog/hugo-%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AF%A6%E8%A7%A3/</guid>
       <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;&#xA;&lt;p&gt;Hugo 是目前世界上最快的静态网站生成器之一，使用 Go 语言编写。理解 Hugo 项目的文件结构，是掌握 Hugo 开发的第一步。本文将详细介绍一个标准 Hugo 项目中每个目录和文件的用途。&lt;/p&gt;</description>
     </item>
   </channel>
