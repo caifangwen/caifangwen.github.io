@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Frida</title><link>https://fridacai.vercel.app/categories/linux/</link><description>Recent content in Linux on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 23 Mar 2026 02:59:13 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Linux 系统文件结构详解</title><link>https://fridacai.vercel.app/blog/linux-filesystem-structure/</link><pubDate>Mon, 23 Mar 2026 02:59:13 +0800</pubDate><guid>https://fridacai.vercel.app/blog/linux-filesystem-structure/</guid><description>&lt;h2 id="前言"&gt;前言&lt;/h2&gt;
-&lt;p&gt;Linux 系统与 Windows 截然不同——它没有 C 盘、D 盘之分，而是以一棵倒置的树状结构来组织所有文件。无论你连接了多少块硬盘、U 盘还是网络存储，它们最终都挂载在同一棵目录树之下。理解这棵树，是掌握 Linux 的第一步。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Frida</title>
+    <link>https://fridacai.vercel.app/categories/linux/</link>
+    <description>Recent content in Linux on Frida</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Mar 2026 02:59:13 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 系统文件结构详解</title>
+      <link>https://fridacai.vercel.app/blog/2026/03/linux-filesystem-structure/</link>
+      <pubDate>Mon, 23 Mar 2026 02:59:13 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/03/linux-filesystem-structure/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;Linux 系统与 Windows 截然不同——它没有 C 盘、D 盘之分，而是以一棵倒置的树状结构来组织所有文件。无论你连接了多少块硬盘、U 盘还是网络存储，它们最终都挂载在同一棵目录树之下。理解这棵树，是掌握 Linux 的第一步。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

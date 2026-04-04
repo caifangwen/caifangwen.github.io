@@ -361,28 +361,77 @@
 }
 
 
+/* Link Card 样式 */
 .link-card {
-  @apply bg-card border border-border rounded-lg mb-2 p-4 transition-all duration-200 hover:scale-105;
-  flex: 1 1 calc(33.333% - 1rem);
+  @apply flex items-stretch bg-card border border-border rounded-lg p-0 no-underline transition-all duration-200 hover:shadow-md hover:border-primary/30 overflow-hidden;
+  text-decoration: none !important;
+  max-width: 100%;
 }
-.link-card-title {
-  @apply text-foreground font-semibold m-0 p-0 text-sm hover:text-primary transition-colors truncate;
+
+.link-card:hover {
+  text-decoration: none !important;
 }
-.link-card-content {
-  @apply text-muted-foreground m-0 p-0 text-xs mt-1 leading-relaxed line-clamp-2;
+
+.link-card__thumb {
+  @apply flex-shrink-0 w-32 h-24 overflow-hidden bg-muted/20;
 }
-.link-card-url {
-  @apply text-muted-foreground m-0 p-0 text-xs mt-1 font-mono opacity-70 truncate;
+
+.link-card__thumb img {
+  @apply w-full h-full object-cover transition-transform duration-200;
 }
-.link-card-arrow {
-  @apply flex-shrink-0 text-muted-foreground group-hover:text-primary transition-colors;
+
+.link-card:hover .link-card__thumb img {
+  @apply scale-105;
 }
-.link-card a::before {
-  display: none;
+
+.link-card__body {
+  @apply flex flex-col flex-grow px-4 py-3 min-w-0;
 }
+
+.link-card__title {
+  @apply text-foreground font-semibold text-sm leading-snug mb-1.5 line-clamp-2;
+}
+
+.link-card__desc {
+  @apply text-muted-foreground text-xs leading-relaxed line-clamp-2 mb-2;
+}
+
+.link-card__meta {
+  @apply flex items-center gap-2 text-xs mt-auto;
+}
+
+.link-card__source {
+  @apply inline-flex items-center px-2 py-0.5 rounded-full bg-primary/10 text-primary font-medium;
+}
+
+.link-card__host {
+  @apply text-muted-foreground/70 truncate;
+}
+
+.link-card__arrow {
+  @apply flex-shrink-0 px-3 flex items-center text-muted-foreground text-lg transition-colors;
+}
+
+.link-card:hover .link-card__arrow {
+  @apply text-primary;
+}
+
+/* 禁用链接伪元素 */
+.link-card a::before,
 .link-card a::after {
-  display: none;
+  display: none !important;
 }
+
+/* 评论块样式 */
+.link-card-comment {
+  @apply ml-4 pl-4 border-l-2 border-primary/30 mb-4;
+}
+
+.link-card-comment p {
+  @apply text-sm leading-relaxed;
+}
+
+/* Link Card Group 样式 */
 .link-card-group {
   @apply flex flex-wrap gap-4 w-full;
   justify-content: flex-start;
@@ -393,13 +442,17 @@
   flex: 0 0 auto;
   @apply max-w-md w-full mx-auto;
 }
+
+/* Link Card 错误状态 */
 .link-card-error {
   @apply bg-muted/10 border border-muted/20 rounded-lg p-4 text-muted;
-  @apply w-full max-w-md mx-auto; 
+  @apply w-full max-w-md mx-auto;
 }
+
 .link-card-error p {
   @apply mb-2 last:mb-0;
 }
+
 .link-card-error ul {
   @apply list-disc list-inside space-y-1 text-sm;
 }

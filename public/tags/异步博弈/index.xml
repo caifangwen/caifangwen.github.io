@@ -1,1 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>异步博弈 on Frida</title><link>https://fridacai.vercel.app/tags/%E5%BC%82%E6%AD%A5%E5%8D%9A%E5%BC%88/</link><description>Recent content in 异步博弈 on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 23 Mar 2026 03:42:54 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/tags/%E5%BC%82%E6%AD%A5%E5%8D%9A%E5%BC%88/index.xml" rel="self" type="application/rss+xml"/><item><title>大观园 · 管家系统深度设计——十二种博弈玩法全解析</title><link>https://fridacai.vercel.app/blog/%E5%A4%A7%E8%A7%82%E5%9B%AD-%E7%AE%A1%E5%AE%B6%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%AE%BE%E8%AE%A1%E5%8D%81%E4%BA%8C%E7%A7%8D%E5%8D%9A%E5%BC%88%E7%8E%A9%E6%B3%95%E5%85%A8%E8%A7%A3%E6%9E%90/</link><pubDate>Mon, 23 Mar 2026 03:42:54 +0800</pubDate><guid>https://fridacai.vercel.app/blog/%E5%A4%A7%E8%A7%82%E5%9B%AD-%E7%AE%A1%E5%AE%B6%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%AE%BE%E8%AE%A1%E5%8D%81%E4%BA%8C%E7%A7%8D%E5%8D%9A%E5%BC%88%E7%8E%A9%E6%B3%95%E5%85%A8%E8%A7%A3%E6%9E%90/</guid><description>一座园子，五个管家位，百种腾挪手段。本文在原版GDD管家系统基础上，设计十二个全新玩法模块，让每一位坐上管家位的玩家都面临真实的道德与利益博弈。</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>异步博弈 on Frida</title>
+    <link>https://fridacai.vercel.app/tags/%E5%BC%82%E6%AD%A5%E5%8D%9A%E5%BC%88/</link>
+    <description>Recent content in 异步博弈 on Frida</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 23 Mar 2026 03:42:54 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/tags/%E5%BC%82%E6%AD%A5%E5%8D%9A%E5%BC%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大观园 · 管家系统深度设计——十二种博弈玩法全解析</title>
+      <link>https://fridacai.vercel.app/blog/2026/03/%E5%A4%A7%E8%A7%82%E5%9B%AD-%E7%AE%A1%E5%AE%B6%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%AE%BE%E8%AE%A1%E5%8D%81%E4%BA%8C%E7%A7%8D%E5%8D%9A%E5%BC%88%E7%8E%A9%E6%B3%95%E5%85%A8%E8%A7%A3%E6%9E%90/</link>
+      <pubDate>Mon, 23 Mar 2026 03:42:54 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/03/%E5%A4%A7%E8%A7%82%E5%9B%AD-%E7%AE%A1%E5%AE%B6%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%AE%BE%E8%AE%A1%E5%8D%81%E4%BA%8C%E7%A7%8D%E5%8D%9A%E5%BC%88%E7%8E%A9%E6%B3%95%E5%85%A8%E8%A7%A3%E6%9E%90/</guid>
+      <description>一座园子，五个管家位，百种腾挪手段。本文在原版GDD管家系统基础上，设计十二个全新玩法模块，让每一位坐上管家位的玩家都面临真实的道德与利益博弈。</description>
+    </item>
+  </channel>
+</rss>

@@ -1,2 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Mock on Frida</title><link>https://fridacai.vercel.app/tags/mock/</link><description>Recent content in Mock on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 20 Mar 2026 15:06:17 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/tags/mock/index.xml" rel="self" type="application/rss+xml"/><item><title>什么是 Mock 数据？</title><link>https://fridacai.vercel.app/blog/%E4%BB%80%E4%B9%88%E6%98%AF-mock-%E6%95%B0%E6%8D%AE/</link><pubDate>Fri, 20 Mar 2026 15:06:17 +0800</pubDate><guid>https://fridacai.vercel.app/blog/%E4%BB%80%E4%B9%88%E6%98%AF-mock-%E6%95%B0%E6%8D%AE/</guid><description>&lt;h2 id="什么是-mock-数据"&gt;什么是 Mock 数据？&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Mock 数据&lt;/strong&gt;（模拟数据）是在软件开发和测试过程中，用来&lt;strong&gt;模拟真实数据或接口响应&lt;/strong&gt;的假数据。它并非来自真实的数据库或后端服务，而是由开发者或工具人工构造，用以代替尚未就绪的真实数据源。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mock on Frida</title>
+    <link>https://fridacai.vercel.app/tags/mock/</link>
+    <description>Recent content in Mock on Frida</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 20 Mar 2026 15:06:17 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/tags/mock/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>什么是 Mock 数据？</title>
+      <link>https://fridacai.vercel.app/blog/2026/03/%E4%BB%80%E4%B9%88%E6%98%AF-mock-%E6%95%B0%E6%8D%AE/</link>
+      <pubDate>Fri, 20 Mar 2026 15:06:17 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/03/%E4%BB%80%E4%B9%88%E6%98%AF-mock-%E6%95%B0%E6%8D%AE/</guid>
+      <description>&lt;h2 id=&#34;什么是-mock-数据&#34;&gt;什么是 Mock 数据？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mock 数据&lt;/strong&gt;（模拟数据）是在软件开发和测试过程中，用来&lt;strong&gt;模拟真实数据或接口响应&lt;/strong&gt;的假数据。它并非来自真实的数据库或后端服务，而是由开发者或工具人工构造，用以代替尚未就绪的真实数据源。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

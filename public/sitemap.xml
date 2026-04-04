@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>https://fridacai.vercel.app/zh-cn/sitemap.xml</loc><lastmod>2026-03-26T02:09:23+08:00</lastmod></sitemap><sitemap><loc>https://fridacai.vercel.app/en/sitemap.xml</loc></sitemap><sitemap><loc>https://fridacai.vercel.app/fr/sitemap.xml</loc></sitemap></sitemapindex>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <sitemap>
+    <loc>https://fridacai.vercel.app/zh-cn/sitemap.xml</loc>
+    
+      <lastmod>2026-04-04T10:00:00+08:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://fridacai.vercel.app/en/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://fridacai.vercel.app/fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+</sitemapindex>

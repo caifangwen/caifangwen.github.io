@@ -1,46 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gateway on Frida</title><link>https://fridacai.vercel.app/tags/gateway/</link><description>Recent content in Gateway on Frida</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/tags/gateway/index.xml" rel="self" type="application/rss+xml"/><item><title>OpenClaw Gateway 深度解析：龙虾的心脏是怎么跳动的</title><link>https://fridacai.vercel.app/blog/openclaw-gateway-deep-dive/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/openclaw-gateway-deep-dive/</guid><description>&lt;h2 id="一句话定义"&gt;一句话定义&lt;/h2&gt;
-
- &lt;blockquote
- class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1"&gt;
- &lt;div class="prose prose-sm max-w-none"&gt;
- &lt;p&gt;Gateway 是 OpenClaw 的心脏——唯一需要 24 小时跑着的进程，所有消息进来都要经过它，所有 AI 的回复也要从它出去。&lt;/p&gt;
-
- &lt;/div&gt;
- &lt;/blockquote&gt;&lt;script&gt;
-function toggleAlert(alertId) {
- const content = document.getElementById(alertId + '-content');
- const chevron = document.getElementById(alertId + '-chevron');
- const header = content.previousElementSibling;
- 
- if (content.classList.contains('hidden')) {
- content.classList.remove('hidden');
- chevron.style.transform = 'rotate(0deg)';
- header.setAttribute('aria-expanded', 'true');
- } else {
- content.classList.add('hidden');
- chevron.style.transform = 'rotate(-90deg)';
- header.setAttribute('aria-expanded', 'false');
- }
-}
-
-
-document.addEventListener('DOMContentLoaded', function() {
- const collapsedAlerts = document.querySelectorAll('.alert-content.hidden');
- collapsedAlerts.forEach(function(content) {
- const alertId = content.id.replace('-content', '');
- const chevron = document.getElementById(alertId + '-chevron');
- if (chevron) {
- chevron.style.transform = 'rotate(-90deg)';
- }
- });
-});
-&lt;/script&gt;
-
-&lt;p&gt;如果 OpenClaw 是一家公司，Gateway 就是前台总机：它不做实际业务，但没有它，任何人都联系不上任何人。&lt;/p&gt;</description></item><item><title>单 Gateway 多 Agent：一台机器运行一支 AI 团队</title><link>https://fridacai.vercel.app/blog/openclaw-single-gateway-multi-agent/</link><pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate><guid>https://fridacai.vercel.app/blog/openclaw-single-gateway-multi-agent/</guid><description>&lt;h2 id="先讲清楚一件事gateway-和-agent-的关系"&gt;先讲清楚一件事：Gateway 和 Agent 的关系&lt;/h2&gt;
-&lt;p&gt;很多人第一次看到&amp;quot;单 Gateway 多 Agent&amp;quot;这个词会以为它是某种复杂的分布式架构。其实不然。&lt;/p&gt;
-&lt;p&gt;用一个比喻来说：&lt;/p&gt;
-
- &lt;blockquote
- class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1"&gt;
- &lt;div class="prose prose-sm max-w-none"&gt;
- &lt;p&gt;Gateway 是一栋办公楼，Agent 是楼里不同的员工。&lt;strong&gt;楼只有一栋，但员工可以很多。&lt;/strong&gt; 访客（你发的消息）进门后，前台（Gateway 路由）判断应该找哪位员工，然后带你去找他。&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gateway on Frida</title>
+    <link>https://fridacai.vercel.app/tags/gateway/</link>
+    <description>Recent content in Gateway on Frida</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0800</lastBuildDate>
+    <atom:link href="https://fridacai.vercel.app/tags/gateway/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenClaw Gateway 深度解析：龙虾的心脏是怎么跳动的</title>
+      <link>https://fridacai.vercel.app/blog/2026/03/openclaw-gateway-deep-dive/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/03/openclaw-gateway-deep-dive/</guid>
+      <description>&lt;h2 id=&#34;一句话定义&#34;&gt;一句话定义&lt;/h2&gt;&#xA;&#xD;&#xA;  &lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;Gateway 是 OpenClaw 的心脏——唯一需要 24 小时跑着的进程，所有消息进来都要经过它，所有 AI 的回复也要从它出去。&lt;/p&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/blockquote&gt;&lt;script&gt;&#xD;&#xA;function toggleAlert(alertId) {&#xD;&#xA;  const content = document.getElementById(alertId + &#39;-content&#39;);&#xD;&#xA;  const chevron = document.getElementById(alertId + &#39;-chevron&#39;);&#xD;&#xA;  const header = content.previousElementSibling;&#xD;&#xA;  &#xD;&#xA;  if (content.classList.contains(&#39;hidden&#39;)) {&#xD;&#xA;    content.classList.remove(&#39;hidden&#39;);&#xD;&#xA;    chevron.style.transform = &#39;rotate(0deg)&#39;;&#xD;&#xA;    header.setAttribute(&#39;aria-expanded&#39;, &#39;true&#39;);&#xD;&#xA;  } else {&#xD;&#xA;    content.classList.add(&#39;hidden&#39;);&#xD;&#xA;    chevron.style.transform = &#39;rotate(-90deg)&#39;;&#xD;&#xA;    header.setAttribute(&#39;aria-expanded&#39;, &#39;false&#39;);&#xD;&#xA;  }&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;document.addEventListener(&#39;DOMContentLoaded&#39;, function() {&#xD;&#xA;  const collapsedAlerts = document.querySelectorAll(&#39;.alert-content.hidden&#39;);&#xD;&#xA;  collapsedAlerts.forEach(function(content) {&#xD;&#xA;    const alertId = content.id.replace(&#39;-content&#39;, &#39;&#39;);&#xD;&#xA;    const chevron = document.getElementById(alertId + &#39;-chevron&#39;);&#xD;&#xA;    if (chevron) {&#xD;&#xA;      chevron.style.transform = &#39;rotate(-90deg)&#39;;&#xD;&#xA;    }&#xD;&#xA;  });&#xD;&#xA;});&#xD;&#xA;&lt;/script&gt;&#xD;&#xA;&#xD;&#xA;&lt;p&gt;如果 OpenClaw 是一家公司，Gateway 就是前台总机：它不做实际业务，但没有它，任何人都联系不上任何人。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>单 Gateway 多 Agent：一台机器运行一支 AI 团队</title>
+      <link>https://fridacai.vercel.app/blog/2026/03/openclaw-single-gateway-multi-agent/</link>
+      <pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://fridacai.vercel.app/blog/2026/03/openclaw-single-gateway-multi-agent/</guid>
+      <description>&lt;h2 id=&#34;先讲清楚一件事gateway-和-agent-的关系&#34;&gt;先讲清楚一件事：Gateway 和 Agent 的关系&lt;/h2&gt;&#xA;&lt;p&gt;很多人第一次看到&amp;quot;单 Gateway 多 Agent&amp;quot;这个词会以为它是某种复杂的分布式架构。其实不然。&lt;/p&gt;&#xA;&lt;p&gt;用一个比喻来说：&lt;/p&gt;&#xA;&#xD;&#xA;  &lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;Gateway 是一栋办公楼，Agent 是楼里不同的员工。&lt;strong&gt;楼只有一栋，但员工可以很多。&lt;/strong&gt; 访客（你发的消息）进门后，前台（Gateway 路由）判断应该找哪位员工，然后带你去找他。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
