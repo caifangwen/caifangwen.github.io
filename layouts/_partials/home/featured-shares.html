@@ -1,7 +1,7 @@
 {{/* 首页分享板块 */}}
 
-{{ $sharePages := where site.RegularPages "Section" "shares" }}
-{{ $recentShares := first 6 $sharePages }}
+{{ $sharePages := where .Site.RegularPages "Section" "shares" }}
+{{ $recentShares := first 6 (sort $sharePages "Date" "desc") }}
 
 {{ if $recentShares }}
   <section class="featured-shares my-8">

@@ -29,9 +29,10 @@
     </header>
 
     <!-- 分享卡片列表 -->
-    {{ if .Pages }}
+    {{ $shares := where .Site.RegularPages "Section" "shares" }}
+    {{ if $shares }}
       <div class="space-y-4">
-        {{ range .Pages.ByDate.Reverse }}
+        {{ range $shares.ByDate.Reverse }}
           <article class="group">
             <a href="{{ .RelPermalink }}" class="block">
               <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-lg focus:ring-2 focus:outline-none">
@@ -80,9 +81,6 @@
         </p>
       </div>
     {{ end }}
-
-    <!-- 分页导航 -->
-    {{ partial "navigation/pagination.html" . }}
 
   </div>
 {{ end }}

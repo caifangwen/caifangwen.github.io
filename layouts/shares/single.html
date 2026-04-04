@@ -30,8 +30,13 @@
       {{ .Content }}
     </div>
 
-    <!-- 上下篇导航 -->
-    {{ partial "navigation/page-navigation.html" . }}
+    <!-- 返回分享列表 -->
+    <div class="mt-12 pt-6 border-t border-border">
+      <a href="{{ "/shares/" | relLangURL }}" class="text-primary hover:text-primary/80 inline-flex items-center gap-2 font-medium transition-colors">
+        {{ partial "features/icon.html" (dict "name" "arrow-left" "size" "sm" "ariaLabel" "") }}
+        <span>返回分享列表</span>
+      </a>
+    </div>
 
   </article>
 {{ end }}

@@ -25,7 +25,7 @@ main:
     url: /shares/
     weight: 3.5
     params:
-      icon: share-2
+      icon: link
 
   - identifier: projects
     name: nav.projects

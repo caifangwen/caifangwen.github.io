@@ -20,6 +20,7 @@ disableAliases: true
 permalinks:
   posts: /blog/:slug/
   projects: /project/:slug/
+  shares: /shares/:slug/
   pages: /:slug/
 
 # pagination
