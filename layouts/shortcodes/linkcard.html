@@ -1,0 +1,23 @@
+{{ $url    := .Get "url" }}
+{{ $title  := .Get "title" | default $url }}
+{{ $desc   := .Get "desc"  | default "" }}
+{{ $image  := .Get "image" | default "" }}
+{{ $source := .Get "source" | default "" }}
+{{ $host   := urls.Parse $url }}
+
+<a href="{{ $url }}" target="_blank" rel="noopener noreferrer" class="link-card">
+  {{ if $image }}
+  <div class="link-card__thumb">
+    <img src="{{ $image }}" alt="{{ $title }}" loading="lazy" />
+  </div>
+  {{ end }}
+  <div class="link-card__body">
+    <div class="link-card__title">{{ $title }}</div>
+    {{ if $desc }}<div class="link-card__desc">{{ $desc }}</div>{{ end }}
+    <div class="link-card__meta">
+      {{ if $source }}<span class="link-card__source">{{ $source }}</span>{{ end }}
+      <span class="link-card__host">{{ $host.Host }}</span>
+    </div>
+  </div>
+  <div class="link-card__arrow">↗</div>
+</a>

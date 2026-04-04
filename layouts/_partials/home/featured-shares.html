@@ -1,0 +1,55 @@
+{{/* 首页分享板块 */}}
+
+{{ $sharePages := where site.RegularPages "Section" "shares" }}
+{{ $recentShares := first 6 $sharePages }}
+
+{{ if $recentShares }}
+  <section class="featured-shares">
+    <div class="mb-4 flex items-center justify-between md:mb-6">
+      <h2 class="text-foreground text-2xl font-bold">
+        {{ i18n "home.shares" | default "分享" }}
+      </h2>
+      <a
+        href="{{ "/shares/" | relLangURL }}"
+        class="text-primary hover:text-primary/80 flex items-center gap-1 text-sm font-medium transition-colors">
+        <span>{{ i18n "home.view_all" | default "查看全部" }}</span>
+        {{ partial "features/icon.html" (dict "name" "arrow-right" "size" "xs" "ariaLabel" "") }}
+      </a>
+    </div>
+
+    <div class="space-y-4">
+      {{ range $recentShares }}
+        <article class="group">
+          <a href="{{ .RelPermalink }}" class="block">
+            <div class="bg-card border-border hover:bg-primary/5 hover:border-primary/20 focus:ring-primary/20 relative flex flex-col overflow-hidden rounded-xl border p-6 transition-all duration-300 ease-out hover:-translate-y-1 hover:shadow-lg focus:ring-2 focus:outline-none">
+              <h3 class="text-foreground group-hover:text-primary text-lg font-semibold leading-tight transition-colors duration-200">
+                {{ .Title }}
+              </h3>
+              {{ if or .Params.summary .Params.description }}
+                <p class="text-muted-foreground mt-2 text-sm leading-relaxed">
+                  {{ if .Params.summary }}
+                    {{ .Params.summary }}
+                  {{ else }}
+                    {{ .Params.description }}
+                  {{ end }}
+                </p>
+              {{ end }}
+              <div class="text-muted-foreground mt-3 flex items-center gap-3 text-xs">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">
+                  {{ .Date | time.Format ":date_long" }}
+                </time>
+                {{ with .Params.tags }}
+                  <span class="flex gap-2">
+                    {{ range first 3 . }}
+                      <span class="bg-muted rounded-full px-2 py-0.5">{{ . }}</span>
+                    {{ end }}
+                  </span>
+                {{ end }}
+              </div>
+            </div>
+          </a>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
