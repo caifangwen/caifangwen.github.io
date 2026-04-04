@@ -20,6 +20,13 @@ main:
     params:
       icon: message-circle
 
+  - identifier: shares
+    name: 分享
+    url: /shares/
+    weight: 3.5
+    params:
+      icon: share-2
+
   - identifier: projects
     name: nav.projects
     url: /projects/

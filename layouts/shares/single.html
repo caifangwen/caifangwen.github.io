@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <article class="mx-auto max-w-4xl px-4 py-6">
+    <!-- 面包屑导航 -->
+    {{ partial "navigation/breadcrumb.html" . }}
+
+    <!-- 文章头部 -->
+    <header class="mb-8">
+      <h1 class="text-foreground mb-4 text-3xl font-bold">
+        {{ .Title }}
+      </h1>
+
+      <div class="text-muted-foreground flex flex-wrap items-center gap-4 text-sm">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">
+          {{ .Date | time.Format ":date_long" }}
+        </time>
+        {{ with .Params.tags }}
+          <span class="flex gap-2">
+            {{ range . }}
+              <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}" class="bg-muted hover:bg-primary/10 rounded-full px-3 py-1 transition-colors">
+                {{ . }}
+              </a>
+            {{ end }}
+          </span>
+        {{ end }}
+      </div>
+    </header>
+
+    <!-- 正文内容 -->
+    <div class="prose prose-neutral dark:prose-invert max-w-none">
+      {{ .Content }}
+    </div>
+
+    <!-- 上下篇导航 -->
+    {{ partial "navigation/page-navigation.html" . }}
+
+  </article>
+{{ end }}
