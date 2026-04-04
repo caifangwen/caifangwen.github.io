@@ -531,12 +531,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/hugo-link-card-section-prompt.md",
+                "file": "docs/getting-started.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "hugo-link-card-section-prompt"
+              "title": "getting-started"
             }
           }
         ],
@@ -689,6 +689,8 @@
   },
   "active": "3ba338632677a8f2",
   "lastOpenFiles": [
+    "docs/weekly-report-2026-W14.md",
+    "posts/hugo-link-card-section-prompt.md",
     "posts/n8n-alibaba-scraper-anti-detection.md",
     "posts/n8n-social-auto-publish-prompts.md",
     "posts/hugo-narrow-site-structure.md",
@@ -716,8 +718,6 @@
     "archives/_index.md",
     "docs/getting-started.md",
     "posts/database-refactoring-prompts.md",
-    "posts/git-rebase-guide.md",
-    "posts/t-shaped-talent.md",
     "未命名.canvas",
     "未命名",
     "temp",
