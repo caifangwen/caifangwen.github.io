@@ -34,6 +34,13 @@ taxonomies:
   tag: tags
   series: series
 
+# 主要section配置
+mainSections:
+  - posts
+  - shares
+  - projects
+  - discussions
+
 # SEO增强配置
 markup:
   tableOfContents:

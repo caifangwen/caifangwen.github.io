@@ -1,19 +1,321 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Seo on Frida</title>
-    <link>https://fridacai.vercel.app/categories/seo/</link>
-    <description>Recent content in Seo on Frida</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Wed, 28 Jan 2026 16:46:42 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/categories/seo/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>关键词布局完整方案</title>
-      <link>https://fridacai.vercel.app/blog/2026/01/%E5%85%B3%E9%94%AE%E8%AF%8D%E5%B8%83%E5%B1%80%E5%AE%8C%E6%95%B4%E6%96%B9%E6%A1%88/</link>
-      <pubDate>Wed, 28 Jan 2026 16:46:42 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/01/%E5%85%B3%E9%94%AE%E8%AF%8D%E5%B8%83%E5%B1%80%E5%AE%8C%E6%95%B4%E6%96%B9%E6%A1%88/</guid>
-      <description>&lt;h2 id=&#34;一网站结构分析与关键词分层策略&#34;&gt;一、网站结构分析与关键词分层策略&lt;/h2&gt;&#xA;&lt;h3 id=&#34;典型的管件产品网站结构&#34;&gt;典型的管件产品网站结构&lt;/h3&gt;&#xA;&lt;div&#xD;&#xA;  class=&#34;code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md&#34;&gt;&#xD;&#xA;  &#xD;&#xA;  &lt;div&#xD;&#xA;    class=&#34;code-block-header bg-muted/30 border-border flex items-center justify-between border-b px-4 py-3&#34;&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;div class=&#34;flex items-center gap-2&#34;&gt;&#xD;&#xA;      &lt;div class=&#34;text-muted-foreground flex-shrink-0&#34;&gt;&#xD;&#xA;        &lt;svg class=&#34;h-4 w-4&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xD;&#xA;  &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4&#34; /&gt;&#xD;&#xA;&lt;/svg&gt;&#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;      &lt;span class=&#34;text-muted-foreground text-sm font-medium&#34;&gt;&#xD;&#xA;        PLAINTEXT&#xD;&#xA;      &lt;/span&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    &lt;div class=&#34;flex items-center gap-2&#34;&gt;&#xD;&#xA;      &lt;button&#xD;&#xA;          class=&#34;collapse-code-btn text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none&#34;&#xD;&#xA;          data-code-id=&#34;code-0&#34;&#xD;&#xA;          data-default-state=&#34;expanded&#34;&#xD;&#xA;          data-collapsed=&#34;false&#34;&#xD;&#xA;          data-auto-collapse-lines=&#34;30&#34;&#xD;&#xA;          data-auto-collapse-height=&#34;400&#34;&#xD;&#xA;          data-collapsed-height=&#34;120&#34;&#xD;&#xA;          title=&#34;折叠&#34;&#xD;&#xA;          aria-label=&#34;折叠&#34;&gt;&#xD;&#xA;          &lt;span class=&#34;collapse-icon&#34;&gt;&#xD;&#xA;            &lt;svg class=&#34;h-3 w-3&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;currentColor&#34; d=&#34;M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;          &lt;/span&gt;&#xD;&#xA;          &lt;span class=&#34;collapse-text hidden sm:inline&#34;&#xD;&#xA;            &gt;折叠&lt;/span&#xD;&#xA;          &gt;&#xD;&#xA;        &lt;/button&gt;&#xD;&#xA;      &lt;button&#xD;&#xA;        class=&#34;copy-code-btn text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none&#34;&#xD;&#xA;        data-code-id=&#34;code-0&#34;&#xD;&#xA;        title=&#34;复制&#34;&#xD;&#xA;        aria-label=&#34;复制&#34;&gt;&#xD;&#xA;        &lt;span class=&#34;copy-icon&#34;&gt;&#xD;&#xA;          &lt;svg class=&#34;h-3 w-3&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; viewBox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&#xD;&#xA;  &lt;path stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z&#34; /&gt;&#xD;&#xA;&lt;/svg&gt;&#xD;&#xA;        &lt;/span&gt;&#xD;&#xA;        &lt;span class=&#34;copy-text hidden sm:inline&#34;&#xD;&#xA;          &gt;复制&lt;/span&#xD;&#xA;        &gt;&#xD;&#xA;      &lt;/button&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  &lt;div class=&#34;code-block-content relative&#34; id=&#34;code-0&#34;&gt;&#xD;&#xA;    &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;首页&#xD;&#xA;│&#xD;&#xA;├─ 产品分类页（10-20个）&#xD;&#xA;│  ├─ Stainless Steel Pipe Fittings (主分类)&#xD;&#xA;│  ├─ Carbon Steel Pipe Fittings&#xD;&#xA;│  ├─ Brass Pipe Fittings&#xD;&#xA;│  └─ PVC Pipe Fittings&#xD;&#xA;│&#xD;&#xA;├─ 产品子分类页（50-100个）&#xD;&#xA;│  ├─ Stainless Steel Elbows&#xD;&#xA;│  ├─ Stainless Steel Tees&#xD;&#xA;│  ├─ Stainless Steel Reducers&#xD;&#xA;│  └─ Stainless Steel Flanges&#xD;&#xA;│&#xD;&#xA;└─ 具体产品页（400-500个）&#xD;&#xA;   ├─ 304 Stainless Steel 90 Degree Elbow 1/2&amp;#34;&#xD;&#xA;   ├─ 304 Stainless Steel 90 Degree Elbow 3/4&amp;#34;&#xD;&#xA;   └─ 316 Stainless Steel Tee 1&amp;#34;&lt;/code&gt;&lt;/pre&gt;&#xD;&#xA;    &#xD;&#xA;    &lt;div&#xD;&#xA;      class=&#34;collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300&#34;&gt;&#xD;&#xA;      &lt;div&#xD;&#xA;        class=&#34;text-muted-foreground bg-card/80 border-border/50 hover:bg-primary/10 hover:text-primary hover:border-primary/30 absolute bottom-4 left-1/2 -translate-x-1/2 cursor-pointer rounded-full border px-3 py-1.5 text-xs backdrop-blur-sm transition-all duration-200&#34;&gt;&#xD;&#xA;        点击展开查看更多&#xD;&#xA;      &lt;/div&gt;&#xD;&#xA;    &lt;/div&gt;&#xD;&#xA;  &lt;/div&gt;&#xD;&#xA;&lt;/div&gt;&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;&lt;script&gt;&#xD;&#xA;(function() {&#xD;&#xA;  const codeId = &#39;code-0&#39;;&#xD;&#xA;  const copyBtn = document.querySelector(&#39;.copy-code-btn[data-code-id=&#34;&#39; + codeId + &#39;&#34;]&#39;);&#xD;&#xA;  const collapseBtn = document.querySelector(&#39;.collapse-code-btn[data-code-id=&#34;&#39; + codeId + &#39;&#34;]&#39;);&#xD;&#xA;  const codeContainer = document.getElementById(codeId);&#xD;&#xA;&#xD;&#xA;  if (!codeContainer) return;&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  if (copyBtn) {&#xD;&#xA;    const copyIcon = copyBtn.querySelector(&#39;.copy-icon&#39;);&#xD;&#xA;    const copyText = copyBtn.querySelector(&#39;.copy-text&#39;);&#xD;&#xA;&#xD;&#xA;    copyBtn.addEventListener(&#39;click&#39;, async function() {&#xD;&#xA;      try {&#xD;&#xA;        &#xD;&#xA;        let codeText = &#39;&#39;;&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA;        const codeTableCell = codeContainer.querySelector(&#39;.lntd:last-child code&#39;);&#xD;&#xA;        if (codeTableCell) {&#xD;&#xA;          codeText = codeTableCell.textContent || codeTableCell.innerText;&#xD;&#xA;        } else {&#xD;&#xA;          &#xD;&#xA;          const codeElement = codeContainer.querySelector(&#39;code&#39;);&#xD;&#xA;          if (codeElement) {&#xD;&#xA;            &#xD;&#xA;            const hasInlineLineNumbers = codeElement.querySelector(&#39;.ln&#39;);&#xD;&#xA;            if (hasInlineLineNumbers) {&#xD;&#xA;              &#xD;&#xA;              const codeLines = codeElement.querySelectorAll(&#39;.cl&#39;);&#xD;&#xA;              if (codeLines.length &gt; 0) {&#xD;&#xA;                codeText = Array.from(codeLines)&#xD;&#xA;                  .map(line =&gt; {&#xD;&#xA;                    const text = line.textContent || line.innerText;&#xD;&#xA;                    &#xD;&#xA;                    return text.replace(/\n+$/, &#39;&#39;);&#xD;&#xA;                  })&#xD;&#xA;                  .join(&#39;\n&#39;)&#xD;&#xA;                  .replace(/\n+$/, &#39;&#39;); &#xD;&#xA;              } else {&#xD;&#xA;                &#xD;&#xA;                const allText = codeElement.textContent || codeElement.innerText;&#xD;&#xA;                codeText = allText.replace(/^\d+/gm, &#39;&#39;).replace(/^\s+/gm, &#39;&#39;);&#xD;&#xA;              }&#xD;&#xA;            } else {&#xD;&#xA;              &#xD;&#xA;              codeText = codeElement.textContent || codeElement.innerText;&#xD;&#xA;            }&#xD;&#xA;          } else {&#xD;&#xA;            &#xD;&#xA;            codeText = codeContainer.textContent || codeContainer.innerText;&#xD;&#xA;          }&#xD;&#xA;        }&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA;        codeText = codeText.trim();&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA;        await navigator.clipboard.writeText(codeText);&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA;        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;&#xD;&#xA;        if (copyText) {&#xD;&#xA;          copyText.textContent = &#39;已复制&#39;;&#xD;&#xA;        }&#xD;&#xA;        copyBtn.classList.add(&#39;text-green-600&#39;);&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA;        setTimeout(() =&gt; {&#xD;&#xA;          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;&#xD;&#xA;          if (copyText) {&#xD;&#xA;            copyText.textContent = &#39;复制&#39;;&#xD;&#xA;          }&#xD;&#xA;          copyBtn.classList.remove(&#39;text-green-600&#39;);&#xD;&#xA;        }, 2000);&#xD;&#xA;&#xD;&#xA;      } catch (err) {&#xD;&#xA;        console.error(&#39;复制失败:&#39;, err);&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA;        const range = document.createRange();&#xD;&#xA;        const codeElement = codeContainer.querySelector(&#39;code&#39;) || codeContainer;&#xD;&#xA;        range.selectNodeContents(codeElement);&#xD;&#xA;        const selection = window.getSelection();&#xD;&#xA;        selection.removeAllRanges();&#xD;&#xA;        selection.addRange(range);&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA;        if (copyText) {&#xD;&#xA;          copyText.textContent = &#39;已选择&#39;;&#xD;&#xA;        }&#xD;&#xA;&#xD;&#xA;        setTimeout(() =&gt; {&#xD;&#xA;          if (copyText) {&#xD;&#xA;            copyText.textContent = &#39;复制&#39;;&#xD;&#xA;          }&#xD;&#xA;          selection.removeAllRanges();&#xD;&#xA;        }, 2000);&#xD;&#xA;      }&#xD;&#xA;    });&#xD;&#xA;  }&#xD;&#xA;&#xD;&#xA;  &#xD;&#xA;  if (collapseBtn) {&#xD;&#xA;    const collapseIcon = collapseBtn.querySelector(&#39;.collapse-icon&#39;);&#xD;&#xA;    const collapseText = collapseBtn.querySelector(&#39;.collapse-text&#39;);&#xD;&#xA;    const collapseOverlay = codeContainer.querySelector(&#39;.collapse-overlay&#39;);&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    let codeElement = codeContainer.querySelector(&#39;pre.chroma&#39;);&#xD;&#xA;    if (!codeElement) {&#xD;&#xA;      codeElement = codeContainer.querySelector(&#39;pre&#39;);&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    const defaultState = collapseBtn.dataset.defaultState || &#39;expanded&#39;;&#xD;&#xA;    const isCollapsedAttr = collapseBtn.dataset.collapsed === &#39;true&#39;;&#xD;&#xA;    const autoCollapseLines = parseInt(collapseBtn.dataset.autoCollapseLines) || 30;&#xD;&#xA;    const autoCollapseHeight = parseInt(collapseBtn.dataset.autoCollapseHeight) || 400;&#xD;&#xA;    const collapsedHeight = parseInt(collapseBtn.dataset.collapsedHeight) || 120;&#xD;&#xA;&#xD;&#xA;    let isCollapsed = false;&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    function initCollapse() {&#xD;&#xA;      &#xD;&#xA;      const shouldCollapse = isCollapsedAttr ||&#xD;&#xA;                           defaultState === &#39;collapsed&#39; ||&#xD;&#xA;                           shouldAutoCollapse();&#xD;&#xA;&#xD;&#xA;      if (shouldCollapse) {&#xD;&#xA;        setCollapsed(true, false); &#xD;&#xA;      }&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    function shouldAutoCollapse() {&#xD;&#xA;      &#xD;&#xA;      if (codeElement) {&#xD;&#xA;        const lines = codeElement.querySelectorAll(&#39;.line, .cl&#39;);&#xD;&#xA;        const height = codeElement.offsetHeight;&#xD;&#xA;        return lines.length &gt; autoCollapseLines || height &gt; autoCollapseHeight;&#xD;&#xA;      }&#xD;&#xA;&#xD;&#xA;      &#xD;&#xA;      const containerHeight = codeContainer.offsetHeight;&#xD;&#xA;      if (containerHeight &gt; autoCollapseHeight) {&#xD;&#xA;        return true;&#xD;&#xA;      }&#xD;&#xA;&#xD;&#xA;      &#xD;&#xA;      const textContent = codeContainer.textContent || codeContainer.innerText || &#39;&#39;;&#xD;&#xA;      const estimatedLines = textContent.split(&#39;\n&#39;).length;&#xD;&#xA;      return estimatedLines &gt; autoCollapseLines;&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    function setCollapsed(collapsed, animate = true) {&#xD;&#xA;      if (!collapseOverlay) return;&#xD;&#xA;&#xD;&#xA;      isCollapsed = collapsed;&#xD;&#xA;&#xD;&#xA;      if (collapsed) {&#xD;&#xA;        &#xD;&#xA;        codeContainer.style.maxHeight = collapsedHeight + &#39;px&#39;;&#xD;&#xA;        codeContainer.style.overflow = &#39;hidden&#39;;&#xD;&#xA;        collapseOverlay.style.opacity = &#39;1&#39;;&#xD;&#xA;        collapseOverlay.style.pointerEvents = &#39;auto&#39;;&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA;        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;&#xD;&#xA;        if (collapseText) {&#xD;&#xA;          collapseText.textContent = &#39;展开&#39;;&#xD;&#xA;        }&#xD;&#xA;        collapseBtn.title = &#39;展开&#39;;&#xD;&#xA;&#xD;&#xA;      } else {&#xD;&#xA;        &#xD;&#xA;        codeContainer.style.maxHeight = &#39;&#39;;&#xD;&#xA;        codeContainer.style.overflow = &#39;&#39;;&#xD;&#xA;        collapseOverlay.style.opacity = &#39;0&#39;;&#xD;&#xA;        collapseOverlay.style.pointerEvents = &#39;none&#39;;&#xD;&#xA;&#xD;&#xA;        &#xD;&#xA;        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022 viewBox=\u00220 0 24 24\u0022\u003e\u003cpath fill=\u0022currentColor\u0022 d=\u0022M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z\u0022\/\u003e\u003c\/svg\u003e`;&#xD;&#xA;        if (collapseText) {&#xD;&#xA;          collapseText.textContent = &#39;折叠&#39;;&#xD;&#xA;        }&#xD;&#xA;        collapseBtn.title = &#39;折叠&#39;;&#xD;&#xA;      }&#xD;&#xA;&#xD;&#xA;      &#xD;&#xA;      if (animate) {&#xD;&#xA;        codeContainer.style.transition = &#39;max-height 0.3s ease-out&#39;;&#xD;&#xA;        setTimeout(() =&gt; {&#xD;&#xA;          codeContainer.style.transition = &#39;&#39;;&#xD;&#xA;        }, 300);&#xD;&#xA;      }&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    function toggleCollapse() {&#xD;&#xA;      setCollapsed(!isCollapsed, true);&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    collapseBtn.addEventListener(&#39;click&#39;, toggleCollapse);&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    if (collapseOverlay) {&#xD;&#xA;      collapseOverlay.addEventListener(&#39;click&#39;, () =&gt; {&#xD;&#xA;        if (isCollapsed) {&#xD;&#xA;          setCollapsed(false, true);&#xD;&#xA;        }&#xD;&#xA;      });&#xD;&#xA;    }&#xD;&#xA;&#xD;&#xA;    &#xD;&#xA;    initCollapse();&#xD;&#xA;  }&#xD;&#xA;})();&#xD;&#xA;&lt;/script&gt;&#xD;&#xA;&lt;h3 id=&#34;关键词分层原则&#34;&gt;关键词分层原则&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;第1层 - 首页：&lt;/strong&gt;&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Seo on Frida Home</title><link>https://fridacai.vercel.app/categories/seo/</link><description>Recent content in Seo on Frida Home</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/seo/index.xml" rel="self" type="application/rss+xml"/><item><title>SEO 白帽与黑帽：细致辨析与实战指南</title><link>https://fridacai.vercel.app/blog/seo-white-hat-vs-black-hat/</link><pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate><guid>https://fridacai.vercel.app/blog/seo-white-hat-vs-black-hat/</guid><description>&lt;h2 id="一什么是白帽-seo-与黑帽-seo">一、什么是白帽 SEO 与黑帽 SEO&lt;/h2>
+&lt;p>SEO（Search Engine Optimization，搜索引擎优化）的核心目标是提升网页在搜索结果中的排名，从而获取更多自然流量。然而，达成这一目标的路径截然不同，业界通常以&amp;quot;帽子颜色&amp;quot;来区分操作风格：&lt;/p></description></item><item><title>WordPress ToB 电商产品页 SEO 完整改造手册：博客漏斗搭建 × 产品页权重提升</title><link>https://fridacai.vercel.app/blog/wordpress-tob-ecommerce-product-page-seo-funnel-optimization/</link><pubDate>Fri, 03 Apr 2026 15:49:48 +0800</pubDate><guid>https://fridacai.vercel.app/blog/wordpress-tob-ecommerce-product-page-seo-funnel-optimization/</guid><description>&lt;h2 id="一背景与问题诊断">一、背景与问题诊断&lt;/h2>
+&lt;h3 id="11-典型症状">1.1 典型症状&lt;/h3>
+&lt;p>大多数依赖博客引流的 ToB WordPress 电商站，流量结构往往呈现以下特征：&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>博客页&lt;/strong>承担 80%~95% 的自然搜索流量&lt;/li>
+&lt;li>&lt;strong>产品页&lt;/strong>排名差、流量极少，基本只靠直接访问或博客跳转&lt;/li>
+&lt;li>产品页内容只有：产品名称 + 参数表格 + 几张产品图&lt;/li>
+&lt;li>产品页缺少 TDK（Title / Description / Keywords），部分站点甚至用插件默认格式生成，如 &lt;code>产品名 - 站点名&lt;/code>，无任何关键词优化&lt;/li>
+&lt;li>博客与产品页之间没有系统性内链，流量进来了但无处承接&lt;/li>
+&lt;/ul>
+&lt;h3 id="12-本质问题拆解">1.2 本质问题拆解&lt;/h3>
+&lt;p>这个状态在 SEO 层面造成两个结构性缺陷：&lt;/p></description></item><item><title>关键词布局完整方案</title><link>https://fridacai.vercel.app/blog/keyword-layout-guide/</link><pubDate>Wed, 28 Jan 2026 16:46:42 +0800</pubDate><guid>https://fridacai.vercel.app/blog/keyword-layout-guide/</guid><description>&lt;h2 id="一网站结构分析与关键词分层策略">一、网站结构分析与关键词分层策略&lt;/h2>
+&lt;h3 id="典型的管件产品网站结构">典型的管件产品网站结构&lt;/h3>
+&lt;div
+ class="code-block-container border-border bg-card my-6 overflow-hidden rounded-xl border shadow-sm transition-all duration-200 ease-out hover:-translate-y-0.5 hover:shadow-md">
+ 
+ &lt;div
+ class="code-block-header bg-muted/30 border-border flex items-center justify-between border-b px-4 py-3">
+ 
+ &lt;div class="flex items-center gap-2">
+ &lt;div class="text-muted-foreground flex-shrink-0">
+ &lt;svg class="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+&lt;/svg>
+ &lt;/div>
+ &lt;span class="text-muted-foreground text-sm font-medium">
+ PLAINTEXT
+ &lt;/span>
+ &lt;/div>
+
+ 
+ &lt;div class="flex items-center gap-2">
+ &lt;button
+ class="collapse-code-btn text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+ data-code-id="code-0"
+ data-default-state="expanded"
+ data-collapsed="false"
+ data-auto-collapse-lines="30"
+ data-auto-collapse-height="400"
+ data-collapsed-height="120"
+ title="折叠"
+ aria-label="折叠">
+ &lt;span class="collapse-icon">
+ &lt;svg class="h-3 w-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">&lt;path fill="currentColor" d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z"/>&lt;/svg>
+ &lt;/span>
+ &lt;span class="collapse-text hidden sm:inline"
+ >折叠&lt;/span
+ >
+ &lt;/button>
+ &lt;button
+ class="copy-code-btn text-muted-foreground hover:text-primary hover:bg-primary/10 focus:ring-primary/20 flex items-center gap-1.5 rounded-md px-2 py-1 text-xs font-medium transition-all duration-200 ease-out focus:ring-2 focus:outline-none"
+ data-code-id="code-0"
+ title="复制"
+ aria-label="复制">
+ &lt;span class="copy-icon">
+ &lt;svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+ &lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+&lt;/svg>
+ &lt;/span>
+ &lt;span class="copy-text hidden sm:inline"
+ >复制&lt;/span
+ >
+ &lt;/button>
+ &lt;/div>
+ &lt;/div>
+
+ 
+ &lt;div class="code-block-content relative" id="code-0">
+ &lt;pre tabindex="0">&lt;code>首页
+│
+├─ 产品分类页（10-20个）
+│ ├─ Stainless Steel Pipe Fittings (主分类)
+│ ├─ Carbon Steel Pipe Fittings
+│ ├─ Brass Pipe Fittings
+│ └─ PVC Pipe Fittings
+│
+├─ 产品子分类页（50-100个）
+│ ├─ Stainless Steel Elbows
+│ ├─ Stainless Steel Tees
+│ ├─ Stainless Steel Reducers
+│ └─ Stainless Steel Flanges
+│
+└─ 具体产品页（400-500个）
+ ├─ 304 Stainless Steel 90 Degree Elbow 1/2&amp;#34;
+ ├─ 304 Stainless Steel 90 Degree Elbow 3/4&amp;#34;
+ └─ 316 Stainless Steel Tee 1&amp;#34;&lt;/code>&lt;/pre>
+ 
+ &lt;div
+ class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300">
+ &lt;div
+ class="text-muted-foreground bg-card/80 border-border/50 hover:bg-primary/10 hover:text-primary hover:border-primary/30 absolute bottom-4 left-1/2 -translate-x-1/2 cursor-pointer rounded-full border px-3 py-1.5 text-xs backdrop-blur-sm transition-all duration-200">
+ 点击展开查看更多
+ &lt;/div>
+ &lt;/div>
+ &lt;/div>
+&lt;/div>
+
+
+&lt;script>
+(function() {
+ const codeId = 'code-0';
+ const copyBtn = document.querySelector('.copy-code-btn[data-code-id="' + codeId + '"]');
+ const collapseBtn = document.querySelector('.collapse-code-btn[data-code-id="' + codeId + '"]');
+ const codeContainer = document.getElementById(codeId);
+
+ if (!codeContainer) return;
+
+ 
+ if (copyBtn) {
+ const copyIcon = copyBtn.querySelector('.copy-icon');
+ const copyText = copyBtn.querySelector('.copy-text');
+
+ copyBtn.addEventListener('click', async function() {
+ try {
+ 
+ let codeText = '';
+
+ 
+ const codeTableCell = codeContainer.querySelector('.lntd:last-child code');
+ if (codeTableCell) {
+ codeText = codeTableCell.textContent || codeTableCell.innerText;
+ } else {
+ 
+ const codeElement = codeContainer.querySelector('code');
+ if (codeElement) {
+ 
+ const hasInlineLineNumbers = codeElement.querySelector('.ln');
+ if (hasInlineLineNumbers) {
+ 
+ const codeLines = codeElement.querySelectorAll('.cl');
+ if (codeLines.length > 0) {
+ codeText = Array.from(codeLines)
+ .map(line => {
+ const text = line.textContent || line.innerText;
+ 
+ return text.replace(/\n+$/, '');
+ })
+ .join('\n')
+ .replace(/\n+$/, ''); 
+ } else {
+ 
+ const allText = codeElement.textContent || codeElement.innerText;
+ codeText = allText.replace(/^\d+/gm, '').replace(/^\s+/gm, '');
+ }
+ } else {
+ 
+ codeText = codeElement.textContent || codeElement.innerText;
+ }
+ } else {
+ 
+ codeText = codeContainer.textContent || codeContainer.innerText;
+ }
+ }
+
+ 
+ codeText = codeText.trim();
+
+ 
+ await navigator.clipboard.writeText(codeText);
+
+ 
+ copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+ if (copyText) {
+ copyText.textContent = '已复制';
+ }
+ copyBtn.classList.add('text-green-600');
+
+ 
+ setTimeout(() => {
+ copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+ if (copyText) {
+ copyText.textContent = '复制';
+ }
+ copyBtn.classList.remove('text-green-600');
+ }, 2000);
+
+ } catch (err) {
+ console.error('复制失败:', err);
+
+ 
+ const range = document.createRange();
+ const codeElement = codeContainer.querySelector('code') || codeContainer;
+ range.selectNodeContents(codeElement);
+ const selection = window.getSelection();
+ selection.removeAllRanges();
+ selection.addRange(range);
+
+ 
+ if (copyText) {
+ copyText.textContent = '已选择';
+ }
+
+ setTimeout(() => {
+ if (copyText) {
+ copyText.textContent = '复制';
+ }
+ selection.removeAllRanges();
+ }, 2000);
+ }
+ });
+ }
+
+ 
+ if (collapseBtn) {
+ const collapseIcon = collapseBtn.querySelector('.collapse-icon');
+ const collapseText = collapseBtn.querySelector('.collapse-text');
+ const collapseOverlay = codeContainer.querySelector('.collapse-overlay');
+
+ 
+ let codeElement = codeContainer.querySelector('pre.chroma');
+ if (!codeElement) {
+ codeElement = codeContainer.querySelector('pre');
+ }
+
+ const defaultState = collapseBtn.dataset.defaultState || 'expanded';
+ const isCollapsedAttr = collapseBtn.dataset.collapsed === 'true';
+ const autoCollapseLines = parseInt(collapseBtn.dataset.autoCollapseLines) || 30;
+ const autoCollapseHeight = parseInt(collapseBtn.dataset.autoCollapseHeight) || 400;
+ const collapsedHeight = parseInt(collapseBtn.dataset.collapsedHeight) || 120;
+
+ let isCollapsed = false;
+
+ 
+ function initCollapse() {
+ 
+ const shouldCollapse = isCollapsedAttr ||
+ defaultState === 'collapsed' ||
+ shouldAutoCollapse();
+
+ if (shouldCollapse) {
+ setCollapsed(true, false); 
+ }
+ }
+
+ function shouldAutoCollapse() {
+ 
+ if (codeElement) {
+ const lines = codeElement.querySelectorAll('.line, .cl');
+ const height = codeElement.offsetHeight;
+ return lines.length > autoCollapseLines || height > autoCollapseHeight;
+ }
+
+ 
+ const containerHeight = codeContainer.offsetHeight;
+ if (containerHeight > autoCollapseHeight) {
+ return true;
+ }
+
+ 
+ const textContent = codeContainer.textContent || codeContainer.innerText || '';
+ const estimatedLines = textContent.split('\n').length;
+ return estimatedLines > autoCollapseLines;
+ }
+
+ function setCollapsed(collapsed, animate = true) {
+ if (!collapseOverlay) return;
+
+ isCollapsed = collapsed;
+
+ if (collapsed) {
+ 
+ codeContainer.style.maxHeight = collapsedHeight + 'px';
+ codeContainer.style.overflow = 'hidden';
+ collapseOverlay.style.opacity = '1';
+ collapseOverlay.style.pointerEvents = 'auto';
+
+ 
+ collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+ if (collapseText) {
+ collapseText.textContent = '展开';
+ }
+ collapseBtn.title = '展开';
+
+ } else {
+ 
+ codeContainer.style.maxHeight = '';
+ codeContainer.style.overflow = '';
+ collapseOverlay.style.opacity = '0';
+ collapseOverlay.style.pointerEvents = 'none';
+
+ 
+ collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022 viewBox=\u00220 0 24 24\u0022\u003e\u003cpath fill=\u0022currentColor\u0022 d=\u0022M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6l-6 6z\u0022\/\u003e\u003c\/svg\u003e`;
+ if (collapseText) {
+ collapseText.textContent = '折叠';
+ }
+ collapseBtn.title = '折叠';
+ }
+
+ 
+ if (animate) {
+ codeContainer.style.transition = 'max-height 0.3s ease-out';
+ setTimeout(() => {
+ codeContainer.style.transition = '';
+ }, 300);
+ }
+ }
+
+ function toggleCollapse() {
+ setCollapsed(!isCollapsed, true);
+ }
+
+ 
+ collapseBtn.addEventListener('click', toggleCollapse);
+
+ 
+ if (collapseOverlay) {
+ collapseOverlay.addEventListener('click', () => {
+ if (isCollapsed) {
+ setCollapsed(false, true);
+ }
+ });
+ }
+
+ 
+ initCollapse();
+ }
+})();
+&lt;/script>
+&lt;h3 id="关键词分层原则">关键词分层原则&lt;/h3>
+&lt;p>&lt;strong>第1层 - 首页：&lt;/strong>&lt;/p></description></item></channel></rss>

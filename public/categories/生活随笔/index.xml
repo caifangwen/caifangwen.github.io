@@ -1,19 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>生活随笔 on Frida</title>
-    <link>https://fridacai.vercel.app/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</link>
-    <description>Recent content in 生活随笔 on Frida</description>
-    <generator>Hugo</generator>
-    <language>zh-CN</language>
-    <lastBuildDate>Thu, 29 Jan 2026 01:38:04 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>越剧</title>
-      <link>https://fridacai.vercel.app/blog/2026/01/%E8%B6%8A%E5%89%A7/</link>
-      <pubDate>Thu, 29 Jan 2026 01:38:04 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026/01/%E8%B6%8A%E5%89%A7/</guid>
-      <description>&lt;h2 id=&#34;关于越剧&#34;&gt;关于越剧&lt;/h2&gt;&#xA;&lt;p&gt;没有内容&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>生活随笔 on Frida Home</title><link>https://fridacai.vercel.app/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/</link><description>Recent content in 生活随笔 on Frida Home</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Thu, 29 Jan 2026 01:38:04 +0800</lastBuildDate><atom:link href="https://fridacai.vercel.app/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E7%AC%94/index.xml" rel="self" type="application/rss+xml"/><item><title>越剧</title><link>https://fridacai.vercel.app/blog/yue-opera/</link><pubDate>Thu, 29 Jan 2026 01:38:04 +0800</pubDate><guid>https://fridacai.vercel.app/blog/yue-opera/</guid><description>&lt;h2 id="关于越剧">关于越剧&lt;/h2>
+&lt;p>没有内容&lt;/p></description></item></channel></rss>
