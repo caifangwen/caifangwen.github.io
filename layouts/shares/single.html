@@ -2,10 +2,42 @@
   <!-- 面包屑导航 -->
   {{ partial "navigation/breadcrumb.html" . }}
 
-  <!-- 正文内容 -->
-  <div class="prose prose-neutral dark:prose-invert max-w-none">
-    {{ .Content }}
-  </div>
+  <!-- 微信风格分享卡片 -->
+  {{ with .Params }}
+    {{ if .linkUrl }}
+      {{ $parsedURL := urls.Parse .linkUrl }}
+      {{ $domain := $parsedURL.Host }}
+      {{ $favicon := printf "https://www.google.com/s2/favicons?domain=%s&sz=128" $domain }}
+      
+      <a href="{{ .linkUrl }}" target="_blank" rel="noopener noreferrer" class="block group">
+        <div class="bg-card border-border hover:border-primary/30 hover:shadow-lg flex gap-4 overflow-hidden rounded-xl border p-4 transition-all duration-300">
+          <!-- 左边：正方形缩略图 -->
+          <div class="bg-muted/50 flex-shrink-0 w-24 h-24 rounded-lg overflow-hidden flex items-center justify-center">
+            <img src="{{ $favicon }}" alt="{{ .linkSource | default $domain }}" class="w-12 h-12 object-contain" onerror="this.style.display='none'">
+          </div>
+          
+          <!-- 右边：链接信息 -->
+          <div class="flex-1 min-w-0 flex flex-col justify-center">
+            <h3 class="text-foreground group-hover:text-primary text-base font-semibold leading-snug line-clamp-2 mb-1.5 transition-colors">
+              {{ .linkSource | default $domain }}
+            </h3>
+            {{ if .description }}
+              <p class="text-muted-foreground text-sm leading-relaxed line-clamp-2">
+                {{ .description }}
+              </p>
+            {{ end }}
+          </div>
+        </div>
+      </a>
+    {{ end }}
+  {{ end }}
+
+  <!-- 正文内容（如果有） -->
+  {{ if .Content }}
+    <div class="prose prose-neutral dark:prose-invert max-w-none mt-6">
+      {{ .Content }}
+    </div>
+  {{ end }}
 
   <!-- 返回分享列表 -->
   <div class="mt-8 pt-6 border-t border-border">
@@ -14,7 +46,4 @@
       <span>返回分享列表</span>
     </a>
   </div>
-
-  <!-- 评论组件 -->
-  {{ partial "features/comments.html" . }}
 {{ end }}
