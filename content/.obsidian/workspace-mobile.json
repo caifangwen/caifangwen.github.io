@@ -531,12 +531,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/ga4-tracking-design-tob-blog-ecommerce.md",
+                "file": "posts/how-to-build-internal-linking-library.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "ga4-tracking-design-tob-blog-ecommerce"
+              "title": "how-to-build-internal-linking-library"
             }
           }
         ],
@@ -689,6 +689,7 @@
   },
   "active": "3ba338632677a8f2",
   "lastOpenFiles": [
+    "posts/ga4-tracking-design-tob-blog-ecommerce.md",
     "docs/getting-started.md",
     "docs/weekly-report-2026-W14.md",
     "posts/hugo-link-card-section-prompt.md",
@@ -717,7 +718,6 @@
     "about/_index.zh-cn.md",
     "posts/hugo-layouts-guide.md",
     "archives/_index.md",
-    "posts/database-refactoring-prompts.md",
     "未命名.canvas",
     "未命名",
     "temp",

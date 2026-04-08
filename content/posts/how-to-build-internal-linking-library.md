@@ -7,7 +7,6 @@ draft: false
 description: "内链库是博客 SEO 中最被低估的权重放大器。本文从逻辑架构、执行策略到自动化工具，系统讲解如何构建一套可持续运营的内链管理体系，让每一篇新文章在发布那一刻就自带权重骨架。"
 categories:
   - SEO
-  - 内容运营
 tags:
   - 内链建设
   - 网站架构
@@ -23,9 +22,6 @@ keywords:
   - 支柱页面
   - 主题集群
 author: ""
-cover:
-  image: ""
-  alt: "内链库构建指南"
 toc: true
 ---
 
