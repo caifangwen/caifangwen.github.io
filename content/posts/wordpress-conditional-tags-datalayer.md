@@ -10,9 +10,6 @@ description: "详解如何用 WordPress 条件标签（is_single、is_page、is_
 author: ""
 showToc: true
 TocOpen: true
-hidemeta: false
-comments: false
-canonicalURL: ""
 ---
 
 ## 一、为什么从 PHP 模板层注入 dataLayer？

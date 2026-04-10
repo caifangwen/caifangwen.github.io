@@ -19,9 +19,6 @@ keywords:
   - WooCommerce SEO
   - 页面发布逻辑
 author: ""
-cover:
-  image: ""
-  alt: "WordPress SEO 发布逻辑"
 ---
 
 ## 概述
