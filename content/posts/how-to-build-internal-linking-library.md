@@ -14,13 +14,6 @@ tags:
   - WordPress
   - Hugo
   - 权重传递
-keywords:
-  - 内链库
-  - 内链建设
-  - SEO内链策略
-  - 博客权重
-  - 支柱页面
-  - 主题集群
 author: ""
 toc: true
 ---
