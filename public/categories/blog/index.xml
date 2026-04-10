@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Frida Home</title>
-    <link>https://fridacai.vercel.app/categories/blog/</link>
+    <link>https://www.261449.xyz/categories/blog/</link>
     <description>Recent content in Blog on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 06 Feb 2026 02:15:39 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/categories/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2026-02-06 alist</title>
-      <link>https://fridacai.vercel.app/blog/2026-02-06-alist/</link>
+      <link>https://www.261449.xyz/blog/2026-02-06-alist/</link>
       <pubDate>Fri, 06 Feb 2026 02:15:39 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2026-02-06-alist/</guid>
+      <guid>https://www.261449.xyz/blog/2026-02-06-alist/</guid>
       <description>文章摘要</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>技术观察 on Frida Home</title>
-    <link>https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E8%A7%82%E5%AF%9F/</link>
+    <link>https://www.261449.xyz/categories/%E6%8A%80%E6%9C%AF%E8%A7%82%E5%AF%9F/</link>
     <description>Recent content in 技术观察 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 27 Mar 2026 08:41:29 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/categories/%E6%8A%80%E6%9C%AF%E8%A7%82%E5%AF%9F/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/categories/%E6%8A%80%E6%9C%AF%E8%A7%82%E5%AF%9F/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vibe Coding 时代：AI 正在替代前端工程师的哪些工作？</title>
-      <link>https://fridacai.vercel.app/blog/vibe-coding-%E6%97%B6%E4%BB%A3ai-%E6%AD%A3%E5%9C%A8%E6%9B%BF%E4%BB%A3%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%9A%84%E5%93%AA%E4%BA%9B%E5%B7%A5%E4%BD%9C/</link>
+      <link>https://www.261449.xyz/blog/vibe-coding-%E6%97%B6%E4%BB%A3ai-%E6%AD%A3%E5%9C%A8%E6%9B%BF%E4%BB%A3%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%9A%84%E5%93%AA%E4%BA%9B%E5%B7%A5%E4%BD%9C/</link>
       <pubDate>Fri, 27 Mar 2026 08:41:29 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/vibe-coding-%E6%97%B6%E4%BB%A3ai-%E6%AD%A3%E5%9C%A8%E6%9B%BF%E4%BB%A3%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%9A%84%E5%93%AA%E4%BA%9B%E5%B7%A5%E4%BD%9C/</guid>
+      <guid>https://www.261449.xyz/blog/vibe-coding-%E6%97%B6%E4%BB%A3ai-%E6%AD%A3%E5%9C%A8%E6%9B%BF%E4%BB%A3%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%9A%84%E5%93%AA%E4%BA%9B%E5%B7%A5%E4%BD%9C/</guid>
       <description>Vibe Coding 浪潮席卷而来，AI 工具在 UI 生成、组件开发、样式调试等环节已展现出惊人的替代能力。本文系统梳理 AI 当前能替代的前端工作，以及人类工程师不可撼动的价值所在。</description>
     </item>
   </channel>

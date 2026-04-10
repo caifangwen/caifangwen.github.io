@@ -11,13 +11,13 @@
 
 <title>(Hu)go Template Primer | Frida Home</title>
 
-<meta name="description" content="Hugo uses the excellent Gohtml/templatelibrary for its template engine. It is an extremely lightweight engine that provides a very small amount of..." />
+<meta name="description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of..." />
 <meta name="keywords" content="go, golang, templates, themes, development" />
 <meta name="author" content="Frida" />
 <meta name="language" content="zh-CN" />
 
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="https://fridacai.vercel.app/blog/hugo-template-primer/" />
+<link rel="canonical" href="https://www.261449.xyz/blog/hugo-template-primer/" />
 
 
 
@@ -27,10 +27,10 @@
 
 
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="https://fridacai.vercel.app/blog/hugo-template-primer/">
+<meta property="og:url" content="https://www.261449.xyz/blog/hugo-template-primer/">
   <meta property="og:site_name" content="Frida Home">
   <meta property="og:title" content="(Hu)go Template Primer">
-  <meta property="og:description" content="Hugo uses the excellent Gohtml/templatelibrary for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.">
+  <meta property="og:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -41,21 +41,21 @@
     <meta property="article:tag" content="Templates">
     <meta property="article:tag" content="Themes">
     <meta property="article:tag" content="Development">
-    <meta property="og:image" content="https://fridacai.vercel.app/images/og-default.avif">
+    <meta property="og:image" content="https://www.261449.xyz/images/og-default.avif">
 
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://fridacai.vercel.app/images/og-default.avif">
+  <meta name="twitter:image" content="https://www.261449.xyz/images/og-default.avif">
   <meta name="twitter:title" content="(Hu)go Template Primer">
-  <meta name="twitter:description" content="Hugo uses the excellent Gohtml/templatelibrary for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.">
+  <meta name="twitter:description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.">
 
 
   <meta itemprop="name" content="(Hu)go Template Primer">
-  <meta itemprop="description" content="Hugo uses the excellent Gohtml/templatelibrary for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.">
+  <meta itemprop="description" content="Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.">
   <meta itemprop="datePublished" content="2014-04-02T00:00:00+00:00">
   <meta itemprop="dateModified" content="2014-04-02T00:00:00+00:00">
   <meta itemprop="wordCount" content="1553">
-  <meta itemprop="image" content="https://fridacai.vercel.app/images/og-default.avif">
+  <meta itemprop="image" content="https://www.261449.xyz/images/og-default.avif">
   <meta itemprop="keywords" content="Go,Golang,Templates,Themes,Development">
 
 
@@ -186,8 +186,8 @@
     
       <link
         rel="stylesheet"
-        href="/css/compiled.min.621ca0fc7a25e497ba92febd82af197d96e27d7995ad3967e530dc3018f2bb13.css"
-        integrity="sha256-Yhyg/Hol5Je6kv69gq8ZfZbifXmVrTln5TDcMBjyuxM="
+        href="/css/compiled.min.4c75aabfa64aafaf81d543dc522dfaae6c91b747f9c053b9198fc487f3a5f629.css"
+        integrity="sha256-THWqv6ZKr6&#43;B1UPcUi36rmyRt0f5wFO5GY/Eh/Ol9ik="
         crossorigin="anonymous" />
     
   
@@ -256,8 +256,8 @@
 
 
         <script
-          src="/js/dock.e0ab97d1b994b2b0fd008f9011bbd827da336ff2c3b6625ec196a847116e4b49.js"
-          integrity="sha256-4KuX0bmUsrD9AI&#43;QEbvYJ9ozb/LDtmJewZaoRxFuS0k="
+          src="/js/dock.76f85f599d04edc14e72ed90ce6faaf072255523bcd82709ade945a8fabaa61c.js"
+          integrity="sha256-dvhfWZ0E7cFOcu2Qzm&#43;q8HIlVSO82CcJrelFqPq6phw="
           crossorigin="anonymous"
           defer></script>
 
@@ -1429,7 +1429,7 @@ notoc: true
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -1437,7 +1437,7 @@ notoc: true
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -1535,7 +1535,7 @@ notoc: true
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -1731,7 +1731,7 @@ parameters, which are values which will be available to you in chrome.</p>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -1739,7 +1739,7 @@ parameters, which are values which will be available to you in chrome.</p>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -1837,7 +1837,7 @@ parameters, which are values which will be available to you in chrome.</p>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -2026,7 +2026,7 @@ January 1st, instead of hunting through your templates.</p>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -2034,7 +2034,7 @@ January 1st, instead of hunting through your templates.</p>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -2132,7 +2132,7 @@ January 1st, instead of hunting through your templates.</p>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -2321,7 +2321,7 @@ alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -2329,7 +2329,7 @@ alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -2427,7 +2427,7 @@ alt=&#34;Twitter&#34;&gt;&lt;/a&gt;
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -2616,7 +2616,7 @@ so, such as in this example:</p>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -2624,7 +2624,7 @@ so, such as in this example:</p>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -2722,7 +2722,7 @@ so, such as in this example:</p>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }

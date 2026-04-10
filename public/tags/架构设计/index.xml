@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>架构设计 on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</link>
+    <link>https://www.261449.xyz/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/</link>
     <description>Recent content in 架构设计 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/%E6%9E%B6%E6%9E%84%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>OpenClaw 多 Agent 架构部署完全指南：组建你的 AI 数字团队</title>
-      <link>https://fridacai.vercel.app/blog/openclaw-multi-agent-deployment/</link>
+      <link>https://www.261449.xyz/blog/openclaw-multi-agent-deployment/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/openclaw-multi-agent-deployment/</guid>
+      <guid>https://www.261449.xyz/blog/openclaw-multi-agent-deployment/</guid>
       <description>&lt;h2 id=&#34;为什么单-agent-不够用&#34;&gt;为什么单 Agent 不够用？&lt;/h2&gt;&#xA;&lt;p&gt;你可能遇到过这种情况：用了 OpenClaw 一段时间，AI 开始&amp;quot;神经错乱&amp;quot;——明明让它写博客，它却输出代码逻辑；明明让它调研竞品，它却在纠正上周的错别字。&lt;/p&gt;</description>
     </item>
   </channel>

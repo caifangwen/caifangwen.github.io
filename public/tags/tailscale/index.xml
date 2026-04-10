@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tailscale on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/tailscale/</link>
+    <link>https://www.261449.xyz/tags/tailscale/</link>
     <description>Recent content in Tailscale on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 28 Mar 2026 10:35:48 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/tailscale/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/tailscale/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>用 Tailscale 远程 SSH 连接本机电脑完整指南</title>
-      <link>https://fridacai.vercel.app/blog/%E7%94%A8-tailscale-%E8%BF%9C%E7%A8%8B-ssh-%E8%BF%9E%E6%8E%A5%E6%9C%AC%E6%9C%BA%E7%94%B5%E8%84%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/%E7%94%A8-tailscale-%E8%BF%9C%E7%A8%8B-ssh-%E8%BF%9E%E6%8E%A5%E6%9C%AC%E6%9C%BA%E7%94%B5%E8%84%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
       <pubDate>Sat, 28 Mar 2026 10:35:48 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/%E7%94%A8-tailscale-%E8%BF%9C%E7%A8%8B-ssh-%E8%BF%9E%E6%8E%A5%E6%9C%AC%E6%9C%BA%E7%94%B5%E8%84%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/%E7%94%A8-tailscale-%E8%BF%9C%E7%A8%8B-ssh-%E8%BF%9E%E6%8E%A5%E6%9C%AC%E6%9C%BA%E7%94%B5%E8%84%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;传统远程 SSH 需要公网 IP 或者折腾内网穿透（frp、ngrok 等），配置繁琐且不稳定。&lt;strong&gt;Tailscale&lt;/strong&gt; 基于 WireGuard 协议，构建一个属于你自己的虚拟私有网络（VPN Mesh），每台设备都会获得一个固定的 &lt;code&gt;100.x.x.x&lt;/code&gt; 虚拟 IP，无论你人在哪里，都可以像在局域网一样直接 SSH 连接。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tailscale 完全使用指南</title>
-      <link>https://fridacai.vercel.app/blog/tailscale-%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/tailscale-%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/tailscale-%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/tailscale-%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h1 id=&#34;tailscale-完全使用指南&#34;&gt;Tailscale 完全使用指南&lt;/h1&gt;&#xA;&lt;p&gt;Tailscale 是一个基于 WireGuard 的现代化虚拟私有网络(VPN)解决方案,它能够让你轻松地将分散在不同网络中的设备连接成一个安全的私有网络。与传统 VPN 不同,Tailscale 采用点对点连接,配置简单,几乎零配置即可使用。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2D on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/2d/</link>
+    <link>https://www.261449.xyz/tags/2d/</link>
     <description>Recent content in 2D on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 18 Mar 2026 01:21:08 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/2d/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/2d/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>深度介绍 Godot 瓦片地图（TileMap）</title>
-      <link>https://fridacai.vercel.app/blog/%E6%B7%B1%E5%BA%A6%E4%BB%8B%E7%BB%8D-godot-%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BEtilemap/</link>
+      <link>https://www.261449.xyz/blog/%E6%B7%B1%E5%BA%A6%E4%BB%8B%E7%BB%8D-godot-%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BEtilemap/</link>
       <pubDate>Wed, 18 Mar 2026 01:21:08 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/%E6%B7%B1%E5%BA%A6%E4%BB%8B%E7%BB%8D-godot-%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BEtilemap/</guid>
+      <guid>https://www.261449.xyz/blog/%E6%B7%B1%E5%BA%A6%E4%BB%8B%E7%BB%8D-godot-%E7%93%A6%E7%89%87%E5%9C%B0%E5%9B%BEtilemap/</guid>
       <description>&lt;h2 id=&#34;什么是瓦片地图&#34;&gt;什么是瓦片地图？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;瓦片地图（TileMap）&lt;/strong&gt; 是 2D 游戏中构建世界的核心技术之一。它将游戏场景划分为统一大小的格子（Tile），每个格子填充一张来自图集（TileSet）的小图片，从而高效地渲染大范围地图。Godot 4 对 TileMap 系统进行了彻底重构，引入了更强大的 &lt;strong&gt;TileSet&lt;/strong&gt; 编辑器和多图层支持，是目前最完善的 2D 瓦片系统之一。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Obsidian on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/obsidian/</link>
+    <link>https://www.261449.xyz/tags/obsidian/</link>
     <description>Recent content in Obsidian on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Obsidian CLI 官方命令行界面介绍</title>
-      <link>https://fridacai.vercel.app/blog/obsidian-cli-%E5%AE%98%E6%96%B9%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://www.261449.xyz/blog/obsidian-cli-%E5%AE%98%E6%96%B9%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/obsidian-cli-%E5%AE%98%E6%96%B9%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D/</guid>
-      <description>&lt;p&gt;以下是 Obsidian 官方 CLI 的详细介绍：&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;obsidian-cli--官方命令行界面&#34;&gt;Obsidian CLI — 官方命令行界面&lt;/h2&gt;&#xA;&lt;h3 id=&#34;什么是-obsidian-cli&#34;&gt;什么是 Obsidian CLI？&lt;/h3&gt;&#xA;&lt;p&gt;Obsidian CLI 是一个命令行界面，让你可以从终端控制 Obsidian，用于脚本编写、自动化和与外部工具集成。 &lt;a href=&#34;https://releasebot.io/updates/obsidian&#34;target=&#34;_blank&#34;&#xD;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xD;&#xA;&gt;Releasebot&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;&lt;/a&gt; Obsidian 官方在 2026 年 2 月 27 日正式向所有用户推送了 1.12 版本，其中包含这一功能。 &lt;a href=&#34;https://x.com/obsdmd&#34;target=&#34;_blank&#34;&#xD;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xD;&#xA;&gt;X&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xD;&#xA;&lt;/a&gt;&lt;/p&gt;</description>
+      <guid>https://www.261449.xyz/blog/obsidian-cli-%E5%AE%98%E6%96%B9%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D/</guid>
+      <description>&lt;p&gt;以下是 Obsidian 官方 CLI 的详细介绍：&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;obsidian-cli--官方命令行界面&#34;&gt;Obsidian CLI — 官方命令行界面&lt;/h2&gt;&#xA;&lt;h3 id=&#34;什么是-obsidian-cli&#34;&gt;什么是 Obsidian CLI？&lt;/h3&gt;&#xA;&lt;p&gt;Obsidian CLI 是一个命令行界面，让你可以从终端控制 Obsidian，用于脚本编写、自动化和与外部工具集成。 &lt;a href=&#34;https://releasebot.io/updates/obsidian&#34;target=&#34;_blank&#34;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xA;&gt;Releasebot&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/a&gt; Obsidian 官方在 2026 年 2 月 27 日正式向所有用户推送了 1.12 版本，其中包含这一功能。 &lt;a href=&#34;https://x.com/obsdmd&#34;target=&#34;_blank&#34;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xA;&gt;X&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

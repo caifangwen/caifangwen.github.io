@@ -17,7 +17,7 @@
 <meta name="language" content="zh-CN" />
 
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="https://fridacai.vercel.app/blog/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90-windows-%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/" />
+<link rel="canonical" href="https://www.261449.xyz/blog/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90-windows-%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/" />
 
 
 
@@ -27,7 +27,7 @@
 
 
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="https://fridacai.vercel.app/blog/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90-windows-%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/">
+<meta property="og:url" content="https://www.261449.xyz/blog/%E6%B7%B1%E5%85%A5%E8%A7%A3%E6%9E%90-windows-%E7%B3%BB%E7%BB%9F%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84/">
   <meta property="og:site_name" content="Frida Home">
   <meta property="og:title" content="深入解析 Windows 系统文件结构">
   <meta property="og:description" content="全面深入地介绍 Windows 操作系统的文件与目录结构，涵盖系统目录、注册表、文件权限及最佳实践。">
@@ -40,11 +40,11 @@
     <meta property="article:tag" content="文件系统">
     <meta property="article:tag" content="操作系统">
     <meta property="article:tag" content="系统管理">
-    <meta property="og:image" content="https://fridacai.vercel.app/images/og-default.avif">
+    <meta property="og:image" content="https://www.261449.xyz/images/og-default.avif">
 
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://fridacai.vercel.app/images/og-default.avif">
+  <meta name="twitter:image" content="https://www.261449.xyz/images/og-default.avif">
   <meta name="twitter:title" content="深入解析 Windows 系统文件结构">
   <meta name="twitter:description" content="全面深入地介绍 Windows 操作系统的文件与目录结构，涵盖系统目录、注册表、文件权限及最佳实践。">
 
@@ -54,7 +54,7 @@
   <meta itemprop="datePublished" content="2026-03-23T03:04:00+08:00">
   <meta itemprop="dateModified" content="2026-03-23T03:04:00+08:00">
   <meta itemprop="wordCount" content="4534">
-  <meta itemprop="image" content="https://fridacai.vercel.app/images/og-default.avif">
+  <meta itemprop="image" content="https://www.261449.xyz/images/og-default.avif">
   <meta itemprop="keywords" content="Windows,文件系统,操作系统,系统管理">
 
 
@@ -185,8 +185,8 @@
     
       <link
         rel="stylesheet"
-        href="/css/compiled.min.621ca0fc7a25e497ba92febd82af197d96e27d7995ad3967e530dc3018f2bb13.css"
-        integrity="sha256-Yhyg/Hol5Je6kv69gq8ZfZbifXmVrTln5TDcMBjyuxM="
+        href="/css/compiled.min.4c75aabfa64aafaf81d543dc522dfaae6c91b747f9c053b9198fc487f3a5f629.css"
+        integrity="sha256-THWqv6ZKr6&#43;B1UPcUi36rmyRt0f5wFO5GY/Eh/Ol9ik="
         crossorigin="anonymous" />
     
   
@@ -255,8 +255,8 @@
 
 
         <script
-          src="/js/dock.e0ab97d1b994b2b0fd008f9011bbd827da336ff2c3b6625ec196a847116e4b49.js"
-          integrity="sha256-4KuX0bmUsrD9AI&#43;QEbvYJ9ozb/LDtmJewZaoRxFuS0k="
+          src="/js/dock.76f85f599d04edc14e72ed90ce6faaf072255523bcd82709ade945a8fabaa61c.js"
+          integrity="sha256-dvhfWZ0E7cFOcu2Qzm&#43;q8HIlVSO82CcJrelFqPq6phw="
           crossorigin="anonymous"
           defer></script>
 
@@ -1110,6 +1110,7 @@
     class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1">
     <div class="prose prose-sm max-w-none">
       <p><strong>注意：</strong> <code>A:</code> 和 <code>B:</code> 由于历史原因被保留给软盘，现代系统通常从 <code>C:</code> 开始分配。</p>
+
     </div>
   </blockquote><script>
 function toggleAlert(alertId) {
@@ -1302,7 +1303,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -1310,7 +1311,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -1408,7 +1409,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -1522,6 +1523,7 @@ document.addEventListener('DOMContentLoaded', function() {
     class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1">
     <div class="prose prose-sm max-w-none">
       <p>可使用 <code>DISM /Online /Cleanup-Image /StartComponentCleanup</code> 命令安全清理旧版本组件。</p>
+
     </div>
   </blockquote><script>
 function toggleAlert(alertId) {
@@ -1686,7 +1688,7 @@ C:\Program Files (x86)\     # 32位应用程序在64位系统上的安装目录<
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -1694,7 +1696,7 @@ C:\Program Files (x86)\     # 32位应用程序在64位系统上的安装目录<
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -1792,7 +1794,7 @@ C:\Program Files (x86)\     # 32位应用程序在64位系统上的安装目录<
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -1979,7 +1981,7 @@ C:\Program Files (x86)\     # 32位应用程序在64位系统上的安装目录<
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -1987,7 +1989,7 @@ C:\Program Files (x86)\     # 32位应用程序在64位系统上的安装目录<
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -2085,7 +2087,7 @@ C:\Program Files (x86)\     # 32位应用程序在64位系统上的安装目录<
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -2277,7 +2279,7 @@ C:\Program Files (x86)\     # 32位应用程序在64位系统上的安装目录<
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -2285,7 +2287,7 @@ C:\Program Files (x86)\     # 32位应用程序在64位系统上的安装目录<
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -2383,7 +2385,7 @@ C:\Program Files (x86)\     # 32位应用程序在64位系统上的安装目录<
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -2439,6 +2441,7 @@ C:\Program Files (x86)\     # 32位应用程序在64位系统上的安装目录<
     class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1">
     <div class="prose prose-sm max-w-none">
       <p><strong>环境变量：</strong> <code>%ProgramData%</code> 指向此目录。</p>
+
     </div>
   </blockquote><script>
 function toggleAlert(alertId) {
@@ -2625,7 +2628,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -2633,7 +2636,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -2731,7 +2734,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -2927,7 +2930,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -2935,7 +2938,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -3033,7 +3036,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -3250,7 +3253,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -3258,7 +3261,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -3356,7 +3359,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -3543,7 +3546,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -3551,7 +3554,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -3649,7 +3652,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -3874,7 +3877,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -3882,7 +3885,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -3980,7 +3983,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -4167,7 +4170,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -4175,7 +4178,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -4273,7 +4276,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -4458,7 +4461,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -4466,7 +4469,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -4564,7 +4567,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -4659,6 +4662,7 @@ document.addEventListener('DOMContentLoaded', function() {
     class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1">
     <div class="prose prose-sm max-w-none">
       <p>这些 Hive 文件在系统运行时被锁定，无法直接复制，可使用卷影复制（VSS）或离线工具访问。</p>
+
     </div>
   </blockquote><script>
 function toggleAlert(alertId) {
@@ -4910,7 +4914,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -4918,7 +4922,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -5016,7 +5020,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -5282,7 +5286,7 @@ C:\Windows\System32\winevt\Logs\
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -5290,7 +5294,7 @@ C:\Windows\System32\winevt\Logs\
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -5388,7 +5392,7 @@ C:\Windows\System32\winevt\Logs\
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -5580,7 +5584,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -5588,7 +5592,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -5686,7 +5690,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -5874,7 +5878,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -5882,7 +5886,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -5980,7 +5984,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -6181,7 +6185,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -6189,7 +6193,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -6287,7 +6291,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -6474,7 +6478,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -6482,7 +6486,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -6580,7 +6584,7 @@ C:\Program Files\dotnet\   # .NET 5+ / .NET Core 运行时</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }

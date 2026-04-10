@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Frida Home</title>
-    <link>https://fridacai.vercel.app/fr/tags/</link>
+    <link>https://www.261449.xyz/fr/tags/</link>
     <description>Recent content in Tags on Frida Home</description>
     <generator>Hugo</generator>
     <language>fr-FR</language>
-    <atom:link href="https://fridacai.vercel.app/fr/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/fr/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

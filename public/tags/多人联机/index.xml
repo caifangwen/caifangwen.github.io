@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>多人联机 on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA/</link>
+    <link>https://www.261449.xyz/tags/%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA/</link>
     <description>Recent content in 多人联机 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 23 Mar 2026 02:51:03 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Godot 游戏开发：多人联机与实时交互完整指南</title>
-      <link>https://fridacai.vercel.app/blog/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA%E4%B8%8E%E5%AE%9E%E6%97%B6%E4%BA%A4%E4%BA%92%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA%E4%B8%8E%E5%AE%9E%E6%97%B6%E4%BA%A4%E4%BA%92%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
       <pubDate>Mon, 23 Mar 2026 02:51:03 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA%E4%B8%8E%E5%AE%9E%E6%97%B6%E4%BA%A4%E4%BA%92%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA%E4%B8%8E%E5%AE%9E%E6%97%B6%E4%BA%A4%E4%BA%92%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h1 id=&#34;godot-游戏开发多人联机与实时交互完整指南&#34;&gt;Godot 游戏开发：多人联机与实时交互完整指南&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在完成 UI 界面、数值逻辑以及 TileMap 世界场景之后，多人联机是让游戏真正&amp;quot;活&amp;quot;起来的最后一块拼图。&lt;/p&gt;</description>
     </item>
   </channel>

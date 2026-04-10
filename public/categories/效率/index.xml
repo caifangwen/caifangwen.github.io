@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>效率 on Frida Home</title>
-    <link>https://fridacai.vercel.app/categories/%E6%95%88%E7%8E%87/</link>
+    <link>https://www.261449.xyz/categories/%E6%95%88%E7%8E%87/</link>
     <description>Recent content in 效率 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/categories/%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/categories/%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cursor 任务调度框架</title>
-      <link>https://fridacai.vercel.app/blog/cursor-%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6%E6%A1%86%E6%9E%B6/</link>
+      <link>https://www.261449.xyz/blog/cursor-%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6%E6%A1%86%E6%9E%B6/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/cursor-%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6%E6%A1%86%E6%9E%B6/</guid>
+      <guid>https://www.261449.xyz/blog/cursor-%E4%BB%BB%E5%8A%A1%E8%B0%83%E5%BA%A6%E6%A1%86%E6%9E%B6/</guid>
       <description>&lt;p&gt;好问题。任务数量不确定的时候，&amp;ldquo;三桌面&amp;quot;这种固定结构就不够用了，需要一套&lt;strong&gt;可扩展的调度框架&lt;/strong&gt;，而不是针对具体任务的布局。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;核心思路转变&#34;&gt;核心思路转变&lt;/h2&gt;&#xA;&lt;p&gt;固定布局 → &lt;strong&gt;动态分层&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>

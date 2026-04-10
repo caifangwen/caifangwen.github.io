@@ -2,80 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://fridacai.vercel.app/fr/categories/</loc>
+    <loc>https://www.261449.xyz/fr/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://fridacai.vercel.app/categories/"
+                href="https://www.261449.xyz/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://fridacai.vercel.app/en/categories/"
+                href="https://www.261449.xyz/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://fridacai.vercel.app/fr/categories/"
+                href="https://www.261449.xyz/fr/categories/"
                 />
   </url><url>
-    <loc>https://fridacai.vercel.app/fr/</loc>
+    <loc>https://www.261449.xyz/fr/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://fridacai.vercel.app/"
+                href="https://www.261449.xyz/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://fridacai.vercel.app/en/"
+                href="https://www.261449.xyz/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://fridacai.vercel.app/fr/"
+                href="https://www.261449.xyz/fr/"
                 />
   </url><url>
-    <loc>https://fridacai.vercel.app/fr/series/</loc>
+    <loc>https://www.261449.xyz/fr/series/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://fridacai.vercel.app/series/"
+                href="https://www.261449.xyz/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://fridacai.vercel.app/en/series/"
+                href="https://www.261449.xyz/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://fridacai.vercel.app/fr/series/"
+                href="https://www.261449.xyz/fr/series/"
                 />
   </url><url>
-    <loc>https://fridacai.vercel.app/fr/tags/</loc>
+    <loc>https://www.261449.xyz/fr/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-CN"
-                href="https://fridacai.vercel.app/tags/"
+                href="https://www.261449.xyz/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en-US"
-                href="https://fridacai.vercel.app/en/tags/"
+                href="https://www.261449.xyz/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr-FR"
-                href="https://fridacai.vercel.app/fr/tags/"
+                href="https://www.261449.xyz/fr/tags/"
                 />
   </url>
 </urlset>

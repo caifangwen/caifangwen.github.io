@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Filters on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/filters/</link>
+    <link>https://www.261449.xyz/tags/filters/</link>
     <description>Recent content in Filters on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/filters/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/filters/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WordPress 中的筛选器完全指南</title>
-      <link>https://fridacai.vercel.app/blog/wordpress-%E4%B8%AD%E7%9A%84%E7%AD%9B%E9%80%89%E5%99%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/wordpress-%E4%B8%AD%E7%9A%84%E7%AD%9B%E9%80%89%E5%99%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/wordpress-%E4%B8%AD%E7%9A%84%E7%AD%9B%E9%80%89%E5%99%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/wordpress-%E4%B8%AD%E7%9A%84%E7%AD%9B%E9%80%89%E5%99%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h1 id=&#34;wordpress中的筛选器完全指南&#34;&gt;WordPress中的筛选器完全指南&lt;/h1&gt;&#xA;&lt;p&gt;WordPress作为全球最流行的内容管理系统，其强大的扩展性很大程度上归功于其钩子（Hooks）机制。筛选器（Filters）作为钩子系统的重要组成部分，允许开发者修改WordPress的各种数据和内容，而无需直接修改核心文件。本文将深入探讨WordPress筛选器的概念、使用方法和最佳实践。&lt;/p&gt;</description>
     </item>
   </channel>

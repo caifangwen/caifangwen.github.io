@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>工程实践 on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/</link>
+    <link>https://www.261449.xyz/tags/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/</link>
     <description>Recent content in 工程实践 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 22 Mar 2026 02:43:02 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/%E5%B7%A5%E7%A8%8B%E5%AE%9E%E8%B7%B5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>多 Skill 协同：如何系统性地组织与管理多个 Claude Skill</title>
-      <link>https://fridacai.vercel.app/blog/organize-multiple-claude-skills/</link>
+      <link>https://www.261449.xyz/blog/organize-multiple-claude-skills/</link>
       <pubDate>Sun, 22 Mar 2026 02:43:02 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/organize-multiple-claude-skills/</guid>
-      <description>&lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;：单个 Skill 解决单一场景，多个 Skill 构成一套能力体系。当你的 Skill 数量从 1 增长到 5、10、甚至 30+ 时，如何命名、如何划分边界、如何避免触发冲突、如何让多个 Skill 协同完成复杂任务——这些问题的答案直接决定了整个 Skill 体系能否稳定运转。本文从架构层面系统讲解多 Skill 的组织之道。&lt;/p&gt;</description>
+      <guid>https://www.261449.xyz/blog/organize-multiple-claude-skills/</guid>
+      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;：单个 Skill 解决单一场景，多个 Skill 构成一套能力体系。当你的 Skill 数量从 1 增长到 5、10、甚至 30+ 时，如何命名、如何划分边界、如何避免触发冲突、如何让多个 Skill 协同完成复杂任务——这些问题的答案直接决定了整个 Skill 体系能否稳定运转。本文从架构层面系统讲解多 Skill 的组织之道。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

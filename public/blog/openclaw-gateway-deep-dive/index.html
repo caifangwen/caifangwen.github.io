@@ -17,7 +17,7 @@
 <meta name="language" content="zh-CN" />
 
 <meta name="robots" content="index, follow" />
-<link rel="canonical" href="https://fridacai.vercel.app/blog/openclaw-gateway-deep-dive/" />
+<link rel="canonical" href="https://www.261449.xyz/blog/openclaw-gateway-deep-dive/" />
 
 
 
@@ -27,7 +27,7 @@
 
 
 <link rel="manifest" href="/site.webmanifest" />
-<meta property="og:url" content="https://fridacai.vercel.app/blog/openclaw-gateway-deep-dive/">
+<meta property="og:url" content="https://www.261449.xyz/blog/openclaw-gateway-deep-dive/">
   <meta property="og:site_name" content="Frida Home">
   <meta property="og:title" content="OpenClaw Gateway 深度解析：龙虾的心脏是怎么跳动的">
   <meta property="og:description" content="Gateway 是 OpenClaw 唯一常驻的核心进程，本文从它是什么、做什么、如何配置、如何运维四个维度彻底讲清楚。">
@@ -41,11 +41,11 @@
     <meta property="article:tag" content="网关">
     <meta property="article:tag" content="架构">
     <meta property="article:tag" content="部署运维">
-    <meta property="og:image" content="https://fridacai.vercel.app/images/og-default.avif">
+    <meta property="og:image" content="https://www.261449.xyz/images/og-default.avif">
 
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="https://fridacai.vercel.app/images/og-default.avif">
+  <meta name="twitter:image" content="https://www.261449.xyz/images/og-default.avif">
   <meta name="twitter:title" content="OpenClaw Gateway 深度解析：龙虾的心脏是怎么跳动的">
   <meta name="twitter:description" content="Gateway 是 OpenClaw 唯一常驻的核心进程，本文从它是什么、做什么、如何配置、如何运维四个维度彻底讲清楚。">
 
@@ -55,7 +55,7 @@
   <meta itemprop="datePublished" content="2026-03-22T00:00:00+08:00">
   <meta itemprop="dateModified" content="2026-03-22T00:00:00+08:00">
   <meta itemprop="wordCount" content="4510">
-  <meta itemprop="image" content="https://fridacai.vercel.app/images/og-default.avif">
+  <meta itemprop="image" content="https://www.261449.xyz/images/og-default.avif">
   <meta itemprop="keywords" content="OpenClaw,Gateway,网关,架构,部署运维">
 
 
@@ -186,8 +186,8 @@
     
       <link
         rel="stylesheet"
-        href="/css/compiled.min.621ca0fc7a25e497ba92febd82af197d96e27d7995ad3967e530dc3018f2bb13.css"
-        integrity="sha256-Yhyg/Hol5Je6kv69gq8ZfZbifXmVrTln5TDcMBjyuxM="
+        href="/css/compiled.min.4c75aabfa64aafaf81d543dc522dfaae6c91b747f9c053b9198fc487f3a5f629.css"
+        integrity="sha256-THWqv6ZKr6&#43;B1UPcUi36rmyRt0f5wFO5GY/Eh/Ol9ik="
         crossorigin="anonymous" />
     
   
@@ -256,8 +256,8 @@
 
 
         <script
-          src="/js/dock.e0ab97d1b994b2b0fd008f9011bbd827da336ff2c3b6625ec196a847116e4b49.js"
-          integrity="sha256-4KuX0bmUsrD9AI&#43;QEbvYJ9ozb/LDtmJewZaoRxFuS0k="
+          src="/js/dock.76f85f599d04edc14e72ed90ce6faaf072255523bcd82709ade945a8fabaa61c.js"
+          integrity="sha256-dvhfWZ0E7cFOcu2Qzm&#43;q8HIlVSO82CcJrelFqPq6phw="
           crossorigin="anonymous"
           defer></script>
 
@@ -1087,6 +1087,7 @@
     class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1">
     <div class="prose prose-sm max-w-none">
       <p>Gateway 是 OpenClaw 的心脏——唯一需要 24 小时跑着的进程，所有消息进来都要经过它，所有 AI 的回复也要从它出去。</p>
+
     </div>
   </blockquote><script>
 function toggleAlert(alertId) {
@@ -1264,7 +1265,7 @@ Web UI
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -1272,7 +1273,7 @@ Web UI
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -1370,7 +1371,7 @@ Web UI
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -1572,7 +1573,7 @@ Gateway 把结果发回飞书群</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -1580,7 +1581,7 @@ Gateway 把结果发回飞书群</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -1678,7 +1679,7 @@ Gateway 把结果发回飞书群</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -1792,9 +1793,9 @@ Gateway 把结果发回飞书群</code></pre>
     <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="nt">&#34;session&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;ttl&#34;</span><span class="p">:</span> <span class="mi">3600000</span><span class="p">,</span>          <span class="c1">// 会话超时时间（毫秒），默认 1 小时
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;maxSessions&#34;</span><span class="p">:</span> <span class="mi">1000</span><span class="p">,</span>     <span class="c1">// 最大并发会话数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;persistInterval&#34;</span><span class="p">:</span> <span class="mi">60000</span> <span class="c1">// 每 60 秒写一次磁盘
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">}</span>
+</span></span></span><span class="line"><span class="cl">    <span class="nt">&#34;maxSessions&#34;</span><span class="p">:</span> <span class="mi">1000</span><span class="p">,</span>     <span class="c1">// 最大并发会话数
+</span></span></span><span class="line"><span class="cl">    <span class="nt">&#34;persistInterval&#34;</span><span class="p">:</span> <span class="mi">60000</span> <span class="c1">// 每 60 秒写一次磁盘
+</span></span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></div>
     
     <div
@@ -1871,7 +1872,7 @@ Gateway 把结果发回飞书群</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -1879,7 +1880,7 @@ Gateway 把结果发回飞书群</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -1977,7 +1978,7 @@ Gateway 把结果发回飞书群</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -2033,6 +2034,7 @@ Gateway 把结果发回飞书群</code></pre>
     class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1">
     <div class="prose prose-sm max-w-none">
       <p>注意：会话过期后重新发消息，Gateway 会开启一个新会话，<strong>上下文从零开始</strong>。如果你希望 AI 记住很久以前的事，依赖的是 Memory 系统（MEMORY.md + 向量库），而不是 Session。</p>
+
     </div>
   </blockquote><script>
 function toggleAlert(alertId) {
@@ -2252,7 +2254,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -2260,7 +2262,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -2358,7 +2360,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -2470,7 +2472,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
   <div class="code-block-content relative" id="code-4">
     <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="gh"># 心跳任务
-</span></span></span><span class="line"><span class="cl"><span class="gh"></span>
+</span></span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="k">-</span> 每天 08:00：发送今日简报（天气 + 日历 + 邮件摘要）
 </span></span><span class="line"><span class="cl"><span class="k">-</span> 每 30 分钟：检查是否有新邮件标记为紧急
 </span></span><span class="line"><span class="cl">- 每天 22:00：生成今日工作总结，写入 daily-log/</span></span></code></pre></div>
@@ -2549,7 +2551,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -2557,7 +2559,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -2655,7 +2657,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -2711,6 +2713,7 @@ document.addEventListener('DOMContentLoaded', function() {
     class="border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1">
     <div class="prose prose-sm max-w-none">
       <p>注意：每次心跳都是一次完整的 LLM API 调用，是 Token 消耗的重要来源之一。心跳间隔越短，Token 烧得越快。建议非紧急任务将间隔设置为 30 分钟以上。</p>
+
     </div>
   </blockquote><script>
 function toggleAlert(alertId) {
@@ -2812,16 +2815,16 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="code-block-content relative" id="code-5">
     <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="c1">// ── 网络层 ──────────────────────────────────────────
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nt">&#34;gateway&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">  <span class="nt">&#34;gateway&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;port&#34;</span><span class="p">:</span> <span class="mi">18789</span><span class="p">,</span>          <span class="c1">// 监听端口，默认 18789
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;host&#34;</span><span class="p">:</span> <span class="s2">&#34;127.0.0.1&#34;</span><span class="p">,</span>    <span class="c1">// 绑定地址，生产环境改为 0.0.0.0
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;logLevel&#34;</span><span class="p">:</span> <span class="s2">&#34;info&#34;</span><span class="p">,</span>     <span class="c1">// 日志级别：debug / info / warn / error
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;maxConnections&#34;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span>  <span class="c1">// 最大并发连接数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;timeout&#34;</span><span class="p">:</span> <span class="mi">30000</span>        <span class="c1">// 请求超时（毫秒）
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">},</span>
+</span></span></span><span class="line"><span class="cl">    <span class="nt">&#34;host&#34;</span><span class="p">:</span> <span class="s2">&#34;127.0.0.1&#34;</span><span class="p">,</span>    <span class="c1">// 绑定地址，生产环境改为 0.0.0.0
+</span></span></span><span class="line"><span class="cl">    <span class="nt">&#34;logLevel&#34;</span><span class="p">:</span> <span class="s2">&#34;info&#34;</span><span class="p">,</span>     <span class="c1">// 日志级别：debug / info / warn / error
+</span></span></span><span class="line"><span class="cl">    <span class="nt">&#34;maxConnections&#34;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span>  <span class="c1">// 最大并发连接数
+</span></span></span><span class="line"><span class="cl">    <span class="nt">&#34;timeout&#34;</span><span class="p">:</span> <span class="mi">30000</span>        <span class="c1">// 请求超时（毫秒）
+</span></span></span><span class="line"><span class="cl">  <span class="p">},</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// ── 路由层 ──────────────────────────────────────────
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nt">&#34;routing&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">  <span class="nt">&#34;routing&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;rules&#34;</span><span class="p">:</span> <span class="p">[</span>
 </span></span><span class="line"><span class="cl">      <span class="p">{</span>
 </span></span><span class="line"><span class="cl">        <span class="nt">&#34;match&#34;</span><span class="p">:</span> <span class="p">{</span>
@@ -2834,15 +2837,15 @@ document.addEventListener('DOMContentLoaded', function() {
 </span></span><span class="line"><span class="cl">        <span class="nt">&#34;match&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;channel&#34;</span><span class="p">:</span> <span class="s2">&#34;telegram&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">          <span class="nt">&#34;userId&#34;</span><span class="p">:</span> <span class="s2">&#34;123456&#34;</span>   <span class="c1">// 也可以按用户 ID 路由
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>        <span class="p">},</span>
+</span></span></span><span class="line"><span class="cl">        <span class="p">},</span>
 </span></span><span class="line"><span class="cl">        <span class="nt">&#34;target&#34;</span><span class="p">:</span> <span class="p">{</span> <span class="nt">&#34;agentId&#34;</span><span class="p">:</span> <span class="s2">&#34;coder&#34;</span> <span class="p">}</span>
 </span></span><span class="line"><span class="cl">      <span class="p">}</span>
 </span></span><span class="line"><span class="cl">    <span class="p">],</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;default&#34;</span><span class="p">:</span> <span class="p">{</span> <span class="nt">&#34;agentId&#34;</span><span class="p">:</span> <span class="s2">&#34;main&#34;</span> <span class="p">}</span>  <span class="c1">// 兜底路由
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="p">},</span>
+</span></span></span><span class="line"><span class="cl">  <span class="p">},</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// ── 会话层 ──────────────────────────────────────────
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nt">&#34;session&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">  <span class="nt">&#34;session&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;ttl&#34;</span><span class="p">:</span> <span class="mi">3600000</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;maxSessions&#34;</span><span class="p">:</span> <span class="mi">1000</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;persistInterval&#34;</span><span class="p">:</span> <span class="mi">60000</span><span class="p">,</span>
@@ -2853,11 +2856,11 @@ document.addEventListener('DOMContentLoaded', function() {
 </span></span><span class="line"><span class="cl">  <span class="p">},</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// ── 性能层 ──────────────────────────────────────────
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nt">&#34;performance&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">  <span class="nt">&#34;performance&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;workers&#34;</span><span class="p">:</span> <span class="mi">4</span><span class="p">,</span>          <span class="c1">// 并发工作线程数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;queueSize&#34;</span><span class="p">:</span> <span class="mi">1000</span><span class="p">,</span>     <span class="c1">// 请求队列容量
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;concurrency&#34;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>      <span class="c1">// 同时处理的请求数
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;cache&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">    <span class="nt">&#34;queueSize&#34;</span><span class="p">:</span> <span class="mi">1000</span><span class="p">,</span>     <span class="c1">// 请求队列容量
+</span></span></span><span class="line"><span class="cl">    <span class="nt">&#34;concurrency&#34;</span><span class="p">:</span> <span class="mi">5</span><span class="p">,</span>      <span class="c1">// 同时处理的请求数
+</span></span></span><span class="line"><span class="cl">    <span class="nt">&#34;cache&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;enabled&#34;</span><span class="p">:</span> <span class="kc">true</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;maxSize&#34;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nt">&#34;ttl&#34;</span><span class="p">:</span> <span class="mi">300000</span>
@@ -2865,7 +2868,7 @@ document.addEventListener('DOMContentLoaded', function() {
 </span></span><span class="line"><span class="cl">  <span class="p">},</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">  <span class="c1">// ── 日志层 ──────────────────────────────────────────
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nt">&#34;logging&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span></span><span class="line"><span class="cl">  <span class="nt">&#34;logging&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;level&#34;</span><span class="p">:</span> <span class="s2">&#34;info&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;format&#34;</span><span class="p">:</span> <span class="s2">&#34;json&#34;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;outputs&#34;</span><span class="p">:</span> <span class="p">[</span>
@@ -2955,7 +2958,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -2963,7 +2966,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -3061,7 +3064,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -3259,7 +3262,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -3267,7 +3270,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -3365,7 +3368,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -3555,7 +3558,7 @@ document.addEventListener('DOMContentLoaded', function() {
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -3563,7 +3566,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -3661,7 +3664,7 @@ document.addEventListener('DOMContentLoaded', function() {
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -3855,7 +3858,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -3863,7 +3866,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -3961,7 +3964,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -4157,7 +4160,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -4165,7 +4168,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -4263,7 +4266,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -4453,7 +4456,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -4461,7 +4464,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -4559,7 +4562,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -4745,7 +4748,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -4753,7 +4756,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -4851,7 +4854,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -4960,7 +4963,7 @@ CPU Usage:     12%</code></pre>
   
   <div class="code-block-content relative" id="code-12">
     <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="c"># docker-compose.yml</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">services</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">services</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">openclaw-gateway</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">image</span><span class="p">:</span><span class="w"> </span><span class="l">openclaw/openclaw:latest</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="nt">ports</span><span class="p">:</span><span class="w">
@@ -4976,7 +4979,7 @@ CPU Usage:     12%</code></pre>
 </span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">cpus</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;2&#39;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">          </span><span class="nt">memory</span><span class="p">:</span><span class="w"> </span><span class="l">2G</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nt">volumes</span><span class="p">:</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="nt">volumes</span><span class="p">:</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="l">openclaw-data:</span></span></span></code></pre></div>
     
     <div
@@ -5053,7 +5056,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -5061,7 +5064,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -5159,7 +5162,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -5342,7 +5345,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -5350,7 +5353,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -5448,7 +5451,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -5559,12 +5562,12 @@ CPU Usage:     12%</code></pre>
   <div class="code-block-content relative" id="code-14">
     <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># 启动两个完全独立的 Gateway 实例</span>
 </span></span><span class="line"><span class="cl"><span class="nv">OPENCLAW_CONFIG_PATH</span><span class="o">=</span>~/.openclaw/a.json <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="nv">OPENCLAW_STATE_DIR</span><span class="o">=</span>~/.openclaw-a <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>openclaw gateway --port <span class="m">19001</span>
+</span></span></span><span class="line"><span class="cl"><span class="nv">OPENCLAW_STATE_DIR</span><span class="o">=</span>~/.openclaw-a <span class="se">\
+</span></span></span><span class="line"><span class="cl">openclaw gateway --port <span class="m">19001</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nv">OPENCLAW_CONFIG_PATH</span><span class="o">=</span>~/.openclaw/b.json <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span><span class="nv">OPENCLAW_STATE_DIR</span><span class="o">=</span>~/.openclaw-b <span class="se">\
-</span></span></span><span class="line"><span class="cl"><span class="se"></span>openclaw gateway --port <span class="m">19002</span></span></span></code></pre></div>
+</span></span></span><span class="line"><span class="cl"><span class="nv">OPENCLAW_STATE_DIR</span><span class="o">=</span>~/.openclaw-b <span class="se">\
+</span></span></span><span class="line"><span class="cl">openclaw gateway --port <span class="m">19002</span></span></span></code></pre></div>
     
     <div
       class="collapse-overlay to-card/90 pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent opacity-0 transition-opacity duration-300">
@@ -5640,7 +5643,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -5648,7 +5651,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -5746,7 +5749,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -5861,7 +5864,7 @@ CPU Usage:     12%</code></pre>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="nx">ws</span><span class="p">.</span><span class="nx">onopen</span> <span class="o">=</span> <span class="p">()</span> <span class="p">=&gt;</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="c1">// 第一帧必须是 connect
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">ws</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
+</span></span></span><span class="line"><span class="cl">  <span class="nx">ws</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;connect&#39;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">token</span><span class="o">:</span> <span class="nx">process</span><span class="p">.</span><span class="nx">env</span><span class="p">.</span><span class="nx">OPENCLAW_GATEWAY_TOKEN</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}));</span>
@@ -5872,7 +5875,7 @@ CPU Usage:     12%</code></pre>
 </span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;hello-ok&#39;</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;连接成功，Gateway 状态：&#39;</span><span class="p">,</span> <span class="nx">data</span><span class="p">.</span><span class="nx">health</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// 发送一条消息
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">ws</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
+</span></span></span><span class="line"><span class="cl">    <span class="nx">ws</span><span class="p">.</span><span class="nx">send</span><span class="p">(</span><span class="nx">JSON</span><span class="p">.</span><span class="nx">stringify</span><span class="p">({</span>
 </span></span><span class="line"><span class="cl">      <span class="nx">type</span><span class="o">:</span> <span class="s1">&#39;req&#39;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nx">method</span><span class="o">:</span> <span class="s1">&#39;chat&#39;</span><span class="p">,</span>
 </span></span><span class="line"><span class="cl">      <span class="nx">params</span><span class="o">:</span> <span class="p">{</span> <span class="nx">message</span><span class="o">:</span> <span class="s1">&#39;你好&#39;</span> <span class="p">}</span>
@@ -5880,7 +5883,7 @@ CPU Usage:     12%</code></pre>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">type</span> <span class="o">===</span> <span class="s1">&#39;agent&#39;</span><span class="p">)</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="c1">// 流式输出，逐 token 打印
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">delta</span> <span class="o">||</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
+</span></span></span><span class="line"><span class="cl">    <span class="nx">process</span><span class="p">.</span><span class="nx">stdout</span><span class="p">.</span><span class="nx">write</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">delta</span> <span class="o">||</span> <span class="s1">&#39;&#39;</span><span class="p">);</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
 </span></span><span class="line"><span class="cl"><span class="p">};</span></span></span></code></pre></div>
     
@@ -5958,7 +5961,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -5966,7 +5969,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -6064,7 +6067,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -6255,7 +6258,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -6263,7 +6266,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -6361,7 +6364,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -6552,7 +6555,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -6560,7 +6563,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -6658,7 +6661,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -6843,7 +6846,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -6851,7 +6854,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -6949,7 +6952,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -7058,7 +7061,7 @@ CPU Usage:     12%</code></pre>
   
   <div class="code-block-content relative" id="code-19">
     <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="c1">// 在 config.json 中设置会话上下文上限
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">{</span>
+</span></span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">  <span class="nt">&#34;session&#34;</span><span class="p">:</span> <span class="p">{</span>
 </span></span><span class="line"><span class="cl">    <span class="nt">&#34;maxTokensPerSession&#34;</span><span class="p">:</span> <span class="mi">50000</span>
 </span></span><span class="line"><span class="cl">  <span class="p">}</span>
@@ -7138,7 +7141,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -7146,7 +7149,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -7244,7 +7247,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }
@@ -7428,7 +7431,7 @@ CPU Usage:     12%</code></pre>
         await navigator.clipboard.writeText(codeText);
 
         
-        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M5 13l4 4L19 7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (copyText) {
           copyText.textContent = '已复制';
         }
@@ -7436,7 +7439,7 @@ CPU Usage:     12%</code></pre>
 
         
         setTimeout(() => {
-          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+          copyIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z\u0022 \/\u003e\n\u003c\/svg\u003e`;
           if (copyText) {
             copyText.textContent = '复制';
           }
@@ -7534,7 +7537,7 @@ CPU Usage:     12%</code></pre>
         collapseOverlay.style.pointerEvents = 'auto';
 
         
-        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\r\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\r\n\u003c\/svg\u003e`;
+        collapseIcon.innerHTML = `\u003csvg class=\u0022h-3 w-3\u0022 fill=\u0022none\u0022 stroke=\u0022currentColor\u0022 viewBox=\u00220 0 24 24\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022\u003e\n  \u003cpath stroke-linecap=\u0022round\u0022 stroke-linejoin=\u0022round\u0022 stroke-width=\u00222\u0022 d=\u0022M19 9l-7 7-7-7\u0022 \/\u003e\n\u003c\/svg\u003e`;
         if (collapseText) {
           collapseText.textContent = '展开';
         }

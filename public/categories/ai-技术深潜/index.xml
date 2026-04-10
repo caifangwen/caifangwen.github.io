@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AI 技术深潜 on Frida Home</title>
-    <link>https://fridacai.vercel.app/categories/ai-%E6%8A%80%E6%9C%AF%E6%B7%B1%E6%BD%9C/</link>
+    <link>https://www.261449.xyz/categories/ai-%E6%8A%80%E6%9C%AF%E6%B7%B1%E6%BD%9C/</link>
     <description>Recent content in AI 技术深潜 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 25 Mar 2026 01:24:29 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/categories/ai-%E6%8A%80%E6%9C%AF%E6%B7%B1%E6%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/categories/ai-%E6%8A%80%E6%9C%AF%E6%B7%B1%E6%BD%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2023年后 AI 突破的技术本质：不是调参，是在做什么？</title>
-      <link>https://fridacai.vercel.app/blog/2023%E5%B9%B4%E5%90%8E-ai-%E7%AA%81%E7%A0%B4%E7%9A%84%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%B4%A8%E4%B8%8D%E6%98%AF%E8%B0%83%E5%8F%82%E6%98%AF%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88/</link>
+      <link>https://www.261449.xyz/blog/2023%E5%B9%B4%E5%90%8E-ai-%E7%AA%81%E7%A0%B4%E7%9A%84%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%B4%A8%E4%B8%8D%E6%98%AF%E8%B0%83%E5%8F%82%E6%98%AF%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88/</link>
       <pubDate>Wed, 25 Mar 2026 01:24:29 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/2023%E5%B9%B4%E5%90%8E-ai-%E7%AA%81%E7%A0%B4%E7%9A%84%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%B4%A8%E4%B8%8D%E6%98%AF%E8%B0%83%E5%8F%82%E6%98%AF%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88/</guid>
-      <description>&lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;核心问题&lt;/strong&gt;：GPT-4、DeepSeek R1、推理模型……这些&amp;quot;突破&amp;quot;到底在技术层面做了什么？和&amp;quot;换个 prompt 试试&amp;quot;有什么根本区别？&lt;/p&gt;</description>
+      <guid>https://www.261449.xyz/blog/2023%E5%B9%B4%E5%90%8E-ai-%E7%AA%81%E7%A0%B4%E7%9A%84%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%B4%A8%E4%B8%8D%E6%98%AF%E8%B0%83%E5%8F%82%E6%98%AF%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88/</guid>
+      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;核心问题&lt;/strong&gt;：GPT-4、DeepSeek R1、推理模型……这些&amp;quot;突破&amp;quot;到底在技术层面做了什么？和&amp;quot;换个 prompt 试试&amp;quot;有什么根本区别？&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

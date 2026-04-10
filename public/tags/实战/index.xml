@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>实战 on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/%E5%AE%9E%E6%88%98/</link>
+    <link>https://www.261449.xyz/tags/%E5%AE%9E%E6%88%98/</link>
     <description>Recent content in 实战 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/%E5%AE%9E%E6%88%98/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/%E5%AE%9E%E6%88%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>单 Gateway 多 Agent：一台机器运行一支 AI 团队</title>
-      <link>https://fridacai.vercel.app/blog/openclaw-single-gateway-multi-agent/</link>
+      <link>https://www.261449.xyz/blog/openclaw-single-gateway-multi-agent/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/openclaw-single-gateway-multi-agent/</guid>
-      <description>&lt;h2 id=&#34;先讲清楚一件事gateway-和-agent-的关系&#34;&gt;先讲清楚一件事：Gateway 和 Agent 的关系&lt;/h2&gt;&#xA;&lt;p&gt;很多人第一次看到&amp;quot;单 Gateway 多 Agent&amp;quot;这个词会以为它是某种复杂的分布式架构。其实不然。&lt;/p&gt;&#xA;&lt;p&gt;用一个比喻来说：&lt;/p&gt;&#xA;&#xD;&#xA;  &lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;Gateway 是一栋办公楼，Agent 是楼里不同的员工。&lt;strong&gt;楼只有一栋，但员工可以很多。&lt;/strong&gt; 访客（你发的消息）进门后，前台（Gateway 路由）判断应该找哪位员工，然后带你去找他。&lt;/p&gt;</description>
+      <guid>https://www.261449.xyz/blog/openclaw-single-gateway-multi-agent/</guid>
+      <description>&lt;h2 id=&#34;先讲清楚一件事gateway-和-agent-的关系&#34;&gt;先讲清楚一件事：Gateway 和 Agent 的关系&lt;/h2&gt;&#xA;&lt;p&gt;很多人第一次看到&amp;quot;单 Gateway 多 Agent&amp;quot;这个词会以为它是某种复杂的分布式架构。其实不然。&lt;/p&gt;&#xA;&lt;p&gt;用一个比喻来说：&lt;/p&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;Gateway 是一栋办公楼，Agent 是楼里不同的员工。&lt;strong&gt;楼只有一栋，但员工可以很多。&lt;/strong&gt; 访客（你发的消息）进门后，前台（Gateway 路由）判断应该找哪位员工，然后带你去找他。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

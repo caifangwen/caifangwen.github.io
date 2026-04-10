@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>邮件，协议，技术原理 on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/%E9%82%AE%E4%BB%B6%E5%8D%8F%E8%AE%AE%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86/</link>
+    <link>https://www.261449.xyz/tags/%E9%82%AE%E4%BB%B6%E5%8D%8F%E8%AE%AE%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86/</link>
     <description>Recent content in 邮件，协议，技术原理 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/%E9%82%AE%E4%BB%B6%E5%8D%8F%E8%AE%AE%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/%E9%82%AE%E4%BB%B6%E5%8D%8F%E8%AE%AE%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>邮件的底层原理：一封邮件是如何构成的</title>
-      <link>https://fridacai.vercel.app/blog/%E9%82%AE%E4%BB%B6%E7%9A%84%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86%E4%B8%80%E5%B0%81%E9%82%AE%E4%BB%B6%E6%98%AF%E5%A6%82%E4%BD%95%E6%9E%84%E6%88%90%E7%9A%84/</link>
+      <link>https://www.261449.xyz/blog/%E9%82%AE%E4%BB%B6%E7%9A%84%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86%E4%B8%80%E5%B0%81%E9%82%AE%E4%BB%B6%E6%98%AF%E5%A6%82%E4%BD%95%E6%9E%84%E6%88%90%E7%9A%84/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/%E9%82%AE%E4%BB%B6%E7%9A%84%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86%E4%B8%80%E5%B0%81%E9%82%AE%E4%BB%B6%E6%98%AF%E5%A6%82%E4%BD%95%E6%9E%84%E6%88%90%E7%9A%84/</guid>
+      <guid>https://www.261449.xyz/blog/%E9%82%AE%E4%BB%B6%E7%9A%84%E5%BA%95%E5%B1%82%E5%8E%9F%E7%90%86%E4%B8%80%E5%B0%81%E9%82%AE%E4%BB%B6%E6%98%AF%E5%A6%82%E4%BD%95%E6%9E%84%E6%88%90%E7%9A%84/</guid>
       <description>&lt;h1 id=&#34;邮件的底层原理一封邮件是如何构成的&#34;&gt;邮件的底层原理：一封邮件是如何构成的？&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;我们每天都在发送和接收邮件，但很少有人思考过：当你点击&amp;quot;发送&amp;quot;的瞬间，背后到底发生了什么？一封邮件的本质是什么？它由哪些部分组成？本文将带你深入邮件的底层世界。&lt;/p&gt;</description>
     </item>
   </channel>

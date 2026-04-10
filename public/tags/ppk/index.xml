@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PPK on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/ppk/</link>
+    <link>https://www.261449.xyz/tags/ppk/</link>
     <description>Recent content in PPK on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sun, 22 Mar 2026 18:36:37 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/ppk/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/ppk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>SSH 密钥实战：GitHub、服务器免密登录与端口转发完整指南</title>
-      <link>https://fridacai.vercel.app/blog/ssh-%E5%AF%86%E9%92%A5%E5%AE%9E%E6%88%98github%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95%E4%B8%8E%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/ssh-%E5%AF%86%E9%92%A5%E5%AE%9E%E6%88%98github%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95%E4%B8%8E%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
       <pubDate>Sun, 22 Mar 2026 18:36:37 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/ssh-%E5%AF%86%E9%92%A5%E5%AE%9E%E6%88%98github%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95%E4%B8%8E%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;上一篇介绍了公私钥、PPK 和 PuTTY 的基础概念。本篇直接进入&lt;strong&gt;实战场景&lt;/strong&gt;，覆盖日常开发和运维中最常见的几类用法。&lt;/p&gt;&#xA;&#xD;&#xA;  &lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;当前时间：2026-03-22 18:36（北京时间）&lt;/p&gt;</description>
+      <guid>https://www.261449.xyz/blog/ssh-%E5%AF%86%E9%92%A5%E5%AE%9E%E6%88%98github%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%85%8D%E5%AF%86%E7%99%BB%E5%BD%95%E4%B8%8E%E7%AB%AF%E5%8F%A3%E8%BD%AC%E5%8F%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;上一篇介绍了公私钥、PPK 和 PuTTY 的基础概念。本篇直接进入&lt;strong&gt;实战场景&lt;/strong&gt;，覆盖日常开发和运维中最常见的几类用法。&lt;/p&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;当前时间：2026-03-22 18:36（北京时间）&lt;/p&gt;</description>
     </item>
     <item>
       <title>PuTTY、PPK 与公私钥：SSH 密钥体系完全指南</title>
-      <link>https://fridacai.vercel.app/blog/puttyppk-%E4%B8%8E%E5%85%AC%E7%A7%81%E9%92%A5ssh-%E5%AF%86%E9%92%A5%E4%BD%93%E7%B3%BB%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/puttyppk-%E4%B8%8E%E5%85%AC%E7%A7%81%E9%92%A5ssh-%E5%AF%86%E9%92%A5%E4%BD%93%E7%B3%BB%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</link>
       <pubDate>Sun, 22 Mar 2026 18:29:07 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/puttyppk-%E4%B8%8E%E5%85%AC%E7%A7%81%E9%92%A5ssh-%E5%AF%86%E9%92%A5%E4%BD%93%E7%B3%BB%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/puttyppk-%E4%B8%8E%E5%85%AC%E7%A7%81%E9%92%A5ssh-%E5%AF%86%E9%92%A5%E4%BD%93%E7%B3%BB%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在日常的服务器运维、远程开发或云主机管理中，我们几乎绕不开一个话题：&lt;strong&gt;如何安全地登录远程主机？&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;密码登录简单直接，但存在被暴力破解的风险。而基于 &lt;strong&gt;公私钥对（Key Pair）&lt;/strong&gt; 的 SSH 认证方式，配合 &lt;strong&gt;PuTTY&lt;/strong&gt; 这一经典工具族，是 Windows 用户最常用的安全远程访问方案之一。&lt;/p&gt;</description>
     </item>
   </channel>

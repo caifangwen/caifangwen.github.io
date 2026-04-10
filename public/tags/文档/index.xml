@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>文档 on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/%E6%96%87%E6%A1%A3/</link>
+    <link>https://www.261449.xyz/tags/%E6%96%87%E6%A1%A3/</link>
     <description>Recent content in 文档 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 26 Mar 2026 05:00:00 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Apr 2026 11:00:00 +0800</lastBuildDate>
+    <atom:link href="https://www.261449.xyz/tags/%E6%96%87%E6%A1%A3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo 官方文档</title>
+      <link>https://www.261449.xyz/shares/hugo-%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/</link>
+      <pubDate>Sun, 05 Apr 2026 11:00:00 +0800</pubDate>
+      <guid>https://www.261449.xyz/shares/hugo-%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3/</guid>
+      <description>&lt;p&gt;Hugo 官方文档提供了完整的使用指南和配置说明。&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;a href=&#34;https://gohugo.io/documentation/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34; class=&#34;link-card&#34;&gt;&#xA;  &#xA;  &lt;div class=&#34;link-card__body&#34;&gt;&#xA;    &lt;div class=&#34;link-card__title&#34;&gt;Hugo 官方文档&lt;/div&gt;&#xA;    &lt;div class=&#34;link-card__desc&#34;&gt;完整的 Hugo 使用指南和配置说明。&lt;/div&gt;&#xA;    &lt;div class=&#34;link-card__meta&#34;&gt;&#xA;      &lt;span class=&#34;link-card__source&#34;&gt;Hugo 官网&lt;/span&gt;&#xA;      &lt;span class=&#34;link-card__host&#34;&gt;gohugo.io&lt;/span&gt;&#xA;    &lt;/div&gt;&#xA;  &lt;/div&gt;&#xA;  &lt;div class=&#34;link-card__arrow&#34;&gt;↗&lt;/div&gt;&#xA;&lt;/a&gt;&#xA;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;💬 &lt;strong&gt;我的评论&lt;/strong&gt;：文档详细，适合快速上手。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Hugo Narrow 网站结构详解</title>
-      <link>https://fridacai.vercel.app/blog/hugo-narrow-site-structure/</link>
+      <link>https://www.261449.xyz/blog/hugo-narrow-site-structure/</link>
       <pubDate>Thu, 26 Mar 2026 05:00:00 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/hugo-narrow-site-structure/</guid>
+      <guid>https://www.261449.xyz/blog/hugo-narrow-site-structure/</guid>
       <description>全面了解 Hugo Narrow 主题的项目结构、页面组成和模板层次结构</description>
     </item>
   </channel>

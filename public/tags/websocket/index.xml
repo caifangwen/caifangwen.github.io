@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WebSocket on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/websocket/</link>
+    <link>https://www.261449.xyz/tags/websocket/</link>
     <description>Recent content in WebSocket on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Sat, 28 Mar 2026 15:39:10 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/websocket/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/websocket/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>使用 1Panel &#43; Vultr VPS 搭建 x-ui WebSocket TLS CDN 节点完整教程</title>
-      <link>https://fridacai.vercel.app/blog/%E4%BD%BF%E7%94%A8-1panel--vultr-vps-%E6%90%AD%E5%BB%BA-x-ui-websocket-tls-cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</link>
+      <link>https://www.261449.xyz/blog/%E4%BD%BF%E7%94%A8-1panel--vultr-vps-%E6%90%AD%E5%BB%BA-x-ui-websocket-tls-cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</link>
       <pubDate>Sat, 28 Mar 2026 15:39:10 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/%E4%BD%BF%E7%94%A8-1panel--vultr-vps-%E6%90%AD%E5%BB%BA-x-ui-websocket-tls-cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</guid>
+      <guid>https://www.261449.xyz/blog/%E4%BD%BF%E7%94%A8-1panel--vultr-vps-%E6%90%AD%E5%BB%BA-x-ui-websocket-tls-cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;相比手动配置 Nginx 和 acme.sh，&lt;strong&gt;1Panel&lt;/strong&gt; 提供了现代化的 Web 可视化运维界面，可以一站式管理：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Nginx 反向代理&lt;/strong&gt;（可视化配置，无需手写配置文件）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SSL 证书申请与自动续期&lt;/strong&gt;（内置 acme 集成）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;网站管理、文件管理、计划任务&lt;/strong&gt; 等&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;本文在上一篇手动方案的基础上，改用 &lt;strong&gt;1Panel&lt;/strong&gt; 统一管理服务器，其余架构不变：&lt;/p&gt;</description>
     </item>
     <item>
       <title>使用 Vultr VPS 搭建 x-ui &#43; WebSocket &#43; TLS &#43; CDN 节点完整教程</title>
-      <link>https://fridacai.vercel.app/blog/%E4%BD%BF%E7%94%A8-vultr-vps-%E6%90%AD%E5%BB%BA-x-ui--websocket--tls--cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</link>
+      <link>https://www.261449.xyz/blog/%E4%BD%BF%E7%94%A8-vultr-vps-%E6%90%AD%E5%BB%BA-x-ui--websocket--tls--cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</link>
       <pubDate>Sat, 28 Mar 2026 14:56:47 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/%E4%BD%BF%E7%94%A8-vultr-vps-%E6%90%AD%E5%BB%BA-x-ui--websocket--tls--cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;本文以 &lt;strong&gt;Vultr VPS + Debian 12&lt;/strong&gt; 为基础环境，完整演示如何部署 &lt;strong&gt;x-ui 面板&lt;/strong&gt;，并配置 &lt;strong&gt;WebSocket + TLS + Cloudflare CDN&lt;/strong&gt; 的完整链路方案。&lt;/p&gt;&#xA;&#xD;&#xA;  &lt;blockquote&#xD;&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xD;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xD;&#xA;      &lt;p&gt;&lt;strong&gt;架构示意：&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;客户端&lt;/code&gt; → &lt;code&gt;Cloudflare CDN (443/TLS)&lt;/code&gt; → &lt;code&gt;Nginx (反向代理)&lt;/code&gt; → &lt;code&gt;x-ui (Xray Core / WebSocket)&lt;/code&gt;&lt;/p&gt;</description>
+      <guid>https://www.261449.xyz/blog/%E4%BD%BF%E7%94%A8-vultr-vps-%E6%90%AD%E5%BB%BA-x-ui--websocket--tls--cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;本文以 &lt;strong&gt;Vultr VPS + Debian 12&lt;/strong&gt; 为基础环境，完整演示如何部署 &lt;strong&gt;x-ui 面板&lt;/strong&gt;，并配置 &lt;strong&gt;WebSocket + TLS + Cloudflare CDN&lt;/strong&gt; 的完整链路方案。&lt;/p&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;架构示意：&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;客户端&lt;/code&gt; → &lt;code&gt;Cloudflare CDN (443/TLS)&lt;/code&gt; → &lt;code&gt;Nginx (反向代理)&lt;/code&gt; → &lt;code&gt;x-ui (Xray Core / WebSocket)&lt;/code&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Godot 游戏开发：多人联机与实时交互完整指南</title>
-      <link>https://fridacai.vercel.app/blog/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA%E4%B8%8E%E5%AE%9E%E6%97%B6%E4%BA%A4%E4%BA%92%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA%E4%B8%8E%E5%AE%9E%E6%97%B6%E4%BA%A4%E4%BA%92%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
       <pubDate>Mon, 23 Mar 2026 02:51:03 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA%E4%B8%8E%E5%AE%9E%E6%97%B6%E4%BA%A4%E4%BA%92%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/godot-%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91%E5%A4%9A%E4%BA%BA%E8%81%94%E6%9C%BA%E4%B8%8E%E5%AE%9E%E6%97%B6%E4%BA%A4%E4%BA%92%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h1 id=&#34;godot-游戏开发多人联机与实时交互完整指南&#34;&gt;Godot 游戏开发：多人联机与实时交互完整指南&lt;/h1&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在完成 UI 界面、数值逻辑以及 TileMap 世界场景之后，多人联机是让游戏真正&amp;quot;活&amp;quot;起来的最后一块拼图。&lt;/p&gt;</description>
     </item>
   </channel>

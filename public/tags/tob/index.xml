@@ -2,31 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ToB on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/tob/</link>
+    <link>https://www.261449.xyz/tags/tob/</link>
     <description>Recent content in ToB on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 03 Apr 2026 15:49:48 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/tob/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Apr 2026 05:28:10 +0800</lastBuildDate>
+    <atom:link href="https://www.261449.xyz/tags/tob/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客型 ToB 电商网站 GA4 埋点设计方案</title>
+      <link>https://www.261449.xyz/blog/ga4-tracking-design-tob-blog-ecommerce/</link>
+      <pubDate>Sun, 05 Apr 2026 05:28:10 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/ga4-tracking-design-tob-blog-ecommerce/</guid>
+      <description>&lt;h2 id=&#34;一背景与目标&#34;&gt;一、背景与目标&lt;/h2&gt;&#xA;&lt;p&gt;博客型 ToB 电商网站的核心业务逻辑是：&lt;strong&gt;内容获客 → 产品感知 → 意向留资 → 销售跟进&lt;/strong&gt;。与 ToC 电商&amp;quot;加购-下单&amp;quot;路径不同，ToB 转化周期长、决策链复杂，单次 Session 难以完成转化，因此埋点设计需要重点解决以下三个问题：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>品牌三站布局深度报告：ToB独立站 × ToC独立站 × 阿里巴巴国际站的产品策略差异</title>
+      <link>https://www.261449.xyz/blog/tob-toc-independent-site-vs-alibaba-product-layout-strategy/</link>
+      <pubDate>Sun, 05 Apr 2026 04:10:57 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/tob-toc-independent-site-vs-alibaba-product-layout-strategy/</guid>
+      <description>&lt;h2 id=&#34;前言为什么要拆分三个渠道&#34;&gt;前言：为什么要拆分三个渠道&lt;/h2&gt;&#xA;&lt;p&gt;上一篇文章讨论了独立站与阿里巴巴国际站的产品布局差异。但现实中，越来越多的成熟品牌选择将独立站进一步拆分——&lt;strong&gt;专门搭建一个面向企业采购的 ToB 独立站&lt;/strong&gt;，与服务终端消费者的 ToC 独立站并行运营，再叠加阿里巴巴国际站作为 B2B 流量入口。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>WordPress ToB 电商产品页 SEO 完整改造手册：博客漏斗搭建 × 产品页权重提升</title>
-      <link>https://fridacai.vercel.app/blog/wordpress-tob-ecommerce-product-page-seo-funnel-optimization/</link>
+      <link>https://www.261449.xyz/blog/wordpress-tob-ecommerce-product-page-seo-funnel-optimization/</link>
       <pubDate>Fri, 03 Apr 2026 15:49:48 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/wordpress-tob-ecommerce-product-page-seo-funnel-optimization/</guid>
+      <guid>https://www.261449.xyz/blog/wordpress-tob-ecommerce-product-page-seo-funnel-optimization/</guid>
       <description>&lt;h2 id=&#34;一背景与问题诊断&#34;&gt;一、背景与问题诊断&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11-典型症状&#34;&gt;1.1 典型症状&lt;/h3&gt;&#xA;&lt;p&gt;大多数依赖博客引流的 ToB WordPress 电商站，流量结构往往呈现以下特征：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;博客页&lt;/strong&gt;承担 80%~95% 的自然搜索流量&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;产品页&lt;/strong&gt;排名差、流量极少，基本只靠直接访问或博客跳转&lt;/li&gt;&#xA;&lt;li&gt;产品页内容只有：产品名称 + 参数表格 + 几张产品图&lt;/li&gt;&#xA;&lt;li&gt;产品页缺少 TDK（Title / Description / Keywords），部分站点甚至用插件默认格式生成，如 &lt;code&gt;产品名 - 站点名&lt;/code&gt;，无任何关键词优化&lt;/li&gt;&#xA;&lt;li&gt;博客与产品页之间没有系统性内链，流量进来了但无处承接&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;12-本质问题拆解&#34;&gt;1.2 本质问题拆解&lt;/h3&gt;&#xA;&lt;p&gt;这个状态在 SEO 层面造成两个结构性缺陷：&lt;/p&gt;</description>
     </item>
     <item>
       <title>ToB 电商产品页 SEO 策略：如何用漏斗模型承接博客流量并提升产品页权重</title>
-      <link>https://fridacai.vercel.app/blog/tob-product-page-seo-funnel-strategy/</link>
+      <link>https://www.261449.xyz/blog/tob-product-page-seo-funnel-strategy/</link>
       <pubDate>Fri, 03 Apr 2026 05:25:23 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/tob-product-page-seo-funnel-strategy/</guid>
+      <guid>https://www.261449.xyz/blog/tob-product-page-seo-funnel-strategy/</guid>
       <description>&lt;h2 id=&#34;一现状诊断为什么博客流量无法转化到产品页&#34;&gt;一、现状诊断：为什么博客流量无法转化到产品页&lt;/h2&gt;&#xA;&lt;p&gt;在 ToB 电商场景中，&lt;strong&gt;博客负责捕获搜索流量，产品页负责完成转化&lt;/strong&gt;。两者是天然的上下游关系。然而很多网站的现实是：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;博客有排名、有流量，但用户读完就走；&lt;/li&gt;&#xA;&lt;li&gt;产品页只有图片 + 参数表格，缺乏 TDK，搜索引擎无法理解页面主题；&lt;/li&gt;&#xA;&lt;li&gt;博客与产品页之间缺少系统性的内链，流量在博客层&amp;quot;蒸发&amp;quot;。&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这不是内容质量问题，而是&lt;strong&gt;漏斗结构缺失&lt;/strong&gt;的问题。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress ToB 外贸网站 SEO 优化 SOP：SEO Skills 完整使用指南</title>
-      <link>https://fridacai.vercel.app/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
       <pubDate>Wed, 18 Mar 2026 03:30:00 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;本文档为 WordPress ToB 外贸网站提供完整的 SEO 优化 SOP，明确说明在每个阶段如何使用 SEO Skills 项目中的技能。&lt;/p&gt;&#xA;&lt;h3 id=&#34;适用对象&#34;&gt;适用对象&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WordPress 网站管理员&lt;/li&gt;&#xA;&lt;li&gt;ToB 外贸企业营销人员&lt;/li&gt;&#xA;&lt;li&gt;SEO 初学者&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;预计周期&#34;&gt;预计周期&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;阶段&lt;/th&gt;&#xA;          &lt;th&gt;时间&lt;/th&gt;&#xA;          &lt;th&gt;主要 Skill&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;技术审计&lt;/td&gt;&#xA;          &lt;td&gt;第 1-2 周&lt;/td&gt;&#xA;          &lt;td&gt;technical-audit&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;关键词研究&lt;/td&gt;&#xA;          &lt;td&gt;第 2-3 周&lt;/td&gt;&#xA;          &lt;td&gt;keyword-research&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;页面优化&lt;/td&gt;&#xA;          &lt;td&gt;第 3-6 周&lt;/td&gt;&#xA;          &lt;td&gt;content-optimizer&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;外链建设&lt;/td&gt;&#xA;          &lt;td&gt;第 6 周起&lt;/td&gt;&#xA;          &lt;td&gt;link-building&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;报告监控&lt;/td&gt;&#xA;          &lt;td&gt;持续&lt;/td&gt;&#xA;          &lt;td&gt;report-generator&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;阶段一技术-seo-审计第-1-2-周&#34;&gt;阶段一：技术 SEO 审计（第 1-2 周）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;目标&#34;&gt;目标&lt;/h3&gt;&#xA;&lt;p&gt;完成网站技术健康检查，修复所有 P0/P1 级别问题。&lt;/p&gt;</description>
     </item>
   </channel>

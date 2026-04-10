@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>操作手册 on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/</link>
+    <link>https://www.261449.xyz/tags/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/</link>
     <description>Recent content in 操作手册 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 18 Mar 2026 03:30:00 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/%E6%93%8D%E4%BD%9C%E6%89%8B%E5%86%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WordPress ToB 外贸网站 SEO 优化 SOP：SEO Skills 完整使用指南</title>
-      <link>https://fridacai.vercel.app/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
       <pubDate>Wed, 18 Mar 2026 03:30:00 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
       <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;本文档为 WordPress ToB 外贸网站提供完整的 SEO 优化 SOP，明确说明在每个阶段如何使用 SEO Skills 项目中的技能。&lt;/p&gt;&#xA;&lt;h3 id=&#34;适用对象&#34;&gt;适用对象&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WordPress 网站管理员&lt;/li&gt;&#xA;&lt;li&gt;ToB 外贸企业营销人员&lt;/li&gt;&#xA;&lt;li&gt;SEO 初学者&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;预计周期&#34;&gt;预计周期&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;阶段&lt;/th&gt;&#xA;          &lt;th&gt;时间&lt;/th&gt;&#xA;          &lt;th&gt;主要 Skill&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;技术审计&lt;/td&gt;&#xA;          &lt;td&gt;第 1-2 周&lt;/td&gt;&#xA;          &lt;td&gt;technical-audit&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;关键词研究&lt;/td&gt;&#xA;          &lt;td&gt;第 2-3 周&lt;/td&gt;&#xA;          &lt;td&gt;keyword-research&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;页面优化&lt;/td&gt;&#xA;          &lt;td&gt;第 3-6 周&lt;/td&gt;&#xA;          &lt;td&gt;content-optimizer&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;外链建设&lt;/td&gt;&#xA;          &lt;td&gt;第 6 周起&lt;/td&gt;&#xA;          &lt;td&gt;link-building&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;报告监控&lt;/td&gt;&#xA;          &lt;td&gt;持续&lt;/td&gt;&#xA;          &lt;td&gt;report-generator&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;阶段一技术-seo-审计第-1-2-周&#34;&gt;阶段一：技术 SEO 审计（第 1-2 周）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;目标&#34;&gt;目标&lt;/h3&gt;&#xA;&lt;p&gt;完成网站技术健康检查，修复所有 P0/P1 级别问题。&lt;/p&gt;</description>
     </item>
   </channel>

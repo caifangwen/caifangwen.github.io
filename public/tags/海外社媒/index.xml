@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>海外社媒 on Frida Home</title>
-    <link>https://fridacai.vercel.app/tags/%E6%B5%B7%E5%A4%96%E7%A4%BE%E5%AA%92/</link>
+    <link>https://www.261449.xyz/tags/%E6%B5%B7%E5%A4%96%E7%A4%BE%E5%AA%92/</link>
     <description>Recent content in 海外社媒 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Wed, 28 Jan 2026 16:47:31 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/tags/%E6%B5%B7%E5%A4%96%E7%A4%BE%E5%AA%92/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.261449.xyz/tags/%E6%B5%B7%E5%A4%96%E7%A4%BE%E5%AA%92/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>伪装度提升</title>
-      <link>https://fridacai.vercel.app/blog/stealth-enhancement/</link>
+      <link>https://www.261449.xyz/blog/stealth-enhancement/</link>
       <pubDate>Wed, 28 Jan 2026 16:47:31 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/stealth-enhancement/</guid>
+      <guid>https://www.261449.xyz/blog/stealth-enhancement/</guid>
       <description>&lt;p&gt;在使用 Whoer.net 或 Pixelscan 等工具检测时，伪装度显示为 90% 主要是因为本地设置与 IP 所在地不一致导致的。这 10% 的差距往往就是导致领英、Facebook 注册即风控的“临门一脚”。&#xA;以下是把伪装度从 90% 提升到 100% 的具体处理步骤：&lt;/p&gt;</description>
     </item>
   </channel>

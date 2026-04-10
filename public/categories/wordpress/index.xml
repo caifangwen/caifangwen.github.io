@@ -2,17 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WordPress on Frida Home</title>
-    <link>https://fridacai.vercel.app/categories/wordpress/</link>
+    <link>https://www.261449.xyz/categories/wordpress/</link>
     <description>Recent content in WordPress on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 27 Mar 2026 23:01:58 +0800</lastBuildDate>
-    <atom:link href="https://fridacai.vercel.app/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Apr 2026 14:31:51 +0800</lastBuildDate>
+    <atom:link href="https://www.261449.xyz/categories/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress 实战：GA4 内容分组完整配置手册（URL 匹配逻辑 &#43; 自定义维度注册）</title>
+      <link>https://www.261449.xyz/blog/ga4-content-grouping-wordpress-implementation/</link>
+      <pubDate>Thu, 09 Apr 2026 14:31:51 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/ga4-content-grouping-wordpress-implementation/</guid>
+      <description>&lt;h2 id=&#34;前言wordpress-的天然优势&#34;&gt;前言：WordPress 的天然优势&lt;/h2&gt;&#xA;&lt;p&gt;WordPress 的最大优势是它本身就知道每个页面是什么类型——文章、页面、分类页、标签页、首页、搜索结果……这些类型信息可以直接从 PHP 模板层获取，不需要用脆弱的 URL 正则去猜。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Polylang 多语言插件完整使用指南</title>
+      <link>https://www.261449.xyz/blog/polylang-wordpress-multilingual-guide/</link>
+      <pubDate>Tue, 07 Apr 2026 10:41:34 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/polylang-wordpress-multilingual-guide/</guid>
+      <description>&lt;h2 id=&#34;什么是-polylang&#34;&gt;什么是 Polylang&lt;/h2&gt;&#xA;&lt;p&gt;Polylang 是 WordPress 上最流行的多语言插件之一，免费版功能已经非常完整。它允许你为文章、页面、分类、标签、菜单等内容创建多个语言版本，不依赖机器翻译，内容完全由你手动管理。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>WP Rocket 完全使用指南：让你的 WordPress 网站飞速运行</title>
-      <link>https://fridacai.vercel.app/blog/wp-rocket-complete-guide/</link>
+      <link>https://www.261449.xyz/blog/wp-rocket-complete-guide/</link>
       <pubDate>Fri, 27 Mar 2026 23:01:58 +0800</pubDate>
-      <guid>https://fridacai.vercel.app/blog/wp-rocket-complete-guide/</guid>
+      <guid>https://www.261449.xyz/blog/wp-rocket-complete-guide/</guid>
       <description>&lt;h2 id=&#34;什么是-wp-rocket&#34;&gt;什么是 WP Rocket？&lt;/h2&gt;&#xA;&lt;p&gt;WP Rocket 是目前最受欢迎的 WordPress 缓存与性能优化插件之一。它无需复杂配置即可显著提升页面加载速度，支持页面缓存、文件压缩、懒加载、数据库优化等功能，适合从新手到专业开发者的各类用户。&lt;/p&gt;</description>
     </item>
   </channel>
