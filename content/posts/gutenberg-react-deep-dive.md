@@ -14,14 +14,6 @@ tags:
   - JavaScript
 categories:
   - WordPress
-  - 技术深度
-keywords:
-  - Gutenberg React
-  - WordPress 块编辑器 React
-  - @wordpress/element
-  - edit save 函数
-  - 动态块
-  - 静态块
 toc: true
 ---
 

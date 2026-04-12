@@ -531,12 +531,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/how-to-build-internal-linking-library.md",
+                "file": "posts/gutenberg-react-deep-dive.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "how-to-build-internal-linking-library"
+              "title": "gutenberg-react-deep-dive"
             }
           }
         ],
@@ -631,7 +631,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "posts/ga4-tracking-design-tob-blog-ecommerce.md",
+            "file": "posts/gutenberg-react-deep-dive.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -689,6 +689,9 @@
   },
   "active": "3ba338632677a8f2",
   "lastOpenFiles": [
+    "posts/wordpress-page-builders.md",
+    "posts/domain-migration-seo-weight.md",
+    "posts/how-to-build-internal-linking-library.md",
     "posts/ga4-advanced-tips.md",
     "posts/ga4-content-grouping-wordpress.md",
     "posts/wordpress-conditional-tags-datalayer.md",
@@ -696,7 +699,6 @@
     "posts/json-ld-guide.md",
     "posts/wordpress-seo-advanced-jsonld-crawl-strategy.md",
     "posts/wordpress-seo-publish-logic.md",
-    "posts/how-to-build-internal-linking-library.md",
     "posts/ga4-tracking-design-tob-blog-ecommerce.md",
     "docs/getting-started.md",
     "docs/weekly-report-2026-W14.md",
@@ -715,8 +717,6 @@
     "posts/hugo prompt.md",
     "posts/WordPress 文件目录架构深度解析.md.tmp",
     "posts/Web3：从理想主义到现实重塑的技术革命.md.tmp",
-    "posts/V2Ray节点配置技术详解：代码深度解析与实践补充.md",
-    "posts/foreign-trade-salesperson-training.md",
     "posts/fix_slug.awk",
     "未命名.canvas",
     "未命名",
