@@ -531,12 +531,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/novel-writing-skills-v3.md",
+                "file": "posts/claude-cowork-intro.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "novel-writing-skills-v3"
+              "title": "claude-cowork-intro"
             }
           }
         ],
@@ -689,6 +689,7 @@
   },
   "active": "3ba338632677a8f2",
   "lastOpenFiles": [
+    "posts/novel-writing-skills-v3.md",
     "posts/2026 手机终端神器推荐.md",
     "posts/2026-computer-tech-landscape.md",
     "posts/26-01-22-19-28-28.md",
@@ -714,7 +715,6 @@
     "posts/claude_code_prompts.md",
     "posts/claude_code_prompts_v2.md",
     "posts/cli-mcp-deep-analysis.md",
-    "posts/company-wiki-setup-guide.md",
     "posts/WordPress 文件目录架构深度解析.md.tmp",
     "posts/Web3：从理想主义到现实重塑的技术革命.md.tmp",
     "posts/fix_slug.awk",

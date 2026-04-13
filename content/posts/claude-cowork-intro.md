@@ -5,7 +5,7 @@ draft: false
 description: "Cowork 是 Anthropic 推出的桌面自主代理工具，将 Claude Code 的强大能力带给每一位知识工作者——无需编程，无需命令行，描述任务，离开，回来取成果。"
 tags: ["Claude", "Cowork", "AI", "Anthropic", "效率工具", "自动化"]
 categories: ["AI工作流"]
-slug = "claude-cowork-intro"
+slug: "claude-cowork-intro"
 TocOpen: true
 ---
 
