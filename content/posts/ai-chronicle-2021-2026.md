@@ -5,11 +5,11 @@ draft: false
 description: "2021 年到 2026 年 AI 发展的完整历程"
 tags: [AI, 历史，编年史]
 categories:
-  - 趋势
+  - 技术观察
 author: Frida
+slug: "ai-chronicle-2021-2026"
 ---
 
-# AI发展编年史：2021-2026年2月
 
 ## 2021年：基础模型时代的序章
 

@@ -5,14 +5,9 @@ date: 2026-04-02T16:09:44+08:00
 lastmod: 2026-04-02T16:09:44+08:00
 draft: false
 tags: ["n8n", "爬虫", "自动化", "工作流", "no-code"]
-categories: ["自动化工具", "教程"]
+categories: ["自动化运营"]
 description: "手把手教你用 n8n 可视化工作流平台搭建网页爬虫，实现数据自动采集、清洗与存储，附社区热门爬虫模板推荐。"
 author: ""
-cover:
-  image: ""
-  alt: "n8n 爬虫工作流示意图"
-showToc: true
-TocOpen: true
 ---
 
 ## 什么是 n8n？

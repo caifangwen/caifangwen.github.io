@@ -3,7 +3,7 @@ title: "使用 Vultr VPS 搭建 x-ui + WebSocket + TLS + CDN 节点完整教程"
 date: 2026-03-28T14:56:47+08:00
 draft: false
 tags: ["VPS", "Vultr", "x-ui", "WebSocket", "TLS", "CDN", "Debian", "代理"]
-categories: ["技术教程"]
+categories: ["CDN"]
 description: "以 Debian 系统为例，完整介绍在 Vultr VPS 上部署 x-ui 面板，配合 WebSocket + TLS + CDN（Cloudflare）的节点搭建全流程。"
 author: "Admin"
 ---

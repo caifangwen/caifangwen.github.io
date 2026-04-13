@@ -5,11 +5,11 @@ draft: false
 description: "Google 的 NotebookLM 对 AI 交互的独特答案"
 tags: [NotebookLM, Google, AI]
 categories:
-  - AI
+  - AI工作流
 author: Frida
+slug: "notebooklm-ai-interaction"
 ---
 
-# NotebookLM：重新定义AI工具的交互范式
 
 在AI工具井喷的时代，我们见证了ChatGPT、Claude、Gemini等通用对话模型的崛起，也看到了Midjourney、Runway等专业创作工具的涌现。但Google在2023年推出的NotebookLM，却以一种截然不同的方式切入了这个拥挤的赛道。它不是更强大的语言模型，也不是更炫酷的生成工具，而是对"AI应该如何工作"这个根本问题给出了一个独特的答案。
 

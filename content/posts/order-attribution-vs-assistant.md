@@ -4,7 +4,7 @@ slug: "order-attribution-vs-assistant"
 date: 2026-03-26T05:00:00+08:00
 draft: false
 tags: ["独立站", "外贸", "订单归属", "跟单", "合作管理"]
-categories: ["外贸运营"]
+categories: ["MKT"]
 description: "解决独立站合作中最容易扯皮的两个问题：订单归属怎么证明是你带来的，以及是否需要引入跟单助手。"
 author: "运营笔记"
 ---

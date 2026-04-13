@@ -10,12 +10,11 @@ tags:
   - 提示工程
   - LLM
 categories:
-  - skill
+  - Skill
 author: "Claude"
 slug: "optimize-claude-skill"
 toc: true
 math: false
-weight: 1
 ---
 
 > **摘要**：Skill 是 Claude 的"专业记忆单元"——一段结构化的 Markdown 指令，告诉模型在特定场景下如何工作。但写出一个能稳定触发、输出高质量结果的 Skill，远比想象中复杂。本文系统讲解 Skill 的设计哲学、SKILL.md 的解剖结构、测试与评估方法，以及利用自动化脚本做描述优化的完整流程。

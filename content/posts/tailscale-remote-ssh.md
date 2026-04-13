@@ -4,7 +4,7 @@ date: 2026-03-28T10:35:48+08:00
 lastmod: 2026-03-28T10:35:48+08:00
 draft: false
 tags: ["tailscale", "ssh", "远程连接", "网络", "运维"]
-categories: ["技术教程"]
+categories: ["网络"]
 description: "从零开始配置 Tailscale + SSH，实现随时随地安全远程连接家里/公司的电脑，包含 sshd 配置、SSH config 写法及常见问题排查。"
 author: "Claude"
 showToc: true

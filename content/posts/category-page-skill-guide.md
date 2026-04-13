@@ -3,7 +3,7 @@ title: "为已有网站创建分类页设计 Skill 完整指南"
 date: 2026-03-30
 draft: false
 tags: ["Claude Skill", "前端设计", "分类页", "提示词工程", "风格一致性"]
-categories: ["AI工程", "设计系统"]
+categories: ["Skill"]
 description: "系统化地为已有网站创建分类页设计 Skill，涵盖站点结构诊断、风格提取、提示词体系与 Skill 文件编写全流程。"
 author: "Claude"
 toc: true

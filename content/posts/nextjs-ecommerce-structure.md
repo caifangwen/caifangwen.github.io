@@ -5,8 +5,9 @@ draft: false
 description: "Next.js 电商网站的完整结构规划"
 tags: [Next.js, 电商，网站结构]
 categories:
-  - 项目实战
+  - 技术
 author: Frida
+slug: "nextjs-structure-guide"
 ---
 
 # Next.js 商城完整结构指南

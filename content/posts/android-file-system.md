@@ -5,8 +5,9 @@ draft: false
 description: "Android 文件系统结构详解"
 tags: [Android, Linux, 文件系统]
 categories:
-  - 技术博客
+  - 技术
 author: Frida
+slug: "android-file-system"
 ---
 
 # Android系统文件结构深度解析

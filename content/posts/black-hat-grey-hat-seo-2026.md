@@ -6,11 +6,8 @@ lastmod: 2026-04-04T00:00:00+08:00
 draft: false
 description: "搜索引擎算法持续进化、AI 检测能力大幅跃升，黑帽与灰帽 SEO 的生存空间正在快速收窄。本文从现状、手法演变、风险代价到现实抉择，做一次完整的 2026 年盘点。"
 tags: ["SEO", "黑帽SEO", "灰帽SEO", "搜索引擎优化", "Google算法", "百度算法"]
-categories: ["SEO 实战"]
+categories: ["SEO"]
 author: "站长笔记"
-cover:
-  image: ""
-  alt: "黑帽灰帽SEO 2026"
 ---
 
 ## 先把概念摆清楚

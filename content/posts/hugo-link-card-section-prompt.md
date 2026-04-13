@@ -5,6 +5,7 @@ slug: "hugo-link-card-section-prompt"
 draft: false
 tags: ["Hugo", "Prompt", "Shortcode", "社媒"]
 description: "一个专用提示词，帮助 AI 快速生成包含社媒链接卡片 Section 的 Hugo Markdown 文章，支持评论注释。"
+categories: ["Hugo"]
 ---
 
 ## 提示词（复制后直接使用）

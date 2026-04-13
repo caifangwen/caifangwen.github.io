@@ -7,6 +7,7 @@ tags: [B2B, 独立站，网站结构]
 categories:
   - MKT
 author: Frida
+slug: "b2b-website-structure"
 ---
 
 ## B2B 外贸独立站页面结构规划

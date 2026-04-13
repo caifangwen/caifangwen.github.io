@@ -15,14 +15,6 @@ tags:
   - Web开发
 categories:
   - WordPress
-  - 技术分析
-keywords:
-  - Gutenberg
-  - WordPress 块编辑器
-  - 经典编辑器
-  - 自定义 HTML
-  - WordPress 开发
-  - 块开发
 toc: true
 ---
 

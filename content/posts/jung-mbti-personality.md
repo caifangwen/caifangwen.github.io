@@ -7,9 +7,9 @@ tags: [荣格，MBTI, 心理学]
 categories:
   - 心理学
 author: Frida
+slug: "jung-mbti-personality"
 ---
 
-# 荣格八维与MBTI：从心理类型理论到性格测评工具的演进
 
 ## 引言
 

@@ -1,12 +1,13 @@
 ---
 title: "带 Fri 或 Fr 的数字产品命名建议"
 date: 2026-03-16T20:14:30+08:00
-draft: false
+draft: true
 description: "卖虚拟数字产品带 Fri 或 Fr 发音的命名方案"
 tags: [命名，品牌，数字产品]
 categories:
-  - 趋势
+  - 技术观察
 author: Frida
+slug: "dream-mansion-characters"
 ---
 
 卖虚拟数字产品，名字里带 “Fri” 或 “Fr” 是个很棒的选择。这类发音通常带有“Free”（自由）、“Fresh”（新鲜）、“Friend”（友好）或“Frontier”（前沿）的暗示，非常符合数字化、轻资产的调性。

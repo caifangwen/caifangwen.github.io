@@ -4,10 +4,9 @@ date: 2026-03-25T09:10:45+08:00
 draft: false
 description: "全面介绍 Hugo layouts 目录的结构、模板类型、查找机制、Go 模板语法及实战用法"
 tags: ["Hugo", "layouts", "模板", "Go Template", "静态网站"]
-categories: ["技术教程"]
+categories: ["Hugo"]
 author: "Claude"
 toc: true
-weight: 2
 ---
 
 ## 什么是 Layouts

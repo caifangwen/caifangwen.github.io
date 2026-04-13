@@ -5,8 +5,9 @@ draft: false
 description: "从选工具到建架构再到促维护的 Wiki 搭建过程"
 tags: [Wiki, 知识库，团队协作]
 categories:
-  - 工作流
+  - 知识库
 author: Frida
+slug: "company-wiki-setup-guide"
 ---
 
 制作公司内部 Wiki（知识库）通常是一个从“选工具”到“建架构”再到“促维护”的过程。一个好用的 Wiki 能显著降低沟通成本，避免新人入职时“两眼一抹黑”。

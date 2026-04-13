@@ -1,13 +1,13 @@
-+++
+---
 title = "Godot 游戏开发：UI 与数值逻辑完成后，如何接入瓦片地图（TileMap）"
 date = "2026-03-23T02:42:03+08:00"
 draft = false
 tags = ["Godot", "游戏开发", "TileMap", "UI", "GDScript"]
 categories = ["游戏开发"]
 description = "在 UI 界面与核心数值逻辑搭建完成之后，如何将瓦片地图系统融入项目，以及二者之间的架构关系详解。"
-+++
+slug = "godot-tilemap-ui-logic"
+---
 
-# Godot 游戏开发：UI 与数值逻辑完成后，如何接入瓦片地图（TileMap）
 
 ## 前言
 

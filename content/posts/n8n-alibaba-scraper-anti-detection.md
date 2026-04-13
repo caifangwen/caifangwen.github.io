@@ -5,7 +5,7 @@ draft: false
 slug: "n8n-alibaba-scraper-anti-detection-bypass"
 description: "深度剖析基于 n8n 构建的阿里巴巴商品爬虫在反爬检测中的七大致命弱点，并提供系统性的规避方案，帮助你打造真正稳定可用的采集工作流。"
 tags: ["n8n", "爬虫", "反爬", "阿里巴巴", "自动化", "数据采集"]
-categories: ["技术"]
+categories: ["自动化运营"]
 ---
 
 ## 前言

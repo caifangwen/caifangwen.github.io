@@ -7,7 +7,7 @@ description: 在这里输入简短的描述
 summary: 文章摘要
 tags:
 categories:
-  - 技术博客
+  - 网络
 cover: ""
 author: Frida
 ---

@@ -7,7 +7,7 @@ tags:
   - Hugo
   - 博客
 categories:
-  - 技术博客
+  - Hugo
 description: "本文档将合并流程拆解为可逐步执行的提示词，每一步对应一个独立操作，粘贴给 AI 即可驱动执行。"
 ---
 

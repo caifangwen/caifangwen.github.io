@@ -6,7 +6,7 @@ tags:
   - Hugo
   - 博客
 categories:
-  - 技术博客
+  - Hugo
 description: “如何安全地将 Hugo 主题配置合并到个人项目中，最终移除主题依赖并保留所有个性化内容。”
 ---
 

@@ -4,7 +4,7 @@ slug: "sass-and-css-management"
 date: 2026-04-08T17:54:36+08:00
 draft: false
 tags: ["CSS", "Sass", "前端开发", "样式管理"]
-categories: ["前端技术"]
+categories: ["CSS"]
 description: "介绍 Sass 预处理器的核心特性，以及在中大型项目中如何系统地管理 CSS 样式。"
 ---
 

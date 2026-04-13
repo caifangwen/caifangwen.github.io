@@ -4,7 +4,7 @@ slug = "menu-sidebar-design-aesthetics-conversion"
 date = "2026-04-08"
 description = "从视觉美学与转化率优化两个维度，深入分析导航菜单与侧边栏的设计原则、常见误区与落地实践。"
 tags = ["UI设计", "UX", "转化率优化", "导航设计", "前端"]
-categories = ["设计"]
+categories = ["UX设计"]
 draft = false
 +++
 

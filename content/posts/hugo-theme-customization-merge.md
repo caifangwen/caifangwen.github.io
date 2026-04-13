@@ -4,10 +4,9 @@ date: 2026-03-25T10:15:02+08:00
 draft: false
 description: "从零开始，逐步讲解如何在不修改主题源码的前提下，将自定义内容与 Hugo 主题安全合并，实现可维护的主题定制方案"
 tags: ["Hugo", "主题定制", "layouts", "覆盖", "合并"]
-categories: ["技术教程"]
+categories: ["Hugo"]
 author: "Claude"
 toc: true
-weight: 4
 ---
 
 ## 核心思想：永远不改主题源码

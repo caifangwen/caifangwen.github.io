@@ -7,6 +7,7 @@ tags: [Cursor, 重构，提示词]
 categories:
   - 游戏开发
 author: Frida
+slug: "cursor-refactor-prompt"
 ---
 
 这是专门给 Cursor 的重构提示词，可以直接粘贴进去：

@@ -3,7 +3,7 @@ title: "用 AI 批量生成 TDK + 快速拉起 WooCommerce 独立站完整指南
 date: 2026-04-02T03:04:05+08:00
 draft: false
 tags: ["WooCommerce", "Woodmart", "SEO", "AI", "TDK", "独立站", "产品导入", "ChatGPT"]
-categories: ["电商运营", "独立站建设", "SEO优化"]
+categories: ["AI工作流"]
 description: "从 AI 批量生成 TDK、大批量产品导入，到 Woodmart 全局配置与核心产品精修，系统梳理快速拉起 B2B 独立站的完整操作路径。"
 ---
 

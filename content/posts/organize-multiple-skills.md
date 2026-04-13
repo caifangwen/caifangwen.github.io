@@ -11,12 +11,9 @@ tags:
   - 工程实践
   - LLM
 categories:
-  - skill
+  - Skill
 author: "Claude"
 slug: "organize-multiple-claude-skills"
-toc: true
-math: false
-weight: 2
 ---
 
 > **摘要**：单个 Skill 解决单一场景，多个 Skill 构成一套能力体系。当你的 Skill 数量从 1 增长到 5、10、甚至 30+ 时，如何命名、如何划分边界、如何避免触发冲突、如何让多个 Skill 协同完成复杂任务——这些问题的答案直接决定了整个 Skill 体系能否稳定运转。本文从架构层面系统讲解多 Skill 的组织之道。

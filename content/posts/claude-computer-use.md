@@ -3,7 +3,7 @@ title = "Claude 电脑使用功能正式推出：让 AI 替你操控电脑"
 date = "2026-03-26T02:09:23+08:00"
 draft = false
 tags = ["Claude", "AI", "Anthropic", "Computer Use", "Claude Code", "自动化"]
-categories = ["AI 资讯"]
+categories = ["AI工作流"]
 description = "Anthropic 旗下 AI 助手 Claude 正式推出电脑使用功能，支持在 Claude Cowork 和 Claude Code 中研究预览，目前仅限 macOS 平台。"
 +++
 

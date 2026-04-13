@@ -11,10 +11,9 @@ tags:
   - 技术趋势
   - 2026
 categories:
-  - 趋势
+  - 技术观察
 author: "技术观察"
-cover:
-  image: ""
+slug: "2026-computer-tech-landscape"
 toc: true
 math: false
 ---

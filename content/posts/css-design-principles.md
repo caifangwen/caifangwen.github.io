@@ -6,7 +6,6 @@ draft: false
 author: "技术团队"
 description: "深入解析 CSS 设计的核心原则，涵盖视觉层级、盒模型、布局体系、响应式设计、动画与性能优化，并结合真实项目场景进行实战分析。"
 categories:
-  - "前端开发"
   - "CSS"
 tags:
   - "CSS"
@@ -15,15 +14,6 @@ tags:
   - "布局"
   - "性能优化"
   - "动画"
-keywords:
-  - CSS设计原则
-  - 前端布局
-  - Flexbox
-  - Grid
-  - CSS变量
-  - 响应式
-weight: 1
-toc: true
 ---
 
 ## 前言

@@ -6,7 +6,7 @@ lastmod: 2026-04-10T18:59:09+08:00
 draft: false
 description: "详解 JSON-LD 结构化数据的写法，涵盖 FAQ、文章、面包屑、产品、本地商家等常见场景，助力 SEO 提升搜索结果展示效果。"
 tags: ["SEO", "JSON-LD", "结构化数据", "Schema.org"]
-categories: ["前端开发"]
+categories: ["SEO"]
 ---
 
 JSON-LD（JavaScript Object Notation for Linked Data）是 Google 推荐的结构化数据格式，通过在页面中嵌入机器可读的语义信息，帮助搜索引擎更好地理解页面内容，从而获得富媒体搜索结果（Rich Results）。

@@ -3,9 +3,10 @@ title: "什么是 Mock 数据？"
 date: 2026-03-20T15:06:17+08:00
 draft: false
 tags: ["mock", "测试", "开发", "前端", "后端"]
-categories: ["技术博客"]
+categories: ["游戏开发"]
 description: "全面介绍 Mock 数据的概念、用途、常见工具及最佳实践，帮助开发者提升协作效率与测试质量。"
 author: "Claude"
+slug: "what-is-mock-data"
 ---
 
 ## 什么是 Mock 数据？

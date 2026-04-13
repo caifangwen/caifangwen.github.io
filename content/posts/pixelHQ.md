@@ -6,8 +6,8 @@ description: 在这里输入简短的描述，用于 SEO 和列表页预览
 summary: 文章摘要
 tags:
 categories:
-  - 工具
-cover: ""
+  - AI工作流
+slug: "pixelHQ"
 author: Frida
 ---
 

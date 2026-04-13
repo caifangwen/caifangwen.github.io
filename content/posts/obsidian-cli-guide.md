@@ -5,8 +5,9 @@ draft: false
 description: "Obsidian 官方 CLI 的详细介绍"
 tags: [Obsidian, CLI, 命令行]
 categories:
-  - 工具
+  - 技术
 author: Frida
+slug: "obsidian-cli-guide"
 ---
 
 以下是 Obsidian 官方 CLI 的详细介绍：

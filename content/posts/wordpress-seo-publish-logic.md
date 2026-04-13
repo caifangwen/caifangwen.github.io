@@ -11,13 +11,7 @@ tags:
   - 内容策略
   - 技术SEO
 categories:
-  - SEO优化
-keywords:
-  - WordPress SEO
-  - 博客SEO
-  - 产品页面SEO
-  - WooCommerce SEO
-  - 页面发布逻辑
+  - SEO
 author: ""
 ---
 

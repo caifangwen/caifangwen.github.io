@@ -6,12 +6,8 @@ lastmod: 2026-04-05T03:01:10+08:00
 draft: false
 description: "全面介绍Alibaba国际站（Alibaba.com）卖家后台的各个功能板块，包括店铺管理、产品发布、询盘处理、订单管理、数据分析等核心操作，帮助外贸卖家快速上手并高效运营。"
 tags: ["Alibaba国际站", "外贸", "跨境电商", "运营教程", "B2B"]
-categories: ["电商运营"]
+categories: ["跨境电商运营"]
 author: "Claude"
-cover:
-  image: ""
-  alt: "Alibaba国际站后台操作指南"
-weight: 1
 ---
 
 ## 前言

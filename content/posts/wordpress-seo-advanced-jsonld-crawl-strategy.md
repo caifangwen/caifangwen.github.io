@@ -12,15 +12,7 @@ tags:
   - 技术SEO
   - Schema
 categories:
-  - 技术SEO
-keywords:
-  - WordPress JSON-LD
-  - 结构化数据优化
-  - 爬取频率
-  - dateModified SEO
-  - Product Schema
-  - Article Schema
-  - 爬取预算优化
+  - SEO
 author: ""
 ---
 

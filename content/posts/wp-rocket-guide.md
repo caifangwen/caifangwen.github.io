@@ -8,9 +8,6 @@ tags: ["WordPress", "性能优化", "WP Rocket", "缓存", "网站加速"]
 categories: ["WordPress"]
 author: "Claude"
 slug: "wp-rocket-complete-guide"
-cover:
-  image: ""
-  alt: "WP Rocket 使用指南"
 ---
 
 ## 什么是 WP Rocket？

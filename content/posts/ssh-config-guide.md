@@ -3,8 +3,9 @@ title: "~/.ssh/config 完全指南：SSH 客户端配置文件详解"
 date: 2026-03-22T18:48:36+08:00
 draft: false
 tags: ["SSH", "config", "PuTTY", "跳板机", "端口转发", "运维"]
-categories: ["运维", "开发工具"]
+categories: ["网络"]
 description: "深入解析 SSH 客户端配置文件 ~/.ssh/config 的语法结构、每一条指令的含义，以及真实场景下的配置范例。"
+slug = "ssh-config-guide"
 ---
 
 ## 前言

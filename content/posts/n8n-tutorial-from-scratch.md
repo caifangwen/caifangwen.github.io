@@ -6,14 +6,8 @@ lastmod: 2026-04-02T15:56:43+08:00
 draft: false
 description: "手把手带你从零安装 n8n，搭建第一个自动化工作流，涵盖 Docker 部署、节点配置、Webhook 触发、数据库集成等核心实战场景。"
 tags: ["n8n", "自动化", "工作流", "Docker", "低代码", "No-Code"]
-categories: ["工具实战"]
+categories: ["自动化运营"]
 author: "Claude"
-cover:
-  image: ""
-  alt: "n8n 工作流自动化"
-  caption: "用 n8n 构建属于你的自动化帝国"
-ShowToc: true
-TocOpen: true
 ---
 
 ## 什么是 n8n？

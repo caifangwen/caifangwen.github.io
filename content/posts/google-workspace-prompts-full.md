@@ -4,13 +4,11 @@ date: 2026-03-20T08:47:00+08:00
 lastmod: 2026-03-20T08:47:00+08:00
 draft: false
 tags: ["Google", "Gmail", "Calendar", "Drive", "Docs", "Sheets", "Slides", "Tasks", "Forms", "Chat", "Contacts", "Prompt", "Workflow"]
-categories: ["工具"]
+categories: ["AI工作流"]
 description: "覆盖 Gmail、Calendar、Drive、Docs、Sheets、Slides、Tasks、Forms、Chat、Contacts 的完整 Claude Prompt 手册，含移动端场景与跨工具联动工作流。"
-summary: "12 个 Google 服务 × 60+ Prompt，让 Claude 成为你的 Google 全家桶智能管家。"
-toc: true
+slug: "google-workspace-prompts-full"
 ---
 
-# Google 全家桶 Claude Prompt 完全手册
 
 > **覆盖服务**：Gmail · Calendar · Drive · Docs · Sheets · Slides · Tasks · Forms · Chat · Contacts  
 > **适用场景**：桌面端 · 移动端 · 跨工具联动  

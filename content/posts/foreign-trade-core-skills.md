@@ -4,7 +4,7 @@ slug: "foreign-trade-core-skills"
 date: 2026-03-26T05:00:00+08:00
 draft: false
 tags: ["外贸", "独立站", "供应链", "跨境电商"]
-categories: ["外贸实战"]
+categories: ["MKT"]
 description: "已有独立站经验？本文梳理外贸全流程的核心能力图谱，帮你打通从选品、对接供应商到履约的完整闭环。"
 ---
 

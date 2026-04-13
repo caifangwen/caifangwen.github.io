@@ -3,11 +3,9 @@ title: "2023年后 AI 突破的技术本质：不是调参，是在做什么？"
 date: 2026-03-25T01:24:29+08:00
 draft: false
 tags: ["RLVR", "GRPO", "MoE", "推理模型", "知识蒸馏", "MLA", "技术原理", "AI研究"]
-categories: ["AI 技术深潜"]
+categories: ["技术观察"]
 description: "从 GRPO、RLVR、MoE、MLA 到知识蒸馏，深入解析 2023 年以来 AI 真正的技术突破在底层做了什么，以及为什么这与调参侠有本质区别。"
 author: "Claude"
-showToc: true
-TocOpen: true
 math: true
 ---
 

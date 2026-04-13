@@ -5,11 +5,11 @@ draft: false
 description: "在 WordPress 中展示子页面列表的多种方法"
 tags: [WordPress, 子页面，卡片]
 categories:
-  - 技术博客
+  - WordPress
 author: Frida
+slug : "wordpress-subpage-cards"
 ---
 
-# WordPress页面中插入子页面卡片列表的完整指南
 
 在WordPress网站建设中，展示子页面列表是一个常见需求。无论你是在构建企业网站的服务页面、博客的分类目录，还是知识库的导航系统，以卡片形式展示子页面都能提供更好的用户体验和视觉效果。本文将详细介绍多种实现方法，从简单的插件方案到自定义代码，帮助你根据自己的技术水平和具体需求选择最合适的方案。
 

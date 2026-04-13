@@ -5,15 +5,6 @@ date: 2026-04-03T15:49:48+08:00
 lastmod: 2026-04-03T15:49:48+08:00
 draft: false
 description: "针对以博客引流为主的 WordPress ToB 电商站，系统梳理如何在不流失现有博客流量的前提下，通过漏斗层级设计、产品页 TDK 规范、内容结构深化、结构化数据标记等手段，显著提升产品页面权重与询盘转化率。"
-keywords:
-  - WordPress ToB 电商 SEO
-  - 产品页权重提升
-  - 博客引流转化漏斗
-  - TDK 优化规范
-  - 内链建设策略
-  - 产品页内容结构
-  - Schema 结构化数据
-  - WooCommerce SEO
 categories:
   - SEO
   - 电商运营

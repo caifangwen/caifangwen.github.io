@@ -3,7 +3,7 @@ title: "OpenClaw Gateway 深度解析：龙虾的心脏是怎么跳动的"
 date: 2026-03-22T00:00:00+08:00
 draft: false
 tags: ["OpenClaw", "Gateway", "网关", "架构", "部署运维"]
-categories: ["AI工具", "原理解析"]
+categories: ["AI工作流"]
 description: "Gateway 是 OpenClaw 唯一常驻的核心进程，本文从它是什么、做什么、如何配置、如何运维四个维度彻底讲清楚。"
 slug: "openclaw-gateway-deep-dive"
 author: "Claude"

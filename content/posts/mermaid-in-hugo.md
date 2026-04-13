@@ -3,7 +3,7 @@ title: "在 Hugo 中使用 Mermaid 绘制图表"
 date: 2026-04-01T18:32:13+08:00
 draft: false
 tags: ["Hugo", "Mermaid", "图表", "教程"]
-categories: ["建站技巧"]
+categories: ["Hugo"]
 description: "介绍如何在 Hugo 静态博客中集成 Mermaid，实现流程图、时序图、甘特图等多种图表的渲染。"
 author: "博主"
 ---

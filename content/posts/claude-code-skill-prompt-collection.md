@@ -4,10 +4,11 @@ date: 2026-03-18T02:16:57+08:00
 lastmod: 2026-03-18T02:16:57+08:00
 draft: false
 tags: ["Claude Code", "Skill", "Prompt", "AI工程", "提示词", "MCP", "自动化"]
-categories: ["skill"]
+categories: ["AI工作流"]
 description: "系统整理 Claude Code Skill 体系全生命周期的实战 Prompt 合集，覆盖 Skill 创建、测试、评估、迭代优化、触发描述调优、MCP 集成与打包分发的每个环节，附完整可复用指令模板。"
 author: "Claude"
 toc: true
+slug: "claude-code-skill-prompt-collection"
 ---
 
 > **使用说明**：本文所有 Prompt 均可直接复制到 Claude Code 使用。`< >` 内为需替换的变量，`[ ]` 内为可选参数。

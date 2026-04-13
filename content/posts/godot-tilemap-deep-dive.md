@@ -5,6 +5,7 @@ draft: false
 tags: ["Godot", "游戏开发", "TileMap", "2D", "GDScript"]
 categories: ["游戏开发"]
 description: "全面深入地介绍 Godot 引擎中的瓦片地图系统，涵盖 TileSet 配置、物理碰撞、自动图块、导航网格以及脚本控制等核心主题。"
+slug: "godot-tilemap-deep-dive"
 ---
 
 ## 什么是瓦片地图？

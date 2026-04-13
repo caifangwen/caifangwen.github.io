@@ -11,8 +11,9 @@ tags:
   - Claude Code
   - 提示词工程
 categories:
-  - skill
+  - Skill
 description: 基于通用 SEO Skill 体系（模式 A 领域覆盖层），专为钢材外贸 B2B 场景设计的完整 Skill Prompt 合集，涵盖关键词研究、产品页优化、技术审计、外链建设和月报生成五大模块。
+slug: "steel-trade-seo-skills"
 author: Claude
 toc: true
 ---

@@ -4,7 +4,7 @@ date: 2026-03-25T08:41:49+08:00
 draft: false
 description: "全面介绍 Hugo 静态网站生成器的项目目录结构与各文件的作用"
 tags: ["Hugo", "静态网站", "前端", "Web开发"]
-categories: ["技术教程"]
+categories: ["Hugo"]
 author: "Claude"
 toc: true
 ---

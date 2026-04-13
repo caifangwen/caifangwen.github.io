@@ -5,11 +5,11 @@ draft: false
 description: "广告投放从传统媒体到智能化的演变"
 tags: [广告，营销，历史]
 categories:
-  - 趋势
+  - 技术观察
 author: Frida
+slug: "advertising-history"
 ---
 
-# 广告投放领域发展历程：从报纸广告到程序化智能投放
 
 ## 前言
 

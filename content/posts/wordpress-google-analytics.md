@@ -13,16 +13,7 @@ tags:
   - 用户行为分析
   - SEO
 categories:
-  - WordPress教程
-  - 网站运营
-keywords:
-  - WordPress Google Analytics
-  - GA4 集成
-  - 用户行为追踪
-  - 网站数据分析
-cover:
-  image: ""
-  alt: "WordPress Google Analytics 集成指南"
+  - WordPress
 ---
 
 ## 前言

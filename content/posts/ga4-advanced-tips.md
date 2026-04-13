@@ -4,7 +4,7 @@ slug: "ga4-advanced-tips"
 date: 2026-04-09T14:19:13+08:00
 draft: false
 tags: ["GA4", "Google Analytics", "数据分析", "数字营销"]
-categories: ["Analytics"]
+categories: ["SEO"]
 description: "从自定义维度到预测受众，全面梳理 GA4 的进阶使用技巧，帮助你从数据中挖掘更深层的业务洞察。"
 ---
 

@@ -4,8 +4,9 @@ date: 2026-03-18T03:39:57+08:00
 lastmod: 2026-03-18T03:39:57+08:00
 draft: false
 tags: ["Skill", "LinkedIn", "外贸", "钢材", "B2B", "Claude Code", "AI运营", "内容营销"]
-categories: ["skill"]
+categories: ["Skill"]
 description: "面向钢材外贸 ToB 场景的 LinkedIn 运营 AI Skill 合集，涵盖客户开发、内容生产、询盘转化等核心工作流，附完整 Claude Code 构建 Prompt。"
+slug: "steel-trade-linkedin-skill-system"
 author: "Claude"
 toc: true
 ---

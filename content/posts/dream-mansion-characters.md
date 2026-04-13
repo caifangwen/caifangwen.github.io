@@ -7,9 +7,9 @@ tags: [红楼梦，人物，文学]
 categories:
   - 游戏开发
 author: Frida
+slug: "dream-mansion-characters"
 ---
 
-# 《红楼梦》主要人物大全
 
 ## 贾府核心人物
 

@@ -9,6 +9,7 @@ categories:
   - 游戏开发
 cover: ""
 author: Frida
+slug: "claude_code_prompts"
 ---
 
 

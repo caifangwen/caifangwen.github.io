@@ -12,17 +12,7 @@ tags:
   - 外贸运营
   - 跨境电商
 categories:
-  - 跨境电商
-  - 运营指南
-keywords:
-  - alibaba国际站数据分析
-  - 国际站数据参谋
-  - 外贸数据运营
-  - alibaba.com analytics
-cover:
-  image: ""
-  alt: "Alibaba国际站数据分析"
-  caption: ""
+  - 跨境电商运营
 ---
 
 ## 一、概述

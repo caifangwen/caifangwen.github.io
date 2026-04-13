@@ -6,7 +6,7 @@ lastmod: 2026-04-12T23:12:22+08:00
 draft: false
 description: "深入讲解 WordPress 中 Solution 详情页的最佳实践：自定义文章类型 vs 普通 Posts，核心内容结构与 SEO 要点。"
 tags: ["WordPress", "CPT", "Solution", "建站", "SEO"]
-categories: ["WordPress 开发"]
+categories: ["WordPress"]
 ---
 
 ## 用 Posts 还是自定义文章类型（CPT）？

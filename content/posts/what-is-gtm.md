@@ -5,7 +5,7 @@ date: 2026-04-09T16:13:17+08:00
 draft: false
 description: "深入讲解 Google Tag Manager（GTM）的核心概念，以及如何在后台进行实际操作，适合初学者和运营人员阅读。"
 tags: ["GTM", "Google Tag Manager", "数据分析", "网站运营", "标签管理"]
-categories: ["数字营销", "工具指南"]
+categories: ["SEO"]
 ---
 
 ## GTM 到底是什么？

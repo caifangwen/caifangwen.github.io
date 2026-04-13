@@ -6,9 +6,7 @@ draft: false
 author: "技术团队"
 description: "全面对比在 Hugo 文章中嵌入流程图、统计图、时序图等可视化图表的各种方案——纯代码渲染 vs 图片导入 vs 外部工具，结合实际场景给出选型建议与完整代码示例。"
 categories:
-  - "前端开发"
   - "Hugo"
-  - "数据可视化"
 tags:
   - "Hugo"
   - "Mermaid"
@@ -18,14 +16,6 @@ tags:
   - "统计图"
   - "SVG"
   - "可视化"
-keywords:
-  - Hugo流程图
-  - Mermaid图表
-  - 统计图方案
-  - 数据可视化
-  - Hugo shortcode
-weight: 2
-toc: true
 ---
 
 ## 前言：核心问题是什么？

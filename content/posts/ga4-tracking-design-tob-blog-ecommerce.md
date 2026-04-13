@@ -6,7 +6,7 @@ lastmod: 2026-04-05T05:28:10+08:00
 draft: false
 description: "针对以博客内容为核心流量入口的 ToB 电商网站，系统梳理 GA4 数据层设计、自定义事件体系、转化漏斗配置及报表策略，帮助团队实现内容-线索-商机全链路数据闭环。"
 tags: ["GA4", "埋点", "ToB", "电商", "数据分析", "内容营销"]
-categories: ["数据与分析"]
+categories: ["SEO"]
 author: "数据团队"
 toc: true
 ---

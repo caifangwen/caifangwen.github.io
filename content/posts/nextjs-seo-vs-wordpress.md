@@ -7,12 +7,7 @@ draft: false
 tags: ["Next.js", "SEO", "WordPress", "前端开发", "建站"]
 categories: ["Web开发"]
 description: "深入讲解 Next.js 项目中的 SEO 优化实践，并与 WordPress 的 SEO 方案进行全面对比，帮助开发者选择合适的技术栈。"
-keywords: ["Next.js SEO", "WordPress SEO", "Next.js 建站", "前端 SEO 优化", "App Router SEO"]
 author: "技术团队"
-cover:
-  image: ""
-  alt: "Next.js SEO vs WordPress"
-canonicalURL: ""
 ---
 
 ## 前言

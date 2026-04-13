@@ -9,6 +9,7 @@ categories:
   - 游戏开发
 cover: ""
 author: Frida
+slug: "claude_code_prompts_v2"
 ---
 
 # 红楼回忆志 - 重构 Prompts V2（优化方案）

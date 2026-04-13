@@ -3,7 +3,7 @@ title: "OKR 完全指南：是什么、怎么设计、用什么工具"
 date: 2026-03-26T23:56:03+08:00
 draft: false
 tags: ["OKR", "目标管理", "效率工具", "团队管理"]
-categories: ["管理方法论"]
+categories: ["管理"]
 description: "深入了解 OKR 的本质、设计方法与主流工具，帮助个人与团队真正用好目标与关键结果框架。"
 author: "Claude"
 ---

@@ -3,7 +3,7 @@ title: "Linux 系统文件结构详解"
 date: 2026-03-23T02:59:13+08:00
 draft: false
 tags: ["Linux", "文件系统", "运维", "系统管理"]
-categories: ["Linux"]
+categories: ["技术"]
 description: "深入介绍 Linux 系统的文件目录结构，包括每个核心目录的作用、设计哲学及实用技巧，帮助你真正理解 Linux 文件系统的组织方式。"
 author: "Claude"
 slug: "linux-filesystem-structure"

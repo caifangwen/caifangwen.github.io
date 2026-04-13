@@ -3,9 +3,10 @@ title: "WordPress ToB 外贸网站 SEO 优化 SOP：SEO Skills 完整使用指�
 date: 2026-03-18T03:30:00+08:00
 draft: false
 tags: ["SEO", "WordPress", "ToB", "外贸", "SOP", "操作手册"]
-categories: ["skill"]
+categories: ["Skill"]
 description: "WordPress ToB 外贸网站 SEO 优化标准作业程序，详细说明每个阶段使用哪个 SEO Skill、具体操作步骤、预期产出和时间规划。"
 author: "SEO Team"
+slug : "wordpress-tob-seo-sop"
 toc: true
 ---
 

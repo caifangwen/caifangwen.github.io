@@ -3,7 +3,7 @@ title: "WordPress 站点备份与版本管理：像 Git 一样管理你的网站
 date: 2026-03-28T11:22:44+08:00
 draft: false
 tags: ["WordPress", "备份", "Git", "版本管理", "运维"]
-categories: ["建站技术"]
+categories: ["WordPress"]
 description: "系统介绍多种 WordPress 站点备份与版本管理方案，从插件到 Git + WP-CLI，帮你找到最适合的策略。"
 ---
 

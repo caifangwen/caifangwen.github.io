@@ -5,7 +5,7 @@ date: 2026-04-12T23:19:39+08:00
 lastmod: 2026-04-12T23:19:39+08:00
 draft: false
 tags: ["WordPress", "CPT", "Code Snippets", "自定义文章类型", "Solution", "Case"]
-categories: ["WordPress 开发"]
+categories: ["WordPress"]
 description: "手把手演示如何用 Code Snippets 插件注册 solution 和 case 两种自定义文章类型，含分类法、参数详解与验证方法，无需修改主题文件。"
 ---
 

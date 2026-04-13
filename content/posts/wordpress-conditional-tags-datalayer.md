@@ -5,7 +5,7 @@ date: 2026-04-09T14:43:13+08:00
 lastmod: 2026-04-09T14:43:13+08:00
 draft: false
 tags: ["WordPress", "GTM", "dataLayer", "Google Analytics", "PHP"]
-categories: ["WordPress 开发", "数据分析"]
+categories: ["WordPress"]
 description: "详解如何用 WordPress 条件标签（is_single、is_page、is_cart 等）从 PHP 模板层精准注入 dataLayer，以及通过 googlesitekit_gtag_opt 过滤器集成 Site Kit，实现页面类型分组追踪。"
 author: ""
 showToc: true

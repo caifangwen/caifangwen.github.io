@@ -4,10 +4,9 @@ date: 2026-03-25T09:52:35+08:00
 draft: false
 description: "系统、深入地介绍 Hugo 使用的 Go html/template 语法，涵盖变量、控制流、函数、管道、作用域等所有核心特性"
 tags: ["Hugo", "Go Template", "模板语法", "Web开发"]
-categories: ["技术教程"]
+categories: ["Hugo"]
 author: "Claude"
 toc: true
-weight: 3
 ---
 
 ## 前言

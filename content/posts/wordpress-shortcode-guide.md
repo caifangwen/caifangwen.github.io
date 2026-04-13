@@ -5,11 +5,11 @@ draft: false
 description: "通过自定义短代码实现子页面卡片列表"
 tags: [WordPress, Shortcode, PHP]
 categories:
-  - 技术博客
+  - WordPress
 author: Frida
+slug : "wordpress-shortcode-guide"
 ---
 
-# WordPress 自定义短代码实现子页面卡片列表
 
 在 WordPress 网站开发中，我们经常需要在父页面中展示其所有子页面的列表。通过自定义短代码（Shortcode）功能，我们可以轻松实现一个美观的子页面卡片列表，让访客能够快速浏览和访问相关内容。本文将详细介绍如何创建这样一个功能，并深入解释每一行代码的作用。
 

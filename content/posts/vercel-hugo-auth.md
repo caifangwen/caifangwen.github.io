@@ -3,9 +3,8 @@ title: "Hugo + Vercel 部署权限保护完全指南"
 date: 2026-03-29T02:16:18+08:00
 draft: false
 tags: ["Hugo", "Vercel", "权限控制", "中间件", "静态站点"]
-categories: ["建站技术"]
+categories: ["Hugo"]
 description: "Hugo 生成的是纯静态 HTML，本文介绍三种在 Vercel 上为 Hugo 站点添加权限保护的方案：Vercel Middleware、Vercel 内置保护与前端加密方案，并附完整代码示例。"
-summary: "为 Hugo 静态站点添加权限保护，从零代码的 Vercel Pro 内置方案，到免费用户可用的 Middleware 鉴权，再到纯前端密码保护，本文一网打尽。"
 ---
 
 ## 背景：静态站点的鉴权难题

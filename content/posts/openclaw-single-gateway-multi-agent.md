@@ -3,7 +3,7 @@ title: "单 Gateway 多 Agent：一台机器运行一支 AI 团队"
 date: 2026-03-22T00:00:00+08:00
 draft: false
 tags: ["OpenClaw", "Multi-Agent", "Gateway", "架构", "实战"]
-categories: ["AI工具", "原理解析"]
+categories: ["AI工作流"]
 description: "单 Gateway 多 Agent 是 OpenClaw 的黄金架构——一个进程、一个端口，同时跑多个完全隔离的 AI，本文彻底讲清楚它是什么、如何工作、怎么配置。"
 slug: "openclaw-single-gateway-multi-agent"
 author: "Claude"

@@ -14,6 +14,7 @@ tags:
   - schema
   - prompt
 toc: true
+slug: "database-refactoring-prompts"
 ---
 
 ## 阶段一：扫描现有数据库

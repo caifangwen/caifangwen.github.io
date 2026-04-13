@@ -5,13 +5,9 @@ lastmod: 2026-03-20T10:00:00+08:00
 draft: false
 description: "本文以实际工作流为主线，深入讲解如何用 DropIt 构建一套覆盖下载、工作、照片、归档的全自动文件整理体系，告别手动分类的烦恼。"
 tags: ["DropIt", "文件管理", "工作流", "自动化", "Windows", "效率工具", "GTD"]
-categories: ["工具"]
+categories: ["自动化运营"]
 author: "Claude"
 slug: "dropit-workflow-detailed-guide"
-showToc: true
-TocOpen: true
-cover:
-  image: ""
 ---
 
 ## 为什么需要一套文件整理工作流？

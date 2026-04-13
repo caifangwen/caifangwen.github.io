@@ -5,12 +5,10 @@ draft: false
 tags: ["AI", "像素画", "游戏开发", "Pixel Art", "Stable Diffusion", "Midjourney"]
 categories: ["游戏开发"]
 description: "深入探索如何借助 AI 工具高效生成像素风游戏画面，涵盖主流工具选择、提示词技巧、工作流搭建与实战案例。"
-cover:
-  image: ""
-  alt: ""
+slug: "ai-pixel-art-game"
 ---
 
-# 利用 AI 制作像素风游戏画面：从零到像素的完整指南
+
 
 > 独立游戏开发者的福音——当像素美学遇上 AI 生成，创作效率与风格一致性都将大幅提升。
 

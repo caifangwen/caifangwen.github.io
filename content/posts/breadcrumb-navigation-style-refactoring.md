@@ -4,7 +4,7 @@ date: 2026-03-26T06:00:00+08:00
 draft: false
 description: "记录一次面包屑导航的完整样式重构过程，包括移除图标、紧凑布局、对齐优化等技术细节。"
 tags: ["Hugo", "CSS", "前端优化", "Tailwind CSS"]
-categories: ["前端开发", "实战教程"]
+categories: ["Hugo"]
 ---
 
 ## 引言

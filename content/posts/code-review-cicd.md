@@ -4,15 +4,10 @@ date: 2026-03-23T03:22:34+08:00
 lastmod: 2026-03-23T03:22:34+08:00
 draft: false
 tags: ["CI/CD", "Code Review", "代码审查", "DevOps", "GitHub Actions", "工程效率", "自动化"]
-categories: ["DevOps", "工程实践"]
+categories: ["DevOps"]
 description: "深度解析代码审查与 CI/CD 的关系：为什么现代团队必须将自动化流水线嵌入审查流程，以及如何从零搭建一套「机器先审、人工后判」的高效研发体系。"
 author: "Claude"
 toc: true
-weight: 1
-cover:
-  image: ""
-  alt: "Code Review + CI/CD"
-  caption: "让机器做机器擅长的，让人做人擅长的"
 ---
 
 ## 引言：一次「看起来没问题」的 PR

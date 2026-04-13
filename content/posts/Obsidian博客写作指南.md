@@ -8,7 +8,7 @@ summary: ""
 tags:
   - 
 categories:
-  - 工具
+  - Hugo
 cover: ""
 author: Frida
 ---

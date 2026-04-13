@@ -5,7 +5,7 @@ date: 2026-04-02T16:31:29+08:00
 lastmod: 2026-04-02T16:31:29+08:00
 draft: false
 tags: ["n8n", "爬虫", "Alibaba", "自动化", "数据采集"]
-categories: ["工作流自动化"]
+categories: ["自动化运营"]
 description: "详细介绍如何在 n8n 中搭建一个支持批量输入 URL、自动爬取 Alibaba 国际站产品详情页数据的工作流，包含节点配置、字段提取与数据输出全流程步骤。"
 ---
 

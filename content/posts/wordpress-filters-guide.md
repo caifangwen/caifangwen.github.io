@@ -5,8 +5,9 @@ draft: false
 description: "WordPress 筛选器的概念和使用方法"
 tags: [WordPress, Filters, Hooks]
 categories:
-  - 技术博客
+  - WordPress
 author: Frida
+slug: "wordpress-filters-guide"
 ---
 
 # WordPress中的筛选器完全指南

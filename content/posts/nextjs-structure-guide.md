@@ -5,11 +5,12 @@ draft: false
 description: "Next.js 是基于 React 的全栈框架"
 tags: [Next.js, React, 网站结构]
 categories:
-  - 技术博客
+  - 技术
 author: Frida
+slug: "nextjs-structure-guide"
 ---
 
-# Next.js 网站结构详解
+
 
 > Next.js 是基于 React 的全栈框架，由 Vercel 开发，内置路由、SSR、SSG、API 等能力，开箱即用。
 

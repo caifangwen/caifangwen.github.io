@@ -3,8 +3,9 @@ title: "将 Skill 仓库部署到 GitHub Pages 的三种方案"
 date: 2026-03-20T04:05:17+08:00
 draft: false
 tags: ["GitHub Pages", "Hugo", "CI/CD", "GitHub Actions"]
-categories: ["skill"]
+categories: ["Skill"]
 description: "详细介绍如何将 Skill 仓库集成到 Hugo 项目并通过 GitHub Pages 进行托管，涵盖三种主流方案与完整的 GitHub Actions 配置。"
+slug: "deploy-skill-to-github-pages"
 ---
 
 ## 概述

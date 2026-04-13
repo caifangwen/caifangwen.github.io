@@ -7,9 +7,9 @@ tags: [INTP, 荣格八维，人格类型]
 categories:
   - 心理学
 author: Frida
+slug: "jung-eight-functions"
 ---
 
-# INTP高阶发展：荣格八维视角下的深度解析
 
 ## 引言
 

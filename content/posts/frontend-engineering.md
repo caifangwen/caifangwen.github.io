@@ -4,14 +4,7 @@ date: 2026-03-27T08:33:53+08:00
 draft: false
 description: "深入剖析现代前端开发的技术难点、整体架构框架以及一名优秀前端工程师所需具备的核心能力。"
 tags: ["前端开发", "JavaScript", "工程化", "React", "Vue", "职业成长"]
-categories: ["技术"]
-author: "前端技术团队"
-cover:
-  image: ""
-  alt: "前端开发全景"
-showToc: true
-TocOpen: true
-weight: 1
+categories: ["技术观察"]
 ---
 
 ## 前言

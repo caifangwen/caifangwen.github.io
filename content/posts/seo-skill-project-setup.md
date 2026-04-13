@@ -4,10 +4,11 @@ date: 2026-03-18T03:15:27+08:00
 lastmod: 2026-03-18T03:15:27+08:00
 draft: false
 tags: ["SEO", "Skill", "Claude Code", "项目工程化", "AI工作流", "文件结构", "提示词工程"]
-categories: ["skill"]
+categories: ["Skill"]
 description: "完整的项目级 SEO Skill 体系构建教程，涵盖目录结构设计、每个文件的完整内容、CLAUDE.md 配置、evals 测试体系，以及从零搭建到上线的全流程操作手册。"
 author: "Claude"
 toc: true
+slug: "seo-skill-project-setup"
 ---
 
 ## 前言

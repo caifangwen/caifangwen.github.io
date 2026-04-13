@@ -4,11 +4,7 @@ date: 2026-03-27T22:54:00+08:00
 draft: false
 description: "详细介绍 Core Web Vitals 中的 CLS（累积布局偏移）指标，以及针对 WordPress 网站的实用优化方法。"
 tags: ["WordPress", "性能优化", "Core Web Vitals", "SEO", "CLS"]
-categories: ["Web 性能"]
-author: "站长"
-cover:
-  image: ""
-  alt: "CLS 优化封面图"
+categories: ["WordPress"]
 ---
 
 ## 什么是 CLS？

@@ -3,7 +3,7 @@ title: "OKB 到底是什么？以及如何设计一套 OKB 体系"
 date: 2026-03-26T23:52:31+08:00
 draft: false
 tags: ["OKR", "OKB", "绩效管理", "目标管理", "团队管理"]
-categories: ["管理方法论"]
+categories: ["管理"]
 description: "本文深入解析 OKB（Objectives and Key Behaviors）的概念、与 OKR 的区别，以及如何从零设计一套落地的 OKB 体系。"
 ---
 

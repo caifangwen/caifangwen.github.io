@@ -7,6 +7,7 @@ tags: [以太坊，区块链，加密货币]
 categories:
   - Web3
 author: Frida
+slug: "ethereum-revolution"
 ---
 
 # 以太坊：可编程区块链的革命

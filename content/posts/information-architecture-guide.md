@@ -4,7 +4,7 @@ date = "2026-04-08T14:18:18+08:00"
 slug = "information-architecture-guide-20260408"
 description = "全面解析信息架构的核心概念、设计原则、常用方法与实战工具，帮助 UX 设计师构建清晰、易用的产品结构。"
 tags = ["信息架构", "IA", "UX", "用户体验", "导航设计"]
-categories = ["设计"]
+categories = ["UX设计"]
 draft = false
 +++
 

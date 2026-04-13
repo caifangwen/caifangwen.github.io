@@ -6,7 +6,7 @@ lastmod: 2026-04-09T14:31:51+08:00
 draft: false
 description: "针对 WordPress 网站的 GA4 内容分组完整实战教程，涵盖 URL 匹配逻辑编写、GTM 变量配置、gtag 直接实现，以及 GA4 界面自定义维度注册的每一步截图级操作说明。"
 tags: ["GA4", "Google Analytics", "WordPress", "内容分组", "GTM", "自定义维度"]
-categories: ["数据分析", "WordPress"]
+categories: ["SEO"]
 author: ""
 ---
 

@@ -4,7 +4,7 @@ date = "2026-04-08T14:11:59+08:00"
 slug = "ux-learning-guide-20260408"
 description = "从零开始理解用户体验设计（UX），涵盖核心概念、学习路径、工具推荐与进阶资源，适合初学者与转行者。"
 tags = ["UX", "用户体验", "设计", "学习导航"]
-categories = ["设计"]
+categories = ["UX设计"]
 draft = false
 +++
 

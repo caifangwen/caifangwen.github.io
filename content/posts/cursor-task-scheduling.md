@@ -5,8 +5,9 @@ draft: false
 description: "给 Cursor 的任务调度框架提示词"
 tags: [Cursor, 任务管理，效率]
 categories:
-  - 效率
+  - AI工作流
 author: Frida
+slug: "cursor-task-scheduling"
 ---
 
 好问题。任务数量不确定的时候，"三桌面"这种固定结构就不够用了，需要一套**可扩展的调度框架**，而不是针对具体任务的布局。

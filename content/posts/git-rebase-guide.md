@@ -3,8 +3,9 @@ title: "Git 推送失败？用 git pull --rebase 优雅解决冲突"
 date: 2026-03-20T06:20:09+08:00
 draft: false
 tags: ["Git", "版本控制", "开发技巧"]
-categories: ["技术博客"]
-summary: "当 GitHub 远程仓库比本地更新时，直接 push 会被拒绝。本文详解 git pull --rebase 的原理与用法，让你的提交历史保持一条干净的直线。"
+categories: ["技术"]
+description: "当 GitHub 远程仓库比本地更新时，直接 push 会被拒绝。本文详解 git pull --rebase 的原理与用法，让你的提交历史保持一条干净的直线。"
+slug: "git-rebase-guide"
 ---
 
 ## 为什么 `git push` 会失败？

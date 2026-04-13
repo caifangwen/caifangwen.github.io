@@ -5,8 +5,9 @@ draft: false
 description: "AI 热潮与经济下滑的深层原因分析"
 tags: [AI, 经济，分析]
 categories:
-  - 趋势
+  - 技术观察
 author: Frida
+slug: "ai-economic-crisis-analysis"
 ---
 
 你把两个线索放在一起看，很有洞察力。但我觉得**不是"AI导致了经济危机"，而是"同一个深层原因同时催生了经济下滑和AI热潮"**。

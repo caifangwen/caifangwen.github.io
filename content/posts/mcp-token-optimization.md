@@ -5,11 +5,11 @@ draft: false
 description: "利用 MCP 协议实现 Token 的高效节约"
 tags: [MCP, Token, 优化]
 categories:
-  - AI
+  - AI工作流
 author: Frida
+slug: "mcp-token-optimization"
 ---
 
-# 如何通过 MCP 协议高效节约 Token 成本
 
 在大语言模型的实际应用中，Token 消耗直接关系到成本开支。随着应用规模扩大，优化 Token 使用已成为开发者的核心关注点。MCP（Model Context Protocol）作为 Anthropic 推出的开放协议，为解决这一问题提供了创新思路。本文将深入探讨如何利用 MCP 实现 Token 的高效节约。
 

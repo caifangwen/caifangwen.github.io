@@ -5,13 +5,8 @@ date: 2026-03-26T05:00:00+08:00
 draft: false
 description: "全面了解 Hugo Narrow 主题的项目结构、页面组成和模板层次结构"
 summary: "全面了解 Hugo Narrow 主题的项目结构、页面组成和模板层次结构"
-keywords: ["Hugo", "网站结构", "文档", "narrow"]
-author: "Frida"
-categories: ["技术博客"]
+categories: ["Hugo"]
 tags: ["Hugo", "网站结构", "文档"]
-toc:
-  enabled: true
-  position: "left"
 ---
 
 本文档详细梳理了 Hugo Narrow 主题的项目结构，帮助理解每个页面的组成方式，便于后续的开发和维护。

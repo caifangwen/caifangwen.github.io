@@ -5,11 +5,11 @@ draft: false
 description: "经过实践验证的 AI 使用技巧"
 tags: [AI, 提示词，技巧]
 categories:
-  - AI
+  - AI工作流
 author: Frida
+slug: "ai-advanced-techniques"
 ---
 
-# AI使用进阶技巧：那些不为人知的高效方法
 
 在AI工具日益普及的今天，大多数人已经掌握了基本的使用方法——输入问题，获得答案。但真正能让AI发挥最大价值的，往往是那些隐藏在表面之下的使用策略。以下是一些经过实践验证，却鲜为人知的AI使用技巧。
 

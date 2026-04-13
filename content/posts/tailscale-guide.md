@@ -5,11 +5,11 @@ draft: false
 description: "Tailscale 是一个基于 WireGuard 的现代化 VPN 解决方案"
 tags: [VPN, Tailscale, 网络，安全]
 categories:
-  - 工具
+  - 网络
 author: Frida
+slug: "tailscale-guide"
 ---
 
-# Tailscale 完全使用指南
 
 Tailscale 是一个基于 WireGuard 的现代化虚拟私有网络(VPN)解决方案,它能够让你轻松地将分散在不同网络中的设备连接成一个安全的私有网络。与传统 VPN 不同,Tailscale 采用点对点连接,配置简单,几乎零配置即可使用。
 

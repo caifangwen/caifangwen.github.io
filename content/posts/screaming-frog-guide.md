@@ -3,7 +3,7 @@ title: "Screaming Frog 使用指南：爬取网站与修复SEO诊断问题"
 date: 2026-03-27T20:57:18+08:00
 draft: false
 tags: ["SEO", "Screaming Frog", "网站优化", "技术SEO"]
-categories: ["SEO工具"]
+categories: ["SEO"]
 description: "详细介绍 Screaming Frog SEO Spider 的使用方法，以及如何根据诊断报告修复常见的SEO问题。"
 author: "Your Name"
 slug: "screaming-frog-guide"

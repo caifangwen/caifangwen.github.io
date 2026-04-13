@@ -1,11 +1,12 @@
-+++
+---
 title = "Godot 游戏开发：多人联机与实时交互完整指南"
 date = "2026-03-23T02:51:03+08:00"
 draft = false
 tags = ["Godot", "多人联机", "Multiplayer", "RPC", "ENet", "WebSocket", "GDScript"]
 categories = ["游戏开发"]
 description = "从网络模型选型到 RPC 同步、场景复制、延迟补偿，系统讲解在已有 UI 与 TileMap 架构上实现 Godot 4 多人联机的完整方案。"
-+++
+slug = "godot-multiplayer-guide"
+---
 
 # Godot 游戏开发：多人联机与实时交互完整指南
 

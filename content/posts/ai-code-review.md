@@ -4,7 +4,7 @@ date: 2026-03-23T03:34:33+08:00
 lastmod: 2026-03-23T03:34:33+08:00
 draft: false
 tags: ["AI", "Code Review", "GitHub Actions", "CodeRabbit", "CI/CD", "DevOps", "自动化"]
-categories: ["DevOps", "AI 工程实践"]
+categories: ["AI工作流"]
 description: "从工具选型到落地配置，手把手教你把 AI 引入代码审查流程，实现「机器先审、人工后判」的高效研发协作模式。"
 author: "Claude"
 toc: true

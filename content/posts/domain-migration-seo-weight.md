@@ -6,8 +6,7 @@ lastmod: 2026-04-12T23:39:35+08:00
 draft: false
 description: "详细解析更换域名后网站 SEO 权重的变化规律、影响因素及最佳迁移实践，帮助站长最大程度保留原有排名与流量。"
 tags: ["SEO", "域名迁移", "网站权重", "301重定向", "搜索引擎优化"]
-categories: ["SEO优化"]
-keywords: ["更换域名SEO", "域名迁移权重", "301重定向", "网站权重转移", "域名更换排名影响"]
+categories: ["SEO"]
 author: "Claude"
 ---
 

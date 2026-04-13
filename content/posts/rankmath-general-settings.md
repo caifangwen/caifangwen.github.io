@@ -5,9 +5,8 @@ lastmod: 2026-03-23T20:33:36+08:00
 draft: false
 description: "RankMath 常规设置各板块完整说明，包括链接、面包屑、图片、站长工具、robots.txt、llms.txt、Blocks、其他设置、WooCommerce、.htaccess、404监控、重定向、分析及Content AI，附最佳实践建议。"
 tags: ["SEO", "RankMath", "WordPress", "常规设置", "插件配置"]
-categories: ["SEO工具"]
+categories: ["WordPress"]
 author: "Claude"
-weight: 2
 toc: true
 ---
 

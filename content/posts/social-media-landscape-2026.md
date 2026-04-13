@@ -5,8 +5,9 @@ draft: false
 description: "2026 年社交媒体进入功能大乱斗和 AI 原生化阶段"
 tags: [社交媒体，2026, 趋势]
 categories:
-  - 趋势
+  - 技术观察
 author: Frida
+slug: "social-media-landscape-2026"
 ---
 
 现在的社交媒体格局已经不再是单纯的“谁人多”的竞争，而是进入了一个**“功能大乱斗”和“AI 原生化”**的新阶段。

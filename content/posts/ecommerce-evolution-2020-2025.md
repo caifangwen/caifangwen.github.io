@@ -7,6 +7,7 @@ tags: [电商，独立站，历史]
 categories:
   - MKT
 author: Frida
+slug: "ecommerce-evolution-2020-2025"
 ---
 
 好，搜集到足够的信息了，现在来写这篇长文。

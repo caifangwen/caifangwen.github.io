@@ -5,11 +5,11 @@ draft: false
 description: "提示词工程从 2022 年到 2024 年的变革"
 tags: [提示词工程，AI, LLM]
 categories:
-  - AI
+  - AI工作流
 author: Frida
+slug: "prompt-engineering-evolution"
 ---
 
-# 提示词工程的演进：从精雕细琢到智能协作
 
 提示词工程(Prompt Engineering)曾是驾驭大语言模型的核心技能。从2022年ChatGPT横空出世到2024年各类AI应用遍地开花，无数开发者、研究者和普通用户都在学习如何更好地"跟AI说话"。然而，随着技术的快速迭代，这门曾经炙手可热的技术正在经历深刻的变革。
 

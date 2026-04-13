@@ -3,7 +3,7 @@ title: "WordPress 分类页设计 Skill 创建指南：用「插入HTML」块制
 date: 2026-03-30T02:46:26+08:00
 draft: false
 tags: ["WordPress", "自定义HTML", "分类页设计", "Skill", "提示词工程"]
-categories: ["WordPress建站", "AI辅助设计"]
+categories: ["WordPress", ]
 description: "针对 WordPress 站点，通过「自定义HTML」块插入方式，系统化创建与站点风格一致的分类页。涵盖站点风格诊断、HTML+CSS代码生成、WordPress适配约束与完整提示词体系。"
 author: "Claude"
 toc: true

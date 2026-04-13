@@ -4,15 +4,8 @@ slug: "tob-product-page-seo-funnel-strategy"
 date: 2026-04-03T05:25:23+08:00
 lastmod: 2026-04-03T05:25:23+08:00
 description: "ToB 电商网站依赖博客引流，产品页却缺失 TDK、内容单薄。本文系统拆解如何构建博客→产品页漏斗、补全 TDK、丰富产品页内容结构，在不损失现有流量的前提下提升产品页权重与转化率。"
-keywords:
-  - ToB 电商 SEO
-  - 产品页优化
-  - 博客引流漏斗
-  - TDK 设置
-  - 内链策略
-  - Hugo SEO
 categories:
-  - SEO 策略
+  - SEO
 tags:
   - ToB
   - 电商
@@ -22,12 +15,6 @@ tags:
   - 内容营销
 author: ""
 draft: false
-weight: 0
-cover:
-  image: ""
-  alt: "ToB 电商 SEO 漏斗示意图"
-  caption: ""
-canonicalURL: ""
 ---
 
 ## 一、现状诊断：为什么博客流量无法转化到产品页

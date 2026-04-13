@@ -5,8 +5,9 @@ draft: false
 description: "大观园项目的独立可验证小闭环任务拆解"
 tags: [项目管理，任务拆解，游戏]
 categories:
-  - 游戏
+  - 游戏开发
 author: Frida
+slug: "garden-project-task-breakdown"
 ---
 
 文档读完了，这是个设计相当完整的异步多人策略游戏。我来把所有任务拆解成**独立可验证的小闭环**——每个闭环都有明确的输入、实现内容和验收标准。

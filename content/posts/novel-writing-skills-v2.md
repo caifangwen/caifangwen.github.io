@@ -3,9 +3,10 @@ title: "长篇严肃文学写作 Skill 架构 v2"
 date: 2026-03-20
 draft: false
 tags: ["writing", "novel", "skills", "prompt-engineering", "revision"]
-categories: ["skill"]
+categories: ["Skill"]
 description: "适配粗糙初稿的长篇严肃文学写作 Skill 体系，包含原稿分析、拆分、诊断与系统性修订流程。"
 toc: true
+slug: "novel-writing-skills-v2"
 ---
 
 # 长篇严肃文学写作 Skill 架构 v2

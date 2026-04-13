@@ -13,18 +13,8 @@ tags:
   - Skill
   - AI工作流
 categories:
-  - SEO工具
-  - AI辅助
-keywords:
-  - Semrush CSV导出
-  - Claude Code Skill
-  - 关键词聚类
-  - 竞品反向工程
-  - EEAT
-  - KD筛选
-  - 意图识别
+  - Skill
 slug: "semrush-claude-code-seo-skill"
-weight: 1
 ---
 
 ## 概述

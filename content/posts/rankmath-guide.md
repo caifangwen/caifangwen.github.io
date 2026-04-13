@@ -5,9 +5,8 @@ lastmod: 2026-03-23T20:20:51+08:00
 draft: false
 description: "RankMath SEO 插件各功能板块详细使用指南，涵盖安装配置、关键词优化、技术SEO、站点地图等核心模块。"
 tags: ["SEO", "RankMath", "WordPress", "插件"]
-categories: ["SEO工具"]
+categories: ["WordPress"]
 author: "Claude"
-weight: 1
 toc: true
 ---
 

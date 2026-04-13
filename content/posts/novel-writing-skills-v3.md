@@ -3,9 +3,10 @@ title: "长篇严肃文学写作 Skill 架构 v3"
 date: 2026-03-20
 draft: false
 tags: ["writing", "novel", "skills", "prompt-engineering", "style", "rewrite"]
-categories: ["创作工具"]
+categories: ["Skill"]
 description: "针对文风飘忽、语言质量低的初稿优化版本。跳过结构诊断，专注于文风指纹建立、逐章风格诊断与直接改写输出。"
 toc: true
+slug: "novel-writing-skills-v3"
 ---
 
 # 长篇严肃文学写作 Skill 架构 v3

@@ -5,13 +5,8 @@ date: 2026-04-12T01:59:35+08:00
 lastmod: 2026-04-12T01:59:35+08:00
 draft: false
 description: "已有大量文章却流量分散？本文详解 WordPress 支柱页的定义、最佳形式、内部链接结构与实操步骤，帮你构建主题权威、提升 SEO 排名。"
-categories: ["SEO", "WordPress"]
+categories: ["WordPress"]
 tags: ["支柱页", "内容策略", "内部链接", "主题集群", "WordPress SEO"]
-keywords: ["WordPress 支柱页", "pillar page", "主题集群", "内容营销 SEO"]
-author: ""
-cover:
-  image: ""
-  alt: "WordPress 支柱页结构示意图"
 ---
 
 ## 什么是支柱页（Pillar Page）
