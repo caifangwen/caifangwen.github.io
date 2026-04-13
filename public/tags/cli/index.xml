@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CLI on Frida Home</title>
+    <title>Cli on Frida Home</title>
     <link>https://www.261449.xyz/tags/cli/</link>
-    <description>Recent content in CLI on Frida Home</description>
+    <description>Recent content in Cli on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Fri, 20 Mar 2026 03:34:39 +0800</lastBuildDate>
     <atom:link href="https://www.261449.xyz/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Termux 初始化环境配置指南</title>
-      <link>https://www.261449.xyz/blog/termux-%E5%88%9D%E5%A7%8B%E5%8C%96%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/termux-init/</link>
       <pubDate>Fri, 20 Mar 2026 03:34:39 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/termux-%E5%88%9D%E5%A7%8B%E5%8C%96%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/termux-init/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://termux.dev/&#34;target=&#34;_blank&#34;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xA;&gt;Termux&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/a&gt; 是 Android 上一款强大的终端模拟器，无需 Root 即可运行完整的 Linux 环境。本文记录从零开始初始化 Termux 开发环境的完整流程。&lt;/p&gt;</description>
     </item>
     <item>
       <title>CLI 与 MCP 深度分析：AI 工具链的架构演进</title>
-      <link>https://www.261449.xyz/blog/cli-%E4%B8%8E-mcp-%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90ai-%E5%B7%A5%E5%85%B7%E9%93%BE%E7%9A%84%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B/</link>
+      <link>https://www.261449.xyz/blog/cli-mcp-deep-analysis/</link>
       <pubDate>Wed, 18 Mar 2026 02:00:28 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/cli-%E4%B8%8E-mcp-%E6%B7%B1%E5%BA%A6%E5%88%86%E6%9E%90ai-%E5%B7%A5%E5%85%B7%E9%93%BE%E7%9A%84%E6%9E%B6%E6%9E%84%E6%BC%94%E8%BF%9B/</guid>
+      <guid>https://www.261449.xyz/blog/cli-mcp-deep-analysis/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在 AI 原生时代，开发者与 AI 系统交互的方式正在经历深刻变革。传统的 &lt;strong&gt;CLI（Command Line Interface，命令行界面）&lt;/strong&gt; 已经陪伴工程师数十年，而 &lt;strong&gt;MCP（Model Context Protocol，模型上下文协议）&lt;/strong&gt; 作为新生代协议，正在重塑 AI 与外部世界的连接方式。&lt;/p&gt;</description>
     </item>
     <item>
       <title>Obsidian CLI 官方命令行界面介绍</title>
-      <link>https://www.261449.xyz/blog/obsidian-cli-%E5%AE%98%E6%96%B9%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D/</link>
+      <link>https://www.261449.xyz/blog/obsidian-cli-guide/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/obsidian-cli-%E5%AE%98%E6%96%B9%E5%91%BD%E4%BB%A4%E8%A1%8C%E7%95%8C%E9%9D%A2%E4%BB%8B%E7%BB%8D/</guid>
+      <guid>https://www.261449.xyz/blog/obsidian-cli-guide/</guid>
       <description>&lt;p&gt;以下是 Obsidian 官方 CLI 的详细介绍：&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;obsidian-cli--官方命令行界面&#34;&gt;Obsidian CLI — 官方命令行界面&lt;/h2&gt;&#xA;&lt;h3 id=&#34;什么是-obsidian-cli&#34;&gt;什么是 Obsidian CLI？&lt;/h3&gt;&#xA;&lt;p&gt;Obsidian CLI 是一个命令行界面，让你可以从终端控制 Obsidian，用于脚本编写、自动化和与外部工具集成。 &lt;a href=&#34;https://releasebot.io/updates/obsidian&#34;target=&#34;_blank&#34;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xA;&gt;Releasebot&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/a&gt; Obsidian 官方在 2026 年 2 月 27 日正式向所有用户推送了 1.12 版本，其中包含这一功能。 &lt;a href=&#34;https://x.com/obsdmd&#34;target=&#34;_blank&#34;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xA;&gt;X&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>

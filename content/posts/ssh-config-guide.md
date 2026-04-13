@@ -5,7 +5,7 @@ draft: false
 tags: ["SSH", "config", "PuTTY", "跳板机", "端口转发", "运维"]
 categories: ["网络"]
 description: "深入解析 SSH 客户端配置文件 ~/.ssh/config 的语法结构、每一条指令的含义，以及真实场景下的配置范例。"
-slug = "ssh-config-guide"
+slug: "ssh-config-guide"
 ---
 
 ## 前言

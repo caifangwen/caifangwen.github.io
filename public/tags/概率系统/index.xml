@@ -13,7 +13,7 @@
       <link>https://www.261449.xyz/blog/%E5%A4%A7%E8%A7%82%E5%9B%AD%E6%B5%AE%E4%B8%96%E5%BD%95%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%E6%A6%82%E7%8E%87%E7%8A%B6%E6%80%81%E6%9C%BA%E7%9A%84%E5%8F%99%E4%BA%8B%E6%A8%A1%E6%8B%9F%E5%99%A8%E8%AE%BE%E8%AE%A1%E8%AF%B4%E6%98%8E/</link>
       <pubDate>Mon, 23 Mar 2026 04:11:52 +0800</pubDate>
       <guid>https://www.261449.xyz/blog/%E5%A4%A7%E8%A7%82%E5%9B%AD%E6%B5%AE%E4%B8%96%E5%BD%95%E4%B8%80%E4%B8%AA%E5%9F%BA%E4%BA%8E%E6%A6%82%E7%8E%87%E7%8A%B6%E6%80%81%E6%9C%BA%E7%9A%84%E5%8F%99%E4%BA%8B%E6%A8%A1%E6%8B%9F%E5%99%A8%E8%AE%BE%E8%AE%A1%E8%AF%B4%E6%98%8E/</guid>
-      <description>本文记录《大观园浮世录 v4》的完整系统设计，包括概率行为触发机制、状态变量体系、事件系统、结局判定逻辑，以及各角色的决策模型。</description>
+      <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;《大观园浮世录 v4》是一个基于《红楼梦》世界观的&lt;strong&gt;自动运行叙事模拟器&lt;/strong&gt;。它不是玩家操控的游戏，而是一台可观察的&amp;quot;命运机器&amp;quot;——每次运行，十个角色根据各自的概率决策模型自主行动，驱动数值累积，最终触发五种结局之一。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

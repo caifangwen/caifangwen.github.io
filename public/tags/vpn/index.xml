@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vpn on Frida Home</title>
+    <title>VPN on Frida Home</title>
     <link>https://www.261449.xyz/tags/vpn/</link>
-    <description>Recent content in Vpn on Frida Home</description>
+    <description>Recent content in VPN on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
     <lastBuildDate>Mon, 16 Mar 2026 20:14:30 +0800</lastBuildDate>
     <atom:link href="https://www.261449.xyz/tags/vpn/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tailscale 完全使用指南</title>
-      <link>https://www.261449.xyz/blog/tailscale-%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/tailscale-guide/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/tailscale-%E5%AE%8C%E5%85%A8%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;h1 id=&#34;tailscale-完全使用指南&#34;&gt;Tailscale 完全使用指南&lt;/h1&gt;&#xA;&lt;p&gt;Tailscale 是一个基于 WireGuard 的现代化虚拟私有网络(VPN)解决方案,它能够让你轻松地将分散在不同网络中的设备连接成一个安全的私有网络。与传统 VPN 不同,Tailscale 采用点对点连接,配置简单,几乎零配置即可使用。&lt;/p&gt;</description>
+      <guid>https://www.261449.xyz/blog/tailscale-guide/</guid>
+      <description>&lt;p&gt;Tailscale 是一个基于 WireGuard 的现代化虚拟私有网络(VPN)解决方案,它能够让你轻松地将分散在不同网络中的设备连接成一个安全的私有网络。与传统 VPN 不同,Tailscale 采用点对点连接,配置简单,几乎零配置即可使用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>伪装度提升</title>

@@ -10,10 +10,10 @@
     <atom:link href="https://www.261449.xyz/tags/slides/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google 全家桶 Claude Prompt 完全手册</title>
-      <link>https://www.261449.xyz/blog/google-%E5%85%A8%E5%AE%B6%E6%A1%B6-claude-prompt-%E5%AE%8C%E5%85%A8%E6%89%8B%E5%86%8C/</link>
+      <link>https://www.261449.xyz/blog/google-workspace-prompts-full/</link>
       <pubDate>Fri, 20 Mar 2026 08:47:00 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/google-%E5%85%A8%E5%AE%B6%E6%A1%B6-claude-prompt-%E5%AE%8C%E5%85%A8%E6%89%8B%E5%86%8C/</guid>
-      <description>12 个 Google 服务 × 60+ Prompt，让 Claude 成为你的 Google 全家桶智能管家。</description>
+      <guid>https://www.261449.xyz/blog/google-workspace-prompts-full/</guid>
+      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;覆盖服务&lt;/strong&gt;：Gmail · Calendar · Drive · Docs · Sheets · Slides · Tasks · Forms · Chat · Contacts&lt;br&gt;&#xA;&lt;strong&gt;适用场景&lt;/strong&gt;：桌面端 · 移动端 · 跨工具联动&lt;br&gt;&#xA;&lt;strong&gt;更新时间&lt;/strong&gt;：2026-03-20&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

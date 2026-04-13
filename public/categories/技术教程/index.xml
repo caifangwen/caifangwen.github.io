@@ -6,57 +6,8 @@
     <description>Recent content in 技术教程 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 28 Mar 2026 15:39:10 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Jan 2026 01:22:43 +0800</lastBuildDate>
     <atom:link href="https://www.261449.xyz/categories/%E6%8A%80%E6%9C%AF%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hugo Layouts 模板系统深度解析</title>
-      <link>https://www.261449.xyz/blog/hugo-layouts-%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</link>
-      <pubDate>Wed, 25 Mar 2026 09:10:45 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/hugo-layouts-%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</guid>
-      <description>&lt;h2 id=&#34;什么是-layouts&#34;&gt;什么是 Layouts&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;layouts/&lt;/code&gt; 是 Hugo 的&lt;strong&gt;模板引擎核心&lt;/strong&gt;，使用 Go 内置的 &lt;code&gt;html/template&lt;/code&gt; 语法，负责将 &lt;code&gt;content/&lt;/code&gt; 中的 Markdown 内容渲染为最终的 HTML 页面。&lt;/p&gt;&#xA;&lt;p&gt;Hugo 采用&lt;strong&gt;约定优于配置&lt;/strong&gt;的设计：只要文件放在正确的位置，框架会自动找到并使用对应的模板，无需任何手动注册。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Go 模板语法完全指南 —— Hugo 模板开发手册</title>
-      <link>https://www.261449.xyz/blog/go-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97-hugo-%E6%A8%A1%E6%9D%BF%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/</link>
-      <pubDate>Wed, 25 Mar 2026 09:52:35 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/go-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97-hugo-%E6%A8%A1%E6%9D%BF%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;Hugo 使用 Go 标准库中的 &lt;code&gt;html/template&lt;/code&gt; 与 &lt;code&gt;text/template&lt;/code&gt; 作为模板引擎，并在此基础上扩展了大量内置函数。掌握 Go 模板语法是深度定制 Hugo 主题的必备技能。&lt;/p&gt;&#xA;&lt;p&gt;本文系统梳理所有语法特性，每个知识点配有可直接使用的代码示例。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hugo 自定义与主题逐步合并实战指南</title>
-      <link>https://www.261449.xyz/blog/hugo-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%8E%E4%B8%BB%E9%A2%98%E9%80%90%E6%AD%A5%E5%90%88%E5%B9%B6%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Wed, 25 Mar 2026 10:15:02 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/hugo-%E8%87%AA%E5%AE%9A%E4%B9%89%E4%B8%8E%E4%B8%BB%E9%A2%98%E9%80%90%E6%AD%A5%E5%90%88%E5%B9%B6%E5%AE%9E%E6%88%98%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;h2 id=&#34;核心思想永远不改主题源码&#34;&gt;核心思想：永远不改主题源码&lt;/h2&gt;&#xA;&lt;p&gt;Hugo 的主题合并哲学只有一句话：&lt;/p&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;所有自定义内容放在项目根目录，永远不动 &lt;code&gt;themes/&lt;/code&gt; 里的任何文件。&lt;/strong&gt;&lt;/p&gt;&#xA;&#xA;    &lt;/div&gt;&#xA;  &lt;/blockquote&gt;&lt;script&gt;&#xA;function toggleAlert(alertId) {&#xA;  const content = document.getElementById(alertId + &#39;-content&#39;);&#xA;  const chevron = document.getElementById(alertId + &#39;-chevron&#39;);&#xA;  const header = content.previousElementSibling;&#xA;  &#xA;  if (content.classList.contains(&#39;hidden&#39;)) {&#xA;    content.classList.remove(&#39;hidden&#39;);&#xA;    chevron.style.transform = &#39;rotate(0deg)&#39;;&#xA;    header.setAttribute(&#39;aria-expanded&#39;, &#39;true&#39;);&#xA;  } else {&#xA;    content.classList.add(&#39;hidden&#39;);&#xA;    chevron.style.transform = &#39;rotate(-90deg)&#39;;&#xA;    header.setAttribute(&#39;aria-expanded&#39;, &#39;false&#39;);&#xA;  }&#xA;}&#xA;&#xA;&#xA;document.addEventListener(&#39;DOMContentLoaded&#39;, function() {&#xA;  const collapsedAlerts = document.querySelectorAll(&#39;.alert-content.hidden&#39;);&#xA;  collapsedAlerts.forEach(function(content) {&#xA;    const alertId = content.id.replace(&#39;-content&#39;, &#39;&#39;);&#xA;    const chevron = document.getElementById(alertId + &#39;-chevron&#39;);&#xA;    if (chevron) {&#xA;      chevron.style.transform = &#39;rotate(-90deg)&#39;;&#xA;    }&#xA;  });&#xA;});&#xA;&lt;/script&gt;&#xA;&#xA;&lt;p&gt;这样做的好处是：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>使用 1Panel &#43; Vultr VPS 搭建 x-ui WebSocket TLS CDN 节点完整教程</title>
-      <link>https://www.261449.xyz/blog/%E4%BD%BF%E7%94%A8-1panel--vultr-vps-%E6%90%AD%E5%BB%BA-x-ui-websocket-tls-cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Sat, 28 Mar 2026 15:39:10 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/%E4%BD%BF%E7%94%A8-1panel--vultr-vps-%E6%90%AD%E5%BB%BA-x-ui-websocket-tls-cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;相比手动配置 Nginx 和 acme.sh，&lt;strong&gt;1Panel&lt;/strong&gt; 提供了现代化的 Web 可视化运维界面，可以一站式管理：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Nginx 反向代理&lt;/strong&gt;（可视化配置，无需手写配置文件）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;SSL 证书申请与自动续期&lt;/strong&gt;（内置 acme 集成）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;网站管理、文件管理、计划任务&lt;/strong&gt; 等&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;本文在上一篇手动方案的基础上，改用 &lt;strong&gt;1Panel&lt;/strong&gt; 统一管理服务器，其余架构不变：&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>使用 Vultr VPS 搭建 x-ui &#43; WebSocket &#43; TLS &#43; CDN 节点完整教程</title>
-      <link>https://www.261449.xyz/blog/%E4%BD%BF%E7%94%A8-vultr-vps-%E6%90%AD%E5%BB%BA-x-ui--websocket--tls--cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</link>
-      <pubDate>Sat, 28 Mar 2026 14:56:47 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/%E4%BD%BF%E7%94%A8-vultr-vps-%E6%90%AD%E5%BB%BA-x-ui--websocket--tls--cdn-%E8%8A%82%E7%82%B9%E5%AE%8C%E6%95%B4%E6%95%99%E7%A8%8B/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;本文以 &lt;strong&gt;Vultr VPS + Debian 12&lt;/strong&gt; 为基础环境，完整演示如何部署 &lt;strong&gt;x-ui 面板&lt;/strong&gt;，并配置 &lt;strong&gt;WebSocket + TLS + Cloudflare CDN&lt;/strong&gt; 的完整链路方案。&lt;/p&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;架构示意：&lt;/strong&gt;&lt;br&gt;&#xA;&lt;code&gt;客户端&lt;/code&gt; → &lt;code&gt;Cloudflare CDN (443/TLS)&lt;/code&gt; → &lt;code&gt;Nginx (反向代理)&lt;/code&gt; → &lt;code&gt;x-ui (Xray Core / WebSocket)&lt;/code&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>用 Tailscale 远程 SSH 连接本机电脑完整指南</title>
-      <link>https://www.261449.xyz/blog/%E7%94%A8-tailscale-%E8%BF%9C%E7%A8%8B-ssh-%E8%BF%9E%E6%8E%A5%E6%9C%AC%E6%9C%BA%E7%94%B5%E8%84%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Sat, 28 Mar 2026 10:35:48 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/%E7%94%A8-tailscale-%E8%BF%9C%E7%A8%8B-ssh-%E8%BF%9E%E6%8E%A5%E6%9C%AC%E6%9C%BA%E7%94%B5%E8%84%91%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;传统远程 SSH 需要公网 IP 或者折腾内网穿透（frp、ngrok 等），配置繁琐且不稳定。&lt;strong&gt;Tailscale&lt;/strong&gt; 基于 WireGuard 协议，构建一个属于你自己的虚拟私有网络（VPN Mesh），每台设备都会获得一个固定的 &lt;code&gt;100.x.x.x&lt;/code&gt; 虚拟 IP，无论你人在哪里，都可以像在局域网一样直接 SSH 连接。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Hugo 项目文件结构详解</title>
-      <link>https://www.261449.xyz/blog/hugo-%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AF%A6%E8%A7%A3/</link>
-      <pubDate>Wed, 25 Mar 2026 08:41:49 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/hugo-%E9%A1%B9%E7%9B%AE%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E8%AF%A6%E8%A7%A3/</guid>
-      <description>&lt;h2 id=&#34;简介&#34;&gt;简介&lt;/h2&gt;&#xA;&lt;p&gt;Hugo 是目前世界上最快的静态网站生成器之一，使用 Go 语言编写。理解 Hugo 项目的文件结构，是掌握 Hugo 开发的第一步。本文将详细介绍一个标准 Hugo 项目中每个目录和文件的用途。&lt;/p&gt;</description>
-    </item>
     <item>
       <title>Hugo完整使用指南</title>
       <link>https://www.261449.xyz/blog/hugo%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>

@@ -1,33 +1,82 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>SEO on Frida Home</title>
+    <title>Seo on Frida Home</title>
     <link>https://www.261449.xyz/tags/seo/</link>
-    <description>Recent content in SEO on Frida Home</description>
+    <description>Recent content in Seo on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Apr 2026 00:47:43 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 09:01:48 +0800</lastBuildDate>
     <atom:link href="https://www.261449.xyz/tags/seo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>用 Semrush &#43; Claude Code CLI 打造 SEO 关键词分析 Skill：完整提示词指南</title>
-      <link>https://www.261449.xyz/blog/semrush-claude-code-seo-skill/</link>
-      <pubDate>Sat, 28 Mar 2026 21:29:49 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/semrush-claude-code-seo-skill/</guid>
-      <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;本文将 Semrush 数据投喂给 Claude Code CLI 这一 SEO 自动化工作流，提炼为一套&lt;strong&gt;可复用的 Skill 创建提示词&lt;/strong&gt;。通过 Skill，你可以让 Claude 在每次 SEO 项目启动时，自动读取 Semrush 导出的 CSV 文件并输出结构化的关键词策略报告。&lt;/p&gt;</description>
+      <title>SEO 专家能力清单：从入门到精通的完整技能图谱</title>
+      <link>https://www.261449.xyz/blog/seo-expert-competency-checklist/</link>
+      <pubDate>Mon, 13 Apr 2026 09:01:48 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/seo-expert-competency-checklist/</guid>
+      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;阅读提示：&lt;/strong&gt; 本文是一份系统性的 SEO 专家能力自检清单，覆盖从地基建设到流量增长的完整技能栈。建议对照清单逐项评估，找出短板并有针对性地补足。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>RankMath 完整使用教程：每个板块详解</title>
-      <link>https://www.261449.xyz/blog/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</link>
-      <pubDate>Mon, 23 Mar 2026 20:20:51 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</guid>
-      <description>&lt;h2 id=&#34;一安装与初始设置&#34;&gt;一、安装与初始设置&lt;/h2&gt;&#xA;&lt;h3 id=&#34;安装插件&#34;&gt;安装插件&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;进入 WordPress 后台 → &lt;strong&gt;插件&lt;/strong&gt; → &lt;strong&gt;添加新插件&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;搜索 &lt;code&gt;Rank Math SEO&lt;/code&gt;，点击安装并启用&lt;/li&gt;&#xA;&lt;li&gt;启用后会自动进入&lt;strong&gt;设置向导&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;设置向导setup-wizard&#34;&gt;设置向导（Setup Wizard）&lt;/h3&gt;&#xA;&lt;p&gt;向导分为以下步骤：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;网站类型&lt;/strong&gt;：选择个人博客、企业网站、电商等&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;导入旧数据&lt;/strong&gt;：可从 Yoast SEO / All in One SEO 一键迁移&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;搜索外观&lt;/strong&gt;：设置标题格式（&lt;code&gt;%title% - %sitename%&lt;/code&gt;）、分隔符&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Google Search Console&lt;/strong&gt;：连接 GSC 获取搜索数据&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sitemap&lt;/strong&gt;：开启 XML 站点地图&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;模块开关&lt;/strong&gt;：启用需要的功能模块（建议按需开启，避免臃肿）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：向导完成后，所有设置均可在 &lt;code&gt;RankMath → 常规设置&lt;/code&gt; 中二次修改。&lt;/p&gt;</description>
+      <title>SEO 专家必须掌握数据分析能力吗？SQL 与 SEO 的深度关联</title>
+      <link>https://www.261449.xyz/blog/seo-data-analysis-sql-guide/</link>
+      <pubDate>Mon, 13 Apr 2026 08:57:24 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/seo-data-analysis-sql-guide/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在数字营销领域，SEO（搜索引擎优化）长期以来被视为一门&amp;quot;经验驱动&amp;quot;的学科——关键词研究、外链建设、内容优化，这些似乎更依赖直觉和行业经验。但随着数据体量的爆炸式增长，一个问题越来越被业界讨论：&lt;strong&gt;SEO 专家到底需不需要具备数据分析能力？SQL 和 SEO 之间究竟有多大的关联？&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
-      <title>RankMath 常规设置（General Settings）完整配置指南</title>
-      <link>https://www.261449.xyz/blog/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Mon, 23 Mar 2026 20:33:36 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;路径&lt;/strong&gt;：WordPress 后台 → RankMath SEO → 常规设置（General Settings）&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：部分选项仅在**高级模式（Advanced Mode）**下可见。如果找不到某个设置，请先到 RankMath → 仪表盘右上角切换为高级模式。&lt;/p&gt;</description>
+      <title>SEO 与数据分析 SQL：如何用数据驱动搜索优化</title>
+      <link>https://www.261449.xyz/blog/seo-sql-data-analysis/</link>
+      <pubDate>Mon, 13 Apr 2026 08:51:01 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/seo-sql-data-analysis/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在数字营销领域，SEO（搜索引擎优化）长期以来被视为一门&amp;quot;经验驱动&amp;quot;的艺术。然而随着数据基础设施的成熟，越来越多的 SEO 从业者开始借助 SQL 进行系统化的数据分析，将模糊的直觉转化为可量化的洞察。本文将梳理 SEO 与 SQL 数据分析之间的内在联系，并给出实用的查询思路。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SEO 关键词规划的真正门槛：矩阵构建、优先级策略与竞品 Gap Analysis 实战</title>
+      <link>https://www.261449.xyz/blog/seo-keyword-planning-matrix-priority-gap-analysis/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.261449.xyz/blog/seo-keyword-planning-matrix-priority-gap-analysis/</guid>
+      <description>&lt;p&gt;大多数人做关键词研究的方式，本质上是在做&lt;strong&gt;关键词收集&lt;/strong&gt;，而不是关键词规划。&lt;/p&gt;&#xA;&lt;p&gt;他们打开 Ahrefs 或 Google Keyword Planner，搜索几个种子词，按搜索量排序，导出一张表格，然后说&amp;quot;关键词研究做完了&amp;quot;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SEO关键词工具的真正用法</title>
+      <link>https://www.261449.xyz/blog/seo-keyword-tools-mastery-expert-guide/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.261449.xyz/blog/seo-keyword-tools-mastery-expert-guide/</guid>
+      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;大多数关于关键词工具的教程，讲的都是&amp;quot;打开工具 → 输入词 → 看搜索量&amp;quot;。这不叫掌握工具，这叫会开机。本文要讲的，是那些让普通SEO和专家拉开认知距离的东西。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>关键词分析的底层逻辑</title>
+      <link>https://www.261449.xyz/blog/keyword-analysis-seo-expert-guide/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.261449.xyz/blog/keyword-analysis-seo-expert-guide/</guid>
+      <description>&lt;p&gt;大多数 SEO 从业者做关键词分析的方式，本质上是在用 2015 年的思维框架解决 2026 年的问题。&lt;/p&gt;&#xA;&lt;p&gt;他们盯着 Ahrefs 或 Semrush 的关键词报告，按搜索量排序，挑 KD 低的，往内容日历里一扔，完事。这套流程的问题不是&amp;quot;错的&amp;quot;，而是&lt;strong&gt;粗糙到无法产生竞争优势&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Canonical URL 策略完全指南：原理、实践与 WordPress 实战</title>
+      <link>https://www.261449.xyz/blog/canonical-url-strategy-guide/</link>
+      <pubDate>Mon, 13 Apr 2026 00:07:18 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/canonical-url-strategy-guide/</guid>
+      <description>&lt;h2 id=&#34;什么是-canonical-url&#34;&gt;什么是 Canonical URL？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Canonical URL&lt;/strong&gt;（规范化 URL），通过 HTML &lt;code&gt;&amp;lt;link rel=&amp;quot;canonical&amp;quot; href=&amp;quot;...&amp;quot;&amp;gt;&lt;/code&gt; 标签声明，是告诉搜索引擎&amp;quot;这是某一内容最权威、最应该被收录的版本&amp;quot;的一种信号机制。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>更换域名后原网站权重怎么变化？完整指南</title>
+      <link>https://www.261449.xyz/blog/domain-migration-seo-weight-change/</link>
+      <pubDate>Sun, 12 Apr 2026 23:39:35 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/domain-migration-seo-weight-change/</guid>
+      <description>&lt;h1 id=&#34;更换域名后原网站权重怎么变化完整指南&#34;&gt;更换域名后原网站权重怎么变化？完整指南&lt;/h1&gt;&#xA;&lt;p&gt;更换域名是网站运营中的重大决策，处理不当可能导致数月甚至数年的排名损失。本文将系统梳理域名迁移对 SEO 权重的影响机制、变化规律及应对策略。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;一什么是网站权重&#34;&gt;一、什么是&amp;quot;网站权重&amp;quot;？&lt;/h2&gt;&#xA;&lt;p&gt;在讨论权重变化之前，需要厘清&amp;quot;权重&amp;quot;的概念。SEO 语境下的&amp;quot;权重&amp;quot;并非搜索引擎官方术语，而是业内对以下指标的综合描述：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Next.js 建站 SEO 优化完全指南：与 WordPress 的深度对比</title>
+      <link>https://www.261449.xyz/blog/nextjs-seo-optimization-vs-wordpress/</link>
+      <pubDate>Sun, 12 Apr 2026 23:26:41 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/nextjs-seo-optimization-vs-wordpress/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;Next.js 凭借其出色的渲染能力与现代化开发体验，已成为众多团队的建站首选。然而，SEO 优化并非开箱即用——需要开发者主动配置。本文将系统梳理 Next.js 的 SEO 优化方案，并与 WordPress 进行横向对比，帮助你做出合理的技术选型。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress Solution 详情页怎么做：用 CPT 还是 Posts？</title>
+      <link>https://www.261449.xyz/blog/wordpress-solution-detail-page-guide/</link>
+      <pubDate>Sun, 12 Apr 2026 23:12:22 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/wordpress-solution-detail-page-guide/</guid>
+      <description>&lt;h2 id=&#34;用-posts-还是自定义文章类型cpt&#34;&gt;用 Posts 还是自定义文章类型（CPT）？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;结论：用自定义文章类型（Custom Post Type，CPT），不要用普通 Posts。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;普通 Posts 是博客文章，带有时间属性，适合新闻/资讯内容。Solution 是产品级内容，不依赖时间，需要独立的 URL 结构、独立的分类体系和模板。用 Posts 会污染博客列表，也不利于长期维护。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress SEO 发布逻辑详解：博客、产品与其他页面的差异</title>
@@ -86,6 +135,13 @@
       <description>&lt;h2 id=&#34;什么是-arvow&#34;&gt;什么是 Arvow？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://arvow.com&#34;target=&#34;_blank&#34;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xA;&gt;Arvow&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/a&gt; 是一款专为 SEO 场景设计的 &lt;strong&gt;端到端 AI 内容自动化平台&lt;/strong&gt;。它不只是一个文字生成器，而是将关键词研究、文章撰写、图片生成、内外链插入、内容发布乃至 Google 索引提交整合在一条流水线上，帮助个人博主、SaaS 创始人以及 SEO 代理商实现&amp;quot;写内容 → 上线 → 排名&amp;quot;的全流程自动化。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>用 Semrush &#43; Claude Code CLI 打造 SEO 关键词分析 Skill：完整提示词指南</title>
+      <link>https://www.261449.xyz/blog/semrush-claude-code-seo-skill/</link>
+      <pubDate>Sat, 28 Mar 2026 21:29:49 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/semrush-claude-code-seo-skill/</guid>
+      <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;本文将 Semrush 数据投喂给 Claude Code CLI 这一 SEO 自动化工作流，提炼为一套&lt;strong&gt;可复用的 Skill 创建提示词&lt;/strong&gt;。通过 Skill，你可以让 Claude 在每次 SEO 项目启动时，自动读取 Semrush 导出的 CSV 文件并输出结构化的关键词策略报告。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>什么是 CLS？如何优化 WordPress 网站的累积布局偏移</title>
       <link>https://www.261449.xyz/blog/%E4%BB%80%E4%B9%88%E6%98%AF-cls%E5%A6%82%E4%BD%95%E4%BC%98%E5%8C%96-wordpress-%E7%BD%91%E7%AB%99%E7%9A%84%E7%B4%AF%E7%A7%AF%E5%B8%83%E5%B1%80%E5%81%8F%E7%A7%BB/</link>
       <pubDate>Fri, 27 Mar 2026 22:54:00 +0800</pubDate>
@@ -100,31 +156,45 @@
       <description>&lt;h2 id=&#34;什么是-screaming-frog&#34;&gt;什么是 Screaming Frog？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.screamingfrog.co.uk/seo-spider/&#34;target=&#34;_blank&#34;&#xA;  class=&#34;inline-flex items-center gap-1&#34;&#xA;&gt;Screaming Frog SEO Spider&lt;svg class=&#34;h-3 w-3 flex-shrink-0&#34; id=&#34;external-link&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 24 24&#34;&gt;&lt;path fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34; stroke-width=&#34;2&#34; d=&#34;M15 3h6v6m-11 5L21 3m-3 10v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;/svg&gt;&#xA;&lt;/a&gt; 是一款业界主流的网站爬虫工具，可以模拟搜索引擎爬取你的网站，发现技术层面的SEO问题。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>RankMath 常规设置（General Settings）完整配置指南</title>
+      <link>https://www.261449.xyz/blog/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Mon, 23 Mar 2026 20:33:36 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;路径&lt;/strong&gt;：WordPress 后台 → RankMath SEO → 常规设置（General Settings）&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：部分选项仅在**高级模式（Advanced Mode）**下可见。如果找不到某个设置，请先到 RankMath → 仪表盘右上角切换为高级模式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RankMath 完整使用教程：每个板块详解</title>
+      <link>https://www.261449.xyz/blog/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</link>
+      <pubDate>Mon, 23 Mar 2026 20:20:51 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</guid>
+      <description>&lt;h2 id=&#34;一安装与初始设置&#34;&gt;一、安装与初始设置&lt;/h2&gt;&#xA;&lt;h3 id=&#34;安装插件&#34;&gt;安装插件&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;进入 WordPress 后台 → &lt;strong&gt;插件&lt;/strong&gt; → &lt;strong&gt;添加新插件&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;搜索 &lt;code&gt;Rank Math SEO&lt;/code&gt;，点击安装并启用&lt;/li&gt;&#xA;&lt;li&gt;启用后会自动进入&lt;strong&gt;设置向导&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;设置向导setup-wizard&#34;&gt;设置向导（Setup Wizard）&lt;/h3&gt;&#xA;&lt;p&gt;向导分为以下步骤：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;网站类型&lt;/strong&gt;：选择个人博客、企业网站、电商等&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;导入旧数据&lt;/strong&gt;：可从 Yoast SEO / All in One SEO 一键迁移&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;搜索外观&lt;/strong&gt;：设置标题格式（&lt;code&gt;%title% - %sitename%&lt;/code&gt;）、分隔符&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Google Search Console&lt;/strong&gt;：连接 GSC 获取搜索数据&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sitemap&lt;/strong&gt;：开启 XML 站点地图&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;模块开关&lt;/strong&gt;：启用需要的功能模块（建议按需开启，避免臃肿）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：向导完成后，所有设置均可在 &lt;code&gt;RankMath → 常规设置&lt;/code&gt; 中二次修改。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>钢材外贸 SEO Skill 体系：领域覆盖层完整 Prompt 合集</title>
-      <link>https://www.261449.xyz/blog/%E9%92%A2%E6%9D%90%E5%A4%96%E8%B4%B8-seo-skill-%E4%BD%93%E7%B3%BB%E9%A2%86%E5%9F%9F%E8%A6%86%E7%9B%96%E5%B1%82%E5%AE%8C%E6%95%B4-prompt-%E5%90%88%E9%9B%86/</link>
+      <link>https://www.261449.xyz/blog/steel-trade-seo-skills/</link>
       <pubDate>Thu, 19 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/%E9%92%A2%E6%9D%90%E5%A4%96%E8%B4%B8-seo-skill-%E4%BD%93%E7%B3%BB%E9%A2%86%E5%9F%9F%E8%A6%86%E7%9B%96%E5%B1%82%E5%AE%8C%E6%95%B4-prompt-%E5%90%88%E9%9B%86/</guid>
+      <guid>https://www.261449.xyz/blog/steel-trade-seo-skills/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;本文是《&lt;a href=&#34;../seo-skill-project-setup/&#34;&gt;项目级 SEO Skill 体系构建指南&lt;/a&gt;》的&lt;strong&gt;行业落地版&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;采用&lt;strong&gt;模式 A（领域覆盖层）&lt;/strong&gt;：通用 SEO Skill 保持不动，在 &lt;code&gt;skills/private/steel-trade/&lt;/code&gt; 下建立钢材外贸专用覆盖层。所有 Prompt 可直接复制到对应的 &lt;code&gt;SKILL.md&lt;/code&gt; 文件中使用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress ToB 外贸网站 SEO 优化 SOP：SEO Skills 完整使用指南</title>
-      <link>https://www.261449.xyz/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/wordpress-tob-seo-sop/</link>
       <pubDate>Wed, 18 Mar 2026 03:30:00 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/wordpress-tob-seo-sop/</guid>
       <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;本文档为 WordPress ToB 外贸网站提供完整的 SEO 优化 SOP，明确说明在每个阶段如何使用 SEO Skills 项目中的技能。&lt;/p&gt;&#xA;&lt;h3 id=&#34;适用对象&#34;&gt;适用对象&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WordPress 网站管理员&lt;/li&gt;&#xA;&lt;li&gt;ToB 外贸企业营销人员&lt;/li&gt;&#xA;&lt;li&gt;SEO 初学者&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;预计周期&#34;&gt;预计周期&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;阶段&lt;/th&gt;&#xA;          &lt;th&gt;时间&lt;/th&gt;&#xA;          &lt;th&gt;主要 Skill&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;技术审计&lt;/td&gt;&#xA;          &lt;td&gt;第 1-2 周&lt;/td&gt;&#xA;          &lt;td&gt;technical-audit&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;关键词研究&lt;/td&gt;&#xA;          &lt;td&gt;第 2-3 周&lt;/td&gt;&#xA;          &lt;td&gt;keyword-research&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;页面优化&lt;/td&gt;&#xA;          &lt;td&gt;第 3-6 周&lt;/td&gt;&#xA;          &lt;td&gt;content-optimizer&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;外链建设&lt;/td&gt;&#xA;          &lt;td&gt;第 6 周起&lt;/td&gt;&#xA;          &lt;td&gt;link-building&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;报告监控&lt;/td&gt;&#xA;          &lt;td&gt;持续&lt;/td&gt;&#xA;          &lt;td&gt;report-generator&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;阶段一技术-seo-审计第-1-2-周&#34;&gt;阶段一：技术 SEO 审计（第 1-2 周）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;目标&#34;&gt;目标&lt;/h3&gt;&#xA;&lt;p&gt;完成网站技术健康检查，修复所有 P0/P1 级别问题。&lt;/p&gt;</description>
     </item>
     <item>
       <title>项目级 SEO Skill 体系构建指南：从文件结构到完整工程部署</title>
-      <link>https://www.261449.xyz/blog/%E9%A1%B9%E7%9B%AE%E7%BA%A7-seo-skill-%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E6%8C%87%E5%8D%97%E4%BB%8E%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E5%88%B0%E5%AE%8C%E6%95%B4%E5%B7%A5%E7%A8%8B%E9%83%A8%E7%BD%B2/</link>
+      <link>https://www.261449.xyz/blog/seo-skill-project-setup/</link>
       <pubDate>Wed, 18 Mar 2026 03:15:27 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/%E9%A1%B9%E7%9B%AE%E7%BA%A7-seo-skill-%E4%BD%93%E7%B3%BB%E6%9E%84%E5%BB%BA%E6%8C%87%E5%8D%97%E4%BB%8E%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E5%88%B0%E5%AE%8C%E6%95%B4%E5%B7%A5%E7%A8%8B%E9%83%A8%E7%BD%B2/</guid>
+      <guid>https://www.261449.xyz/blog/seo-skill-project-setup/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;上一篇《&lt;a href=&#34;../seo-skill-collection/&#34;&gt;SEO 优化 Skill 合集&lt;/a&gt;》给出了 5 个 SEO Skill 的模板。本文专注于&lt;strong&gt;工程部署&lt;/strong&gt;：如何将这些 Skill 组织成一个规范的、可维护的、团队可协作的&lt;strong&gt;项目级 Skill 体系&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;完成本文的操作后，你将拥有：&lt;/p&gt;</description>
     </item>
     <item>
       <title>SEO 优化 Skill 合集：用 Claude Code 构建自动化 SEO 工作流</title>
-      <link>https://www.261449.xyz/blog/seo-%E4%BC%98%E5%8C%96-skill-%E5%90%88%E9%9B%86%E7%94%A8-claude-code-%E6%9E%84%E5%BB%BA%E8%87%AA%E5%8A%A8%E5%8C%96-seo-%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
+      <link>https://www.261449.xyz/blog/seo-skill-collection/</link>
       <pubDate>Wed, 18 Mar 2026 03:04:58 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/seo-%E4%BC%98%E5%8C%96-skill-%E5%90%88%E9%9B%86%E7%94%A8-claude-code-%E6%9E%84%E5%BB%BA%E8%87%AA%E5%8A%A8%E5%8C%96-seo-%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
+      <guid>https://www.261449.xyz/blog/seo-skill-collection/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;SEO 工作高度依赖&lt;strong&gt;重复性流程&lt;/strong&gt; + &lt;strong&gt;专业判断&lt;/strong&gt;的组合——这正是 Skill 体系最擅长处理的场景。&lt;/p&gt;&#xA;&lt;p&gt;本文基于 &lt;a href=&#34;../how-to-build-skill-system/&#34;&gt;AI Skill 体系设计哲学&lt;/a&gt;，为 SEO 从业者和开发者提供一套可直接部署到 Claude Code 的 &lt;strong&gt;SEO Skill 合集&lt;/strong&gt;，涵盖：&lt;/p&gt;</description>
     </item>
     <item>

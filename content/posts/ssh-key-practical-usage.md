@@ -5,7 +5,7 @@ draft: false
 tags: ["SSH", "GitHub", "PuTTY", "PPK", "免密登录", "端口转发", "Git"]
 categories: ["网络"]
 description: "SSH 密钥对的真实使用场景：配置 GitHub SSH 访问、服务器免密登录、多账号管理、跳板机连接、端口转发隧道等实战案例。"
-slug = "ssh-key-practical-usage"
+slug: "ssh-key-practical-usage"
 ---
 
 ## 前言

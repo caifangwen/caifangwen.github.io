@@ -17,9 +17,9 @@
     </item>
     <item>
       <title>在 Termux 中使用 Git 推送仓库到 GitHub</title>
-      <link>https://www.261449.xyz/blog/%E5%9C%A8-termux-%E4%B8%AD%E4%BD%BF%E7%94%A8-git-%E6%8E%A8%E9%80%81%E4%BB%93%E5%BA%93%E5%88%B0-github/</link>
+      <link>https://www.261449.xyz/blog/termux-git-push-tutorial/</link>
       <pubDate>Fri, 20 Mar 2026 03:52:38 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/%E5%9C%A8-termux-%E4%B8%AD%E4%BD%BF%E7%94%A8-git-%E6%8E%A8%E9%80%81%E4%BB%93%E5%BA%93%E5%88%B0-github/</guid>
+      <guid>https://www.261449.xyz/blog/termux-git-push-tutorial/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在 Android 手机上使用 Termux 进行 Git 操作时，会遇到一些在桌面端没有的问题——比如文件系统权限导致的&amp;quot;可疑所有权&amp;quot;报错、Token 认证配置等。本文将完整梳理从零开始推送仓库的全流程，并逐一解决常见错误。&lt;/p&gt;</description>
     </item>
     <item>

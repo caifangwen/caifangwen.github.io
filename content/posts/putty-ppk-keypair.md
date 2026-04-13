@@ -5,7 +5,7 @@ draft: false
 tags: ["SSH", "PuTTY", "PPK", "公钥", "私钥", "密钥对", "安全"]
 categories: ["网络"]
 description: "从零理解 SSH 密钥认证体系：公钥、私钥、PPK 格式与 PuTTY 工具族的完整介绍与实操指南。"
-slug = "putty-ppk-keypair"
+slug: "putty-ppk-keypair"
 ---
 
 ## 前言

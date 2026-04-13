@@ -10,10 +10,10 @@
     <atom:link href="https://www.261449.xyz/tags/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git 推送失败？用 git pull --rebase 优雅解决冲突</title>
-      <link>https://www.261449.xyz/blog/git-%E6%8E%A8%E9%80%81%E5%A4%B1%E8%B4%A5%E7%94%A8-git-pull--rebase-%E4%BC%98%E9%9B%85%E8%A7%A3%E5%86%B3%E5%86%B2%E7%AA%81/</link>
+      <link>https://www.261449.xyz/blog/git-rebase-guide/</link>
       <pubDate>Fri, 20 Mar 2026 06:20:09 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/git-%E6%8E%A8%E9%80%81%E5%A4%B1%E8%B4%A5%E7%94%A8-git-pull--rebase-%E4%BC%98%E9%9B%85%E8%A7%A3%E5%86%B3%E5%86%B2%E7%AA%81/</guid>
-      <description>当 GitHub 远程仓库比本地更新时，直接 push 会被拒绝。本文详解 git pull &amp;ndash;rebase 的原理与用法，让你的提交历史保持一条干净的直线。</description>
+      <guid>https://www.261449.xyz/blog/git-rebase-guide/</guid>
+      <description>&lt;h2 id=&#34;为什么-git-push-会失败&#34;&gt;为什么 &lt;code&gt;git push&lt;/code&gt; 会失败？&lt;/h2&gt;&#xA;&lt;p&gt;简单来说，是因为 GitHub 仓库里的代码版本比你电脑上的&lt;strong&gt;旧&lt;/strong&gt;——不对，是&lt;strong&gt;新&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这种情况通常发生在：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;你在 GitHub 网页上直接修改了文件（比如编辑了 &lt;code&gt;README.md&lt;/code&gt;）&lt;/li&gt;&#xA;&lt;li&gt;你在初始化仓库时勾选了&amp;quot;添加 LICENSE&amp;quot;或&amp;quot;添加 .gitignore&amp;quot;，导致远程多了这些文件&lt;/li&gt;&#xA;&lt;li&gt;其他协作者在你上次 &lt;code&gt;pull&lt;/code&gt; 之后提交了代码&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Git 的规则是：你必须先同步远程的所有修改，才能上传你自己的修改。&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

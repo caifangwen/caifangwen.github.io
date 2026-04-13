@@ -13,7 +13,105 @@
       <link>https://www.261449.xyz/blog/vibe-coding-%E6%97%B6%E4%BB%A3ai-%E6%AD%A3%E5%9C%A8%E6%9B%BF%E4%BB%A3%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%9A%84%E5%93%AA%E4%BA%9B%E5%B7%A5%E4%BD%9C/</link>
       <pubDate>Fri, 27 Mar 2026 08:41:29 +0800</pubDate>
       <guid>https://www.261449.xyz/blog/vibe-coding-%E6%97%B6%E4%BB%A3ai-%E6%AD%A3%E5%9C%A8%E6%9B%BF%E4%BB%A3%E5%89%8D%E7%AB%AF%E5%B7%A5%E7%A8%8B%E5%B8%88%E7%9A%84%E5%93%AA%E4%BA%9B%E5%B7%A5%E4%BD%9C/</guid>
-      <description>Vibe Coding 浪潮席卷而来，AI 工具在 UI 生成、组件开发、样式调试等环节已展现出惊人的替代能力。本文系统梳理 AI 当前能替代的前端工作，以及人类工程师不可撼动的价值所在。</description>
+      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&amp;ldquo;我只是描述了一下我想要什么，它就把整个页面写出来了。&amp;rdquo; —— 某位第一次用 Cursor 的产品经理&lt;/p&gt;&#xA;&#xA;    &lt;/div&gt;&#xA;  &lt;/blockquote&gt;&lt;script&gt;&#xA;function toggleAlert(alertId) {&#xA;  const content = document.getElementById(alertId + &#39;-content&#39;);&#xA;  const chevron = document.getElementById(alertId + &#39;-chevron&#39;);&#xA;  const header = content.previousElementSibling;&#xA;  &#xA;  if (content.classList.contains(&#39;hidden&#39;)) {&#xA;    content.classList.remove(&#39;hidden&#39;);&#xA;    chevron.style.transform = &#39;rotate(0deg)&#39;;&#xA;    header.setAttribute(&#39;aria-expanded&#39;, &#39;true&#39;);&#xA;  } else {&#xA;    content.classList.add(&#39;hidden&#39;);&#xA;    chevron.style.transform = &#39;rotate(-90deg)&#39;;&#xA;    header.setAttribute(&#39;aria-expanded&#39;, &#39;false&#39;);&#xA;  }&#xA;}&#xA;&#xA;&#xA;document.addEventListener(&#39;DOMContentLoaded&#39;, function() {&#xA;  const collapsedAlerts = document.querySelectorAll(&#39;.alert-content.hidden&#39;);&#xA;  collapsedAlerts.forEach(function(content) {&#xA;    const alertId = content.id.replace(&#39;-content&#39;, &#39;&#39;);&#xA;    const chevron = document.getElementById(alertId + &#39;-chevron&#39;);&#xA;    if (chevron) {&#xA;      chevron.style.transform = &#39;rotate(-90deg)&#39;;&#xA;    }&#xA;  });&#xA;});&#xA;&lt;/script&gt;&#xA;&#xA;&lt;h2 id=&#34;什么是-vibe-coding&#34;&gt;什么是 Vibe Coding？&lt;/h2&gt;&#xA;&lt;p&gt;2025 年初，Andrej Karpathy 提出了 &lt;strong&gt;Vibe Coding&lt;/strong&gt; 这个概念：不再精确控制代码逻辑，而是用自然语言描述&amp;quot;感觉&amp;quot;和意图，让 AI 生成实现，自己只负责验收和调整方向。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>前端开发：难点、框架体系与工程师核心能力</title>
+      <link>https://www.261449.xyz/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E9%9A%BE%E7%82%B9%E6%A1%86%E6%9E%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/</link>
+      <pubDate>Fri, 27 Mar 2026 08:33:53 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E9%9A%BE%E7%82%B9%E6%A1%86%E6%9E%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%B8%88%E6%A0%B8%E5%BF%83%E8%83%BD%E5%8A%9B/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;前端开发从最初的静态页面切图，发展到如今的工程化、组件化、全栈化，已经经历了翻天覆地的变化。本文将从三个维度系统梳理：&lt;strong&gt;前端的核心难点&lt;/strong&gt;、&lt;strong&gt;整体技术框架体系&lt;/strong&gt;，以及&lt;strong&gt;一名优秀前端工程师应具备的能力模型&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2023年后 AI 突破的技术本质：不是调参，是在做什么？</title>
+      <link>https://www.261449.xyz/blog/2023%E5%B9%B4%E5%90%8E-ai-%E7%AA%81%E7%A0%B4%E7%9A%84%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%B4%A8%E4%B8%8D%E6%98%AF%E8%B0%83%E5%8F%82%E6%98%AF%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88/</link>
+      <pubDate>Wed, 25 Mar 2026 01:24:29 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/2023%E5%B9%B4%E5%90%8E-ai-%E7%AA%81%E7%A0%B4%E7%9A%84%E6%8A%80%E6%9C%AF%E6%9C%AC%E8%B4%A8%E4%B8%8D%E6%98%AF%E8%B0%83%E5%8F%82%E6%98%AF%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88/</guid>
+      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;核心问题&lt;/strong&gt;：GPT-4、DeepSeek R1、推理模型……这些&amp;quot;突破&amp;quot;到底在技术层面做了什么？和&amp;quot;换个 prompt 试试&amp;quot;有什么根本区别？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>如何找到 GitHub 热门项目与近期趋势</title>
+      <link>https://www.261449.xyz/blog/github-trending-guide/</link>
+      <pubDate>Sun, 22 Mar 2026 02:06:49 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/github-trending-guide/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;GitHub 拥有超过 4.3 亿个代码仓库，每天都有无数新项目涌现。2025 年 Octoverse 报告显示，平台上与 AI 相关的仓库已超过 430 万个，同比增长 178%。如何在这片信息海洋中精准找到值得关注的热门项目和趋势，是每位开发者都需要掌握的技能。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CLI 与 MCP 深度分析：AI 工具链的架构演进</title>
+      <link>https://www.261449.xyz/blog/cli-mcp-deep-analysis/</link>
+      <pubDate>Wed, 18 Mar 2026 02:00:28 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/cli-mcp-deep-analysis/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;在 AI 原生时代，开发者与 AI 系统交互的方式正在经历深刻变革。传统的 &lt;strong&gt;CLI（Command Line Interface，命令行界面）&lt;/strong&gt; 已经陪伴工程师数十年，而 &lt;strong&gt;MCP（Model Context Protocol，模型上下文协议）&lt;/strong&gt; 作为新生代协议，正在重塑 AI 与外部世界的连接方式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>T型人才：AI时代技术人的核心竞争力重构</title>
+      <link>https://www.261449.xyz/blog/t-shaped-talent/</link>
+      <pubDate>Wed, 18 Mar 2026 01:50:51 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/t-shaped-talent/</guid>
+      <description>&lt;h2 id=&#34;前言一场悄然发生的人才革命&#34;&gt;前言：一场悄然发生的人才革命&lt;/h2&gt;&#xA;&lt;p&gt;2026年，当你打开招聘平台，会发现一个微妙的变化——&amp;ldquo;3年CRUD经验&amp;quot;的岗位越来越少，&amp;ldquo;LLM落地工程师&amp;quot;&amp;ldquo;算力基础设施架构师&amp;quot;&amp;ldquo;垂直行业AI专家&amp;quot;的薪资却屡创新高。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI 对前后端开发的冲击：重塑还是颠覆？</title>
+      <link>https://www.261449.xyz/blog/ai-impact-on-frontend-backend/</link>
+      <pubDate>Wed, 18 Mar 2026 01:39:31 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/ai-impact-on-frontend-backend/</guid>
+      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;2026 年，AI 编程助手已不再是新鲜事物，而是每个开发者桌面上不可缺少的&amp;quot;同事&amp;quot;。但这场变革远比我们最初想象的更为深刻。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2026年计算机技术格局深度分析：从算力革命到智能产业化</title>
+      <link>https://www.261449.xyz/blog/2026-computer-tech-landscape/</link>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/2026-computer-tech-landscape/</guid>
+      <description>&lt;h2 id=&#34;前言技术迭代的奇点时刻&#34;&gt;前言：技术迭代的奇点时刻&lt;/h2&gt;&#xA;&lt;p&gt;2026年，我们正站在一个罕见的技术奇点之上。&lt;/p&gt;&#xA;&lt;p&gt;计算机技术的演进速度，已经远超大多数人的直觉预期。这一年，AI不再只是实验室里的概念验证——它正以工业化的节奏嵌入每一个行业；量子计算机首次在特定任务上超越经典计算机；算力基础设施的能耗已触动了核能供电的想象边界。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2026 年社交媒体格局分析</title>
+      <link>https://www.261449.xyz/blog/social-media-landscape-2026/</link>
+      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/social-media-landscape-2026/</guid>
+      <description>&lt;p&gt;现在的社交媒体格局已经不再是单纯的“谁人多”的竞争，而是进入了一个**“功能大乱斗”和“AI 原生化”**的新阶段。&#xA;简单来说，2026年的格局可以用三句话总结：短视频依然是黑洞，熟人社交正在回归私密，而 AI 正在接管你的信息流。&#xA;以下是目前各大平台发生的具体变化和新格局：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI 发展编年史：2021-2026 年 2 月</title>
+      <link>https://www.261449.xyz/blog/ai-chronicle-2021-2026/</link>
+      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/ai-chronicle-2021-2026/</guid>
+      <description>&lt;h2 id=&#34;2021年基础模型时代的序章&#34;&gt;2021年：基础模型时代的序章&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;2021年1月&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;OpenAI发布DALL-E，首次展示文本生成图像的能力，能够根据自然语言描述创建原创图像&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2021年5月&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Google发布LaMDA（Language Model for Dialogue Applications），专注于对话应用的语言模型&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;2021年7月&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI 时代的个人竞争力：在信息洪流中保持独特价值</title>
+      <link>https://www.261449.xyz/blog/ai-era-competitiveness/</link>
+      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/ai-era-competitiveness/</guid>
+      <description>&lt;p&gt;当ChatGPT在2022年末横空出世时,我们目睹了一个分水岭。AI不再是科幻电影里的概念,而是真实地坐在每个人的屏幕对面,能写代码、能作诗、能分析数据、能生成图像。紧接着,各类AI工具如雨后春笋般涌现,信息的生产速度呈指数级增长。这让许多人陷入焦虑:当AI几秒钟就能完成我几小时的工作时,我的价值在哪里?个人能力是否正在被这股技术浪潮抹平?&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>AI 与经济危机的关系分析</title>
+      <link>https://www.261449.xyz/blog/ai-economic-crisis-analysis/</link>
+      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/ai-economic-crisis-analysis/</guid>
+      <description>&lt;p&gt;你把两个线索放在一起看，很有洞察力。但我觉得&lt;strong&gt;不是&amp;quot;AI导致了经济危机&amp;quot;，而是&amp;quot;同一个深层原因同时催生了经济下滑和AI热潮&amp;quot;&lt;/strong&gt;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>广告投放领域发展历程：从报纸广告到程序化智能投放</title>
+      <link>https://www.261449.xyz/blog/advertising-history/</link>
+      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/advertising-history/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;广告投放作为连接商业与消费者的核心桥梁，其发展历程反映了技术进步、媒介变革和商业模式创新的交织演进。本文以时间线为主轴，梳理广告投放领域从传统媒体到数字化、智能化的完整演变过程。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>智能体的自主决策之旅：从单一任务到多智能体协作</title>
+      <link>https://www.261449.xyz/blog/ai-agent-decision-making/</link>
+      <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/ai-agent-decision-making/</guid>
+      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;想象这样一个场景：你对AI助手说&amp;quot;帮我规划下周去京都的旅行&amp;quot;，它不仅能理解你的需求，还能自动分解任务、查询天气、搜索景点、预订酒店、规划路线，甚至在遇到问题时调整策略。这就是现代智能体（Agent）的能力——它们不再是被动响应指令的程序，而是能够自主思考、规划和行动的智能系统。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git：改变世界的版本控制系统</title>
+      <link>https://www.261449.xyz/blog/git-version-control-system/</link>
+      <pubDate>Sun, 08 Feb 2026 00:02:52 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/git-version-control-system/</guid>
+      <description>文章摘要</description>
     </item>
   </channel>
 </rss>

@@ -6,21 +6,77 @@
     <description>Recent content in WordPress on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 11 Apr 2026 00:57:48 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 00:07:18 +0800</lastBuildDate>
     <atom:link href="https://www.261449.xyz/tags/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>RankMath 完整使用教程：每个板块详解</title>
-      <link>https://www.261449.xyz/blog/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</link>
-      <pubDate>Mon, 23 Mar 2026 20:20:51 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</guid>
-      <description>&lt;h2 id=&#34;一安装与初始设置&#34;&gt;一、安装与初始设置&lt;/h2&gt;&#xA;&lt;h3 id=&#34;安装插件&#34;&gt;安装插件&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;进入 WordPress 后台 → &lt;strong&gt;插件&lt;/strong&gt; → &lt;strong&gt;添加新插件&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;搜索 &lt;code&gt;Rank Math SEO&lt;/code&gt;，点击安装并启用&lt;/li&gt;&#xA;&lt;li&gt;启用后会自动进入&lt;strong&gt;设置向导&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;设置向导setup-wizard&#34;&gt;设置向导（Setup Wizard）&lt;/h3&gt;&#xA;&lt;p&gt;向导分为以下步骤：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;网站类型&lt;/strong&gt;：选择个人博客、企业网站、电商等&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;导入旧数据&lt;/strong&gt;：可从 Yoast SEO / All in One SEO 一键迁移&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;搜索外观&lt;/strong&gt;：设置标题格式（&lt;code&gt;%title% - %sitename%&lt;/code&gt;）、分隔符&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Google Search Console&lt;/strong&gt;：连接 GSC 获取搜索数据&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sitemap&lt;/strong&gt;：开启 XML 站点地图&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;模块开关&lt;/strong&gt;：启用需要的功能模块（建议按需开启，避免臃肿）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：向导完成后，所有设置均可在 &lt;code&gt;RankMath → 常规设置&lt;/code&gt; 中二次修改。&lt;/p&gt;</description>
+      <title>Canonical URL 策略完全指南：原理、实践与 WordPress 实战</title>
+      <link>https://www.261449.xyz/blog/canonical-url-strategy-guide/</link>
+      <pubDate>Mon, 13 Apr 2026 00:07:18 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/canonical-url-strategy-guide/</guid>
+      <description>&lt;h2 id=&#34;什么是-canonical-url&#34;&gt;什么是 Canonical URL？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Canonical URL&lt;/strong&gt;（规范化 URL），通过 HTML &lt;code&gt;&amp;lt;link rel=&amp;quot;canonical&amp;quot; href=&amp;quot;...&amp;quot;&amp;gt;&lt;/code&gt; 标签声明，是告诉搜索引擎&amp;quot;这是某一内容最权威、最应该被收录的版本&amp;quot;的一种信号机制。&lt;/p&gt;</description>
     </item>
     <item>
-      <title>RankMath 常规设置（General Settings）完整配置指南</title>
-      <link>https://www.261449.xyz/blog/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</link>
-      <pubDate>Mon, 23 Mar 2026 20:33:36 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;路径&lt;/strong&gt;：WordPress 后台 → RankMath SEO → 常规设置（General Settings）&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：部分选项仅在**高级模式（Advanced Mode）**下可见。如果找不到某个设置，请先到 RankMath → 仪表盘右上角切换为高级模式。&lt;/p&gt;</description>
+      <title>WordPress 主流页面构建工具大盘点</title>
+      <link>https://www.261449.xyz/blog/wordpress-page-builders-overview/</link>
+      <pubDate>Sun, 12 Apr 2026 23:36:28 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/wordpress-page-builders-overview/</guid>
+      <description>&lt;p&gt;WordPress 生态中有众多优秀的页面构建工具（Page Builder），让用户无需编写代码即可通过可视化拖拽方式构建精美页面。本文将对主流工具逐一介绍，帮助你做出合适的选择。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress 主题本质差异：Astra、WoodMart 与 GeneratePress 深度对比</title>
+      <link>https://www.261449.xyz/blog/wordpress-themes-astra-woodmart-generatepress/</link>
+      <pubDate>Sun, 12 Apr 2026 23:30:37 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/wordpress-themes-astra-woodmart-generatepress/</guid>
+      <description>&lt;h2 id=&#34;wordpress-主题的本质是什么&#34;&gt;WordPress 主题的本质是什么&lt;/h2&gt;&#xA;&lt;p&gt;WordPress 主题本质上是一套控制&lt;strong&gt;网站外观与前端行为&lt;/strong&gt;的模板文件集合，由 PHP 模板、CSS 样式、JavaScript 脚本以及配置文件构成。但不同主题之间的差异远不止于&amp;quot;好不好看&amp;quot;——它们在架构哲学、性能取向、扩展方式和目标用户上存在根本性的分歧。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Next.js 建站 SEO 优化完全指南：与 WordPress 的深度对比</title>
+      <link>https://www.261449.xyz/blog/nextjs-seo-optimization-vs-wordpress/</link>
+      <pubDate>Sun, 12 Apr 2026 23:26:41 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/nextjs-seo-optimization-vs-wordpress/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;Next.js 凭借其出色的渲染能力与现代化开发体验，已成为众多团队的建站首选。然而，SEO 优化并非开箱即用——需要开发者主动配置。本文将系统梳理 Next.js 的 SEO 优化方案，并与 WordPress 进行横向对比，帮助你做出合理的技术选型。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>用 Code Snippets 注册 WordPress 自定义文章类型：Solution 与 Case</title>
+      <link>https://www.261449.xyz/blog/wordpress-cpt-solution-case-code-snippets/</link>
+      <pubDate>Sun, 12 Apr 2026 23:19:39 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/wordpress-cpt-solution-case-code-snippets/</guid>
+      <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;本文演示如何用 &lt;strong&gt;Code Snippets&lt;/strong&gt; 插件，在不修改主题 &lt;code&gt;functions.php&lt;/code&gt; 的前提下，注册两种自定义文章类型：&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;CPT&lt;/th&gt;&#xA;          &lt;th&gt;后台名称&lt;/th&gt;&#xA;          &lt;th&gt;固定链接前缀&lt;/th&gt;&#xA;          &lt;th&gt;用途&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;solution&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;解决方案&lt;/td&gt;&#xA;          &lt;td&gt;&lt;code&gt;/solution/&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;展示产品或服务方案&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;code&gt;case&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;客户案例&lt;/td&gt;&#xA;          &lt;td&gt;&lt;code&gt;/case/&lt;/code&gt;&lt;/td&gt;&#xA;          &lt;td&gt;展示成功案例、客户故事&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;准备工作&#34;&gt;准备工作&lt;/h2&gt;&#xA;&lt;h3 id=&#34;安装-code-snippets-插件&#34;&gt;安装 Code Snippets 插件&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;进入 WordPress 后台 → &lt;strong&gt;插件 → 安装插件&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;搜索 &lt;code&gt;Code Snippets&lt;/code&gt;，找到作者为 &lt;strong&gt;Code Snippets Pro&lt;/strong&gt; 的版本&lt;/li&gt;&#xA;&lt;li&gt;点击&lt;strong&gt;立即安装&lt;/strong&gt;，然后&lt;strong&gt;启用&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;左侧导航出现 &lt;strong&gt;Snippets&lt;/strong&gt; 菜单即表示安装成功&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第一步新建-snippet&#34;&gt;第一步：新建 Snippet&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;后台左侧点击 &lt;strong&gt;Snippets → Add New&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Title&lt;/strong&gt; 填写：&lt;code&gt;注册 CPT - Solution &amp;amp; Case&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code Type&lt;/strong&gt; 选择 &lt;code&gt;PHP Snippet&lt;/code&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Run&lt;/strong&gt; 选择 &lt;code&gt;Run everywhere&lt;/code&gt;（确保前台与后台均可触发）&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;第二步粘贴完整代码&#34;&gt;第二步：粘贴完整代码&lt;/h2&gt;&#xA;&lt;p&gt;将以下代码完整复制到编辑器中：&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress Solution 详情页怎么做：用 CPT 还是 Posts？</title>
+      <link>https://www.261449.xyz/blog/wordpress-solution-detail-page-guide/</link>
+      <pubDate>Sun, 12 Apr 2026 23:12:22 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/wordpress-solution-detail-page-guide/</guid>
+      <description>&lt;h2 id=&#34;用-posts-还是自定义文章类型cpt&#34;&gt;用 Posts 还是自定义文章类型（CPT）？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;结论：用自定义文章类型（Custom Post Type，CPT），不要用普通 Posts。&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;普通 Posts 是博客文章，带有时间属性，适合新闻/资讯内容。Solution 是产品级内容，不依赖时间，需要独立的 URL 结构、独立的分类体系和模板。用 Posts 会污染博客列表，也不利于长期维护。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gutenberg 中的 React：你用的不是「完整的 React」</title>
+      <link>https://www.261449.xyz/blog/gutenberg-react-deep-dive/</link>
+      <pubDate>Sun, 12 Apr 2026 02:45:28 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/gutenberg-react-deep-dive/</guid>
+      <description>&lt;h2 id=&#34;前言一个容易产生的误解&#34;&gt;前言：一个容易产生的误解&lt;/h2&gt;&#xA;&lt;p&gt;当你第一次看到 Gutenberg 的块开发文档，看到 &lt;code&gt;registerBlockType&lt;/code&gt;、JSX、&lt;code&gt;useState&lt;/code&gt;、&lt;code&gt;useEffect&lt;/code&gt;，你很自然地会认为：「这就是 React 开发，我会 React，所以我会 Gutenberg。」&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Gutenberg vs 经典编辑器自定义 HTML 组件：深入对比分析</title>
+      <link>https://www.261449.xyz/blog/gutenberg-vs-classic-editor-custom-html-components/</link>
+      <pubDate>Sun, 12 Apr 2026 02:31:38 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/gutenberg-vs-classic-editor-custom-html-components/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;自 WordPress 5.0 于 2018 年引入 Gutenberg 块编辑器以来，开发者社区就一直在争论：对于需要高度定制化组件的项目，究竟应该拥抱 Gutenberg 的块开发模式，还是坚守经典编辑器中直接编写 HTML 的老路？&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>深入了解 Gutenberg：WordPress 区块编辑器完全指南</title>
+      <link>https://www.261449.xyz/blog/wordpress-gutenberg-block-editor-complete-guide/</link>
+      <pubDate>Sun, 12 Apr 2026 02:22:22 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/wordpress-gutenberg-block-editor-complete-guide/</guid>
+      <description>&lt;h2 id=&#34;一什么是-gutenberg&#34;&gt;一、什么是 Gutenberg？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Gutenberg&lt;/strong&gt; 是 WordPress 自 5.0 版本（2018年12月）起内置的默认编辑器，以活字印刷术发明者**约翰内斯·古腾堡（Johannes Gutenberg）**命名，寓意&amp;quot;印刷革命&amp;quot;。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>WordPress 三种编辑器对比：Gutenberg、Elementor 与经典编辑器</title>
+      <link>https://www.261449.xyz/blog/wordpress-gutenberg-elementor-classic-editor-comparison/</link>
+      <pubDate>Sun, 12 Apr 2026 02:18:14 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/wordpress-gutenberg-elementor-classic-editor-comparison/</guid>
+      <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;在 WordPress 生态中，内容编辑和页面构建有三种主流方式：&lt;strong&gt;Gutenberg（区块编辑器）&lt;/strong&gt;、&lt;strong&gt;Elementor（页面构建器）&lt;/strong&gt; 和 &lt;strong&gt;经典编辑器（Classic Editor）&lt;/strong&gt;。三者各有定位，适合不同的用户群体和使用场景。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress SEO 深度策略：更新频率、JSON-LD 精细化与三类页面的优化目标拆解</title>
@@ -107,32 +163,46 @@
       <description>&lt;h2 id=&#34;什么是-cls&#34;&gt;什么是 CLS？&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;CLS（Cumulative Layout Shift，累积布局偏移）&lt;/strong&gt; 是 Google Core Web Vitals 的三大核心指标之一，用于衡量页面在加载过程中&lt;strong&gt;视觉稳定性&lt;/strong&gt;的好坏。&lt;/p&gt;&#xA;&lt;p&gt;简单说：当你正在阅读或点击页面时，元素突然发生位移——这就是布局偏移，会导致极差的用户体验。&lt;/p&gt;</description>
     </item>
     <item>
+      <title>RankMath 常规设置（General Settings）完整配置指南</title>
+      <link>https://www.261449.xyz/blog/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Mon, 23 Mar 2026 20:33:36 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/rankmath-%E5%B8%B8%E8%A7%84%E8%AE%BE%E7%BD%AEgeneral-settings%E5%AE%8C%E6%95%B4%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97/</guid>
+      <description>&lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;路径&lt;/strong&gt;：WordPress 后台 → RankMath SEO → 常规设置（General Settings）&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：部分选项仅在**高级模式（Advanced Mode）**下可见。如果找不到某个设置，请先到 RankMath → 仪表盘右上角切换为高级模式。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RankMath 完整使用教程：每个板块详解</title>
+      <link>https://www.261449.xyz/blog/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</link>
+      <pubDate>Mon, 23 Mar 2026 20:20:51 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/rankmath-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B%E6%AF%8F%E4%B8%AA%E6%9D%BF%E5%9D%97%E8%AF%A6%E8%A7%A3/</guid>
+      <description>&lt;h2 id=&#34;一安装与初始设置&#34;&gt;一、安装与初始设置&lt;/h2&gt;&#xA;&lt;h3 id=&#34;安装插件&#34;&gt;安装插件&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;进入 WordPress 后台 → &lt;strong&gt;插件&lt;/strong&gt; → &lt;strong&gt;添加新插件&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;搜索 &lt;code&gt;Rank Math SEO&lt;/code&gt;，点击安装并启用&lt;/li&gt;&#xA;&lt;li&gt;启用后会自动进入&lt;strong&gt;设置向导&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h3 id=&#34;设置向导setup-wizard&#34;&gt;设置向导（Setup Wizard）&lt;/h3&gt;&#xA;&lt;p&gt;向导分为以下步骤：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;网站类型&lt;/strong&gt;：选择个人博客、企业网站、电商等&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;导入旧数据&lt;/strong&gt;：可从 Yoast SEO / All in One SEO 一键迁移&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;搜索外观&lt;/strong&gt;：设置标题格式（&lt;code&gt;%title% - %sitename%&lt;/code&gt;）、分隔符&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Google Search Console&lt;/strong&gt;：连接 GSC 获取搜索数据&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Sitemap&lt;/strong&gt;：开启 XML 站点地图&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;模块开关&lt;/strong&gt;：启用需要的功能模块（建议按需开启，避免臃肿）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;  &lt;blockquote&#xA;    class=&#34;border-primary bg-muted/30 hover:bg-muted/40 my-6 rounded-r-lg border-l-4 py-4 pr-4 pl-6 italic transition-all duration-200 ease-out hover:translate-x-1&#34;&gt;&#xA;    &lt;div class=&#34;prose prose-sm max-w-none&#34;&gt;&#xA;      &lt;p&gt;&lt;strong&gt;提示&lt;/strong&gt;：向导完成后，所有设置均可在 &lt;code&gt;RankMath → 常规设置&lt;/code&gt; 中二次修改。&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>WordPress ToB 外贸网站 SEO 优化 SOP：SEO Skills 完整使用指南</title>
-      <link>https://www.261449.xyz/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/wordpress-tob-seo-sop/</link>
       <pubDate>Wed, 18 Mar 2026 03:30:00 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/wordpress-tob-%E5%A4%96%E8%B4%B8%E7%BD%91%E7%AB%99-seo-%E4%BC%98%E5%8C%96-sopseo-skills-%E5%AE%8C%E6%95%B4%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/wordpress-tob-seo-sop/</guid>
       <description>&lt;h2 id=&#34;概述&#34;&gt;概述&lt;/h2&gt;&#xA;&lt;p&gt;本文档为 WordPress ToB 外贸网站提供完整的 SEO 优化 SOP，明确说明在每个阶段如何使用 SEO Skills 项目中的技能。&lt;/p&gt;&#xA;&lt;h3 id=&#34;适用对象&#34;&gt;适用对象&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;WordPress 网站管理员&lt;/li&gt;&#xA;&lt;li&gt;ToB 外贸企业营销人员&lt;/li&gt;&#xA;&lt;li&gt;SEO 初学者&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;预计周期&#34;&gt;预计周期&lt;/h3&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;阶段&lt;/th&gt;&#xA;          &lt;th&gt;时间&lt;/th&gt;&#xA;          &lt;th&gt;主要 Skill&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;技术审计&lt;/td&gt;&#xA;          &lt;td&gt;第 1-2 周&lt;/td&gt;&#xA;          &lt;td&gt;technical-audit&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;关键词研究&lt;/td&gt;&#xA;          &lt;td&gt;第 2-3 周&lt;/td&gt;&#xA;          &lt;td&gt;keyword-research&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;页面优化&lt;/td&gt;&#xA;          &lt;td&gt;第 3-6 周&lt;/td&gt;&#xA;          &lt;td&gt;content-optimizer&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;外链建设&lt;/td&gt;&#xA;          &lt;td&gt;第 6 周起&lt;/td&gt;&#xA;          &lt;td&gt;link-building&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;报告监控&lt;/td&gt;&#xA;          &lt;td&gt;持续&lt;/td&gt;&#xA;          &lt;td&gt;report-generator&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;阶段一技术-seo-审计第-1-2-周&#34;&gt;阶段一：技术 SEO 审计（第 1-2 周）&lt;/h2&gt;&#xA;&lt;h3 id=&#34;目标&#34;&gt;目标&lt;/h3&gt;&#xA;&lt;p&gt;完成网站技术健康检查，修复所有 P0/P1 级别问题。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress 页面中插入子页面卡片列表的完整指南</title>
-      <link>https://www.261449.xyz/blog/wordpress-%E9%A1%B5%E9%9D%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/wordpress-subpage-cards/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/wordpress-%E9%A1%B5%E9%9D%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8%E7%9A%84%E5%AE%8C%E6%95%B4%E6%8C%87%E5%8D%97/</guid>
-      <description>&lt;h1 id=&#34;wordpress页面中插入子页面卡片列表的完整指南&#34;&gt;WordPress页面中插入子页面卡片列表的完整指南&lt;/h1&gt;&#xA;&lt;p&gt;在WordPress网站建设中，展示子页面列表是一个常见需求。无论你是在构建企业网站的服务页面、博客的分类目录，还是知识库的导航系统，以卡片形式展示子页面都能提供更好的用户体验和视觉效果。本文将详细介绍多种实现方法，从简单的插件方案到自定义代码，帮助你根据自己的技术水平和具体需求选择最合适的方案。&lt;/p&gt;</description>
+      <guid>https://www.261449.xyz/blog/wordpress-subpage-cards/</guid>
+      <description>&lt;p&gt;在WordPress网站建设中，展示子页面列表是一个常见需求。无论你是在构建企业网站的服务页面、博客的分类目录，还是知识库的导航系统，以卡片形式展示子页面都能提供更好的用户体验和视觉效果。本文将详细介绍多种实现方法，从简单的插件方案到自定义代码，帮助你根据自己的技术水平和具体需求选择最合适的方案。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress 中的筛选器完全指南</title>
-      <link>https://www.261449.xyz/blog/wordpress-%E4%B8%AD%E7%9A%84%E7%AD%9B%E9%80%89%E5%99%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</link>
+      <link>https://www.261449.xyz/blog/wordpress-filters-guide/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/wordpress-%E4%B8%AD%E7%9A%84%E7%AD%9B%E9%80%89%E5%99%A8%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97/</guid>
+      <guid>https://www.261449.xyz/blog/wordpress-filters-guide/</guid>
       <description>&lt;h1 id=&#34;wordpress中的筛选器完全指南&#34;&gt;WordPress中的筛选器完全指南&lt;/h1&gt;&#xA;&lt;p&gt;WordPress作为全球最流行的内容管理系统，其强大的扩展性很大程度上归功于其钩子（Hooks）机制。筛选器（Filters）作为钩子系统的重要组成部分，允许开发者修改WordPress的各种数据和内容，而无需直接修改核心文件。本文将深入探讨WordPress筛选器的概念、使用方法和最佳实践。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress 自定义短代码实现子页面卡片列表</title>
-      <link>https://www.261449.xyz/blog/wordpress-%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8/</link>
+      <link>https://www.261449.xyz/blog/wordpress-shortcode-guide/</link>
       <pubDate>Mon, 16 Mar 2026 20:14:30 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/wordpress-%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E4%BB%A3%E7%A0%81%E5%AE%9E%E7%8E%B0%E5%AD%90%E9%A1%B5%E9%9D%A2%E5%8D%A1%E7%89%87%E5%88%97%E8%A1%A8/</guid>
-      <description>&lt;h1 id=&#34;wordpress-自定义短代码实现子页面卡片列表&#34;&gt;WordPress 自定义短代码实现子页面卡片列表&lt;/h1&gt;&#xA;&lt;p&gt;在 WordPress 网站开发中，我们经常需要在父页面中展示其所有子页面的列表。通过自定义短代码（Shortcode）功能，我们可以轻松实现一个美观的子页面卡片列表，让访客能够快速浏览和访问相关内容。本文将详细介绍如何创建这样一个功能，并深入解释每一行代码的作用。&lt;/p&gt;</description>
+      <guid>https://www.261449.xyz/blog/wordpress-shortcode-guide/</guid>
+      <description>&lt;p&gt;在 WordPress 网站开发中，我们经常需要在父页面中展示其所有子页面的列表。通过自定义短代码（Shortcode）功能，我们可以轻松实现一个美观的子页面卡片列表，让访客能够快速浏览和访问相关内容。本文将详细介绍如何创建这样一个功能，并深入解释每一行代码的作用。&lt;/p&gt;</description>
     </item>
     <item>
       <title>WordPress 建站从零到一指南</title>

@@ -13,7 +13,7 @@
       <link>https://www.261449.xyz/blog/%E8%A1%8C%E4%B8%BA%E6%A0%91%E7%9A%84%E7%B1%BB%E5%9E%8B%E8%B0%B1%E7%B3%BB%E4%BB%A5%E5%8F%8A%E5%A4%A7%E8%A7%82%E5%9B%AD%E6%B5%AE%E4%B8%96%E5%BD%95%E8%A7%92%E8%89%B2%E5%85%B3%E8%81%94%E6%80%A7%E6%96%AD%E5%B1%82%E7%9A%84%E8%AF%8A%E6%96%AD/</link>
       <pubDate>Mon, 23 Mar 2026 04:19:03 +0800</pubDate>
       <guid>https://www.261449.xyz/blog/%E8%A1%8C%E4%B8%BA%E6%A0%91%E7%9A%84%E7%B1%BB%E5%9E%8B%E8%B0%B1%E7%B3%BB%E4%BB%A5%E5%8F%8A%E5%A4%A7%E8%A7%82%E5%9B%AD%E6%B5%AE%E4%B8%96%E5%BD%95%E8%A7%92%E8%89%B2%E5%85%B3%E8%81%94%E6%80%A7%E6%96%AD%E5%B1%82%E7%9A%84%E8%AF%8A%E6%96%AD/</guid>
-      <description>本文梳理行为树的主要类型谱系，并深入分析《大观园浮世录 v4》中角色关联性偏弱的根本原因——当前系统是「独立概率状态机的集合」而非「耦合关系网络」，并提出改进方向。</description>
+      <description>&lt;h2 id=&#34;一行为树的类型谱系&#34;&gt;一、行为树的类型谱系&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;行为树&amp;rdquo;（Behavior Tree）是一个宽泛的术语。在 NPC AI 和模拟器设计领域，常用的行为决策架构有以下几类，彼此并不互斥，通常组合使用。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

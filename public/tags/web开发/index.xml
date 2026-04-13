@@ -6,8 +6,15 @@
     <description>Recent content in Web开发 on Frida Home</description>
     <generator>Hugo</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 25 Mar 2026 09:52:35 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 02:31:38 +0800</lastBuildDate>
     <atom:link href="https://www.261449.xyz/tags/web%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gutenberg vs 经典编辑器自定义 HTML 组件：深入对比分析</title>
+      <link>https://www.261449.xyz/blog/gutenberg-vs-classic-editor-custom-html-components/</link>
+      <pubDate>Sun, 12 Apr 2026 02:31:38 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/gutenberg-vs-classic-editor-custom-html-components/</guid>
+      <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;自 WordPress 5.0 于 2018 年引入 Gutenberg 块编辑器以来，开发者社区就一直在争论：对于需要高度定制化组件的项目，究竟应该拥抱 Gutenberg 的块开发模式，还是坚守经典编辑器中直接编写 HTML 的老路？&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Go 模板语法完全指南 —— Hugo 模板开发手册</title>
       <link>https://www.261449.xyz/blog/go-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97-hugo-%E6%A8%A1%E6%9D%BF%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/</link>

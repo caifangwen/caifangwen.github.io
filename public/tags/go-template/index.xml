@@ -9,18 +9,18 @@
     <lastBuildDate>Wed, 25 Mar 2026 09:52:35 +0800</lastBuildDate>
     <atom:link href="https://www.261449.xyz/tags/go-template/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hugo Layouts 模板系统深度解析</title>
-      <link>https://www.261449.xyz/blog/hugo-layouts-%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</link>
-      <pubDate>Wed, 25 Mar 2026 09:10:45 +0800</pubDate>
-      <guid>https://www.261449.xyz/blog/hugo-layouts-%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</guid>
-      <description>&lt;h2 id=&#34;什么是-layouts&#34;&gt;什么是 Layouts&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;layouts/&lt;/code&gt; 是 Hugo 的&lt;strong&gt;模板引擎核心&lt;/strong&gt;，使用 Go 内置的 &lt;code&gt;html/template&lt;/code&gt; 语法，负责将 &lt;code&gt;content/&lt;/code&gt; 中的 Markdown 内容渲染为最终的 HTML 页面。&lt;/p&gt;&#xA;&lt;p&gt;Hugo 采用&lt;strong&gt;约定优于配置&lt;/strong&gt;的设计：只要文件放在正确的位置，框架会自动找到并使用对应的模板，无需任何手动注册。&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Go 模板语法完全指南 —— Hugo 模板开发手册</title>
       <link>https://www.261449.xyz/blog/go-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97-hugo-%E6%A8%A1%E6%9D%BF%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/</link>
       <pubDate>Wed, 25 Mar 2026 09:52:35 +0800</pubDate>
       <guid>https://www.261449.xyz/blog/go-%E6%A8%A1%E6%9D%BF%E8%AF%AD%E6%B3%95%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97-hugo-%E6%A8%A1%E6%9D%BF%E5%BC%80%E5%8F%91%E6%89%8B%E5%86%8C/</guid>
       <description>&lt;h2 id=&#34;前言&#34;&gt;前言&lt;/h2&gt;&#xA;&lt;p&gt;Hugo 使用 Go 标准库中的 &lt;code&gt;html/template&lt;/code&gt; 与 &lt;code&gt;text/template&lt;/code&gt; 作为模板引擎，并在此基础上扩展了大量内置函数。掌握 Go 模板语法是深度定制 Hugo 主题的必备技能。&lt;/p&gt;&#xA;&lt;p&gt;本文系统梳理所有语法特性，每个知识点配有可直接使用的代码示例。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hugo Layouts 模板系统深度解析</title>
+      <link>https://www.261449.xyz/blog/hugo-layouts-%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</link>
+      <pubDate>Wed, 25 Mar 2026 09:10:45 +0800</pubDate>
+      <guid>https://www.261449.xyz/blog/hugo-layouts-%E6%A8%A1%E6%9D%BF%E7%B3%BB%E7%BB%9F%E6%B7%B1%E5%BA%A6%E8%A7%A3%E6%9E%90/</guid>
+      <description>&lt;h2 id=&#34;什么是-layouts&#34;&gt;什么是 Layouts&lt;/h2&gt;&#xA;&lt;p&gt;&lt;code&gt;layouts/&lt;/code&gt; 是 Hugo 的&lt;strong&gt;模板引擎核心&lt;/strong&gt;，使用 Go 内置的 &lt;code&gt;html/template&lt;/code&gt; 语法，负责将 &lt;code&gt;content/&lt;/code&gt; 中的 Markdown 内容渲染为最终的 HTML 页面。&lt;/p&gt;&#xA;&lt;p&gt;Hugo 采用&lt;strong&gt;约定优于配置&lt;/strong&gt;的设计：只要文件放在正确的位置，框架会自动找到并使用对应的模板，无需任何手动注册。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
