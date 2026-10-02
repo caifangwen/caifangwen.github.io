@@ -1,0 +1,103 @@
+name: Astro review and deploy
+
+on:
+  pull_request:
+    branches: [main, master]
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: astro-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+env:
+  SITE_URL: https://caifangwen.github.io
+  BASE_PATH: /
+
+jobs:
+  review:
+    name: Astro checks and tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Check Astro and TypeScript
+        run: npm run check
+      - name: Test content and rendering
+        run: npm test
+      - name: Build root-path site
+        run: npm run build
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+      - name: Test desktop and mobile interactions
+        run: npm run test:browser
+      - name: Upload browser failure report
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: |
+            playwright-report/
+            test-results/
+          retention-days: 7
+      - name: Upload verified site
+        if: github.event_name != 'pull_request' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && github.repository == 'caifangwen/caifangwen.github.io'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  codeql:
+    name: CodeQL review
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: read
+      security-events: write
+      actions: read
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: github/codeql-action/init@v4
+        with:
+          languages: javascript-typescript
+          build-mode: none
+          queries: security-and-quality
+          config: |
+            paths:
+              - src
+              - astro.config.mjs
+              - playwright.config.ts
+      - uses: github/codeql-action/analyze@v4
+
+  deploy:
+    name: Deploy GitHub Pages
+    needs: [review, codeql]
+    if: github.event_name != 'pull_request' && github.ref == format('refs/heads/{0}', github.event.repository.default_branch) && github.repository == 'caifangwen/caifangwen.github.io'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: github-pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/configure-pages@v5
+      - name: Publish verified site
+        id: deployment
+        uses: actions/deploy-pages@v5

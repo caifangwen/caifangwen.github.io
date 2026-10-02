@@ -1,0 +1,13 @@
+---
+import { createHash } from 'node:crypto';
+import { assetPath, type Entry } from '../lib/content';
+import { withBase } from '../lib/site';
+interface Props { entry: Entry; project?: boolean; }
+const { entry, project = false } = Astro.props;
+const hash = createHash('md5').update(entry.title).digest('hex');
+const pattern = parseInt(hash.slice(2, 4), 16) % 4;
+const gradients = ['from-blue-500/20 to-purple-500/10', 'from-green-500/20 to-blue-500/10', 'from-purple-500/20 to-pink-500/10', 'from-orange-500/20 to-red-500/10', 'from-teal-500/20 to-green-500/10', 'from-indigo-500/20 to-purple-500/10', 'from-pink-500/20 to-rose-500/10', 'from-cyan-500/20 to-blue-500/10'];
+const gradient = gradients[parseInt(hash.slice(4, 6), 16) % gradients.length];
+const shapes = [[64, 40, 1, 45, .8], [240, 48, .8, 12, .7], [92, 140, .65, 60, .6], [260, 160, .8, 30, .65], [148, 92, .45, 45, .5]];
+---
+{entry.cover ? <img src={withBase(assetPath(entry, entry.cover))} alt={entry.title} class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105" loading="lazy" /> : project ? <div class="flex h-full w-full items-center justify-center bg-linear-to-br from-blue-500/20 to-purple-500/10"><span class="text-4xl font-bold text-muted-foreground/30">{entry.title.slice(0, 1).toUpperCase()}</span></div> : <div class:list={['cover-pattern h-full w-full bg-linear-to-br', gradient]} aria-hidden="true"><svg viewBox="0 0 320 200" preserveAspectRatio="none">{shapes.map(([x, y, scale, rotate, opacity]) => <g transform={`translate(${x} ${y}) rotate(${rotate}) scale(${scale})`} opacity={opacity}>{pattern === 0 ? <path d="M-8 6 L0 -8 L8 6 Z" fill="white" /> : pattern === 1 ? <rect x="-10" y="-10" width="20" height="20" stroke="white" stroke-width="2" fill="#ffffff25" /> : pattern === 2 ? <path d="M0 -10 L3 -3 L10 -3 L5 2 L7 10 L0 5 L-7 10 L-5 2 L-10 -3 L-3 -3 Z" fill="white" /> : <circle r="11" stroke="white" stroke-width="2" fill="#ffffff25" />}</g>)}<g fill="white" opacity=".35"><circle cx="208" cy="70" r="4" /><circle cx="128" cy="130" r="3" /><circle cx="176" cy="110" r="2" /></g><g stroke="white" opacity=".25"><path d="M85 65 l18 18" /><path d="M210 150 l15 -8" /></g></svg></div>}

@@ -1,0 +1,8 @@
+---
+import path from 'node:path';
+import Base from '../layouts/Base.astro';
+import { walk } from '../lib/content';
+import { withBase } from '../lib/site';
+const reports = walk('public/reports').filter(file => file.endsWith('.html')).map(file => path.relative('public', file).replaceAll('\\', '/'));
+---
+<Base title="分析报告"><h1 class="mb-7 text-3xl font-bold">分析报告</h1><ul class="space-y-3">{reports.map(report => <li><a href={withBase(`/${report}`)} class="block rounded-xl border border-border bg-card p-5 hover:text-primary">{report.replace('reports/', '').replace('.html', '')} ↗</a></li>)}</ul></Base>

@@ -1,7 +1,7 @@
 @echo off
 chcp 65001
-echo [INFO] 正在启动 Hugo 预览服务器...
-echo [INFO] 预览地址: http://localhost:1313
-:: 调用 bin 目录下的程序，-D 表示显示草稿
-".\bin\hugo.exe" server -D
+cd /d "%~dp0"
+echo [INFO] 正在启动 Astro 开发服务器...
+echo [INFO] 预览地址: http://localhost:4321
+call npm run dev
 pause

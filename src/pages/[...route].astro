@@ -1,0 +1,60 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import Pagination from '../components/Pagination.astro';
+import Icon from '../components/Icon.astro';
+import TaxonomyPage from '../components/Taxonomy.astro';
+import { entries, getEntries, getTerms, assetPath, type Entry } from '../lib/content';
+import { renderMarkdown } from '../lib/markdown';
+import { sections, taxonomies, withBase, termUrl, formatLongDate as formatDate, site, type Section, type Taxonomy } from '../lib/site';
+type Page = { kind: 'article'; entry: Entry } | { kind: 'list'; title: string; entries: Entry[]; current: number; total: number; root: string; description: string } | { kind: 'terms'; type: Taxonomy };
+interface Props { page: Page; }
+export function getStaticPaths() {
+  const paths: { params: { route: string }; props: { page: Page } }[] = [];
+  for (const entry of entries) paths.push({ params: { route: entry.url.replace(/^\/|\/$/g, '') }, props: { page: { kind: 'article', entry } } });
+  function addList(root: string, title: string, items: Entry[], description: string) {
+    const total = Math.max(1, Math.ceil(items.length / 12));
+    for (let current = 1; current <= total; current++) paths.push({ params: { route: current === 1 ? root : `${root}/page/${current}` }, props: { page: { kind: 'list', title, entries: items.slice((current - 1) * 12, current * 12), current, total, root: `/${root}`, description } } });
+  }
+  for (const [section, title] of Object.entries(sections)) addList(section, title, getEntries(section as Section), `共 ${getEntries(section as Section).length} 篇内容`);
+  for (const [type, title] of Object.entries(taxonomies)) {
+    paths.push({ params: { route: type }, props: { page: { kind: 'terms', type: type as Taxonomy } } });
+    for (const term of getTerms(type as Taxonomy)) addList(`${type}/${term.slug}`, term.name, term.entries, `${title} · ${term.entries.length} 篇内容`);
+  }
+  return paths;
+}
+const { page } = Astro.props;
+const entry = page.kind === 'article' ? page.entry : undefined;
+const rendered = entry ? renderMarkdown(entry) : undefined;
+const title = page.kind === 'terms' ? taxonomies[page.type] : page.kind === 'list' ? `${page.title}${page.current > 1 ? ` · 第 ${page.current} 页` : ''}` : page.entry.title;
+const siblings = entry ? getEntries(entry.section) : [];
+const currentIndex = entry ? siblings.indexOf(entries.find(item => item.url === entry.url)!) : -1;
+const related = entry ? entries.filter(item => item.url !== entry.url && item.tags.some(tag => entry.tags.includes(tag))).slice(0, 3) : [];
+const seriesEntries = entry ? entries.filter(item => item.url !== entry.url && item.series.some(series => entry.series.includes(series))) : [];
+---
+<Base title={title} description={entry?.description || (page.kind === 'list' ? page.description : undefined)} article={!!entry} date={entry?.date} image={entry?.cover ? assetPath(entry, entry.cover) : undefined}>
+  {page.kind === 'terms' ? <>
+    <TaxonomyPage type={page.type} />
+  </> : page.kind === 'list' ? <>
+    <nav aria-label="面包屑" class="mb-6 flex items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')}><Icon name="home" /></a><Icon name="chevron-right" size={12} /><span>{page.title}</span></nav>
+    <header class="mb-8"><h1 class="mb-4 text-3xl font-bold">{title}</h1>{page.root === '/posts' && <p class="mb-6 text-muted-foreground">这里是所有已发布的文章，按时间倒序排列。</p>}<p class="flex items-center gap-1 text-sm text-muted-foreground"><Icon name="folder" />{page.description}</p></header>
+    <div class:list={[page.root === '/projects' ? 'grid gap-6 sm:grid-cols-2 lg:grid-cols-3' : 'post-list space-y-4']}>{page.entries.map(item => <Card entry={item} />)}</div>
+    <Pagination current={page.current} total={page.total} root={page.root} />
+  </> : entry && rendered && <>
+    <nav aria-label="面包屑" class="mb-6 flex flex-wrap gap-2 text-sm text-muted-foreground"><a href={withBase('/')}>首页</a><span>/</span><a href={withBase(`/${entry.section}/`)}>{sections[entry.section]}</a></nav>
+    <article class="article-page">
+      {entry.cover && <img src={withBase(assetPath(entry, entry.cover))} alt={entry.title} class="mb-8 h-64 w-full rounded-2xl object-cover md:h-80" />}
+      <header class="mb-8"><div class="post-meta"><div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted-foreground"><span class="flex items-center gap-1.5"><Icon name="calendar" /><time datetime={entry.date.toISOString()}>{formatDate(entry.date)}</time></span><span class="flex items-center gap-1.5"><Icon name="clock" />{entry.minutes} 分钟</span><span class="flex items-center gap-1.5"><Icon name="text" />{entry.body.replace(/\s/g, '').length} 字</span></div><h1 class="mt-3 mb-3 text-2xl leading-tight font-bold text-foreground md:mt-4 md:mb-6 md:text-4xl">{entry.title}</h1>{entry.description && <p class="mb-4 text-base leading-relaxed text-muted-foreground md:mb-6">{entry.description}</p>}<div class="flex flex-wrap items-center gap-2">{entry.categories.map(category => <a class="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary hover:bg-primary/20" href={termUrl('categories', category)}>{category}</a>)}{entry.tags.map(tag => <a class="rounded bg-muted/50 px-2 py-1 text-sm text-muted-foreground hover:bg-primary/10 hover:text-primary" href={termUrl('tags', tag)}>#{tag}</a>)}</div></div>
+      {(entry.github || entry.website || entry.linkUrl) && <div class="mt-5 flex flex-wrap gap-3">{[[entry.github, 'GitHub ↗'], [entry.website, '项目网站 ↗'], [entry.linkUrl, '访问链接 ↗']].filter(([url]) => url).map(([url, label]) => <a href={url} class="rounded-lg border border-border px-4 py-2 text-sm hover:bg-muted" rel="noopener noreferrer">{label}</a>)}</div>}
+      {entry.tech.length > 0 && <p class="mt-4 text-xs text-muted-foreground">{entry.tech.join(' · ')}</p>}</header>
+      {rendered.headings.length > 0 && <><details id="article-toc" class="mb-8 rounded-xl border border-border p-4 xl:hidden"><summary class="font-medium">文章目录</summary><nav aria-label="文章目录" class="mt-3 grid gap-2 text-sm text-muted-foreground">{rendered.headings.map(heading => <a href={`#${heading.slug}`} style={`padding-left:${(heading.depth - 2) * 12}px`} class="hover:text-primary">{heading.text}</a>)}</nav></details><aside class="article-toc hidden xl:block" aria-label="文章目录侧栏"><h2 class="mb-4 flex items-center gap-2 text-sm font-semibold"><Icon name="list" />目录</h2><nav aria-label="桌面文章目录" class="text-sm text-muted-foreground">{rendered.headings.map(heading => <a href={`#${heading.slug}`} style={`padding-left:${(heading.depth - 2) * 12 + 8}px`}>{heading.text}</a>)}</nav></aside></>}
+      <div class="prose prose-neutral mb-12 max-w-none" set:html={rendered.html} />
+      {seriesEntries.length > 0 && <aside class="mt-8 rounded-xl bg-muted p-5"><h2 class="mb-3 font-semibold">系列文章 · {entry.series.join('、')}</h2><ul class="space-y-2 text-sm">{seriesEntries.map(item => <li><a href={withBase(item.url)}>{item.title}</a></li>)}</ul></aside>}
+      <aside class="post-license mb-8 rounded-xl border border-border bg-muted/30 p-6 text-sm leading-7 text-muted-foreground"><h2 class="mb-2 flex items-center gap-2 font-semibold text-foreground"><Icon name="license" />版权声明</h2>本文由 {site.author} 发布，采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="underline">CC BY-NC-SA 4.0</a> 协议。转载请注明来源。</aside>
+    </article>
+    <nav aria-label="相邻文章" class="post-navigation my-6 grid gap-4 sm:grid-cols-2">{[siblings[currentIndex - 1], siblings[currentIndex + 1]].map((item, i) => item && <a href={withBase(item.url)} class="rounded-xl border border-border bg-card p-5"><span class="mb-2 block text-xs text-muted-foreground">{i === 0 ? '← 较新一篇' : '较早一篇 →'}</span><span class="text-sm font-medium">{item.title}</span></a>)}</nav>
+    {related.length > 0 && <section class="related-posts mt-9"><h2 class="mb-5 text-xl font-bold">相关文章</h2><div class="grid gap-4 sm:grid-cols-3">{related.map(item => <Card entry={item} compact />)}</div></section>}
+    <section class="mt-10 rounded-xl border border-border bg-card p-5" aria-label="评论"><h2 class="mb-5 text-xl font-bold">评论</h2><script is:inline src="https://giscus.app/client.js" data-repo="caifangwen/blog-comments" data-repo-id="R_kgDORDZb2g" data-category="Announcements" data-category-id="DIC_kwDORDZb2s4C1i_z" data-mapping="pathname" data-strict="0" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async></script></section>
+    <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'BlogPosting', headline: entry.title, description: entry.description, datePublished: entry.date.toISOString(), dateModified: entry.updated.toISOString(), author: { '@type': 'Person', name: site.author }, mainEntityOfPage: new URL(withBase(entry.url), Astro.site).href }).replaceAll('<', '\\u003c')} />
+  </>}
+</Base>

@@ -1,0 +1,15 @@
+---
+import Icon from './Icon.astro';
+import { getTerms } from '../lib/content';
+import { taxonomies, termUrl, withBase, type Taxonomy } from '../lib/site';
+interface Props { type: Taxonomy; }
+const { type } = Astro.props;
+const title = taxonomies[type];
+const terms = getTerms(type);
+const maxCount = Math.max(1, ...terms.map(term => term.entries.length));
+const sizes = ['text-sm', 'text-base', 'text-lg', 'text-xl', 'text-2xl'];
+---
+<nav aria-label="面包屑" class="mb-6 flex items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')} aria-label="首页"><Icon name="home" /></a><Icon name="chevron-right" size={12} /><span>{title}</span></nav>
+<header class="mb-8"><h1 class="mb-4 text-3xl font-bold">{title}</h1><p class="mb-6 text-muted-foreground">浏览所有{title}，发现感兴趣的内容。</p><p class="flex items-center gap-1 text-sm text-muted-foreground"><Icon name={type === 'categories' ? 'folder' : 'tag'} />共 {terms.length} 个{title}</p></header>
+{type === 'categories' ? <div class="category-list grid gap-4">{terms.map(term => <a href={termUrl(type, term.name)} class="group block rounded-xl border border-border bg-card p-5 transition-all duration-300 hover:-translate-y-0.5 hover:border-primary hover:bg-primary/5 hover:shadow-lg"><div class="flex items-center justify-between gap-3"><div class="flex min-w-0 items-center gap-3"><div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary"><Icon name="folder" size={24} /></div><div><h2 class="text-lg font-semibold break-words group-hover:text-primary">{term.name}</h2><p class="text-sm text-muted-foreground">收录 {term.entries.length} 篇文章</p></div></div><div class="flex shrink-0 items-center gap-2"><span class="rounded-full bg-primary px-3 py-1 text-sm font-medium text-primary-foreground">{term.entries.length} 篇</span><Icon name="chevron-right" /></div></div></a>)}</div> : <div class="flex flex-wrap gap-3">{terms.map(term => <a href={termUrl(type, term.name)} class:list={['inline-flex items-center gap-2 rounded-lg border border-border bg-card px-3 py-2 transition-all hover:-translate-y-0.5 hover:border-primary/50 hover:bg-primary/10 hover:text-primary', sizes[Math.floor(term.entries.length * 4 / maxCount)]]}><span class="font-medium">{term.name}</span><span class="rounded-full bg-primary/10 px-2 py-0.5 text-xs font-medium text-primary">{term.entries.length}</span></a>)}</div>}
+{!terms.length && <p class="py-16 text-center text-muted-foreground">暂无{title}</p>}

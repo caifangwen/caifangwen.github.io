@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { getEntries } from '../lib/content';
+import { withBase, formatDate, formatLongDate } from '../lib/site';
+const posts = getEntries('posts');
+const groups = Map.groupBy(posts, entry => formatDate(entry.date).slice(0, 7));
+---
+<Base title="归档"><div class="archives-page">
+  <nav aria-label="面包屑" class="mb-6 flex items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')} aria-label="首页"><Icon name="home" /></a><Icon name="chevron-right" size={12} /><span>归档</span></nav>
+  <header class="mb-8"><div class="mb-4 flex items-center gap-3"><Icon name="archive" size={28} /><h1 class="text-3xl font-bold">归档</h1></div><p class="mb-6 text-muted-foreground">按时间浏览所有文章，回顾每一次探索与记录。</p><p class="flex items-center gap-1 text-sm text-muted-foreground"><Icon name="file-text" />共 {posts.length} 篇文章</p></header>
+  <div class="space-y-8">{[...groups].map(([month, items]) => <section class="month-group">
+    <div class="month-header sticky z-20 mb-4 border-b border-border bg-background/80 py-3 backdrop-blur-sm"><h2 class="flex items-center gap-2 text-lg font-semibold"><Icon name="calendar" />{month.replace('/', ' 年 ')} 月 <span class="text-sm font-normal text-muted-foreground">({items.length} 篇)</span></h2></div>
+    <div class="space-y-4">{items.map(entry => <article class="group"><a href={withBase(entry.url)} class="block rounded-xl border border-border bg-card p-6 transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:border-primary/20 hover:bg-primary/5 hover:shadow-lg">
+      <h3 class="text-lg leading-tight font-semibold group-hover:text-primary">{entry.title}</h3>
+      {entry.description && <p class="mt-2 line-clamp-2 text-sm leading-relaxed text-muted-foreground">{entry.description}</p>}
+      <div class="mt-3 flex flex-wrap items-center gap-3 text-sm text-muted-foreground"><span class="flex items-center gap-1.5"><Icon name="calendar" size={12} /><time datetime={entry.date.toISOString()}>{formatLongDate(entry.date)}</time></span><span class="flex items-center gap-1.5"><Icon name="clock" size={12} />{entry.minutes} 分钟</span>{entry.categories[0] && <span class="flex items-center gap-1 rounded-md border border-primary/20 bg-primary/10 px-2 py-1 text-xs font-medium text-primary"><Icon name="folder" size={12} />{entry.categories[0]}</span>}</div>
+    </a></article>)}</div>
+  </section>)}</div>
+  {!posts.length && <p class="py-16 text-center text-muted-foreground">暂无文章</p>}
+</div></Base>

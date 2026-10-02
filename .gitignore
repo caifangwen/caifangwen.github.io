@@ -1,3 +1,13 @@
-content/temp/
-bin/
-public/
+node_modules/
+dist/
+.astro/
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+*.log
+.obsidian/
+.trash/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+---
+import { withBase } from '../lib/site';
+interface Props { current: number; total: number; root: string; }
+const { current, total, root } = Astro.props;
+const url = (page: number) => withBase(page === 1 ? `${root}/` : `${root}/page/${page}/`);
+---
+{total > 1 && <nav aria-label="分页" class="mt-8 flex flex-wrap items-center justify-center gap-2">{current > 1 && <a href={url(current - 1)} rel="prev" class="rounded-lg border border-border px-3 py-2">上一页</a>}{Array.from({ length: total }, (_, i) => i + 1).filter(page => page === 1 || page === total || Math.abs(page - current) <= 2).map((page, i, pages) => <>{i > 0 && page - pages[i - 1] > 1 && <span>…</span>}<a href={url(page)} aria-current={page === current ? 'page' : undefined} class:list={['rounded-lg border border-border px-3 py-2', page === current ? 'bg-primary text-primary-foreground' : 'hover:bg-muted']}>{page}</a></>)}{current < total && <a href={url(current + 1)} rel="next" class="rounded-lg border border-border px-3 py-2">下一页</a>}</nav>}

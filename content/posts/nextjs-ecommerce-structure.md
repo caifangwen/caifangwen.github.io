@@ -7,7 +7,7 @@ tags: [Next.js, 电商，网站结构]
 categories:
   - 技术
 author: Frida
-slug: "nextjs-structure-guide"
+slug: "nextjs-ecommerce-structure"
 ---
 
 # Next.js 商城完整结构指南
