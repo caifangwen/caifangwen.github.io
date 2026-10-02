@@ -29,6 +29,26 @@ export function renderMarkdown(entry: Entry) {
     if (depth >= 2 && depth <= 4) headings.push({ depth, text: info.title, slug: info.slug });
   }});
   md.use(texmath, { engine: katex, delimiters: ['dollars', 'brackets'], katexOptions: { throwOnError: false, strict: 'ignore' } });
+  md.core.ruler.after('inline', 'task-lists', state => {
+    for (let i = 2; i < state.tokens.length; i++) {
+      const token = state.tokens[i];
+      const item = state.tokens[i - 2];
+      if (token.type !== 'inline' || state.tokens[i - 1].type !== 'paragraph_open' || item.type !== 'list_item_open') continue;
+      const first = token.children?.[0];
+      if (first?.type !== 'text') continue;
+      const marker = first.content.match(/^\[([ xX]?)\](?:\s+|$)/);
+      if (!marker) continue;
+      item.attrJoin('class', 'task-list-item');
+      first.content = first.content.slice(marker[0].length);
+      const checkbox = new state.Token('html_inline', '', 0);
+      checkbox.content = `<input type="checkbox" disabled${/x/i.test(marker[1]) ? ' checked' : ''} aria-label="${/x/i.test(marker[1]) ? '已完成' : '未完成'}" />`;
+      token.children!.unshift(checkbox);
+    }
+  });
+  md.renderer.rules.table_open = (tokens, i, options, _env, self) =>
+    `<div class="table-wrapper" tabindex="0" role="region" aria-label="文章表格">${self.renderToken(tokens, i, options)}`;
+  md.renderer.rules.table_close = (tokens, i, options, _env, self) =>
+    `${self.renderToken(tokens, i, options)}</div>\n`;
   const defaultFence = md.renderer.rules.fence!;
   md.renderer.rules.fence = (tokens, i, options, env, self) => {
     const code = defaultFence(tokens, i, options, env, self);

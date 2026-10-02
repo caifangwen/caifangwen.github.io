@@ -300,13 +300,6 @@
 
 /* ==================== 移动端表格优化 ==================== */
 @media (max-width: 768px) {
-  /* 强制表格为块级元素，支持滚动 */
-  .prose table {
-    display: block !important;
-    overflow-x: auto !important;
-    -webkit-overflow-scrolling: touch;
-    max-width: 100% !important;
-  }
 
   /* 表格容器 */
   .prose .table-wrapper {

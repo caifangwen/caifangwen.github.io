@@ -1,5 +1,11 @@
 export {};
 const root = document.documentElement;
+const siteHeader = document.querySelector<HTMLElement>('.site-header');
+if (siteHeader) {
+  const updateHeaderHeight = () => root.style.setProperty('--site-header-height', `${siteHeader.getBoundingClientRect().height}px`);
+  updateHeaderHeight();
+  new ResizeObserver(updateHeaderHeight).observe(siteHeader);
+}
 const save = (key: string, value: string) => { try { localStorage.setItem(key, value); } catch {} };
 document.querySelector('#mode-toggle')?.addEventListener('click', () => {
   root.classList.toggle('dark');

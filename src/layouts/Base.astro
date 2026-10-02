@@ -40,13 +40,13 @@ const themes = ['default', 'claude', 'bumblebee', 'emerald', 'nord', 'sunset', '
   <body class="min-h-screen antialiased" data-base={base}>
     <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-card focus:p-3">跳转到正文</a>
     {article && <div id="reading-progress" class="fixed top-0 left-0 z-50 h-0.5 bg-primary" style="width:0" aria-hidden="true"></div>}
-    <header class="site-header sticky top-0 z-50 mx-auto max-w-4xl px-3 py-3 md:px-4 md:py-6">
-      <div class="rounded-xl border border-border bg-card/80 px-3 py-2 shadow-sm backdrop-blur-sm md:px-6 md:py-4">
+    <header class="site-header sticky top-0 z-50 mx-auto max-w-4xl px-4 py-3">
+      <div class="rounded-xl border border-border bg-card/80 px-3 py-2 shadow-sm backdrop-blur-sm md:px-4 md:py-2">
         <div class="flex min-w-0 items-center justify-between">
-          <a href={withBase('/')} class="hidden h-5 w-5 shrink-0 overflow-hidden rounded md:flex" aria-label="Frida Home 首页"><img src={withBase('/frida-home.png')} alt="" width="20" height="20" class="h-full w-full object-cover" /></a>
+          <a href={withBase('/')} class="hidden h-9 w-9 shrink-0 overflow-hidden rounded-lg md:flex" aria-label="Frida Home 首页"><img src={withBase('/frida-home.png')} alt="" width="36" height="36" class="h-full w-full object-cover" /></a>
           <button id="menu-toggle" class="header-control md:hidden" aria-label="菜单" aria-expanded="false" aria-controls="mobile-nav"><Icon name="menu" size={20} /></button>
-          <nav aria-label="主导航" class="mx-4 hidden min-w-0 flex-1 flex-wrap items-center justify-center gap-1 md:mx-8 md:flex">
-            {nav.map(([href, label, icon]) => <a href={withBase(href)} aria-current={Astro.url.pathname === withBase(href) ? 'page' : undefined} class:list={['flex items-center gap-2 rounded-md px-3 py-1.5 text-sm font-medium hover:bg-primary/10 hover:text-primary', Astro.url.pathname === withBase(href) ? 'bg-accent text-accent-foreground' : 'text-muted-foreground']}><Icon name={icon} />{label}</a>)}
+          <nav aria-label="主导航" class="mx-4 hidden min-w-0 flex-1 flex-wrap items-center justify-center gap-1 md:mx-4 md:flex">
+            {nav.map(([href, label, icon]) => <a href={withBase(href)} aria-current={Astro.url.pathname === withBase(href) ? 'page' : undefined} class:list={['flex items-center gap-1.5 rounded-md px-2.5 py-1.5 text-sm font-medium hover:bg-primary/10 hover:text-primary', Astro.url.pathname === withBase(href) ? 'bg-accent text-accent-foreground' : 'text-muted-foreground']}><Icon name={icon} />{label}</a>)}
           </nav>
           <div class="flex shrink-0 items-center gap-2">
             <button id="search-open" class="header-control" aria-label="搜索文章" title="搜索文章 (/)"><Icon name="search" size={20} /></button>

@@ -295,14 +295,14 @@
   margin: 1.25rem 0;
 }
 
-.prose ul li {
+.prose ul > li {
   position: relative;
   padding-left: 1rem;
   margin: 0.5rem 0.6rem;
   color: var(--tw-prose-body);
 }
 
-.prose ul li::before {
+.prose ul > li::before {
   content: "";
   position: absolute;
   left: 0;
@@ -314,58 +314,55 @@
 }
 
 .prose ol {
-  counter-reset: item;
+  list-style: none;
   padding-left: 0;
   margin: 1.25rem 0;
-  list-style: none;
 }
-
-.prose ol li {
+.prose ol > li {
   position: relative;
   padding-left: 2rem;
-  margin: 0.5rem 0.6rem;
-  counter-increment: item;
+  margin: 0.5rem 0;
   color: var(--tw-prose-body);
 }
-
-.prose ol li::before {
-  content: counter(item);
+.prose ol > li::before {
+  content: counter(list-item);
   position: absolute;
   left: 0;
-  top: 0.35em; /* 基于行高1.7的精确计算：考虑圆形标记需要视觉居中 */
-  background: var(--color-primary);
-  color: white;
-  width: 1.25rem;
-  height: 1.25rem;
-  border-radius: 50%;
+  top: .2em;
+  min-width: 1.35rem;
+  height: 1.35rem;
+  padding: 0 .2rem;
+  border-radius: 999px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.75rem;
-  font-weight: bold;
+  background: var(--color-primary);
+  color: var(--color-primary-foreground);
+  font-size: .75rem;
+  font-weight: 600;
   line-height: 1;
 }
 
 /* 任务列表 (Checkbox) */
-.prose ul li.task-list-item {
+.prose li.task-list-item {
   list-style: none;
   position: relative;
   padding-left: 2rem;
   margin: 0.5rem 0;
 }
 
-.prose ul li.task-list-item::before {
+.prose li.task-list-item::before {
   display: none; /* 隐藏默认的圆点 */
 }
 
-.prose ul li.task-list-item input[type="checkbox"] {
+.prose li.task-list-item input[type="checkbox"] {
   position: absolute;
   left: 0;
   top: 0.4em;
   width: 1rem;
   height: 1rem;
   margin: 0;
-  cursor: pointer;
+  cursor: default;
   appearance: none;
   -webkit-appearance: none;
   border: 2px solid var(--color-border);
@@ -374,23 +371,23 @@
   transition: all 0.2s ease;
 }
 
-.prose ul li.task-list-item input[type="checkbox"]:checked {
+.prose li.task-list-item input[type="checkbox"]:checked {
   background: var(--color-primary);
   border-color: var(--color-primary);
 }
 
-.prose ul li.task-list-item input[type="checkbox"]:checked::after {
+.prose li.task-list-item input[type="checkbox"]:checked::after {
   content: "✓";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--color-primary-foreground);
   font-size: 0.75rem;
   font-weight: bold;
 }
 
-.prose ul li.task-list-item input[type="checkbox"]:hover {
+.prose li.task-list-item input[type="checkbox"]:hover {
   border-color: var(--color-primary);
   box-shadow: 0 0 0 2px
     color-mix(in srgb, var(--color-primary) 20%, transparent);
@@ -439,13 +436,8 @@
   padding-left: 1.5rem;
 }
 
-/* 嵌套有序列表重置计数器 */
-.prose ol ol {
-  counter-reset: item;
-}
-
 /* 二级无序列表使用空心圆标记 */
-.prose ul ul li::before {
+.prose ul ul > li::before {
   width: 6px;
   height: 6px;
   background: transparent;
@@ -456,7 +448,7 @@
 }
 
 /* 三级无序列表使用实心方形标记 */
-.prose ul ul ul li::before {
+.prose ul ul ul > li::before {
   content: "";
   width: 4px;
   height: 4px;
@@ -464,23 +456,6 @@
   border: none;
   border-radius: 0;
   top: 0.75em;
-}
-
-/* 嵌套有序列表样式调整 */
-.prose ol ol li::before {
-  background: color-mix(in srgb, var(--color-primary) 70%, white 30%);
-  font-size: 0.7rem;
-  width: 1.1rem;
-  height: 1.1rem;
-  top: 0.45em;
-}
-
-.prose ol ol ol li::before {
-  background: var(--color-muted-foreground);
-  font-size: 0.65rem;
-  width: 1rem;
-  height: 1rem;
-  top: 0.55em;
 }
 
 /* 代码样式 */

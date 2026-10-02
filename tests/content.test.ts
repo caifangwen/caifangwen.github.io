@@ -6,6 +6,15 @@ import path from 'node:path';
 import { entries, loadEntries, getTerms, assetPath } from '../src/lib/content';
 import { renderMarkdown } from '../src/lib/markdown';
 
+test('task markers become disabled checkboxes in nested and loose lists', () => {
+  const { html } = renderMarkdown({ ...entries[0], body: '- [] Empty\n- [ ] Pending\n- [x] Done\n  - [X] Nested\n\n- [ ] Loose\n\n  Another paragraph\n\n1. [ ] Ordered\n\n`- [ ] Code`\n\n```md\n- [ ] Code block\n```' });
+  assert.equal((html.match(/class="task-list-item"/g) || []).length, 6);
+  assert.equal((html.match(/type="checkbox"/g) || []).length, 6);
+  assert.equal((html.match(/disabled checked/g) || []).length, 2);
+  assert.match(html, /<code>- \[ \] Code<\/code>/);
+  assert.match(html, /<input[^>]+aria-label="未完成"/);
+});
+
 test('all published content has distinct URLs and valid dates', () => {
   assert.ok(entries.length > 200);
   assert.equal(new Set(entries.map(entry => entry.url)).size, entries.length);
