@@ -114,6 +114,6 @@ test('headings get unique anchors; formulas and code are rendered safely', () =>
   const highlight = renderMarkdown({ ...entry, body: '{{< highlight html >}}\n<div>Hello</div>\n{{< /highlight >}}' }).html;
   assert.match(highlight, /language-html/);
   assert.doesNotMatch(highlight, /\{\{<|<div>Hello/);
-  const project = entries.find(item => item.source === 'projects/narrow/index.zh-cn.md')!;
-  assert.equal(assetPath(project, project.cover), '/media/projects/narrow/narrow.webp');
+  const bundle = { ...entry, source: 'acquire/narrow/render-image/index.md' };
+  assert.equal(assetPath(bundle, 'bundle.avif'), '/media/acquire/narrow/render-image/bundle.avif');
 });

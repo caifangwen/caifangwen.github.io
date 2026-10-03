@@ -1,20 +1,14 @@
 ---
 import Base from '../layouts/Base.astro';
 import Icon from '../components/Icon.astro';
+import ArchiveList from '../components/ArchiveList.astro';
 import { getEntries } from '../lib/content';
-import { withBase, formatDate } from '../lib/site';
+import { withBase } from '../lib/site';
 const posts = getEntries('posts');
-const groups = Map.groupBy(posts, entry => formatDate(entry.date).slice(0, 7));
 ---
 <Base title="归档"><div class="archives-page">
   <nav aria-label="面包屑" class="mb-6 flex items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')} aria-label="首页"><Icon name="home" /></a><Icon name="chevron-right" size={12} /><span>归档</span></nav>
   <header class="mb-6 flex items-baseline justify-between gap-4"><h1 class="text-3xl font-bold">归档</h1><p class="text-sm text-muted-foreground">共 {posts.length} 篇文章</p></header>
-  <div class="space-y-6">{[...groups].map(([month, items]) => <section class="month-group">
-    <div class="month-header sticky z-20 mb-2 bg-background"><h2 class="flex items-center gap-2 text-lg font-semibold sm:text-xl"><span class="month-label">{month.replace('/', ' 年 ')} 月</span><span class="month-count">{items.length} 篇</span></h2></div>
-    <div class="month-posts">{items.map(entry => <article class="archive-entry grid grid-cols-[3rem_minmax(0,1fr)] gap-x-3 sm:grid-cols-[4rem_minmax(0,1fr)] sm:gap-x-5">
-      <time datetime={entry.date.toISOString()} class="py-3 text-xs leading-6 tabular-nums text-muted-foreground sm:text-sm">{formatDate(entry.date).slice(5).replace('/', '-')}</time>
-      <div class="relative min-w-0 py-3 pl-5"><span aria-hidden="true" class="archive-line"></span><span aria-hidden="true" class="archive-dot absolute -left-[2.5px] top-6 h-1.5 w-1.5 -translate-y-1/2 rounded-full bg-muted-foreground"></span><a href={withBase(entry.url)} class="block text-sm leading-6 font-medium break-words hover:text-primary hover:underline underline-offset-4 sm:text-base">{entry.title}</a></div>
-    </article>)}</div>
-  </section>)}</div>
+  <ArchiveList entries={posts} stickyMonths />
   {!posts.length && <p class="py-16 text-center text-muted-foreground">暂无文章</p>}
 </div></Base>

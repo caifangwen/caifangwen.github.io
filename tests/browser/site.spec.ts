@@ -38,7 +38,7 @@ test('article anchors, code, feeds and bundle images', async ({ page, request })
   await expect(page.locator('.prose pre').first()).toBeHidden();
   await page.getByRole('button', { name: '折叠代码' }).first().click();
   await expect(page.locator('.prose pre').first()).toBeVisible();
-  for (const url of ['/index.xml', '/sitemap.xml', '/robots.txt', '/media/projects/narrow/narrow.webp', '/reports/seo.com.cn.html']) expect((await request.get(`${base}${url}`)).ok()).toBe(true);
+  for (const url of ['/index.xml', '/sitemap.xml', '/robots.txt', '/media/acquire/narrow/render-image/bundle.avif', '/reports/seo.com.cn.html']) expect((await request.get(`${base}${url}`)).ok()).toBe(true);
   const index = await (await request.get(`${base}/index.json`)).json();
   expect(index.length).toBeGreaterThan(200);
   expect(index.every((entry: { url: string }) => entry.url.startsWith(`${base}/`))).toBe(true);

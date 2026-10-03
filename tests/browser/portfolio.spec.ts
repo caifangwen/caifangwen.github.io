@@ -9,6 +9,7 @@ test('portfolio preserves the resume sections and works on desktop and mobile', 
     await page.setViewportSize({ width, height: 900 });
     await page.goto(`${base}/portfolio/`);
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('蔡方闻');
+    await expect(page.locator('.portfolio')).not.toContainText(/\?{2,}|\uFFFD/);
     await expect(page.locator('.portfolio h2')).toHaveText(['专业技能', '工作经验', '项目亮点', '教育经历']);
     await expect(page.locator('#skills > ul > li')).toHaveCount(7);
     await expect(page.locator('.resume-experience')).toHaveCount(2);
@@ -48,11 +49,22 @@ test('portfolio preserves the resume sections and works on desktop and mobile', 
     const experienceItem = page.locator('.resume-experience').first();
     const periodRect = await experienceItem.locator('.resume-period').boundingBox();
     const roleRect = await experienceItem.locator('h3').boundingBox();
-    expect(periodRect!.x + periodRect!.width).toBeLessThan(roleRect!.x);
     if (width >= 640) {
+      expect(periodRect!.x + periodRect!.width).toBeLessThan(roleRect!.x);
       const companyRect = await experienceItem.locator('h3 + p').boundingBox();
       expect(companyRect!.x).toBeGreaterThan(roleRect!.x + roleRect!.width);
       expect(Math.abs(companyRect!.y - roleRect!.y)).toBeLessThan(6);
+    } else {
+      const itemRect = await experienceItem.boundingBox();
+      const bodyRect = await experienceItem.locator('ul').boundingBox();
+      expect(bodyRect!.width).toBeGreaterThan(itemRect!.width * 0.9);
+      expect(Math.abs(periodRect!.y - roleRect!.y)).toBeLessThan(2);
+      const roleTextRight = await experienceItem.locator('h3').evaluate(node => {
+        const range = document.createRange();
+        range.selectNodeContents(node);
+        return range.getBoundingClientRect().right;
+      });
+      expect(roleTextRight).toBeLessThan(periodRect!.x);
     }
     const lines = await page.locator('[data-timeline-line]').evaluateAll(nodes => nodes.map(node => ({ top: node.getBoundingClientRect().top, bottom: node.getBoundingClientRect().bottom })));
     const firstDot = await page.locator('[data-timeline-dot]').first().boundingBox();

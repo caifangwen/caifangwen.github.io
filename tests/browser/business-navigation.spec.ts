@@ -8,6 +8,7 @@ test('business directories, secondary content links and desktop mega menus work'
     await page.goto(`${base}/`);
     const nav = page.getByRole('navigation', { name: '主导航', exact: true });
     await expect(nav).toBeVisible();
+    await expect(nav.getByRole('link', { name: '首页', exact: true })).toHaveCount(0);
     for (const label of ['文章', '分享', '讨论', '分类', '学习路径']) {
       await expect(nav.getByRole('link', { name: label, exact: true })).toHaveCount(0);
       await expect(page.getByRole('navigation', { name: '内容索引' }).getByRole('link', { name: label, exact: true })).toBeVisible();
@@ -51,12 +52,15 @@ test('mobile business menus navigate without losing access to content indexes', 
     await page.getByRole('button', { name: '菜单', exact: true }).click();
     const nav = page.getByRole('navigation', { name: '移动导航' });
     await expect(nav).toBeVisible();
+    await expect(nav.getByRole('link', { name: '首页', exact: true })).toHaveCount(0);
     await nav.getByRole('button', { name: '展开出海子菜单', exact: true }).click();
     await nav.getByRole('link', { name: '隐私与数据', exact: true }).click();
     await expect(page.getByRole('heading', { level: 1 })).toHaveText('隐私与数据');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     await page.getByRole('navigation', { name: '内容索引' }).getByRole('link', { name: '分类', exact: true }).click();
     await expect(page).toHaveURL(new RegExp('/categories/$'));
+    await page.getByRole('link', { name: 'Frida Home 首页', exact: true }).click();
+    await expect(page).toHaveURL(new RegExp(`${base}/$`));
   }
 });
 

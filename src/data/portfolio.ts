@@ -7,7 +7,7 @@ interface Resume {
   name: string;
   role: string;
   skills: SkillGroup[];
-  experience: { title: string; period: string; paragraphs: string[] }[];
+  experience: { company: string; role: string; period: string; paragraphs: string[] }[];
   education: { school: string; period: string; major: string; degree: string; website: string; logo: string };
   certificates: string[];
   email: string;
@@ -26,12 +26,12 @@ export const resume = {
         "Ahrefs",
         "GSC",
         "GA4",
-        "????",
-        "????"
+        "竞品分析",
+        "站内优化"
       ]
     },
     {
-      title: "?????",
+      title: "独立站开发",
       items: [
         "WordPress",
         "RankMath",
@@ -42,18 +42,18 @@ export const resume = {
       ]
     },
     {
-      title: "AI ?????????",
+      title: "AI 工具与自动化工作流",
       items: [
         "Claude",
         "GPT",
         "Prompt Engineering",
         "MCP",
         "Make",
-        "?????"
+        "工作流优化"
       ]
     },
     {
-      title: "????",
+      title: "全栈技术",
       items: [
         "HTML",
         "CSS",
@@ -67,18 +67,18 @@ export const resume = {
       ]
     },
     {
-      title: "????",
+      title: "数据分析",
       items: [
         "SQL",
         "Python",
         "PowerBI",
         "Tableau",
         "Looker Studio",
-        "?????"
+        "飞书工作流"
       ]
     },
     {
-      title: "??????",
+      title: "海外社媒运营",
       items: [
         "LinkedIn",
         "TikTok",
@@ -89,21 +89,22 @@ export const resume = {
       ]
     },
     {
-      title: "?????????",
+      title: "平台投放与内容创作",
       items: [
         "Google Ads",
-        "??AD",
-        "???",
-        "???",
-        "??",
+        "抖音AD",
+        "小红书",
+        "视频号",
+        "剪映",
         "PS",
-        "AI??"
+        "AI绘图"
       ]
     }
   ],
   experience: [
     {
-      title: "某垂直领域前三外贸公司AI驱动增长",
+      company: "某垂直领域前三外贸公司",
+      role: "AI驱动增长",
       period: "2026.4-至今",
       paragraphs: [
         "基于 Shopify Online Store 2.0 (OS 2.0) 架构，主导主题从零模块化定制重构，开发 20+ 个可复用的 Liquid Sections 与 Blocks，提升运营团队页面搭建效率 60% 以上。",
@@ -113,7 +114,8 @@ export const resume = {
       ]
     },
     {
-      title: "某垂直领域前三外贸公司Google SEO 优化",
+      company: "某垂直领域前三外贸公司",
+      role: "Google SEO 优化",
       period: "2023.1-2026.4",
       paragraphs: [
         "技术SEO ：定期通过 Screaming Frog 审计全站，优化 Crawl Budget 并修复技术缺陷。部署 JSON-LD 结构化数据以获取富媒体搜索展示，并协同开发完成 HTML/CSS 级的性能调整。监控 Core Web Vitals 指标，实施 WebP 转换与 CDN 策略优化 LCP 表现。持续改进移动端交互与无障碍设计，确保站点在 Google 移动优先索引中保持竞争优势。",
@@ -124,16 +126,16 @@ export const resume = {
     }
   ],
   education: {
-    school: "??????",
+    school: "浙江工商大学",
     period: "2019.9-2023.6",
-    major: "???",
-    degree: "??",
+    major: "经济学",
+    degree: "本科",
     website: "https://www.zjgsu.edu.cn/",
     logo: "/images/portfolio/zjgsu-logo.png"
   },
   certificates: [
-    "????",
-    "?????"
+    "英语六级",
+    "计算机三级"
   ],
   email: "frida_cai@qq.com",
   phone: "15706770218"

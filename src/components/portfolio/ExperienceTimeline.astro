@@ -1,15 +1,15 @@
 ---
 import { resume } from '../../data/portfolio';
-const experience = resume.experience.map(item => ({ ...item, company: item.title.slice(0, item.title.indexOf('公司') + 2), role: item.title.slice(item.title.indexOf('公司') + 2) }));
+const experience = resume.experience;
 ---
 <ol>
-  {experience.map((item, index) => <li class="resume-experience grid grid-cols-[5rem_minmax(0,1fr)] gap-3 pb-8 last:pb-0 sm:grid-cols-[8rem_minmax(0,1fr)] sm:gap-5">
-    <p class="resume-period pt-1 text-xs leading-6 text-muted-foreground sm:text-sm">{item.period}</p>
-    <div class="relative min-w-0 pl-5 sm:pl-6">
-      <span data-timeline-line aria-hidden="true" class:list={['absolute left-0 w-0.5 bg-border', index === 0 ? 'top-3' : 'top-0', index === experience.length - 1 ? 'bottom-0' : '-bottom-8']}></span>
+  {experience.map((item, index) => <li class="resume-experience relative grid grid-cols-[minmax(0,1fr)] pb-5 last:pb-0 sm:grid-cols-[8rem_minmax(0,1fr)] sm:gap-5 sm:pb-8 sm:last:pb-0">
+    <p class="resume-period absolute top-0 right-0 text-[11px] leading-6 text-muted-foreground sm:static sm:pt-1 sm:text-sm">{item.period}</p>
+    <div class="relative min-w-0 pl-3 sm:pl-6">
+      <span data-timeline-line aria-hidden="true" class:list={['absolute left-0 w-0.5 bg-border', index === 0 ? 'top-3' : 'top-0', index === experience.length - 1 ? 'bottom-0' : '-bottom-5 sm:-bottom-8']}></span>
       <span data-timeline-dot class="absolute -left-[3px] top-2 h-2 w-2 rounded-full bg-primary" aria-hidden="true"></span>
-      <div class="mb-4 flex items-baseline gap-x-3"><h3 class="shrink-0 text-base leading-7 font-semibold text-foreground">{item.role}</h3><p class="min-w-0 text-sm leading-6 text-muted-foreground">{item.company}</p></div>
-      <ul class="list-disc space-y-3 pl-4 text-sm leading-7 text-muted-foreground">{item.paragraphs.map(paragraph => <li>{paragraph}</li>)}</ul>
+      <div class="mb-2 flex flex-col gap-0.5 sm:mb-4 sm:flex-row sm:items-baseline sm:gap-x-3"><h3 class="pr-24 text-sm leading-6 font-semibold text-foreground sm:shrink-0 sm:pr-0 sm:text-base sm:leading-7">{item.role}</h3><p class="min-w-0 text-xs leading-5 text-muted-foreground sm:text-sm sm:leading-6">{item.company}</p></div>
+      <ul class="list-disc space-y-2 pl-3.5 text-[13px] leading-6 text-muted-foreground sm:space-y-3 sm:pl-4 sm:text-sm sm:leading-7">{item.paragraphs.map(paragraph => <li>{paragraph}</li>)}</ul>
     </div>
   </li>)}
 </ol>

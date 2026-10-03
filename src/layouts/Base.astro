@@ -44,10 +44,10 @@ const themes = ['default', 'claude', 'bumblebee', 'emerald', 'nord', 'sunset', '
     <header class:list={['site-header sticky top-0 z-50 mx-auto max-w-4xl min-[770px]:max-w-[920px] px-4 py-3 max-[769px]:px-[0.9rem]', printContentOnly && 'print:hidden']}>
       <div class="site-header-shell relative rounded-xl border border-border bg-card/80 px-3 py-2 shadow-sm backdrop-blur-sm md:px-4 md:py-2">
         <div class="flex min-w-0 items-center justify-between">
-          <a href={withBase('/')} class="hidden h-9 w-9 shrink-0 overflow-hidden rounded-lg md:flex" aria-label="Frida Home 首页"><img src={withBase('/frida-home.png')} alt="" width="36" height="36" class="h-full w-full object-cover" /></a>
-          <button id="menu-toggle" class="header-control md:hidden" aria-label="菜单" aria-expanded="false" aria-controls="mobile-nav"><Icon name="menu" size={20} /></button>
+          <a href={withBase('/')} class="flex h-9 w-9 shrink-0 overflow-hidden rounded-lg" aria-label="Frida Home 首页"><img src={withBase('/frida-home.png')} alt="" width="36" height="36" class="h-full w-full object-cover" /></a>
           <BusinessNavigation />
           <div class="flex shrink-0 items-center gap-2">
+            <button id="menu-toggle" class="header-control md:hidden" aria-label="菜单" aria-expanded="false" aria-controls="mobile-nav"><Icon name="menu" size={20} /></button>
             <button id="search-open" class="header-control" aria-label="搜索文章" title="搜索文章 (/)"><Icon name="search" size={20} /></button>
             <div class="relative"><button id="theme-toggle" class="header-control" aria-label="配色主题" aria-expanded="false" aria-controls="theme-menu"><Icon name="palette" size={20} /></button><div id="theme-menu" class="theme-menu hidden" aria-label="主题设置">{themes.map(theme => <button data-theme-choice={theme} aria-pressed="false">{theme === 'default' ? 'Default' : theme.charAt(0).toUpperCase() + theme.slice(1)}</button>)}<div class="my-1 border-t border-border"></div><button id="mode-toggle" aria-label="切换深色模式"><Icon name="sun" /> <span class="ml-2">切换明暗模式</span></button></div></div>
           </div>

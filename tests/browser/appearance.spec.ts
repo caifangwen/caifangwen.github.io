@@ -12,7 +12,8 @@ test('original desktop widths, three-column projects and theme colors', async ({
   await expect(page.locator('.author-section img')).toHaveCSS('width', '96px');
   const projects = page.locator('main > section').filter({ has: page.getByRole('heading', { name: '特色项目' }) });
   expect((await projects.locator('.grid').evaluate(node => getComputedStyle(node).gridTemplateColumns)).split(' ')).toHaveLength(3);
-  await expect(page.locator('.home-list .cover-pattern').last()).toBeVisible();
+  await expect(page.locator('.recent-articles .archive-entry')).toHaveCount(5);
+  await expect(page.locator('.recent-articles .cover-pattern')).toHaveCount(0);
   const initial = await page.locator('body').evaluate(node => getComputedStyle(node).backgroundColor);
   await page.getByRole('button', { name: '配色主题', exact: true }).click();
   await page.getByRole('button', { name: 'Claude', exact: true }).click();
@@ -24,9 +25,11 @@ test('original desktop widths, three-column projects and theme colors', async ({
 test('original compact mobile list and unboxed article', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.goto(`${base}/`);
-  const card = page.locator('.home-list article').first();
-  await expect(card.locator('h3')).toHaveCSS('font-size', '15.2px');
-  await expect(card.locator('p')).toBeHidden();
+  const row = page.locator('.recent-articles .archive-entry').first();
+  await expect(row.locator('a')).toHaveCSS('font-size', '14px');
+  await expect(row.locator('time')).toBeVisible();
+  await expect(row.locator('.archive-line')).toBeVisible();
+  await expect(row.locator('img')).toHaveCount(0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.route('https://giscus.app/**', route => route.abort());
   await page.goto(`${base}/blog/ssh-config-guide/`);
