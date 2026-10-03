@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import Icon from '../components/Icon.astro';
+import { getEntries } from '../lib/content';
+import { withBase } from '../lib/site';
+const resources = getEntries('shares');
+const categories = [...new Set(resources.flatMap(entry => entry.categories))];
+---
+<Base title="分享" description="按开发场景整理技术栈、GitHub 仓库与官方文档。">
+  <nav aria-label="面包屑" class="mb-6 flex items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')} aria-label="首页"><Icon name="home" /></a><Icon name="chevron-right" size={12} /><span>分享</span></nav>
+  <header class="mb-7"><div class="mb-3 flex items-baseline justify-between gap-4"><h1 class="text-3xl font-bold">分享</h1><span id="share-count" aria-live="polite" class="text-sm text-muted-foreground">{resources.length} 个资源</span></div><p class="leading-7 text-muted-foreground">技术栈、GitHub 仓库与官方文档，按开发场景整理。</p></header>
+  <nav aria-label="分享分类" class="mb-7 flex flex-wrap gap-2"><button data-share-filter="" aria-pressed="true" class="share-filter">全部 <span>{resources.length}</span></button>{categories.map(category => <button data-share-filter={category} aria-pressed="false" class="share-filter">{category} <span>{resources.filter(entry => entry.categories.includes(category)).length}</span></button>)}</nav>
+  <div class="grid gap-4 md:grid-cols-2">{resources.map(entry => <div data-share-resource data-share-categories={JSON.stringify(entry.categories)}><Card entry={entry} /></div>)}</div>
+  <script>
+    const filters = [...document.querySelectorAll<HTMLButtonElement>('[data-share-filter]')];
+    const resources = [...document.querySelectorAll<HTMLElement>('[data-share-resource]')];
+    const count = document.querySelector('#share-count');
+    function filter(category: string) {
+      for (const button of filters) button.setAttribute('aria-pressed', String(button.dataset.shareFilter === category));
+      let visible = 0;
+      for (const resource of resources) {
+        const show = !category || (JSON.parse(resource.dataset.shareCategories!) as string[]).includes(category);
+        resource.hidden = !show;
+        if (show) visible++;
+      }
+      if (count) count.textContent = `${visible} 个资源`;
+    }
+    const initial = new URL(location.href).searchParams.get('category') || '';
+    if (filters.some(button => button.dataset.shareFilter === initial)) filter(initial);
+    for (const button of filters) button.addEventListener('click', () => {
+      const category = button.dataset.shareFilter!;
+      filter(category);
+      const url = new URL(location.href);
+      if (category) url.searchParams.set('category', category); else url.searchParams.delete('category');
+      history.replaceState(null, '', url);
+    });
+  </script>
+</Base>

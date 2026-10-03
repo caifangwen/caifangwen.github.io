@@ -14,7 +14,7 @@ export function getStaticPaths() {
   for (const entry of entries) paths.push({ params: { route: entry.url.replace(/^\/|\/$/g, '') }, props: { page: { kind: 'article', entry } } });
   function addList(root: string, title: string, items: Entry[], description: string) {
     const total = Math.max(1, Math.ceil(items.length / 12));
-    for (let current = 1; current <= total; current++) paths.push({ params: { route: current === 1 ? root : `${root}/page/${current}` }, props: { page: { kind: 'list', title, entries: items.slice((current - 1) * 12, current * 12), current, total, root: `/${root}`, description } } });
+    for (let current = root === 'shares' ? 2 : 1; current <= total; current++) paths.push({ params: { route: current === 1 ? root : `${root}/page/${current}` }, props: { page: { kind: 'list', title, entries: items.slice((current - 1) * 12, current * 12), current, total, root: `/${root}`, description } } });
   }
   for (const [section, title] of Object.entries(sections)) addList(section === 'posts' ? 'articles' : section, title, getEntries(section as Section), `共 ${getEntries(section as Section).length} 篇内容`);
   for (const [type, title] of Object.entries(taxonomies)) {

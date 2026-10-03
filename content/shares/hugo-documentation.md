@@ -1,12 +1,17 @@
 ---
-title: "Hugo 官方文档"
-date: 2026-04-05T11:00:00+08:00
+title: Hugo 官方文档
+date: 2026-04-05T03:00:00.000Z
 draft: false
-tags: ["Hugo", "文档", "学习"]
-description: "完整的 Hugo 使用指南和配置说明。"
-linkUrl: "https://gohugo.io/documentation/"
-linkSource: "Hugo 官网"
-comment: "文档详细，适合快速上手。"
+tags:
+  - Hugo
+  - 文档
+  - 学习
+description: 完整的 Hugo 使用指南和配置说明。
+linkUrl: 'https://gohugo.io/documentation/'
+linkSource: Hugo 官网
+comment: 文档详细，适合快速上手。
+categories:
+  - 内容与文档
 ---
 
 Hugo 官方文档提供了完整的使用指南和配置说明。
