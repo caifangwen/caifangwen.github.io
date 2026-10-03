@@ -21,7 +21,7 @@ test('desktop navigation, search and persistent appearance', async ({ page }) =>
   await page.getByRole('button', { name: 'Emerald', exact: true }).click();
   await page.reload();
   await expect(page.locator('html')).toHaveAttribute('data-theme', 'emerald');
-  await page.goto(`${base}/posts/page/2/`);
+  await page.goto(`${base}/articles/page/2/`);
   await expect(page.getByRole('navigation', { name: '分页' }).locator('[aria-current="page"]')).toHaveText('2');
 });
 
@@ -50,7 +50,7 @@ test('mobile layout and menu', async ({ page }) => {
   await page.screenshot({ path: test.info().outputPath('home-mobile.png'), fullPage: true });
   await page.getByRole('button', { name: '菜单' }).click();
   await expect(page.getByRole('navigation', { name: '移动导航' })).toBeVisible();
-  await page.getByRole('navigation', { name: '移动导航' }).getByRole('link', { name: '文章', exact: true }).click();
+  await page.getByRole('navigation', { name: '内容索引' }).getByRole('link', { name: '文章', exact: true }).click();
   await expect(page.locator('h1')).toHaveText('文章');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });

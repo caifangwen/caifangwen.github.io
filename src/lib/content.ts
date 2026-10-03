@@ -48,7 +48,8 @@ export function loadEntries(root = contentRoot): Entry[] {
   const urls = new Set<string>();
   for (const file of selected.values()) {
     const source = path.relative(root, file).replaceAll('\\', '/');
-    const section = source.split('/')[0] as Section;
+    const directory = source.split('/')[0];
+    const section = (['strategy', 'acquire', 'convert', 'retain', 'global'].includes(directory) ? 'posts' : directory) as Section;
     if (!(section in sections) || path.basename(file).startsWith('_index')) continue;
     const { data, content } = matter(readFileSync(file, 'utf8'));
     if (data.draft === true) continue;
@@ -64,7 +65,7 @@ export function loadEntries(root = contentRoot): Entry[] {
       source, section, slug, url, title: String(data.title || stem),
       description: String(data.description || data.summary || ''), date,
       updated: dateValue(data.lastmod, date), body: content, draft: false,
-      featured: data.featured === true, tags: list(data.tags), categories: list(data.categories), series: list(data.series),
+      featured: data.featured === true, tags: list(data.tags ?? data.tag), categories: list(data.categories ?? data.cat), series: list(data.series),
       cover: typeof data.cover === 'string' ? data.cover : '',
       github: String(data.github || ''), website: String(data.website || data.demo || ''), linkUrl: String(data.linkUrl || ''), linkSource: String(data.linkSource || ''),
       tech: list(data.tech_stack), minutes: Math.max(1, Math.ceil(content.replace(/\s/g, '').length / 600)),

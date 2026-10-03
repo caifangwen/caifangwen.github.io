@@ -25,7 +25,34 @@ document.querySelector('#menu-toggle')?.addEventListener('click', (event) => {
   const open = button.getAttribute('aria-expanded') !== 'true';
   button.setAttribute('aria-expanded', String(open));
   document.querySelector('#mobile-nav')?.classList.toggle('hidden', !open);
-  document.querySelector('#mobile-nav')?.classList.toggle('flex', open);
+});
+const businessMenus = [...document.querySelectorAll<HTMLDetailsElement>('[data-business-menu]')];
+function closeBusinessMenus(except?: HTMLDetailsElement) {
+  for (const menu of businessMenus) if (menu !== except) menu.open = false;
+}
+for (const menu of businessMenus) {
+  let leaveTimer: ReturnType<typeof setTimeout> | undefined;
+  menu.addEventListener('toggle', () => { if (menu.open) { closeBusinessMenus(menu); setThemeMenu(false); } });
+  menu.addEventListener('mouseenter', () => { clearTimeout(leaveTimer); if (menu.closest('.business-desktop') && matchMedia('(hover: hover)').matches) { closeBusinessMenus(menu); menu.open = true; } });
+  menu.addEventListener('mouseleave', () => { if (menu.closest('.business-desktop') && matchMedia('(hover: hover)').matches) leaveTimer = setTimeout(() => { if (!menu.matches(':hover') && !menu.contains(document.activeElement)) menu.open = false; }, 180); });
+  menu.addEventListener('focusout', () => { queueMicrotask(() => { if (!menu.contains(document.activeElement) && !menu.matches(':hover')) menu.open = false; }); });
+}
+document.addEventListener('click', event => { if (!(event.target as Element).closest('[data-business-menu]')) closeBusinessMenus(); });
+document.addEventListener('keydown', event => {
+  if (event.key !== 'Escape') return;
+  const menu = businessMenus.find(item => item.open);
+  if (menu) { closeBusinessMenus(); menu.querySelector<HTMLElement>('summary')?.focus(); }
+  const mobileToggle = document.querySelector<HTMLButtonElement>('#menu-toggle');
+  if (!menu && mobileToggle?.getAttribute('aria-expanded') === 'true') {
+    mobileToggle.setAttribute('aria-expanded', 'false');
+    document.querySelector('#mobile-nav')?.classList.add('hidden');
+    mobileToggle.focus();
+  }
+});
+matchMedia('(min-width: 768px)').addEventListener('change', () => {
+  closeBusinessMenus();
+  document.querySelector('#menu-toggle')?.setAttribute('aria-expanded', 'false');
+  document.querySelector('#mobile-nav')?.classList.add('hidden');
 });
 
 interface SearchEntry { title: string; url: string; description: string; tags: string[]; content: string; }

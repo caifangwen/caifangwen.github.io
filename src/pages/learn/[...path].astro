@@ -1,0 +1,21 @@
+---
+import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
+import { learningPaths } from '../../data/business-navigation';
+import { getTopic, getTopicEntries } from '../../lib/business';
+import { withBase } from '../../lib/site';
+interface Props { path?: typeof learningPaths[number]; }
+export function getStaticPaths() {
+  return [{ params: { path: undefined }, props: {} }, ...learningPaths.map(path => ({ params: { path: path.slug }, props: { path } }))];
+}
+const { path } = Astro.props;
+---
+<Base title={path?.title || '学习路径'} description={path ? `适合 ${path.audience} 的主题阅读路径。` : '按岗位与业务目标组织的六条主题阅读路径。'}>
+  <nav aria-label="面包屑" class="mb-6 flex flex-wrap items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')}>首页</a><Icon name="chevron-right" size={12} />{path ? <><a href={withBase('/learn/')}>学习路径</a><Icon name="chevron-right" size={12} /><span>{path.title}</span></> : <span>学习路径</span>}</nav>
+  <header class="mb-8"><h1 class="mb-3 text-3xl font-bold">{path?.title || '学习路径'}</h1><p class="text-muted-foreground">{path ? `适合：${path.audience}` : '按业务目标逐步阅读，从基础概念走向具体实践。'}</p></header>
+  {path ? <ol class="space-y-5">{path.steps.map((step, index) => {
+    const topic = getTopic(step);
+    const content = getTopicEntries(topic);
+    return <li class="rounded-xl border border-border bg-card p-5"><div class="mb-3 flex items-start gap-3"><span class="rounded-md bg-primary/10 px-2 py-1 text-sm font-semibold text-primary">{String(index + 1).padStart(2, '0')}</span><div><a href={withBase(topic.path)} class="font-semibold hover:text-primary">{topic.title}</a><p class="mt-1 text-sm leading-6 text-muted-foreground">{topic.description}</p></div></div>{content.length ? <ul class="space-y-2 pl-11 text-sm">{content.slice(0, 3).map(entry => <li><a href={withBase(entry.url)} class="hover:text-primary hover:underline">{entry.title}</a></li>)}</ul> : <p class="pl-11 text-sm text-muted-foreground">本阶段内容待补充，可先浏览主题目录。</p>}</li>;
+  })}</ol> : <div class="grid gap-4 sm:grid-cols-2">{learningPaths.map(item => <a href={withBase(`/learn/${item.slug}/`)} class="rounded-xl border border-border bg-card p-5 hover:border-primary/30 hover:bg-primary/5"><h2 class="mb-2 font-semibold">{item.title}</h2><p class="mb-3 text-sm text-muted-foreground">{item.audience}</p><span class="text-xs text-primary">{item.steps.length} 个阶段 →</span></a>)}</div>}
+</Base>

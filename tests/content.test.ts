@@ -21,7 +21,7 @@ test('all published content has distinct URLs and valid dates', () => {
   assert.ok(entries.every(entry => !entry.draft && !Number.isNaN(entry.date.valueOf())));
   assert.ok(entries.some(entry => entry.url === '/blog/ssh-config-guide/'));
   assert.ok(entries.some(entry => entry.url === '/project/honglou/'));
-  assert.equal(entries.find(entry => entry.source === 'posts/alibaba-to-woocommerce.md')?.url, '/blog/阿里巴巴国际站产品迁移到-woocommercewoodmart完整指南/');
+  assert.equal(entries.find(entry => entry.source.endsWith('/alibaba-to-woocommerce.md'))?.url, '/blog/阿里巴巴国际站产品迁移到-woocommercewoodmart完整指南/');
 });
 
 test('Chinese overrides, drafts, leaf bundles and duplicate URLs follow migration rules', () => {

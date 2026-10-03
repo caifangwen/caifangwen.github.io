@@ -2,13 +2,15 @@ import type { APIContext } from 'astro';
 import { entries, getTerms, getEntries } from '../lib/content';
 import { sections, taxonomies, withBase, type Section, type Taxonomy } from '../lib/site';
 import { escapeHtml } from '../lib/markdown';
+import { businessTopics } from '../lib/business';
+import { learningPaths } from '../data/business-navigation';
 export function GET(context: APIContext) {
-  const paths = ['/', '/about/', '/portfolio/', '/archives/', '/reports/', ...entries.map(entry => entry.url)];
+  const paths = ['/', '/about/', '/portfolio/', '/archives/', '/reports/', '/learn/', ...businessTopics.map(topic => topic.path), ...learningPaths.map(path => `/learn/${path.slug}/`), ...entries.map(entry => entry.url)];
   function addPages(root: string, count: number) {
     paths.push(`/${root}/`);
     for (let page = 2; page <= Math.ceil(count / 12); page++) paths.push(`/${root}/page/${page}/`);
   }
-  for (const key of Object.keys(sections)) addPages(key, getEntries(key as Section).length);
+  for (const key of Object.keys(sections)) addPages(key === 'posts' ? 'articles' : key, getEntries(key as Section).length);
   for (const type of Object.keys(taxonomies)) {
     paths.push(`/${type}/`);
     for (const term of getTerms(type as Taxonomy)) addPages(`${type}/${term.slug}`, term.entries.length);

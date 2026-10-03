@@ -37,7 +37,7 @@ npm run preview
 
 ## 写作与路由
 
-在 `content/posts/` 新建 Markdown：
+在 `content/acquire/`（或 `strategy/`、`convert/`、`retain/`、`global/`）新建 Markdown，并填写业务分类和主题标签：
 
 ```md
 ---
@@ -53,7 +53,7 @@ categories: [技术]
 ## 正文
 ```
 
-文章保留 `/blog/:slug/`，项目保留 `/project/:slug/`；列表仍为 `/posts/`、`/projects/`。分享、讨论和文档分别保留各自目录。旧站部分文章由标题生成 URL，已在 `src/data/legacy-urls.json` 固定保存；新文章没有 slug 时按文件名生成，建议显式填写 slug。分类、标签、系列会自动生成，列表每页 12 条。
+文章保留 `/blog/:slug/`，项目保留 `/project/:slug/`；列表仍为 `/articles/`、`/projects/`。分享、讨论和文档分别保留各自目录。迁移文章通过 frontmatter 的 `url` 保留原地址；新文章没有 slug 时按文件名生成，建议显式填写 slug。分类、标签、系列会自动生成，列表每页 12 条。
 
 同名 `.zh-cn.md` 优先于 `.md`，与原站默认中文保持一致。`draft: true` 不进入页面、索引或 RSS。无发布日期的内容使用固定日期，避免每次构建变动。附件由 `/media/` 输出，正文中的相对图片链接自动解析。
 

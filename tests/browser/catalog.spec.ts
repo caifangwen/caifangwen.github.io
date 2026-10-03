@@ -2,6 +2,7 @@ import { test, expect } from '@playwright/test';
 const base = process.env.TEST_BASE || '';
 
 test('category catalog and archive timeline work on desktop and mobile', async ({ page }) => {
+  await page.route('https://giscus.app/**', route => route.abort());
   for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 900 });
     await page.goto(`${base}/categories/`);
@@ -60,9 +61,10 @@ test('article directory follows the reading position and works on mobile', async
 });
 
 test('card tags navigate to their collection and cards still open articles', async ({ page }) => {
+  await page.route('https://giscus.app/**', route => route.abort());
   for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 900 });
-    for (const section of ['posts', 'shares']) {
+    for (const section of ['articles', 'shares']) {
       await page.goto(`${base}/${section}/`);
       const tag = page.locator('main article a[href*="/tags/"]').first();
       const href = await tag.getAttribute('href');
@@ -72,7 +74,7 @@ test('card tags navigate to their collection and cards still open articles', asy
       await expect(page.locator('main h1')).toHaveText(name, { ignoreCase: true });
       await expect(page.locator('main article').first()).toBeVisible();
     }
-    await page.goto(`${base}/posts/`);
+    await page.goto(`${base}/articles/`);
     const card = page.locator('main article').first();
     const href = await card.locator('a[aria-label]').getAttribute('href');
     const title = await card.locator('h3').boundingBox();

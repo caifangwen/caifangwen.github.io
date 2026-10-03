@@ -16,7 +16,7 @@ export function getStaticPaths() {
     const total = Math.max(1, Math.ceil(items.length / 12));
     for (let current = 1; current <= total; current++) paths.push({ params: { route: current === 1 ? root : `${root}/page/${current}` }, props: { page: { kind: 'list', title, entries: items.slice((current - 1) * 12, current * 12), current, total, root: `/${root}`, description } } });
   }
-  for (const [section, title] of Object.entries(sections)) addList(section, title, getEntries(section as Section), `共 ${getEntries(section as Section).length} 篇内容`);
+  for (const [section, title] of Object.entries(sections)) addList(section === 'posts' ? 'articles' : section, title, getEntries(section as Section), `共 ${getEntries(section as Section).length} 篇内容`);
   for (const [type, title] of Object.entries(taxonomies)) {
     paths.push({ params: { route: type }, props: { page: { kind: 'terms', type: type as Taxonomy } } });
     for (const term of getTerms(type as Taxonomy)) addList(`${type}/${term.slug}`, term.name, term.entries, `${title} · ${term.entries.length} 篇内容`);
@@ -37,11 +37,11 @@ const seriesEntries = entry ? entries.filter(item => item.url !== entry.url && i
     <TaxonomyPage type={page.type} />
   </> : page.kind === 'list' ? <>
     <nav aria-label="面包屑" class="mb-6 flex items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')}><Icon name="home" /></a><Icon name="chevron-right" size={12} /><span>{page.title}</span></nav>
-    <header class="mb-8"><h1 class="mb-4 text-3xl font-bold">{title}</h1>{page.root === '/posts' && <p class="mb-6 text-muted-foreground">这里是所有已发布的文章，按时间倒序排列。</p>}<p class="flex items-center gap-1 text-sm text-muted-foreground"><Icon name="folder" />{page.description}</p></header>
+    <header class="mb-8"><h1 class="mb-4 text-3xl font-bold">{title}</h1>{page.root === '/articles' && <p class="mb-6 text-muted-foreground">这里是所有已发布的文章，按时间倒序排列。</p>}<p class="flex items-center gap-1 text-sm text-muted-foreground"><Icon name="folder" />{page.description}</p></header>
     <div class:list={[page.root === '/projects' ? 'grid gap-6 sm:grid-cols-2 lg:grid-cols-3' : 'post-list space-y-4']}>{page.entries.map(item => <Card entry={item} />)}</div>
     <Pagination current={page.current} total={page.total} root={page.root} />
   </> : entry && rendered && <>
-    <nav aria-label="面包屑" class="mb-6 flex flex-wrap gap-2 text-sm text-muted-foreground"><a href={withBase('/')}>首页</a><span>/</span><a href={withBase(`/${entry.section}/`)}>{sections[entry.section]}</a></nav>
+    <nav aria-label="面包屑" class="mb-6 flex flex-wrap gap-2 text-sm text-muted-foreground"><a href={withBase('/')}>首页</a><span>/</span><a href={withBase(entry.section === 'posts' ? '/articles/' : `/${entry.section}/`)}>{sections[entry.section]}</a></nav>
     <article class="article-page">
       {entry.cover && <img src={withBase(assetPath(entry, entry.cover))} alt={entry.title} class="mb-8 h-64 w-full rounded-2xl object-cover md:h-80" />}
       <header class="mb-8"><div class="post-meta"><div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-muted-foreground"><span class="flex items-center gap-1.5"><Icon name="calendar" /><time datetime={entry.date.toISOString()}>{formatDate(entry.date)}</time></span><span class="flex items-center gap-1.5"><Icon name="clock" />{entry.minutes} 分钟</span><span class="flex items-center gap-1.5"><Icon name="text" />{entry.body.replace(/\s/g, '').length} 字</span></div><h1 class="mt-3 mb-3 text-2xl leading-tight font-bold text-foreground md:mt-4 md:mb-6 md:text-4xl">{entry.title}</h1>{entry.description && <p class="mb-4 text-base leading-relaxed text-muted-foreground md:mb-6">{entry.description}</p>}<div class="flex flex-wrap items-center gap-2">{entry.categories.map(category => <a class="rounded-full bg-primary/10 px-3 py-1 text-sm font-medium text-primary hover:bg-primary/20" href={termUrl('categories', category)}>{category}</a>)}{entry.tags.map(tag => <a class="rounded bg-muted/50 px-2 py-1 text-sm text-muted-foreground hover:bg-primary/10 hover:text-primary" href={termUrl('tags', tag)}>#{tag}</a>)}</div></div>

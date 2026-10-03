@@ -1,0 +1,24 @@
+---
+import Icon from './Icon.astro';
+import { businessNavigation } from '../data/business-navigation';
+import { withBase } from '../lib/site';
+interface Props { mobile?: boolean; }
+const { mobile = false } = Astro.props;
+const active = (path: string) => Astro.url.pathname.startsWith(withBase(path));
+const utilityIcons: Record<string, string> = { '/projects/': 'code', '/archives/': 'archive' };
+const utilities = [{ path: '/projects/', title: '项目' }, { path: '/archives/', title: '归档' }];
+---
+<nav id={mobile ? 'mobile-nav' : undefined} aria-label={mobile ? '移动导航' : '主导航'} class:list={[mobile ? 'business-mobile mt-3 hidden border-t border-border pt-3 md:hidden' : 'business-desktop mx-3 hidden min-w-0 flex-1 flex-wrap items-center justify-center gap-0.5 md:flex']}>
+  <a href={withBase('/')} class="business-trigger" aria-current={Astro.url.pathname === withBase('/') ? 'page' : undefined}><Icon name="home" />首页</a>
+  {businessNavigation.map(item => item.mega ? <details data-business-menu class:list={['business-menu', active(item.path) && 'business-active']}>
+    <summary class="business-trigger"><Icon name={item.icon} /><span>{item.title}</span></summary>
+    <div class="business-panel">
+      <a href={withBase(item.path)} class="mb-4 flex items-center justify-between border-b border-border pb-3 font-semibold text-primary" aria-current={Astro.url.pathname === withBase(item.path) ? 'page' : undefined}>浏览全部{item.title}<Icon name="arrow-right" /></a>
+      <div class="business-menu-grid">{item.children.map(group => <section>
+        <a href={withBase(group.path)} class="mb-2 block text-sm font-semibold hover:text-primary" aria-current={Astro.url.pathname === withBase(group.path) ? 'page' : undefined}>{group.title}</a>
+        <ul class="space-y-1">{group.children.map(child => <li><a href={withBase(child.path)} class="block rounded-md px-2 py-1.5 text-xs leading-5 text-muted-foreground hover:bg-primary/10 hover:text-primary" aria-current={Astro.url.pathname === withBase(child.path) ? 'page' : undefined}>{child.title}</a></li>)}</ul>
+      </section>)}</div>
+    </div>
+  </details> : <a href={withBase(item.path)} class="business-trigger" aria-current={active(item.path) ? 'page' : undefined}><Icon name={item.icon} />{item.title}</a>)}
+  {utilities.map(({ path, title }) => <a href={withBase(path)} class="business-trigger" aria-current={Astro.url.pathname === withBase(path) ? 'page' : undefined}><Icon name={utilityIcons[path]} />{title}</a>)}
+</nav>
