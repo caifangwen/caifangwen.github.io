@@ -75,6 +75,12 @@ test('portfolio preserves the resume sections and works on desktop and mobile', 
     await expect(page.getByRole('navigation', { name: '面包屑' })).toHaveCount(0);
     await expect(page.locator('.resume-contact')).toHaveCSS('font-size', '16px');
     await expect(page.locator('.resume-actions')).toHaveCSS('justify-content', width >= 768 ? 'flex-start' : 'center');
+    const printRect = await page.locator('#resume-print').boundingBox();
+    expect(Math.abs(printRect!.y - downloadRect!.y)).toBeLessThan(1);
+    expect(printRect!.x + printRect!.width).toBeLessThan(downloadRect!.x);
+    for (const label of ['About', 'Contact', 'RSS Feed']) {
+      await expect(page.locator('footer').getByRole('link', { name: label, exact: true })).toHaveCount(0);
+    }
     expect(downloadRect!.y + downloadRect!.height).toBeGreaterThanOrEqual(contactRect!.y + contactRect!.height);
     const footerLineRect = await page.locator('footer > div > .border-t').boundingBox();
     expect(Math.abs(footerLineRect!.x - profileRect!.x)).toBeLessThan(1);
