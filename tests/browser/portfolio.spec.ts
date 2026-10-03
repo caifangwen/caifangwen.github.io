@@ -33,12 +33,13 @@ test('portfolio preserves the resume sections and works on desktop and mobile', 
     const secondSkillRect = await page.locator('.resume-skill').nth(1).boundingBox();
     const skillsHeadingRect = await page.locator('#skills > div').boundingBox();
     expect(Math.abs(firstSkillRect!.x - skillsHeadingRect!.x)).toBeLessThan(1);
+    await expect(firstSkill).toHaveCSS('border-width', '1px');
     if (width >= 640) {
       expect(secondSkillRect!.x).toBeGreaterThan(firstSkillRect!.x + firstSkillRect!.width);
       expect(Math.abs(firstSkillRect!.y - secondSkillRect!.y)).toBeLessThan(1);
     }
-    await expect(page.locator('.resume-profile')).toHaveCSS('border-width', '0px');
-    await expect(page.locator('.resume-profile')).toHaveCSS('background-color', 'rgba(0, 0, 0, 0)');
+    await expect(page.locator('.resume-profile .profile-hero')).toHaveCSS('border-radius', '12px');
+    await expect(page.locator('.resume-profile img')).toHaveAttribute('src', /\/images\/avatar.svg$/);
     await expect(page.locator('.portfolio a[href="tel:15706770218"] svg path')).toHaveAttribute('d', /^M22 16\.92/);
     await expect(page.locator('#projects .project-card')).toHaveCount(2);
     await expect(page.locator('#projects')).toContainText('确保自动化流程 7×24 小时稳定运行。');
@@ -71,7 +72,9 @@ test('portfolio preserves the resume sections and works on desktop and mobile', 
     const profileRect = await page.locator('.resume-profile').boundingBox();
     const downloadRect = await page.getByRole('link', { name: '下载简历 · DOCX' }).boundingBox();
     const contactRect = await page.locator('.resume-contact').boundingBox();
-    expect(Math.abs(downloadRect!.x + downloadRect!.width - profileRect!.x - profileRect!.width)).toBeLessThan(1);
+    await expect(page.getByRole('navigation', { name: '面包屑' })).toHaveCount(0);
+    await expect(page.locator('.resume-contact')).toHaveCSS('font-size', '16px');
+    await expect(page.locator('.resume-actions')).toHaveCSS('justify-content', width >= 768 ? 'flex-start' : 'center');
     expect(downloadRect!.y + downloadRect!.height).toBeGreaterThanOrEqual(contactRect!.y + contactRect!.height);
     const footerLineRect = await page.locator('footer > div > .border-t').boundingBox();
     expect(Math.abs(footerLineRect!.x - profileRect!.x)).toBeLessThan(1);

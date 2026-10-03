@@ -4,7 +4,8 @@ const base = process.env.TEST_BASE || '';
 test('original desktop widths, three-column projects and theme colors', async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1000 });
   await page.goto(`${base}/`);
-  await expect(page.locator('.site-header')).toHaveCSS('max-width', '896px');
+  await expect(page.locator('.site-header')).toHaveCSS('max-width', '920px');
+  await expect(page.getByRole('navigation', { name: '页脚导航' })).toHaveCount(0);
   await expect(page.locator('.site-header img')).toHaveCSS('width', '36px');
   await expect(page.locator('main')).toHaveCSS('max-width', '896px');
   await expect(page.locator('.author-section > div')).toHaveCSS('border-radius', '12px');

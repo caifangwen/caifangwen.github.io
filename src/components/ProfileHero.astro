@@ -1,0 +1,15 @@
+---
+import { withBase } from '../lib/site';
+interface Props { name: string; subtitle: string; headingId?: string; }
+const { name, subtitle, headingId } = Astro.props;
+---
+<div class="profile-hero rounded-xl border border-border bg-card p-8 shadow-sm print:border-0 print:bg-transparent print:p-0 print:shadow-none">
+  <div class="flex flex-col items-center gap-6 text-center md:flex-row md:items-start md:text-left print:block print:text-left">
+    <img src={withBase('/images/avatar.svg')} alt={name} width="96" height="96" class="h-24 w-24 shrink-0 rounded-full border-4 border-primary/20 object-cover shadow-lg print:hidden" />
+    <div class="min-w-0 w-full flex-1">
+      <h1 id={headingId} class="mb-2 text-3xl font-bold text-foreground">{name}</h1>
+      <p class="mb-3 text-lg text-muted-foreground">{subtitle}</p>
+      <slot />
+    </div>
+  </div>
+</div>
