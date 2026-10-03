@@ -29,4 +29,8 @@ Cloudflare 提供 DNS、内容分发、网络防护和开发平台等服务。�
 
 [Caddy](caddy.md) 可用于源站服务入口；[Uptime Kuma](uptime-kuma.md) 观察站点响应；[PageSpeed Insights](pagespeed-insights.md) 检查实际页面性能。
 
+Cloudflare 的服务可以按用途搭配：[CDN 与缓存](cloudflare-cdn.md) 负责内容分发，[Workers](cloudflare-workers.md) 运行应用逻辑，[R2](cloudflare-r2.md) 保存文件，[D1](cloudflare-d1.md) 保存结构化数据，[KV](cloudflare-kv.md) 存放读取为主的配置。
+
+自动发布可了解 [Workers Builds](cloudflare-workers-builds.md)、[Wrangler](cloudflare-wrangler.md) 和 [Pages](cloudflare-pages.md)；自有服务器可以通过 [1Panel](1panel.md) 管理，再按需要使用 [Tunnel](cloudflare-tunnel.md) 建立服务入口。
+
 [查看官方网站](https://www.cloudflare.com/)

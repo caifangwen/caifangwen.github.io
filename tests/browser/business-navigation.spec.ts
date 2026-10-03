@@ -1,6 +1,43 @@
 import { test, expect } from '@playwright/test';
 import { businessNavigation, businessAliases, learningPaths, problemNavigation } from '../../src/data/business-navigation';
+import { businessTopics } from '../../src/lib/business';
 const base = process.env.TEST_BASE || '';
+
+test('category sidebars keep a consistent fixed position across categories and scrolling', async ({ page }) => {
+  test.setTimeout(120_000);
+  for (const width of [1280, 1440, 1920]) {
+    await page.setViewportSize({ width, height: 900 });
+    // Check every level at the common desktop width and all roots at both extremes.
+    const topics = width === 1440 ? businessTopics : businessNavigation;
+    let expected: { x: number; y: number; width: number } | undefined;
+    for (const topic of topics) {
+      await page.goto(`${base}${topic.path}`);
+      const sidebar = page.locator('.business-sidebar');
+      await expect(sidebar).toBeVisible();
+      await expect(sidebar).toHaveCSS('position', 'fixed');
+      await expect.poll(() => page.locator('html').evaluate(node => node.style.getPropertyValue('--site-header-height'))).not.toBe('');
+      const box = (await sidebar.boundingBox())!;
+      const main = (await page.locator('main').boundingBox())!;
+      const origin = { x: box.x, y: box.y, width: box.width };
+      expected ??= origin;
+      for (const key of ['x', 'y', 'width'] as const) {
+        expect(Math.abs(origin[key] - expected[key]), `${topic.path}: ${key}`).toBeLessThan(1);
+      }
+      expect(box.x).toBeGreaterThanOrEqual(0);
+      expect(box.x + box.width).toBeLessThanOrEqual(main.x - 15);
+      expect(box.y + box.height).toBeLessThanOrEqual(900 - 16);
+      await page.evaluate(() => window.scrollTo({ top: document.documentElement.scrollHeight, behavior: 'instant' }));
+      const scrolled = (await sidebar.boundingBox())!;
+      expect(Math.abs(scrolled.x - box.x), topic.path).toBeLessThan(1);
+      expect(Math.abs(scrolled.y - box.y), topic.path).toBeLessThan(1);
+    }
+  }
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto(`${base}/acquire/`);
+  await expect(page.locator('.business-sidebar')).toBeHidden();
+  await page.locator('main').getByText('子类别', { exact: true }).click();
+  await expect(page.locator('main details[open]').getByRole('navigation', { name: '子类别' })).toBeVisible();
+});
 
 test('business directories, secondary content links and desktop mega menus work', async ({ page }) => {
   for (const width of [1440, 1024, 768]) {
