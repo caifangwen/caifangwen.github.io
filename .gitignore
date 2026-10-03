@@ -12,3 +12,4 @@ playwright-report/
 .DS_Store
 Thumbs.db
 mcp_output/
+public/

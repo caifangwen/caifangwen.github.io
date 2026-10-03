@@ -35,7 +35,7 @@ url: /blog/google-sem-skill-collection/
 
 Google SEM（搜索引擎营销）是高度专业化的领域，涉及关键词策略、广告文案、出价逻辑、质量得分、转化追踪等多个专业模块。每个模块都有固定的最佳实践和输出规范——这正是 Skill 体系发挥价值的最佳场景。
 
-本合集基于[《如何构建 AI Skill 体系》](/posts/how-to-build-skill-system)中的设计哲学，构建一套**项目级** Google SEM Skill，可直接部署至 Claude Code 工作流。
+本合集基于[《如何构建 AI Skill 体系》](/blog/how-to-build-skill-system/)中的设计哲学，构建一套**项目级** Google SEM Skill，可直接部署至 Claude Code 工作流。
 
 ---
 

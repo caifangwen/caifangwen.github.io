@@ -9,4 +9,8 @@ export function getTopicEntries(topic: BusinessTopic, content: Entry[] = entries
   const terms = new Set(flattenTopics([topic]).map(item => item.term.toLocaleLowerCase()));
   return content.filter(entry => [...entry.categories, ...entry.tags].some(term => terms.has(term.trim().toLocaleLowerCase())));
 }
-export const getTopic = (path: string) => businessTopics.find(topic => topic.path === path)!;
+export function getTopic(path: string): BusinessTopic {
+  const topic = businessTopics.find(topic => topic.path === path);
+  if (!topic) throw new Error(`Unknown business topic: ${path}`);
+  return topic;
+}

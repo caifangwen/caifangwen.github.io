@@ -1,3 +1,4 @@
+import { initSearch } from './search';
 export {};
 const root = document.documentElement;
 const siteHeader = document.querySelector<HTMLElement>('.site-header');
@@ -63,51 +64,10 @@ matchMedia('(min-width: 768px)').addEventListener('change', () => {
   document.querySelector('#menu-toggle')?.setAttribute('aria-expanded', 'false');
   document.querySelector('#mobile-nav')?.classList.add('hidden');
 });
-interface SearchEntry { title: string; url: string; description: string; tags: string[]; content: string; }
-const dialog = document.querySelector<HTMLDialogElement>('#search-dialog')!;
-const input = document.querySelector<HTMLInputElement>('#search-input')!;
-const status = document.querySelector('#search-status')!;
-const results = document.querySelector('#search-results')!;
-let index: Promise<SearchEntry[]> | undefined;
-let queryVersion = 0;
-function getIndex(): Promise<SearchEntry[]> {
-  return index ??= fetch(`${document.body.dataset.base}/index.json`).then(response => {
-    if (!response.ok) throw new Error('Search unavailable');
-    return response.json() as Promise<SearchEntry[]>;
-  }).catch(error => { index = undefined; throw error; });
-}
-function openSearch() { dialog.showModal(); input.focus(); }
-document.querySelector('#search-open')?.addEventListener('click', openSearch);
-document.querySelector('#dock-search')?.addEventListener('click', openSearch);
-document.querySelector('#search-close')?.addEventListener('click', () => dialog.close());
-dialog.addEventListener('click', event => { if (event.target === dialog) { const rect = dialog.getBoundingClientRect(); if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) dialog.close(); } });
 document.addEventListener('keydown', event => {
   if (event.key === 'Escape' && !themeMenu.classList.contains('hidden')) { setThemeMenu(false); themeToggle.focus(); }
-  if (event.key === 'Escape' && dialog.open) { event.preventDefault(); dialog.close(); return; }
-  if (event.key === '/' && !(event.target instanceof HTMLElement && (event.target.matches('input, textarea, select') || event.target.isContentEditable))) { event.preventDefault(); openSearch(); }
 });
-input.addEventListener('input', async () => {
-  const version = ++queryVersion;
-  const query = input.value.trim().toLocaleLowerCase();
-  results.replaceChildren();
-  if (!query) { status.textContent = '输入关键词开始搜索'; return; }
-  status.textContent = '搜索中…';
-  try {
-    const items = await getIndex();
-    if (version !== queryVersion) return;
-    const words = query.split(/\s+/);
-    const found = items.filter(item => words.every(word => `${item.title} ${item.description} ${item.tags.join(' ')} ${item.content}`.toLocaleLowerCase().includes(word))).sort((a, b) => Number(b.title.toLocaleLowerCase().includes(query)) - Number(a.title.toLocaleLowerCase().includes(query)));
-    status.textContent = found.length ? `找到 ${found.length} 条结果${found.length > 40 ? '，显示前 40 条' : ''}` : '没有匹配的内容，试试其他关键词';
-    for (const item of found.slice(0, 40)) {
-      const li = document.createElement('li');
-      const link = document.createElement('a');
-      link.href = item.url; link.className = 'block rounded-lg p-3 hover:bg-muted';
-      const title = document.createElement('strong'); title.textContent = item.title;
-      const desc = document.createElement('p'); desc.className = 'mt-1 line-clamp-2 text-sm text-muted-foreground'; desc.textContent = item.description;
-      link.append(title, desc); li.append(link); results.append(li);
-    }
-  } catch { if (version === queryVersion) status.textContent = '搜索加载失败，请重试'; }
-});
+initSearch();
 for (const block of document.querySelectorAll<HTMLPreElement>('.prose pre:not(.mermaid)')) {
   const code = block.querySelector('code');
   if (!code) continue;

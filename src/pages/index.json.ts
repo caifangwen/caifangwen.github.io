@@ -1,5 +1,6 @@
 import { entries } from '../lib/content';
 import { withBase } from '../lib/site';
+import { buildSearchIndex } from '../lib/search';
 export function GET() {
-  return Response.json(entries.map(entry => ({ title: entry.title, url: withBase(entry.url), description: entry.description, tags: [...entry.tags, ...entry.categories], content: entry.body.replace(/<[^>]+>/g, '').replace(/[#*`]/g, '') })));
+  return Response.json(buildSearchIndex(entries, withBase));
 }

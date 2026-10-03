@@ -5,6 +5,8 @@ import { tmpdir } from 'node:os';
 import path from 'node:path';
 import { entries, loadEntries, getTerms, assetPath } from '../src/lib/content';
 import { renderMarkdown } from '../src/lib/markdown';
+import { readFrontmatter, normalizeContentUrl } from '../src/lib/frontmatter';
+import { assertUniqueRoutes, contentRoutes, sitemapPaths } from '../src/lib/routes';
 
 test('task markers become disabled checkboxes in nested and loose lists', () => {
   const { html } = renderMarkdown({ ...entries[0], body: '- [] Empty\n- [ ] Pending\n- [x] Done\n  - [X] Nested\n\n- [ ] Loose\n\n  Another paragraph\n\n1. [ ] Ordered\n\n`- [ ] Code`\n\n```md\n- [ ] Code block\n```' });
@@ -13,6 +15,52 @@ test('task markers become disabled checkboxes in nested and loose lists', () => 
   assert.equal((html.match(/disabled checked/g) || []).length, 2);
   assert.match(html, /<code>- \[ \] Code<\/code>/);
   assert.match(html, /<input[^>]+aria-label="未完成"/);
+});
+
+test('shortcodes preserve fenced, indented, inline and nested code examples', () => {
+  const card = '{{< linkcard url="https://example.com" title="Demo" >}}';
+  const reference = '{{< ref "/docs/faq.md" >}}';
+  const highlight = '{{< highlight html >}}\n<div>Example</div>\n{{< /highlight >}}';
+  const examples = [
+    `\`\`\`text\n${card}\n${reference}\n${highlight}\n\`\`\``,
+    `~~~~text\n${card}\n~~~~`,
+    `    ${card}`, `\`${card}\``, `\`\`${card} with a \` character\`\``,
+    `> \`\`\`text\n> ${card}\n> \`\`\``,
+    `- Example\n\n  \`\`\`text\n  ${card}\n  \`\`\``,
+  ];
+  for (const body of examples) {
+    const { html } = renderMarkdown({ ...entries[0], body });
+    assert.match(html, /\{\{&lt; linkcard/, body);
+    assert.doesNotMatch(html, /class="link-card"/, body);
+  }
+  const { html } = renderMarkdown({ ...entries[0], body: `${card}\n\n[FAQ](${reference} "Read FAQ")\n\n${highlight}` });
+  assert.match(html, /class="link-card"/);
+  assert.match(html, /href="\/docs\/faq\/" title="Read FAQ"/);
+  assert.match(html, /language-html/);
+  assert.doesNotMatch(html, /<div>Example<\/div>/);
+});
+
+test('frontmatter validates types and dates while preserving legacy cover and blank YAML items', () => {
+  const data = readFrontmatter({ title: ' Example ', tags: [' Astro ', 'Astro', null, ''], cover: { image: '/cover.png' } }, 'posts/example.md');
+  assert.equal(data.title, 'Example');
+  assert.deepEqual(data.tags, ['Astro']);
+  assert.equal(data.cover, '/cover.png');
+  assert.equal(data.date.toISOString(), '2023-12-31T16:00:00.000Z');
+  for (const data of [{ title: {} }, { tags: [7] }, { draft: 'false' }, { date: 'invalid' }, { lastmod: 'invalid' }]) {
+    assert.throws(() => readFrontmatter(data, 'posts/example.md'), /posts\/example.md:/);
+  }
+  assert.equal(normalizeContentUrl('/blog/%E4%B8%AD%E6%96%87', 'sample.md'), '/blog/中文/');
+  for (const url of ['//evil.test/path', '/blog/../about', '/blog/%2E%2E/about', '/blog/x?draft=true', '/blog/%5Cevil', '/blog/%2Fx', '/blog/%zz']) {
+    assert.throws(() => normalizeContentUrl(url, 'sample.md'), /sample.md:/);
+  }
+});
+
+test('all route families share collision checks and sitemap omits share aliases', () => {
+  assert.throws(() => assertUniqueRoutes([{ url: '/about/', owner: 'fixed page' }, { url: '/about', owner: 'posts/about.md' }]), /fixed page and posts\/about.md/);
+  assert.throws(() => assertUniqueRoutes([{ url: '/blog/中文/', owner: 'first' }, { url: '/blog/%E4%B8%AD%E6%96%87/', owner: 'second' }]), /Route conflict/);
+  assert.equal(new Set(sitemapPaths).size, sitemapPaths.length);
+  assert.equal(contentRoutes.find(route => route.url === '/shares/page/2/')?.page.kind, 'redirect');
+  assert.ok(!sitemapPaths.includes('/shares/page/2/'));
 });
 
 test('all published content has distinct URLs and valid dates', () => {

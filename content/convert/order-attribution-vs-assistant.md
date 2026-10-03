@@ -202,4 +202,4 @@ https://yoursite.com/contact?utm_source=linkedin&utm_medium=outreach&utm_campaig
 
 ---
 
-*本文是「独立站合作系列」第二篇，上一篇：[《独立站运营合作：无底薪学徒制下的分成方案设计》](/posts/solo-site-partnership)*
+*本文是「独立站合作系列」第二篇，上一篇：[《独立站运营合作：无底薪学徒制下的分成方案设计》](/blog/solo-site-partnership/)*

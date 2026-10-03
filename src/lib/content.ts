@@ -3,6 +3,7 @@ import path from 'node:path';
 import matter from 'gray-matter';
 import legacyUrls from '../data/legacy-urls.json';
 import { sections, slugify, type Section, type Taxonomy } from './site';
+import { readFrontmatter, normalizeContentUrl } from './frontmatter';
 
 export interface Entry {
   source: string;
@@ -31,11 +32,6 @@ export function walk(dir: string): string[] {
   return readdirSync(dir, { withFileTypes: true }).flatMap(item => item.isDirectory() ? walk(path.join(dir, item.name)) : [path.join(dir, item.name)]);
 }
 export const contentRoot = path.resolve('content');
-const list = (value: unknown): string[] => [...new Set((Array.isArray(value) ? value : [value]).filter((item): item is string => typeof item === 'string' && !!item.trim()))];
-const dateValue = (value: unknown, fallback = new Date('2024-01-01T00:00:00+08:00')) => {
-  const date = value ? new Date(value as string) : fallback;
-  return Number.isNaN(date.valueOf()) ? fallback : date;
-};
 export function loadEntries(root = contentRoot): Entry[] {
   const files = walk(root).filter(file => file.endsWith('.md'));
   const selected = new Map<string, string>();
@@ -45,39 +41,39 @@ export function loadEntries(root = contentRoot): Entry[] {
     if (!selected.has(key) || file.endsWith('.zh-cn.md')) selected.set(key, file);
   }
   const entries: Entry[] = [];
-  const urls = new Set<string>();
+  const urls = new Map<string, string>();
   for (const file of selected.values()) {
     const source = path.relative(root, file).replaceAll('\\', '/');
     const directory = source.split('/')[0];
     const section = (['strategy', 'acquire', 'convert', 'retain', 'global'].includes(directory) ? 'posts' : directory) as Section;
     if (!(section in sections) || path.basename(file).startsWith('_index')) continue;
-    const { data, content } = matter(readFileSync(file, 'utf8'));
-    if (data.draft === true) continue;
+    let parsed: ReturnType<typeof matter>;
+    try { parsed = matter(readFileSync(file, 'utf8')); }
+    catch (error) { throw new Error(`${source}: invalid frontmatter`, { cause: error }); }
+    const data = readFrontmatter(parsed.data, source);
+    const content = parsed.content;
+    if (data.draft) continue;
     const stem = path.basename(file).replace(/(?:\.zh-cn)?\.md$/, '');
-    const slug = slugify(String(data.slug || (stem === 'index' ? path.basename(path.dirname(file)) : stem)));
+    const slug = slugify(data.slug || (stem === 'index' ? path.basename(path.dirname(file)) : stem));
+    if (!slug) throw new Error(`${source}: slug must contain a letter or number`);
     const prefix = section === 'posts' ? 'blog' : section === 'projects' ? 'project' : section;
     const legacyUrl = root === contentRoot && !data.slug ? (legacyUrls as Record<string, string>)[source] : undefined;
-    const url = typeof data.url === 'string' && data.url.startsWith('/') ? data.url : legacyUrl || `/${prefix}/${slug}/`;
-    if (urls.has(url)) throw new Error(`Duplicate content URL ${url}: ${source}`);
-    urls.add(url);
-    const date = dateValue(data.date);
+    const url = normalizeContentUrl(data.url || legacyUrl || `/${prefix}/${slug}/`, source);
+    if (urls.has(url)) throw new Error(`Duplicate content URL ${url}: ${urls.get(url)} and ${source}`);
+    urls.set(url, source);
     entries.push({
-      source, section, slug, url, title: String(data.title || stem),
-      description: String(data.description || data.summary || ''), date,
-      updated: dateValue(data.lastmod, date), body: content, draft: false,
-      featured: data.featured === true, tags: list(data.tags ?? data.tag), categories: list(data.categories ?? data.cat), series: list(data.series),
-      cover: typeof data.cover === 'string' ? data.cover : '',
-      github: String(data.github || ''), website: String(data.website || data.demo || ''), linkUrl: String(data.linkUrl || ''), linkSource: String(data.linkSource || ''),
-      tech: list(data.tech_stack), minutes: Math.max(1, Math.ceil(content.replace(/\s/g, '').length / 600)),
+      ...data, source, section, slug, url, title: data.title || stem,
+      body: content, draft: false,
+      minutes: Math.max(1, Math.ceil(content.replace(/\s/g, '').length / 600)),
     });
   }
   return entries.sort((a, b) => b.date.valueOf() - a.date.valueOf() || a.url.localeCompare(b.url));
 }
 export const entries = loadEntries();
 export const getEntries = (section: Section) => entries.filter(entry => entry.section === section);
-export function getTerms(type: Taxonomy) {
+export function getTerms(type: Taxonomy, content: Entry[] = entries) {
   const terms = new Map<string, { name: string; slug: string; entries: Entry[] }>();
-  for (const entry of entries) for (const name of entry[type]) {
+  for (const entry of content) for (const name of entry[type]) {
     const slug = slugify(name);
     if (!slug) continue;
     const group = terms.get(slug) || { name, slug, entries: [] };

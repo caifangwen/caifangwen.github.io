@@ -259,4 +259,4 @@ url: /blog/foreign-trade-salesperson-training/
 
 ---
 
-*如需进一步了解询盘处理流程，可参考：[外贸询盘到成交：完整操作流程详解](/posts/foreign-trade-inquiry-to-deal/)*
+*如需进一步了解询盘处理流程，可参考：[外贸询盘到成交：完整操作流程详解](/blog/foreign-trade-inquiry-to-deal/)*

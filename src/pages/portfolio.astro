@@ -11,7 +11,12 @@ import { resume } from '../data/portfolio';
 import { withBase } from '../lib/site';
 import { getEntries } from '../lib/content';
 const resumeUrl = withBase('/resume/cai-fangwen-resume.docx');
-const projects = ['business-data-dashboard', 'workflow-deployment'].map(slug => getEntries('projects').find(entry => entry.slug === slug)!);
+const projectEntries = getEntries('projects');
+const projects = ['business-data-dashboard', 'workflow-deployment'].map(slug => {
+  const entry = projectEntries.find(entry => entry.slug === slug);
+  if (!entry) throw new Error(`Portfolio project not found: ${slug}`);
+  return entry;
+});
 ---
 <Base title="蔡方闻 · Portfolio" description={resume.role} printContentOnly>
   <div class="portfolio space-y-9 text-foreground print:space-y-5">
