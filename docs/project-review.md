@@ -266,3 +266,7 @@ npm run test:browser -- --grep "category sidebars"
 ```
 
 仍待后续处理：Mermaid 分块体积、遗留 CSS 全面合并、文章模板进一步拆分、维护工具的事务性写入、报告元数据与编辑器文件跟踪策略。当前原始 HTML 仍按可信作者内容处理。
+
+### CI JSON 模块加载修复
+
+用户反馈 CI 报错 `legacy-urls.json needs an import attribute of "type: json"`。浏览器测试导入内容加载器后，由 Node ESM 加载 JSON，暴露出此前依赖构建工具处理的裸 JSON 导入。已给 `content.ts` 的历史 URL 数据和 `Badge.astro` 的图标数据导入补充 `with { type: 'json' }`。没有改动 JSON 内容、降低 Node 版本或跳过测试；本次构建与测试仍由用户执行，尚未确认 CI 通过。

@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import matter from 'gray-matter';
-import legacyUrls from '../data/legacy-urls.json';
+import legacyUrls from '../data/legacy-urls.json' with { type: 'json' };
 import { sections, slugify, type Section, type Taxonomy } from './site';
 import { readFrontmatter, normalizeContentUrl } from './frontmatter';
 

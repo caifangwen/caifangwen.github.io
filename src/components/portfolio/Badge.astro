@@ -1,5 +1,5 @@
 ---
-import icons from '../../data/site-icons.json';
+import icons from '../../data/site-icons.json' with { type: 'json' };
 import { withBase } from '../../lib/site';
 interface Props { label: string; href?: string; }
 const { label, href } = Astro.props;
