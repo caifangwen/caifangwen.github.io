@@ -3,7 +3,7 @@ const base = process.env.TEST_BASE || '';
 
 test('portfolio preserves the resume sections and works on desktop and mobile', async ({ page, request }) => {
   await page.goto(`${base}/`);
-  await page.getByRole('link', { name: 'Portfolio', exact: true }).click();
+  await page.locator('.author-section').getByRole('link', { name: 'Portfolio', exact: true }).click();
   await expect(page).toHaveURL(new RegExp('/portfolio/$'));
   for (const width of [1440, 768, 390, 320]) {
     await page.setViewportSize({ width, height: 900 });
@@ -82,7 +82,9 @@ test('portfolio preserves the resume sections and works on desktop and mobile', 
       await expect(page.locator('footer').getByRole('link', { name: label, exact: true })).toHaveCount(0);
     }
     expect(downloadRect!.y + downloadRect!.height).toBeGreaterThanOrEqual(contactRect!.y + contactRect!.height);
-    const footerLineRect = await page.locator('footer > div > .border-t').boundingBox();
+    const footerContent = page.locator('footer > div').first();
+    await expect(footerContent).toHaveCSS('border-top-style', 'solid');
+    const footerLineRect = await footerContent.boundingBox();
     expect(Math.abs(footerLineRect!.x - profileRect!.x)).toBeLessThan(1);
     expect(Math.abs(footerLineRect!.width - profileRect!.width)).toBeLessThan(1);
     await schoolImage.scrollIntoViewIfNeeded();

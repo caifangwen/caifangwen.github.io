@@ -5,7 +5,7 @@ import Icon from './Icon.astro';
 interface Props { printContentOnly?: boolean; }
 const { printContentOnly = false } = Astro.props;
 ---
-<footer class:list={['mx-auto mt-10 max-w-4xl px-4 pb-8 pt-10', printContentOnly && 'print:hidden']}>
+<footer class:list={['mx-auto mt-10 max-w-4xl px-4 pb-8 pt-10 max-[769px]:px-[0.9rem]', printContentOnly && 'print:hidden']}>
   <div class="grid gap-10 border-t border-border pt-8 md:grid-cols-[10rem_minmax(0,1fr)]">
     <section><a href={withBase('/')} class="text-xl font-bold">Frida</a><p class="mt-3 text-xs leading-6 text-muted-foreground">记录技术实践、项目与日常思考。</p><nav aria-label="关于与联系" class="mt-4 flex flex-wrap gap-x-4 gap-y-2 text-xs md:flex-col"><a href={withBase('/about/')} class="hover:text-primary">关于</a><a href={withBase('/contact/')} class="hover:text-primary">联系</a><a href={withBase('/portfolio/')} class="hover:text-primary">Portfolio</a><a href={withBase('/index.xml')} class="hover:text-primary">RSS 订阅</a></nav><div class="mt-4 flex gap-3 text-muted-foreground"><a href={site.github} aria-label="GitHub" class="hover:text-primary"><Icon name="github" /></a><a href={site.email} aria-label="邮箱" class="hover:text-primary"><Icon name="email" /></a></div></section>
     <div class="grid grid-cols-2 gap-x-6 gap-y-7 sm:grid-cols-3">
