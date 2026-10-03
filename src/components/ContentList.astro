@@ -1,0 +1,15 @@
+---
+import Card from './Card.astro';
+import Icon from './Icon.astro';
+import Pagination from './Pagination.astro';
+import { type Entry } from '../lib/content';
+import { withBase } from '../lib/site';
+interface Props { title: string; entries: Entry[]; description: string; root?: string; current?: number; total?: number; parent?: { path: string; title: string }; }
+const { title, entries, description, root, current = 1, total = 1, parent } = Astro.props;
+---
+<nav aria-label="面包屑" class="mb-6 flex items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')} aria-label="首页"><Icon name="home" /></a>{parent && <><Icon name="chevron-right" size={12} /><a href={withBase(parent.path)}>{parent.title}</a></>}<Icon name="chevron-right" size={12} /><span>{title}</span></nav>
+<header class="mb-8"><h1 class="mb-4 text-3xl font-bold">{title}</h1><p class="flex items-center gap-1 text-sm text-muted-foreground"><Icon name="folder" />{description}</p></header>
+<slot />
+<div class:list={[root === '/projects' ? 'grid gap-6 sm:grid-cols-2 lg:grid-cols-3' : 'post-list space-y-4']}>{entries.map(entry => <Card entry={entry} />)}</div>
+{!entries.length && <p class="py-12 text-center text-muted-foreground">暂无文章</p>}
+{root && <Pagination current={current} total={total} root={root} />}

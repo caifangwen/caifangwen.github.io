@@ -26,22 +26,31 @@ document.querySelector('#menu-toggle')?.addEventListener('click', (event) => {
   button.setAttribute('aria-expanded', String(open));
   document.querySelector('#mobile-nav')?.classList.toggle('hidden', !open);
 });
-const businessMenus = [...document.querySelectorAll<HTMLDetailsElement>('[data-business-menu]')];
-function closeBusinessMenus(except?: HTMLDetailsElement) {
-  for (const menu of businessMenus) if (menu !== except) menu.open = false;
+const businessMenus = [...document.querySelectorAll<HTMLElement>('[data-business-menu]')];
+function setBusinessMenu(menu: HTMLElement, open: boolean) {
+  menu.toggleAttribute('data-open', open);
+  menu.querySelectorAll(':scope > [aria-expanded]').forEach(trigger => trigger.setAttribute('aria-expanded', String(open)));
+}
+function closeBusinessMenus(except?: HTMLElement) {
+  for (const menu of businessMenus) if (menu !== except) setBusinessMenu(menu, false);
 }
 for (const menu of businessMenus) {
   let leaveTimer: ReturnType<typeof setTimeout> | undefined;
-  menu.addEventListener('toggle', () => { if (menu.open) { closeBusinessMenus(menu); setThemeMenu(false); } });
-  menu.addEventListener('mouseenter', () => { clearTimeout(leaveTimer); if (menu.closest('.business-desktop') && matchMedia('(hover: hover)').matches) { closeBusinessMenus(menu); menu.open = true; } });
-  menu.addEventListener('mouseleave', () => { if (menu.closest('.business-desktop') && matchMedia('(hover: hover)').matches) leaveTimer = setTimeout(() => { if (!menu.matches(':hover') && !menu.contains(document.activeElement)) menu.open = false; }, 180); });
-  menu.addEventListener('focusout', () => { queueMicrotask(() => { if (!menu.contains(document.activeElement) && !menu.matches(':hover')) menu.open = false; }); });
+  const openMenu = () => { clearTimeout(leaveTimer); closeBusinessMenus(menu); setBusinessMenu(menu, true); setThemeMenu(false); };
+  menu.addEventListener('mouseenter', () => { if (menu.closest('.business-desktop') && matchMedia('(hover: hover)').matches) openMenu(); });
+  menu.addEventListener('mouseleave', () => { if (menu.closest('.business-desktop')) leaveTimer = setTimeout(() => { if (!menu.matches(':hover') && !menu.contains(document.activeElement)) setBusinessMenu(menu, false); }, 180); });
+  menu.addEventListener('focusin', () => { if (menu.closest('.business-desktop')) openMenu(); });
+  menu.addEventListener('focusout', () => { queueMicrotask(() => { if (!menu.contains(document.activeElement) && !menu.matches(':hover')) setBusinessMenu(menu, false); }); });
+  menu.querySelector('.business-submenu-toggle')?.addEventListener('click', () => { if (menu.hasAttribute('data-open')) setBusinessMenu(menu, false); else openMenu(); });
+  menu.querySelector('.business-trigger')?.addEventListener('keydown', event => {
+    if ((event as KeyboardEvent).key === 'ArrowDown') { event.preventDefault(); openMenu(); menu.querySelector<HTMLElement>('.business-panel a')?.focus(); }
+  });
 }
 document.addEventListener('click', event => { if (!(event.target as Element).closest('[data-business-menu]')) closeBusinessMenus(); });
 document.addEventListener('keydown', event => {
   if (event.key !== 'Escape') return;
-  const menu = businessMenus.find(item => item.open);
-  if (menu) { closeBusinessMenus(); menu.querySelector<HTMLElement>('summary')?.focus(); }
+  const menu = businessMenus.find(item => item.hasAttribute('data-open'));
+  if (menu) { menu.querySelector<HTMLElement>('.business-trigger')?.focus(); closeBusinessMenus(); }
   const mobileToggle = document.querySelector<HTMLButtonElement>('#menu-toggle');
   if (!menu && mobileToggle?.getAttribute('aria-expanded') === 'true') {
     mobileToggle.setAttribute('aria-expanded', 'false');
@@ -54,7 +63,6 @@ matchMedia('(min-width: 768px)').addEventListener('change', () => {
   document.querySelector('#menu-toggle')?.setAttribute('aria-expanded', 'false');
   document.querySelector('#mobile-nav')?.classList.add('hidden');
 });
-
 interface SearchEntry { title: string; url: string; description: string; tags: string[]; content: string; }
 const dialog = document.querySelector<HTMLDialogElement>('#search-dialog')!;
 const input = document.querySelector<HTMLInputElement>('#search-input')!;

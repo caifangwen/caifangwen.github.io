@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
-import Card from '../components/Card.astro';
-import Pagination from '../components/Pagination.astro';
+import RelatedContent from '../components/RelatedContent.astro';
+import ContentList from '../components/ContentList.astro';
 import Icon from '../components/Icon.astro';
 import TaxonomyPage from '../components/Taxonomy.astro';
 import { entries, getEntries, getTerms, assetPath, type Entry } from '../lib/content';
@@ -36,10 +36,7 @@ const seriesEntries = entry ? entries.filter(item => item.url !== entry.url && i
   {page.kind === 'terms' ? <>
     <TaxonomyPage type={page.type} />
   </> : page.kind === 'list' ? <>
-    <nav aria-label="面包屑" class="mb-6 flex items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')}><Icon name="home" /></a><Icon name="chevron-right" size={12} /><span>{page.title}</span></nav>
-    <header class="mb-8"><h1 class="mb-4 text-3xl font-bold">{title}</h1>{page.root === '/articles' && <p class="mb-6 text-muted-foreground">这里是所有已发布的文章，按时间倒序排列。</p>}<p class="flex items-center gap-1 text-sm text-muted-foreground"><Icon name="folder" />{page.description}</p></header>
-    <div class:list={[page.root === '/projects' ? 'grid gap-6 sm:grid-cols-2 lg:grid-cols-3' : 'post-list space-y-4']}>{page.entries.map(item => <Card entry={item} />)}</div>
-    <Pagination current={page.current} total={page.total} root={page.root} />
+    <ContentList title={title} entries={page.entries} description={page.description} root={page.root} current={page.current} total={page.total} />
   </> : entry && rendered && <>
     <nav aria-label="面包屑" class="mb-6 flex flex-wrap gap-2 text-sm text-muted-foreground"><a href={withBase('/')}>首页</a><span>/</span><a href={withBase(entry.section === 'posts' ? '/articles/' : `/${entry.section}/`)}>{sections[entry.section]}</a></nav>
     <article class="article-page">
@@ -53,7 +50,7 @@ const seriesEntries = entry ? entries.filter(item => item.url !== entry.url && i
       <aside class="post-license mb-8 rounded-xl border border-border bg-muted/30 p-6 text-sm leading-7 text-muted-foreground"><h2 class="mb-2 flex items-center gap-2 font-semibold text-foreground"><Icon name="license" />版权声明</h2>本文由 {site.author} 发布，采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="underline">CC BY-NC-SA 4.0</a> 协议。转载请注明来源。</aside>
     </article>
     <nav aria-label="相邻文章" class="post-navigation my-6 grid gap-4 sm:grid-cols-2">{[siblings[currentIndex - 1], siblings[currentIndex + 1]].map((item, i) => item && <a href={withBase(item.url)} class:list={['rounded-xl border border-border bg-card p-5', i === 1 && 'text-right sm:col-start-2']}><span class:list={['mb-2 flex items-center gap-1.5 text-xs text-muted-foreground', i === 1 && 'justify-end']}>{i === 0 ? <><Icon name="chevron-left" size={14} />上一篇</> : <>下一篇<Icon name="chevron-right" size={14} /></>}</span><span class="text-sm font-medium">{item.title}</span></a>)}</nav>
-    {related.length > 0 && <section class="related-posts mt-9"><h2 class="mb-5 text-xl font-bold">相关文章</h2><div class="grid gap-4 sm:grid-cols-3">{related.map(item => <Card entry={item} compact />)}</div></section>}
+    {related.length > 0 && <section class="related-posts mt-9"><h2 class="mb-3 text-xl font-bold">相关文章</h2><RelatedContent entries={related} /></section>}
     <section class="article-comments mt-10" aria-label="评论"><h2 class="mb-5 text-xl font-bold">评论</h2><script is:inline src="https://giscus.app/client.js" data-repo="caifangwen/blog-comments" data-repo-id="R_kgDORDZb2g" data-category="Announcements" data-category-id="DIC_kwDORDZb2s4C1i_z" data-mapping="pathname" data-strict="0" data-reactions-enabled="0" data-emit-metadata="0" data-input-position="bottom" data-theme="preferred_color_scheme" data-lang="zh-CN" crossorigin="anonymous" async></script></section>
     <script type="application/ld+json" set:html={JSON.stringify({ '@context': 'https://schema.org', '@type': 'BlogPosting', headline: entry.title, description: entry.description, datePublished: entry.date.toISOString(), dateModified: entry.updated.toISOString(), author: { '@type': 'Person', name: site.author }, mainEntityOfPage: new URL(withBase(entry.url), Astro.site).href }).replaceAll('<', '\\u003c')} />
   </>}

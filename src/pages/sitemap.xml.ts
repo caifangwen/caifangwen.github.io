@@ -5,7 +5,7 @@ import { escapeHtml } from '../lib/markdown';
 import { businessTopics } from '../lib/business';
 import { learningPaths } from '../data/business-navigation';
 export function GET(context: APIContext) {
-  const paths = ['/', '/about/', '/portfolio/', '/archives/', '/reports/', '/learn/', ...businessTopics.map(topic => topic.path), ...learningPaths.map(path => `/learn/${path.slug}/`), ...entries.map(entry => entry.url)];
+  const paths = ['/', '/about/', '/contact/', '/portfolio/', '/archives/', '/reports/', '/learn/', ...businessTopics.map(topic => topic.path), ...learningPaths.map(path => `/learn/${path.slug}/`), ...entries.map(entry => entry.url)];
   function addPages(root: string, count: number) {
     paths.push(`/${root}/`);
     for (let page = 2; page <= Math.ceil(count / 12); page++) paths.push(`/${root}/page/${page}/`);

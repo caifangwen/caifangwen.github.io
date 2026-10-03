@@ -3,7 +3,7 @@ import '../styles/global.css';
 import { site, withBase, base } from '../lib/site';
 import Icon from '../components/Icon.astro';
 import BusinessNavigation from '../components/BusinessNavigation.astro';
-import { contentNavigation } from '../data/business-navigation';
+import SiteFooter from '../components/SiteFooter.astro';
 interface Props { title?: string; description?: string; image?: string; article?: boolean; date?: Date; noindex?: boolean; printContentOnly?: boolean; }
 const { title, description = site.description, image = '/images/og-default.avif', article = false, date, noindex = false, printContentOnly = false } = Astro.props;
 const pageTitle = title ? `${title} · ${site.title}` : site.title;
@@ -42,7 +42,7 @@ const themes = ['default', 'claude', 'bumblebee', 'emerald', 'nord', 'sunset', '
     <a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:bg-card focus:p-3">跳转到正文</a>
     {article && <div id="reading-progress" class="fixed top-0 left-0 z-50 h-0.5 bg-primary" style="width:0" aria-hidden="true"></div>}
     <header class:list={['site-header sticky top-0 z-50 mx-auto max-w-4xl min-[770px]:max-w-[920px] px-4 py-3 max-[769px]:px-[0.9rem]', printContentOnly && 'print:hidden']}>
-      <div class="relative rounded-xl border border-border bg-card/80 px-3 py-2 shadow-sm backdrop-blur-sm md:px-4 md:py-2">
+      <div class="site-header-shell relative rounded-xl border border-border bg-card/80 px-3 py-2 shadow-sm backdrop-blur-sm md:px-4 md:py-2">
         <div class="flex min-w-0 items-center justify-between">
           <a href={withBase('/')} class="hidden h-9 w-9 shrink-0 overflow-hidden rounded-lg md:flex" aria-label="Frida Home 首页"><img src={withBase('/frida-home.png')} alt="" width="36" height="36" class="h-full w-full object-cover" /></a>
           <button id="menu-toggle" class="header-control md:hidden" aria-label="菜单" aria-expanded="false" aria-controls="mobile-nav"><Icon name="menu" size={20} /></button>
@@ -56,11 +56,7 @@ const themes = ['default', 'claude', 'bumblebee', 'emerald', 'nord', 'sunset', '
       </div>
     </header>
     <main id="main" class:list={['mx-auto max-w-4xl px-4 py-6', printContentOnly && 'print:max-w-none print:p-0']}><slot /></main>
-    <footer class:list={['mx-auto max-w-4xl px-4 py-5 md:py-8 max-[769px]:px-[0.9rem]', printContentOnly && 'print:hidden']}><div class="md:py-6">
-      <div class="mb-3 border-t border-border md:mb-6"></div>
-      <nav aria-label="内容索引" class="mb-5 flex flex-wrap justify-center gap-x-5 gap-y-3 text-xs text-muted-foreground">{contentNavigation.map(item => <a href={withBase(item.path)} class="hover:text-primary">{item.title}</a>)}</nav>
-      <div class="flex flex-col items-center justify-between gap-3 md:flex-row md:gap-4"><div class="text-center text-xs text-muted-foreground md:text-left"><p class="mb-1">© {new Date().getFullYear()} {site.title}. 保留所有权利.</p><p>Powered by <a href="https://astro.build" class="font-medium text-primary">Astro</a></p></div><div class="flex items-center gap-2"><a href={site.github} aria-label="GitHub" class="p-1 text-muted-foreground hover:text-primary"><Icon name="github" size={20} /></a><a href={site.email} aria-label="邮箱" class="p-1 text-muted-foreground hover:text-primary"><Icon name="email" size={20} /></a></div></div></div>
-    </footer>
+    <SiteFooter printContentOnly={printContentOnly} />
     <div id="dock" class:list={['pointer-events-none fixed bottom-4 left-1/2 z-50 -translate-x-1/2 translate-y-24 opacity-0 transition-all duration-300', printContentOnly && 'print:hidden']} role="toolbar" aria-label="快捷操作工具栏"><nav class="flex items-center gap-2 rounded-2xl border border-border bg-card/80 px-4 py-3 shadow-lg backdrop-blur-sm"><button id="dock-search" aria-label="搜索" class="flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-muted-foreground hover:bg-primary/10"><Icon name="search" /><span class="hidden md:inline">搜索</span></button>{article && <a href="#article-toc" class="flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-muted-foreground xl:hidden" aria-label="查看目录"><Icon name="list" /><span class="hidden sm:inline">目录</span></a>}<a href="#main" aria-label="返回顶部" class="flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-muted-foreground hover:bg-primary/10"><Icon name="arrow-up" /><span class="hidden sm:inline">顶部</span></a></nav></div>
     <dialog id="search-dialog" class:list={['fixed m-auto max-h-[80vh] w-[calc(100%-2rem)] max-w-xl rounded-2xl border border-border p-0 shadow-xl', printContentOnly && 'print:hidden']} aria-labelledby="search-title">
       <div class="flex items-center justify-between border-b border-border px-5 py-4"><h2 id="search-title" class="font-semibold">搜索站内内容</h2><button id="search-close" class="rounded px-2 py-1 hover:bg-muted" aria-label="关闭搜索">✕</button></div>

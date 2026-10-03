@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import { site, withBase } from '../lib/site';
+---
+<Base title="联系" description="通过邮箱或 GitHub 联系 Frida。">
+  <header class="mb-8"><h1 class="mb-3 text-3xl font-bold">联系</h1><p class="leading-7 text-muted-foreground">欢迎交流技术实践、项目想法，或反馈站点内容。</p></header>
+  <div class="divide-y divide-border"><a href={site.email} class="flex items-center gap-4 py-6 hover:text-primary"><Icon name="email" size={24} /><div><h2 class="mb-1 font-semibold">邮箱</h2><p class="text-sm text-muted-foreground">{site.email.replace('mailto:', '')}</p></div></a><a href={site.github} class="flex items-center gap-4 py-6 hover:text-primary"><Icon name="github" size={24} /><div><h2 class="mb-1 font-semibold">GitHub</h2><p class="text-sm text-muted-foreground">查看项目与代码，交流实现细节。</p></div></a></div>
+  <p class="mt-8 text-sm text-muted-foreground"><a href={withBase('/about/')} class="hover:text-primary">了解 Frida →</a></p>
+</Base>

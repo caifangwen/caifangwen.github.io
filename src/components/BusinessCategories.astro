@@ -1,0 +1,8 @@
+---
+import { type BusinessTopic } from '../data/business-navigation';
+import { withBase } from '../lib/site';
+interface Props { topic: BusinessTopic; }
+const { topic } = Astro.props;
+const current = (path: string) => Astro.url.pathname === withBase(path) ? 'page' : undefined;
+---
+<nav aria-label="子类别" class="space-y-5">{topic.children.map(group => <section><a href={withBase(group.path)} aria-current={current(group.path)} class="mb-2 block text-sm font-semibold hover:text-primary">{group.title}</a>{group.children.length > 0 && <ul class="space-y-2 border-l border-border pl-3 text-sm text-muted-foreground">{group.children.map(child => <li><a href={withBase(child.path)} aria-current={current(child.path)} class="hover:text-primary">{child.title}</a></li>)}</ul>}</section>)}</nav>

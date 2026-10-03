@@ -1,34 +1,32 @@
----
+﻿---
 import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import BusinessCategories from '../../components/BusinessCategories.astro';
+import ContentList from '../../components/ContentList.astro';
 import Icon from '../../components/Icon.astro';
-import { businessNavigation, businessAliases, learningPaths, type BusinessTopic } from '../../data/business-navigation';
+import { businessNavigation, type BusinessTopic } from '../../data/business-navigation';
 import { businessTopics, getTopicEntries } from '../../lib/business';
-import { withBase, formatDate } from '../../lib/site';
-interface Props { topic?: BusinessTopic; redirect?: string; }
+import { withBase } from '../../lib/site';
+interface Props { topic: BusinessTopic; }
 export function getStaticPaths() {
-  const pages = businessTopics.map(topic => {
-    const [business, ...rest] = topic.path.split('/').filter(Boolean);
-    return { params: { business, topic: rest.join('/') || undefined }, props: { topic } };
+  return businessTopics.map(topic => {
+    const [business, child] = topic.path.split('/').filter(Boolean);
+    return { params: { business, topic: child }, props: { topic } };
   });
-  const aliases = Object.entries(businessAliases).map(([path, redirect]) => {
-    const [business, ...rest] = path.split('/').filter(Boolean);
-    return { params: { business, topic: rest.join('/') || undefined }, props: { redirect } };
-  });
-  return [...pages, ...aliases];
 }
-if (Astro.props.redirect) return Astro.redirect(withBase(Astro.props.redirect), 301);
-const topic = Astro.props.topic!;
-const parents = businessTopics.filter(item => item.path !== topic.path && topic.path.startsWith(item.path));
+const { topic } = Astro.props;
+const parent = businessNavigation.find(root => topic.path.startsWith(root.path))!;
+const isRoot = topic === parent || topic.path === parent.path;
 const content = getTopicEntries(topic);
-const paths = learningPaths.filter(path => path.steps.some(step => step.startsWith(topic.path)));
 ---
 <Base title={topic.title} description={topic.description}>
-  <nav aria-label="面包屑" class="mb-6 flex flex-wrap items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')} class="hover:text-primary">首页</a>{parents.map(parent => <><Icon name="chevron-right" size={12} /><a href={withBase(parent.path)} class="hover:text-primary">{parent.title}</a></>)}<Icon name="chevron-right" size={12} /><span>{topic.title}</span></nav>
-  <header class="mb-8"><h1 class="mb-3 text-3xl font-bold">{topic.title}</h1><p class="max-w-2xl leading-7 text-muted-foreground">{topic.description}</p></header>
-  {topic.path === '/strategy/' && <section aria-label="全链路业务漏斗" class="mb-8 rounded-xl border border-border bg-card p-5"><h2 class="mb-4 font-semibold">全链路业务漏斗</h2><ol class="grid gap-3 sm:grid-cols-5">{businessNavigation.map((stage, index) => <li><a href={withBase(stage.path)} class="block rounded-lg bg-muted p-3 hover:bg-primary/10 hover:text-primary"><span class="mb-1 block text-xs text-muted-foreground">0{index + 1}</span><span class="font-semibold">{stage.title}</span></a></li>)}</ol><p class="mt-4 text-sm text-muted-foreground">出海基建贯穿获客、转化与留存，数据测量连接目标和业务结果。</p></section>}
-  {topic.children.length > 0 && <section aria-label="主题目录" class="mb-9 grid gap-4 sm:grid-cols-2">{topic.children.map(child => <article class="min-w-0 rounded-xl border border-border bg-card p-5"><a href={withBase(child.path)} class="mb-2 flex items-center justify-between gap-3 text-base font-semibold hover:text-primary"><span>{child.title}</span><Icon name="arrow-right" /></a><p class="mb-3 text-sm leading-6 text-muted-foreground">{child.description}</p>{child.children.length > 0 && <ul class="flex flex-wrap gap-x-4 gap-y-2 text-xs text-muted-foreground">{child.children.map(leaf => <li><a href={withBase(leaf.path)} class="hover:text-primary hover:underline">{leaf.title}</a></li>)}</ul>}</article>)}</section>}
-  {paths.length > 0 && <section class="mb-9"><h2 class="mb-3 text-lg font-semibold">推荐学习路径</h2><div class="flex flex-wrap gap-2">{paths.map(path => <a href={withBase(`/learn/${path.slug}/`)} class="rounded-lg bg-muted px-3 py-2 text-sm hover:bg-primary/10 hover:text-primary">{path.title}</a>)}</div></section>}
-  <section aria-labelledby="topic-content-title"><div class="mb-4 flex items-baseline justify-between gap-3"><h2 id="topic-content-title" class="text-xl font-semibold">相关内容</h2><span class="text-sm text-muted-foreground">{content.length} 篇</span></div>
-    {content.length ? <ul class="divide-y divide-border">{content.map(entry => <li><a href={withBase(entry.url)} class="group block rounded-lg py-4 hover:bg-muted/40"><div class="flex flex-wrap gap-x-3 gap-y-1"><span class="min-w-0 flex-1 font-medium break-words group-hover:text-primary">{entry.title}</span><time class="text-xs leading-6 text-muted-foreground" datetime={entry.date.toISOString()}>{formatDate(entry.date)}</time></div>{entry.description && <p class="mt-1 line-clamp-2 text-sm leading-6 text-muted-foreground">{entry.description}</p>}</a></li>)}</ul> : <div class="rounded-xl border border-dashed border-border p-6 text-sm leading-7 text-muted-foreground"><p>这个主题的内容正在补充。</p><a href={withBase(parents.at(-1)?.path || '/articles/')} class="mt-2 inline-flex items-center gap-2 text-primary">{parents.length ? '浏览上级主题' : '浏览所有文章'}<Icon name="arrow-right" /></a></div>}
-  </section>
+  <aside class="business-sidebar hidden xl:block"><BusinessCategories topic={parent} /></aside>
+  {isRoot ? <>
+    <nav aria-label="面包屑" class="mb-6 flex items-center gap-2 text-sm text-muted-foreground"><a href={withBase('/')}>首页</a><Icon name="chevron-right" size={12} /><span>{topic.title}</span></nav>
+    <header class="mb-8"><div class="mb-3 flex items-baseline justify-between gap-4"><h1 class="text-3xl font-bold">{topic.title}</h1><span class="shrink-0 text-sm text-muted-foreground">{content.length} 篇</span></div><p class="leading-7 text-muted-foreground">{topic.description}</p></header>
+    <details class="mb-6 border-y border-border py-3 xl:hidden"><summary class="cursor-pointer text-sm font-medium">子类别</summary><div class="pt-4"><BusinessCategories topic={topic} /></div></details>
+    <div class="post-list space-y-4">{content.map(entry => <Card entry={entry} />)}</div>{!content.length && <p class="py-12 text-center text-muted-foreground">暂无文章</p>}
+  </> : <ContentList title={topic.title} description={`共 ${content.length} 篇内容`} entries={content} parent={parent}>
+    <details class="mb-6 border-y border-border py-3 xl:hidden"><summary class="cursor-pointer text-sm font-medium">子类别</summary><div class="pt-4"><BusinessCategories topic={parent} /></div></details>
+  </ContentList>}
 </Base>
