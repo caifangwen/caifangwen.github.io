@@ -29,4 +29,8 @@ Obsidian 以本地 Markdown 文件为基础，通过链接、搜索和其他能�
 
 [Notion](notion.md) 更适合团队在线协作；[Hugo](hugo-static-site-generator.md) 和 [Astro](astro.md) 可用 Markdown 构建内容网站，发布前仍需适配目录与 frontmatter。
 
+插件可以按实际工作搭配：[Templater](obsidian-templater.md) 与 [QuickAdd](obsidian-quickadd.md) 负责模板和快速记录，[Dataview](obsidian-dataview.md) 与 [Tasks](obsidian-tasks.md) 负责资料查询和行动项，[Excalidraw](obsidian-excalidraw.md) 用于视觉笔记，[PDF++](obsidian-pdf-plus.md) 用于文档阅读。
+
+需要维护与发布时，可进一步了解 [Obsidian Git](obsidian-git.md) 的版本历史、[Remotely Save](obsidian-remotely-save.md) 的文件同步以及 [Digital Garden](obsidian-digital-garden.md) 的网站发布流程。
+
 [查看官方网站](https://obsidian.md/)
