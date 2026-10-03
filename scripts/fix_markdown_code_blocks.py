@@ -9,7 +9,7 @@ Markdown 代码块嵌套修复脚本
 
 使用方法：
     python fix_markdown_code_blocks.py <file1.md> [file2.md ...]
-    python fix_markdown_code_blocks.py --dir content/posts
+    python fix_markdown_code_blocks.py --dir content/acquire
     python fix_markdown_code_blocks.py --help
 """
 
@@ -214,7 +214,7 @@ def main():
 示例:
   %(prog)s file.md                    # 处理单个文件
   %(prog)s file1.md file2.md          # 处理多个文件
-  %(prog)s --dir content/posts        # 处理目录下所有 Markdown 文件
+  %(prog)s --dir content/acquire      # 处理目录下所有 Markdown 文件
   %(prog)s --dir content --dry-run    # 预览模式，不实际修改
   %(prog)s --dir content --verbose    # 显示详细信息
         '''

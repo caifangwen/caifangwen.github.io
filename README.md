@@ -29,7 +29,7 @@ npm run preview
 - `src/lib/markdown.ts`：Markdown、Hugo linkcard/ref 兼容、公式、代码高亮。
 - `src/styles/`、`src/scripts/`：Tailwind 样式与渐进式浏览器交互。
 - `content/`：原有 Markdown 内容及附件，继续在此写作。
-- `public/`：图片、字体和独立 HTML 报告，原样发布。
+- `public/`：图片、简历和独立 HTML 报告，原样发布。
 - `src/assets/icons/`：页面 SVG 图标。
 - `dist/`：Astro 构建产物，不提交版本控制。
 
@@ -61,15 +61,15 @@ categories: [技术]
 
 迁移修复了两组重复 slug：`intp-advanced-development` 与 `nextjs-ecommerce-structure` 现在拥有独立地址，不再覆盖同名认知功能与 Next.js 结构指南。
 
-浏览器回归测试：先运行 `npm run preview`，再运行 `npm run test:browser`，默认使用本机 Chrome。子路径部署测试可设置 `TEST_BASE=/page-old`，端口可通过 `TEST_URL` 指定。
+浏览器回归测试：先运行 `npm run build`，再运行 `npm run test:browser`；Playwright 会自动启动预览服务器，默认使用本机 Chrome。测试已有服务器时设置 `TEST_URL`。子路径部署需要构建时设置 `BASE_PATH`，测试时设置相同的 `TEST_BASE`。
 
 当前站点为中文，原配置中的英语、法语空壳页面不再生成。评论沿用原 Giscus 仓库与 pathname 映射，需联网加载。
 
 ## 部署
 
-推送到 `master` 后，`.github/workflows/astro.yaml` 检查、测试并部署 `dist/` 到 GitHub Pages 的 `/page-old/`。仓库 Pages 的来源应为 GitHub Actions。
+推送到 `main` 或 `master` 会触发 `.github/workflows/astro.yaml` 检查、测试和 CodeQL 审查；仅指定仓库的默认分支在检查通过后部署 `dist/` 到 GitHub Pages 的根路径 `/`。仓库 Pages 的来源应为 GitHub Actions。
 
-独立域名默认使用 `https://www.261449.xyz` 和根路径，可通过环境变量覆盖：
+默认站点地址为 `https://caifangwen.github.io`，路径为 `/`。使用独立域名或子路径时，可通过环境变量覆盖：
 
 ```powershell
 $env:SITE_URL = 'https://caifangwen.github.io'
@@ -78,3 +78,5 @@ npm run build
 ```
 
 配置参考：[Astro](https://docs.astro.build/en/install-and-setup/)、[Tailwind CSS 的 Astro 集成](https://tailwindcss.com/docs/installation/framework-guides/astro)。
+
+完整的项目组织说明、清理记录与代码质量审查见 [项目审查报告](docs/project-review.md)。
