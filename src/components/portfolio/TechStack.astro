@@ -1,0 +1,16 @@
+---
+import Badge from './Badge.astro';
+import { resume } from '../../data/portfolio';
+import { toolLinks } from '../../data/tool-links';
+const groups = resume.skills.map(text => {
+  const start = text.indexOf('（');
+  const end = text.lastIndexOf('）');
+  return { text, title: text.slice(0, start), tools: text.slice(start + 1, end).split(' / ') };
+});
+---
+<ul class="m-0 grid list-none gap-x-6 gap-y-5 p-0 sm:grid-cols-2 print:grid-cols-1 print:gap-y-3">
+  {groups.map(group => <li class="resume-skill min-w-0 print:break-inside-avoid">
+    <div class="print:hidden"><h3 class="mb-3 text-sm leading-6 font-semibold text-foreground">{group.title}</h3><div class="min-w-0 flex flex-wrap gap-2">{group.tools.map(label => <Badge label={label} href={toolLinks[label]} />)}</div></div>
+    <p class="hidden text-sm leading-7 text-muted-foreground print:block">{group.text}</p>
+  </li>)}
+</ul>

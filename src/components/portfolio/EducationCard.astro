@@ -1,0 +1,15 @@
+---
+import Icon from '../Icon.astro';
+import Badge from './Badge.astro';
+import { resume } from '../../data/portfolio';
+import { withBase } from '../../lib/site';
+const [period, , qualification] = resume.education.split(/\s{2,}/);
+const certificates = resume.certificates.split('：')[1].split('、');
+---
+<article class="resume-education rounded-xl border border-border bg-card p-5 sm:p-6 print:break-inside-avoid">
+  <div class="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+    <a href="https://www.zjgsu.edu.cn/" target="_blank" rel="noopener noreferrer" class="inline-flex max-w-full"><img src={withBase('/images/portfolio/zjgsu-logo.png')} alt="浙江工商大学校徽及校名" width="300" height="77" loading="lazy" class="h-14 w-auto max-w-full object-contain object-left brightness-0 dark:invert" /></a>
+    <div class="resume-education-details text-sm text-muted-foreground sm:text-right"><p class="inline-flex items-center gap-1.5"><Icon name="calendar" size={14} />{period}</p><p class="mt-2 leading-6">{qualification}</p></div>
+  </div>
+  <div class="mt-5 flex flex-wrap items-center gap-2 border-t border-border pt-4"><span class="mr-1 text-xs text-muted-foreground">等级证书：</span>{certificates.map(label => <Badge label={label} />)}</div>
+</article>

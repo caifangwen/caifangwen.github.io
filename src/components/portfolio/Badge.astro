@@ -1,0 +1,9 @@
+---
+import icons from '../../data/site-icons.json';
+import { withBase } from '../../lib/site';
+interface Props { label: string; href?: string; }
+const { label, href } = Astro.props;
+const style = 'inline-flex items-center gap-1.5 rounded-md border border-border bg-muted/40 px-2.5 py-1 text-xs leading-5 text-muted-foreground';
+const icon = href ? (icons as Record<string, string>)[new URL(href).hostname] : undefined;
+---
+{href ? <a href={href} target="_blank" rel="noopener noreferrer" title={'访问 ' + label + ' 网站（新标签页）'} class:list={[style, 'transition-colors hover:border-primary/30 hover:bg-primary/10 hover:text-primary']}>{icon && <img src={withBase(icon)} alt="" width="16" height="16" loading="lazy" class="h-4 w-4 shrink-0 object-contain" />}{label}</a> : <span class={style}>{label}</span>}

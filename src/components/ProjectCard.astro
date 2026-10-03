@@ -1,0 +1,12 @@
+---
+import Cover from './Cover.astro';
+import type { Entry } from '../lib/content';
+interface Props { title: string; description: string; href?: string; entry?: Entry; expanded?: boolean; }
+const { title, description, href, entry, expanded = false } = Astro.props;
+---
+<div class="project-card group relative rounded-xl border border-border bg-card p-4 transition-all duration-300 hover:-translate-y-1 hover:scale-[1.02] hover:border-primary/20 hover:bg-primary/5 hover:shadow-lg print:break-inside-avoid">
+  {href && <a href={href} aria-label={title} class="absolute inset-0 z-10 rounded-xl focus-visible:outline-2 focus-visible:outline-primary"></a>}
+  {entry && <div class="relative mb-3 h-32 w-full overflow-hidden rounded-lg"><Cover entry={entry} project /></div>}
+  <h3 class:list={['mb-2 text-base font-semibold text-foreground group-hover:text-primary', expanded ? 'leading-7' : 'truncate leading-tight']}>{title}</h3>
+  <p class:list={['text-sm text-muted-foreground', expanded ? 'leading-7' : 'truncate leading-relaxed']}>{description}</p>
+</div>
